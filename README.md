@@ -1,5 +1,8 @@
 # Processed ICD Data
 
+* [Available Datasets](data)
+* [Developer Notes](DEVELOPER.md)
+
 Documentation for CGHR's processed International Classification of Diseases and Related Health Problems (ICD) data from the World Health Organization (WHO).
 
 *Last Updated: May 17, 2022*
@@ -14,7 +17,7 @@ Documentation for CGHR's processed International Classification of Diseases and 
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
 
-**See [Available Datasets](ddict) for details on the data.**
+**See [Available Datasets](data) for details on the data.**
 
 ## Access
 
