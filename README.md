@@ -14,6 +14,15 @@ Documentation for CGHR's processed International Classification of Diseases and 
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
 
+## Access
+
+For open access, view and download the datasets from the [data](data) folder.
+
+For database access (collaborators and CGHR staff only), please contact one of the following people:
+
+* Richard Wen <rrwen.dev@gmail.com>
+* Peter Rodriguez <Peter.Rodriguez@unityhealth.to>
+
 ## Citation
 
 To cite the ICD data, please cite the WHO depending on the version:
