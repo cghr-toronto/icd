@@ -59,4 +59,8 @@ To cite the ICD data, please cite the WHO depending on the version:
 
 ## Contact
 
-Richard Wen <rrwen.dev@gmail.com>
+| Name | Email | Role |
+|------|-------|------|
+| Richard Wen | rrwen.dev@gmail.com | Primary contact for code and data access in this repo |
+| Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access |
+
