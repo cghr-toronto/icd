@@ -14,9 +14,11 @@ Documentation for CGHR's processed International Classification of Diseases and 
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
 
+**See [Available Datasets](ddict) for details on the data.**
+
 ## Access
 
-For open access, view and download the datasets from the [data](data) folder.
+For public access, view and download the datasets from the [data](data) folder.
 
 For database access (collaborators and CGHR staff only), please contact one of the following people:
 
