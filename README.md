@@ -1,6 +1,6 @@
-# International Statistical Classification of Diseases (ICD) Data
+# International Classification of Diseases and Related Health Problems (ICD) Data
 
-Documentation for CGHR's processed International Statistical Classification of Diseases (ICD) data from the World Health Organization (WHO).
+Documentation for CGHR's processed International Classification of Diseases and Related Health Problems (ICD) data from the World Health Organization (WHO).
 
 *Last Updated: May 17, 2022*
 
