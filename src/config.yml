@@ -1,0 +1,9 @@
+Title: CGHR ICD Data Config
+Description: Configuration file for preprocessing and documenting CGHR's processed ICD data
+Version: 1
+Last Updated: May 17, 2022
+Contact: Richard Wen <rrwen.dev@gmail.com>
+
+Data:
+
+# List of raw data consisting of the following keys:
