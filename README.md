@@ -1,4 +1,4 @@
-# International Classification of Diseases and Related Health Problems (ICD) Data
+# Processed ICD Data
 
 Documentation for CGHR's processed International Classification of Diseases and Related Health Problems (ICD) data from the World Health Organization (WHO).
 
