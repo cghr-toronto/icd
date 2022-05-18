@@ -3,19 +3,19 @@
 * [Available Datasets](data)
 * [Developer Notes](DEVELOPER.md)
 
-Documentation for CGHR's processed International Classification of Diseases and Related Health Problems (ICD) data from the World Health Organization (WHO).
+Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
 *Last Updated: May 17, 2022*
 
 ## About
 
-> The International Classification of Diseases and Related Health Problems (ICD) is a tool for recording, reporting and grouping conditions and factors that influence health. It contains categories for diseases and disorders, health related conditions, external causes of illness or death, anatomy, sites, activities, medicines, vaccines and more.
+> The International Classification of Diseases (ICD) is a tool for recording, reporting and grouping conditions and factors that influence health. It contains categories for diseases and disorders, health related conditions, external causes of illness or death, anatomy, sites, activities, medicines, vaccines and more.
 > 
 > The purpose of the ICD is to allow the systematic recording, analysis, interpretation and comparison of mortality and morbidity data collected in different countries or regions and at different times.
 > 
 > \- World Health Organization (2022)
 
-*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
+*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases) and the [ICD-11 Manual](docs/icd11_manual.pdf).*
 
 **See [Available Datasets](data) for details on the data.**
 
@@ -66,4 +66,3 @@ To cite the ICD data, please cite the WHO depending on the version:
 |------|-------|------|
 | Richard Wen | rrwen.dev@gmail.com | Primary contact for code and data access in this repo |
 | Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access |
-
