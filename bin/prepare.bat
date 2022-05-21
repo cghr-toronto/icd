@@ -1,3 +1,2 @@
 call bin\activate
-call bin\ddict
-call bin\downloads
+jupyter nbconvert --to notebook --inplace --execute src/data.ipynb

@@ -10,16 +10,15 @@ from sqlalchemy.engine.url import URL
 def run():
 
     # Display title
-    title = 'ICD Database Login'
+    title = 'ICD Upload Database Login'
     divider = '=' * len(title)
     print(f'\n{title}\n{divider}\n')
-    evars = []
 
     # Prompt user for database connection details
     url = URL.create(
-        drivername=input('Driver: ') or 'postgresql',
+        drivername='postgresql',
         host=input('Host: '),
-        port=input('Port: ') or '5432',
+        port=input('Port (5432): ') or '5432',
         database=input('Database: '),
         username=input('User: '),
         password=getpass('Password: ')
@@ -32,11 +31,10 @@ def run():
     print('\nLogin Successful!')
 
     # Set icd env var
-    os.environ['ICD_DB_URL'] = str(url)
-    evars.append('ICD_DB_URL')
+    os.environ['ICD_UPLOAD_DB_URL'] = str(url)
     
     # Encrypt connection details
-    save_edotenv(evars)
+    save_edotenv(['ICD_UPLOAD_DB_URL'])
 
     # Display completion
     print('\nLogin Saved!\n')

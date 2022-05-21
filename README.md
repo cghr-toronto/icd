@@ -5,7 +5,7 @@
 
 Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
-*Last Updated: May 17, 2022*
+*Last Updated: May 20, 2022*
 
 ## About
 

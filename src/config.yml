@@ -1,9 +1,139 @@
 Title: CGHR ICD Data Config
-Description: Configuration file for transforming and documenting CGHR's processed ICD data
+Description: Configuration file for transforming and documenting CGHRs processed ICD data
 Version: 1
-Last Updated: May 17, 2022
+Last Updated: May 20, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
 
 # List of raw data consisting of the following keys:
+# - Name: name of the ICD dataset
+# - File: path to the raw data file used to create the ICD dataset
+# - Description: description of the ICD dataset
+# - Columns: list of column processing and description config, see tabbed below
+#   - Name: raw dataset column name
+#   - Rename: Renamed processed column name, the default is the raw dataset column name (optional)
+#   - Description: data dictionary description for column
+#   - Remove Leading Dashes: set to True to remove leading dashes and False (default) to skip this (optional)
+#   - Type: data type for column (optional)
+
+- Name: icd10
+  File: data/icd_10to11_map_multi.xlsx
+  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns). See https://github.com/cghr-toronto/icd for more details. [Richard W.; 2022-05-19]"
+  Columns:
+  
+  - Name: 10ClassKind
+    Rename: kind
+    Description: "ICD-10 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code."
+    Type: str
+  
+  - Name: Depth
+    Rename: kind_depth
+    Description: "ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
+    Type: int
+  
+  - Name: icd10Chapter
+    Rename: chapter
+    Description: "ICD-10 chapter for the entity."
+    Type: str
+  
+  - Name: icd10Code
+    Rename: code
+    Description: "ICD-10 code for the entity."
+    Type: str
+  
+  - Name: icd10Title
+    Rename: title
+    Description: "ICD-10 title of the entity."
+    Type: str
+
+- Name: icd11
+  File: data/icd11.xlsx
+  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. [Richard W.; 2022-05-19]"
+  Columns:
+  
+  - Name: ClassKind
+    Rename: kind
+    Description: "ICD-11 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code."
+    Type: str
+  
+  - Name: DepthInKind
+    Rename: kind_depth
+    Description: "ICD-11 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
+    Type: int
+  
+  - Name: ChapterNo
+    Rename: chapter
+    Description: "ICD-11 chapter for the entity."
+    Type: str
+  
+  - Name: Code
+    Rename: code
+    Description: "ICD-11 code for the entity. Note that the groupings do not have a code."
+    Type: str
+  
+  - Name: Title
+    Rename: title
+    Description: "ICD-11 title of the entity."
+    Remove Leading Dashes: True
+    Type: str
+  
+  - Name: BlockId
+    Rename: block_id
+    Description: "ICD-11 identifier for high level groupings that do not bear a code"
+    Type: str
+  
+  - Name: IsResidual
+    Rename: is_residual
+    Description: "True if the ICD-11 entity is a residual category (i.e. other specified or unspecified categories) and False if not."
+    Type: bool
+  
+  - Name: isLeaf
+    Rename: is_leaf
+    Description: "True if the ICD-11 entity does not have any children and False if it does."
+    Type: bool
+  
+  - Name: Primary tabulation
+    Rename: is_primary_tabulation
+    Description: "True if the ICD-11 entity is part of the primary tabulation and False if not."
+    Type: bool
+  
+  - Name: Grouping1
+    Rename: group1
+    Description: "Grouping 1 that the ICD-11 entity is included in."
+    Type: str
+  
+  - Name: Grouping2
+    Rename: group2
+    Description: "Grouping 2 that the ICD-11 entity is included in."
+    Type: str
+  
+  - Name: Grouping3
+    Rename: group3
+    Description: "Grouping 3 that the ICD-11 entity is included in."
+    Type: str
+  
+  - Name: Grouping4
+    Rename: group4
+    Description: "Grouping 4 that the ICD-11 entity is included in."
+    Type: str
+  
+  - Name: Grouping5
+    Rename: group5
+    Description: "Grouping 5 that the ICD-11 entity is included in."
+    Type: str
+  
+  - Name: BrowserLink
+    Rename: browser_url
+    Description: "Direct link to the ICD-11 entity in the web browser."
+    Type: str
+  
+  - Name: Foundation URI
+    Rename: foundation_url
+    Description: "Link to unique ICD-11 entity identifier."
+    Type: str
+  
+  - Name: Linearization (release) URI
+    Rename: linear_url
+    Description: "Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it."
+    Type: str
