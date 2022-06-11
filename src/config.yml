@@ -1,7 +1,7 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHRs processed ICD data
 Version: 1
-Last Updated: May 20, 2022
+Last Updated: June 10, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
@@ -19,7 +19,8 @@ Data:
 
 - Name: icd10
   File: data/icd_10to11_map_multi.xlsx
-  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns). See https://github.com/cghr-toronto/icd for more details. [Richard W.; 2022-05-19]"
+  Version: 1
+  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
   Columns:
   
   - Name: 10ClassKind
@@ -30,7 +31,7 @@ Data:
   - Name: Depth
     Rename: kind_depth
     Description: "ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
-    Type: int
+    Type: Int64
   
   - Name: icd10Chapter
     Rename: chapter
@@ -49,7 +50,8 @@ Data:
 
 - Name: icd11
   File: data/icd11.xlsx
-  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. [Richard W.; 2022-05-19]"
+  Version: 1
+  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
   Columns:
   
   - Name: ClassKind
@@ -60,7 +62,7 @@ Data:
   - Name: DepthInKind
     Rename: kind_depth
     Description: "ICD-11 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
-    Type: int
+    Type: Int64
   
   - Name: ChapterNo
     Rename: chapter
@@ -136,4 +138,115 @@ Data:
   - Name: Linearization (release) URI
     Rename: linear_url
     Description: "Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it."
+    Type: str
+
+- Name: icd10to11
+  File: data/icd_10to11_map_single.xlsx
+  Version: 1
+  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 10 (ICD-10) to ICD Revision 11 (ICD-11) from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
+  Columns:
+  
+  - Name: 10ClassKind
+    Rename: icd10_kind
+    Description: "ICD-10 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code."
+    Type: str
+  
+  - Name: 10DepthInKind
+    Rename: icd10_kind_depth
+    Description: "ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
+    Type: Int64
+  
+  - Name: icd10Chapter
+    Rename: icd10_chapter
+    Description: "ICD-10 chapter for the entity."
+    Type: str
+  
+  - Name: icd10Code
+    Rename: icd10_code
+    Description: "ICD-10 code for the entity. Note that the groupings do not have a code."
+    Type: str
+  
+  - Name: icd10Title
+    Rename: icd10_title
+    Description: "ICD-10 title of the entity."
+    Remove Leading Dashes: True
+    Type: str
+
+  - Name: 11ClassKind
+    Rename: icd11_kind
+    Description: "ICD-11 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code."
+    Type: str
+  
+  - Name: 11DepthInKind
+    Rename: icd11_kind_depth
+    Description: "ICD-11 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
+    Type: Int64
+  
+  - Name: icd11Chapter
+    Rename: icd11_chapter
+    Description: "ICD-11 chapter for the entity."
+    Type: str
+  
+  - Name: icd11Code
+    Rename: icd11_code
+    Description: "ICD-11 code for the entity. Note that the groupings do not have a code."
+    Type: str
+  
+  - Name: icd11Title
+    Rename: icd11_title
+    Description: "ICD-11 title of the entity."
+    Remove Leading Dashes: True
+    Type: str
+  
+  - Name: ICD-11 FoundationURI
+    Rename: icd11_foundation_url
+    Description: "Link to unique ICD-11 entity identifier."
+    Type: str
+  
+  - Name: Linearization (releaseURI)
+    Rename: icd11_linear_url
+    Description: "ICD-11 Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it."
+    Type: str
+
+- Name: icd11to10
+  File: data/icd_11to10_map_single.xlsx
+  Version: 1
+  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 11 (ICD-11) to ICD Revision 10 (ICD-10) from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
+  Columns:
+  
+  - Name: icd11Chapter
+    Rename: icd11_chapter
+    Description: "ICD-11 chapter for the entity."
+    Type: str
+  
+  - Name: icd11Code
+    Rename: icd11_code
+    Description: "ICD-11 code for the entity. Note that the groupings do not have a code."
+    Type: str
+  
+  - Name: icd11Title
+    Rename: icd11_title
+    Description: "ICD-11 title of the entity."
+    Remove Leading Dashes: True
+    Type: str
+    
+  - Name: icd10Chapter
+    Rename: icd10_chapter
+    Description: "ICD-10 chapter for the entity."
+    Type: str
+  
+  - Name: icd10Code
+    Rename: icd10_code
+    Description: "ICD-10 code for the entity. Note that the groupings do not have a code."
+    Type: str
+  
+  - Name: icd10Title
+    Rename: icd10_title
+    Description: "ICD-10 title of the entity."
+    Remove Leading Dashes: True
+    Type: str
+
+  - Name: Linearization (release) URI
+    Rename: icd11_linear_url
+    Description: "ICD-11 Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it."
     Type: str
