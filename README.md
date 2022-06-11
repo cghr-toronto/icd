@@ -1,11 +1,11 @@
 # Processed ICD Data
 
-* [Available Datasets](ddict)
+* [Available Datasets](data)
 * [Developer Notes](DEVELOPER.md)
 
 Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
-*Last Updated: June 10, 2022*
+*Last Updated: June 13, 2022*
 
 ## About
 
@@ -23,7 +23,7 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 
 For public access, view and download the datasets from the [data](data) folder.
 
-For database access (collaborators and CGHR staff only), please contact one of the following people:
+For database access (CGHR staff only), please contact one of the following people:
 
 * Richard Wen <rrwen.dev@gmail.com>
 * Peter Rodriguez <Peter.Rodriguez@unityhealth.to>
@@ -65,4 +65,4 @@ To cite the ICD data, please cite the WHO depending on the version:
 | Name | Email | Role |
 |------|-------|------|
 | Richard Wen | rrwen.dev@gmail.com | Primary contact for code and data access in this repo |
-| Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access |
+| Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access, CGHR staff only |
