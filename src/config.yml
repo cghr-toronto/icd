@@ -219,7 +219,7 @@ Data:
 - Name: icd11to10
   File: data/icd_11to10_map_single.xlsx
   Version: 1
-  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 11 (ICD-11) to ICD Revision 10 (ICD-10) from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
+  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 11 (ICD-11) to ICD Revision 10 (ICD-10) from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. ICD-11 codes may map to multiple ICD-10 codes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
   Last Updated: 2022-06-13
   Columns:
