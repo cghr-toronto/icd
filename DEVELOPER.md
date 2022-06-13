@@ -67,6 +67,7 @@ You will be prompted to enter database connection details, and if successful, it
 
 ```mermaid
 flowchart LR;
+src/data --> A;
 A(bin/prepare) --> B(prepare.ipynb);
 B --> data/ --> B1>icd_data.csv] & B2>icd_ddict.csv] & B3>.csv];
 B --> E[(PostgreSQL)] --> downloads/ --> database/;
