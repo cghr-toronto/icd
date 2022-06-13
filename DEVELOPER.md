@@ -70,7 +70,7 @@ flowchart LR;
 A(bin/prepare) --> B(prepare.ipynb);
 B --> data/ --> B1>icd_data.csv] & B2>icd_ddict.csv] & B3>.csv];
 B --> E[(PostgreSQL)] --> downloads/ --> database/;
-database/ --> D1>icd_comments.sql] & D2>icd_tables.dump] & D3>icd_views.sql];
+database/ --> D1>icd_comments.sql] & D2>icd_views.sql];
 ```
 
 Once the [Setup](#setup) step is successful, the datasets can be prepared by running the following in a command line terminal (depending on your operating system):
