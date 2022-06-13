@@ -10,7 +10,7 @@ This document details data access and preparation of the processed ICD datasets 
 ```mermaid
 flowchart LR;
 
-A(["ICD Browser<br/>(WHO)"]) --> B["ICD Codes"] & C["ICD Mappings"] --> D["Processed ICD Data<br>(Richard)"];
+A[("ICD Browser<br/>(WHO)")] --> B["ICD Codes"] & C["ICD Mappings"] --> D["Processed ICD Data<br>(Richard)"];
 ```
 
 The ICD data is downloaded from the World Health Organization (WHO) through their [ICD-11 Browser](https://icd.who.int/browse11/l-m/en) (under `Info` select `Spreadsheet File` for the ICD-11 codes and `ICD-10 / ICD-11 mapping Tables` for the ICD-10 and ICD-11 mappings). This data is then processed and managed by Richard Wen <rrwen.dev@gmail.com> using scripts in this repository.
