@@ -10,8 +10,8 @@ This document details the data dictionary and descriptions of the processed ICD 
 ```mermaid
 flowchart LR;
 
-icd10["icd10 (n=12,597)"] --> icd10to11 --> icd11["icd11 (n=35,459)"];
-icd11 --> icd11to10 --> icd10;
+icd10["icd10<br>(n=12,597)"] --> |icd10to11| icd11["icd11<br>(n=35,459)"];
+icd11 --> |icd11to10| icd10;
 ```
 
 The data contain both ICD-10 and ICD-11 codes with their titles and structures (chapter, entity, etc):
