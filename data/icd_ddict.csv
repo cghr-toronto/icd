@@ -1,9 +1,9 @@
 dataset,column,type,character_length,description,count,unique,top,freq,mean,std,min,25%,50%,75%,max
-icd10,kind,str,,"ICD-10 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code.",15560,4,category,13793,,,,,,,
-icd10,kind_depth,Int64,,"ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not.",15560.0,,,,1.794280205655527,0.4130472957578791,1.0,2.0,2.0,2.0,3.0
-icd10,chapter,str,,ICD-10 chapter for the entity.,15560,22,XX,1692,,,,,,,
-icd10,code,str,,ICD-10 code for the entity.,15560,12597,XXI,42,,,,,,,
-icd10,title,str,,ICD-10 title of the entity.,15560,12536,Factors influencing health status and contact with health services,42,,,,,,,
+icd10,kind,str,,"ICD-10 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code.",12597,4,category,11243,,,,,,,
+icd10,kind_depth,Int64,,"ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not.",12597.0,,,,1.8188457569262524,0.39352148989924357,1.0,2.0,2.0,2.0,3.0
+icd10,chapter,str,,ICD-10 chapter for the entity.,12597,22,XX,1589,,,,,,,
+icd10,code,str,,ICD-10 code for the entity.,12597,12597,I,1,,,,,,,
+icd10,title,str,,ICD-10 title of the entity.,12597,12536,Driver injured in collision with other and unspecified motor vehicles in nontraffic accident,7,,,,,,,
 icd11,kind,str,,"ICD-11 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code.",35459,3,category,34079,,,,,,,
 icd11,kind_depth,Int64,,"ICD-11 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not.",35459.0,,,,2.0503116275134663,1.0458527620028224,1.0,1.0,2.0,3.0,8.0
 icd11,chapter,str,,ICD-11 chapter for the entity.,35459,28,X,16964,,,,,,,

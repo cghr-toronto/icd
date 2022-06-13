@@ -15,7 +15,7 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 > 
 > \- World Health Organization (2022)
 
-*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases) and the [ICD-11 Manual](docs/icd11_manual.pdf).*
+*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases) and the [ICD-10 Manual](docs/icd10_manual.pdf) and [ICD-11 Manual](docs/icd11_manual.pdf).*
 
 **See [Available Datasets](data) for details on the data.**
 

@@ -1,5 +1,5 @@
 Title: CGHR ICD Data Config
-Description: Configuration file for transforming and documenting CGHRs processed ICD data
+Description: Configuration file for transforming and documenting CGHR's processed ICD data
 Version: 1
 Last Updated: June 13, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
@@ -10,6 +10,8 @@ Data:
 # - Name: name of the ICD dataset
 # - File: path to the raw data file used to create the ICD dataset
 # - Description: description of the ICD dataset
+# - Notes: notes for the dataset (optional)
+# - Last Updated: date of last update for this dataset in the format of yyyy-mm-dd
 # - Columns: list of column processing and description config, see tabbed below
 #   - Name: raw dataset column name
 #   - Rename: Renamed processed column name, the default is the raw dataset column name (optional)
@@ -18,9 +20,11 @@ Data:
 #   - Type: data type for column (optional)
 
 - Name: icd10
-  File: data/icd_10to11_map_multi.xlsx
+  File: data/icd_10to11_map_single.xlsx
   Version: 1
-  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
+  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed for CGHR purposes (renaming/removal of columns).
+  Last Updated: 2022-06-13
   Columns:
   
   - Name: 10ClassKind
@@ -28,7 +32,7 @@ Data:
     Description: "ICD-10 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code."
     Type: str
   
-  - Name: Depth
+  - Name: 10DepthInKind
     Rename: kind_depth
     Description: "ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not."
     Type: Int64
@@ -51,7 +55,9 @@ Data:
 - Name: icd11
   File: data/icd11.xlsx
   Version: 1
-  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
+  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
+  Last Updated: 2022-06-13
   Columns:
   
   - Name: ClassKind
@@ -143,7 +149,9 @@ Data:
 - Name: icd10to11
   File: data/icd_10to11_map_single.xlsx
   Version: 1
-  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 10 (ICD-10) to ICD Revision 11 (ICD-11) from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
+  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 10 (ICD-10) to ICD Revision 11 (ICD-11) from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
+  Last Updated: 2022-06-13
   Columns:
   
   - Name: 10ClassKind
@@ -211,7 +219,9 @@ Data:
 - Name: icd11to10
   File: data/icd_11to10_map_single.xlsx
   Version: 1
-  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 11 (ICD-11) to ICD Revision 10 (ICD-10) from the World Health Organization (WHO). Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title). See https://github.com/cghr-toronto/icd for more details. Last updated on 2022-06-10."
+  Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 11 (ICD-11) to ICD Revision 10 (ICD-10) from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
+  Last Updated: 2022-06-13
   Columns:
   
   - Name: icd11Chapter
