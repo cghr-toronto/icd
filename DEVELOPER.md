@@ -103,9 +103,9 @@ This uses the Python Jupyter notebook [prepare.ipynb](src/prepare.ipynb) to:
 
 ## Requests
 
-The data is openly available in the [data](data) folder. See the [Access](README#access) section for more details.
+The data is openly available in the [data](data) folder. See the [Access](README.md#access) section for more details.
 
-For CGHR staff, the data is also available on a database. See [Database Login](#database-login).
+For CGHR staff, the data is also available on a database. See [Database Login](#database-login) for more details.
 
 ### Database Login
 
