@@ -31,7 +31,7 @@ Alternatively, individual files can be downloaded by:
 
 1. Navigating to [data](data) folder
 2. Clicking on a `.csv` data file
-3. Right clicking on `Raw` (top-left) or `Download`
+3. Right clicking on `Raw` (top-right) or `Download`
 4. Selecting `Save link as`
 5. Adding `.csv` to the file extension and clicking `Ok` to download the file
 
