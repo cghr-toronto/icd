@@ -21,7 +21,19 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 
 ## Access
 
-For public access, [download](https://github.com/cghr-toronto/icd/archive/refs/heads/main.zip) the entire repository as a zip file, unzip the downloaded zip, and find the data files in the [data](data) folder.
+For public access:
+
+1. Download a zip file of this repository [[Download](https://github.com/cghr-toronto/icd/archive/refs/heads/main.zip)]
+2. Unzip the downloaded zip
+3. All data mentioned [here](data/icd_data.csv) is available in the [data](data) folder
+
+Alternative, individual files can be downloaded by:
+
+1. Navigating to [data](data) folder
+2. Clicking on a `.csv` data file
+3. Right clicking on `Raw` (top-left) or `Download`
+4. Selecting `Save link as`
+5. Adding `.csv` to the file extension and clicking `Ok` to download the file
 
 For database access (CGHR staff only), please contact one of the following people:
 
