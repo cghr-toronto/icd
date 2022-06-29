@@ -10,10 +10,24 @@ This document details data access and preparation of the processed ICD datasets 
 ```mermaid
 flowchart LR;
 
-A[("ICD Browser<br/>(WHO)")] --> B["ICD Codes"] & C["ICD Mappings"] --> D["Processed ICD Data<br>(Richard)"];
+icd["ICD Codes"]
+icdmap["ICD Mappings"]
+icdbrowser[("ICD Browser<br/>(WHO)")]
+
+wbdraw>"WBD Excel Spreadsheet<br/>(Wilson)"]
+wbd>"Cleaned WBD Spreadsheet<br/>(Richard)"]
+
+research["Processed ICD Data<br>(Richard)"]
+
+icdbrowser --> icd & icdmap --> research
+wbdraw --> wbd --> research
 ```
 
-The ICD data is downloaded from the World Health Organization (WHO) through their [ICD-11 Browser](https://icd.who.int/browse11/l-m/en) (under `Info` select `Spreadsheet File` for the ICD-11 codes and `ICD-10 / ICD-11 mapping Tables` for the ICD-10 and ICD-11 mappings). This data is then processed and managed by Richard Wen <rrwen.dev@gmail.com> using scripts in this repository.
+The ICD data was downloaded from the World Health Organization (WHO) through their [ICD-11 Browser](https://icd.who.int/browse11/l-m/en) (under `Info` select `Spreadsheet File` for the ICD-11 codes and `ICD-10 / ICD-11 mapping Tables` for the ICD-10 and ICD-11 mappings).
+
+The WBD data was retrieved from Wilson Suraweera <Wilson.Suraweera@unityhealth.to> as an Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013.xls)), and edited by Richard Wen <rrwen.dev@gmail.com> manually to be parsed in an R Script (script files available [here](src/R)) into a cleaned WBD Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013%20RW.xls)).
+
+These data are then processed and managed by Richard Wen <rrwen.dev@gmail.com> using scripts in this repository.
 
 For more details on the data, see the following files from the WHO:
 
@@ -70,7 +84,7 @@ flowchart LR;
 src/data --> A;
 A(bin/prepare) --> B(prepare.ipynb);
 B --> data/ --> B1>icd_data.csv] & B2>icd_ddict.csv] & B3>.csv];
-B --> E[(PostgreSQL)] --> downloads/ --> database/;
+B --> E[(PostgreSQL)] --> src/database/ --> database/;
 database/ --> D1>icd_comments.sql] & D2>icd_views.sql];
 ```
 
@@ -94,7 +108,7 @@ This uses the Python Jupyter notebook [prepare.ipynb](src/prepare.ipynb) to:
 2. Save the cleaned datasets in the `data` folder as `.csv` files
 3. Create data dictionaries using the `config.yml` file for all columns in the cleaned datasets and save them in the `data` folder
 4. Optionally, upload the cleaned datasets into the upload database defined in the [Setup](#setup) step
-5. Optionally, create the following files in `downloads/database` from the data uploaded to the database:
+5. Optionally, create the following files in `src/database` from the data uploaded to the database:
    * `icd_comments.sql`: contains PostgreSQL code for adding comments to the datasets
    * `icd_views.sql`: contains PostgreSQL code for creating up to date views of the datasets without versioning
    * `icd_tables.dump`: contains a PostgreSQL dump of the datasets in the database for uploading to another database
