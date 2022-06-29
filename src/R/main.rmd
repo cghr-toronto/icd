@@ -1,13 +1,17 @@
 ---
-title: "Expand WBD"
+title: "WBD Codes"
 output: html_notebook
 ---
+
+# WBD Codes
 
 Expands Wilson's Burden of Disease (WBD) classification groups from the raw Excel file using the [cghrCodes](https://github.com/cghr-toronto/cghrCodes) package at CGHR.
 
 ## Libraries
 
 ```{r}
+library(tidyverse)
+library(readxl)
 library(cghrCodes)
 ```
 
@@ -16,8 +20,106 @@ library(cghrCodes)
 Read data from `../data`` folder:
 
 * `Version 10 - Final CGHR-GBD list 18 April 2013.xls`: original WBD file mappings provided by Wilson Suraweera
-* `Version 10 - Final CGHR-GBD list 18 April 2013 RW.xls` edited WBD file by Richard Wen to be readable in R
+* `Version 10 - Final CGHR-GBD list 18 April 2013 RW.xls` manually cleaned WBD file by Richard Wen to be in a tabular structure
 
 ```{r}
+raw_file <- "../data/Version 10 - Final CGHR-GBD list 18 April 2013 RW.xls"
 
+# Read sheets 4-7 for ddict, adult, neo, child sheets in order
+raw_wbd <- list(
+  ddict=read_excel(raw_file, sheet=4),
+  adult=read_excel(raw_file, sheet=5),
+  neo=read_excel(raw_file, sheet=6),
+  child=read_excel(raw_file, sheet=7)
+)
+```
+
+### Data Dictionary Preview
+
+This sheet contains the column descriptions for each of the adult, neonate, and child sheets that contain the WBD codes.
+
+```{r}
+raw_wbd[["ddict"]]
+```
+
+### Adult WBD Codes Preview
+
+This sheet contains the adult WBD codes.
+
+```{r}
+raw_wbd[["adult"]]
+```
+
+### Child WBD Codes Preview
+
+This sheet contains the child WBD codes.
+
+```{r}
+raw_wbd[["child"]]
+```
+
+### Neonate WBD Codes Preview
+
+This sheet contains the neonate WBD codes.
+
+```{r}
+raw_wbd[["neo"]]
+```
+
+## Preprocess
+
+Initially filters the WBD code sheets data by:
+
+1. Combining all sheets (separated by age group) into a common dataframe
+2. Lowercase all column names
+
+```{r}
+wbd <- bind_rows(
+  raw_wbd[["adult"]],
+  raw_wbd[["child"]],
+  raw_wbd[["neo"]]) %>%
+  rename_all(tolower)
+wbd
+```
+
+## Expand ICD-10 Ranges
+
+Expands the ICD-10 codes from the `icd10_range` column to create an ICD-10 code for each WBD code:
+
+1. Filters for `codex` entities only
+2. Expand ICD-10 code ranges to individual codes - one for each WBD code
+
+```{r}
+# Get codex entities only
+wbdxicd10 <- wbd %>% filter(kind == "codex")
+
+# Expand ICD ranges
+wbdxicd10 <- expandICD10Data(
+  wbdxicd10,
+  icd10Column="icd10_range",
+  expandColumn="icd10"
+)
+wbdxicd10
+```
+
+## Data Dictionary
+
+Preprocesses the data dictionary by lower casing the column names and values.
+
+```{r}
+ddict <- raw_wbd[["ddict"]] %>%
+  rename_all(tolower) %>%
+  mutate(column=tolower(column)) %>%
+  add_row(column="icd10", description="ICD-10 code for the entity.")
+ddict
+```
+
+## Save Data
+
+Writes the original WBD data, expanded WBD data, and data dictionary to the `../data` folder.
+
+```{r}
+write_csv(ddict, "../data/wbd_raw_ddict.csv", na="")
+write_csv(wbd, "../data/wbd_raw.csv", na="")
+write_csv(wbdxicd10, "../data/wbdxicd10_raw.csv", na="")
 ```

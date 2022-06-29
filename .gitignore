@@ -134,3 +134,10 @@ dmypy.json
 *.nosync/
 tmp/
 .Rproj.user
+
+# packrat
+.Rproj.user
+.Rhistory
+src/R/tests/testthat/packrat/
+src/R/packrat-scenario*/
+src/R/packrat/lib*/
