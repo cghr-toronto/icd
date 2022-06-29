@@ -1,7 +1,7 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHR's processed ICD data
 Version: 1
-Last Updated: June 24, 2022
+Last Updated: June 29, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
@@ -259,4 +259,115 @@ Data:
   - Name: Linearization (release) URI
     Rename: icd11_linear_url
     Description: "ICD-11 Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it."
+    Type: str
+    
+- Name: wbd10
+  File: data/wbd10_raw.csv
+  Version: 1
+  Description: "Wilson's Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-06-29
+  Columns:
+  
+  - Name: age_group
+    Rename: age
+    Description: "Age group for the WBD entity."
+    Type: str
+    
+  - Name: kind
+    Description: "WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level."
+    Type: str
+    
+  - Name: kind_depth
+    Description: "WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
+    Type: Int64
+  
+  - Name: codex4
+    Description: "WBD codex4 - a higher level classification of the WBD codes."
+    Type: str
+  
+  - Name: codex2
+    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
+    Type: str
+  
+  - Name: codex
+    Rename: code
+    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
+    Type: str
+  
+  - Name: codex4_title
+    Description: "WBD title for codex4."
+    Type: str
+  
+  - Name: codex2_title
+    Description: "WBD title for codex2."
+    Type: str
+  
+  - Name: codex_title
+    Rename: title
+    Description: "WBD code/codex title."
+    Type: str
+
+  - Name: icd10_range
+    Description: "Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes."
+    Type: str
+    
+- Name: wbd10xicd10
+  File: data/wbd10xicd10_raw.csv
+  Version: 1
+  Description: "Mappings between each individual Wilson's Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-06-29
+  Columns:
+  
+  - Name: age_group
+    Rename: wbd10_age
+    Description: "Age group for the WBD entity."
+    Type: str
+    
+  - Name: kind
+    Rename: wbd10_kind
+    Description: "WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level."
+    Type: str
+    
+  - Name: kind_depth
+    Rename: wbd10_kind_depth
+    Description: "WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
+    Type: Int64
+  
+  - Name: codex4
+    Rename: wbd10_codex4
+    Description: "WBD codex4 - a higher level classification of the WBD codes."
+    Type: str
+  
+  - Name: codex2
+    Rename: wbd10_codex2
+    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
+    Type: str
+  
+  - Name: codex
+    Rename: wbd10_code
+    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
+    Type: str
+  
+  - Name: codex4_title
+    Rename: wbd10_codex4_title
+    Description: "WBD title for codex4."
+    Type: str
+  
+  - Name: codex2_title
+    Rename: wbd10_codex2_title
+    Description: "WBD title for codex2."
+    Type: str
+  
+  - Name: codex_title
+    Rename: wbd10_title
+    Description: "WBD code/codex title."
+    Type: str
+
+  - Name: icd10_range
+    Description: "Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes."
+    Type: str
+
+  - Name: icd10
+    Rename: icd10_code
+    Description: "ICD-10 code for the entity."
     Type: str

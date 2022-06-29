@@ -119,7 +119,7 @@ ddict
 Writes the original WBD data, expanded WBD data, and data dictionary to the `../data` folder.
 
 ```{r}
-write_csv(ddict, "../data/wbd_raw_ddict.csv", na="")
-write_csv(wbd, "../data/wbd_raw.csv", na="")
-write_csv(wbdxicd10, "../data/wbdxicd10_raw.csv", na="")
+write_csv(ddict, "../data/wbd10_raw_ddict.csv", na="")
+write_csv(wbd, "../data/wbd10_raw.csv", na="")
+write_csv(wbdxicd10, "../data/wbd10xicd10_raw.csv", na="")
 ```

@@ -2,10 +2,11 @@
 
 * [Available Datasets](data)
 * [Developer Notes](DEVELOPER.md)
+* [Acknowledgements](ACKNOWLEDGEMENTS.md)
 
 Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
-*Last Updated: June 24, 2022*
+*Last Updated: June 29, 2022*
 
 ## About
 
@@ -78,3 +79,4 @@ To cite the ICD data, please cite the WHO depending on the version:
 |------|-------|------|
 | Richard Wen | rrwen.dev@gmail.com | Primary contact for code and data access in this repo |
 | Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access, CGHR staff only |
+| Wilson Suraweera | Wilson.Suraweera@unityhealth.to | Contact for WBD code inquiries |

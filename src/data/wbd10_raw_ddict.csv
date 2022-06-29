@@ -1,0 +1,12 @@
+column,description
+age_group,Age group for the WBD entity.
+kind,"WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level."
+kind_depth,"WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
+codex4,WBD codex4 - a higher level classification of the WBD codes.
+codex2,WBD codex2 - a middle level classification that usually group several WBD codes together.
+codex,WBD codex or codes - the lowest level classification representing the WBD codes themselves.
+codex4_title,WBD title for codex4.
+codex2_title,WBD title for codex2.
+codex_title,WBD code/codex title.
+icd10_range,Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.
+icd10,ICD-10 code for the entity.
