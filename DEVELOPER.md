@@ -75,7 +75,7 @@ source bin/login.sh
 
 You will be prompted to enter database connection details, and if successful, it will display that the login has been saved.
 
-**Note **: the password prompt is hidden - simply enter your password and press enter to proceed
+**Note**: the password prompt is hidden - simply enter your password and press enter to proceed
 
 ## Preparation
 
