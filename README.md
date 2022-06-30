@@ -18,7 +18,7 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases) and the [ICD-10 Manual](docs/icd10_manual.pdf) and [ICD-11 Manual](docs/icd11_manual.pdf).*
 
-Wilson's Burden of Disease (WBD) data are also available.
+Wilson's Burden of Disease (WBD) and Central Medical Evaluation Agreement (CMEA) data from the Centre for Global Health Research (CGHR) are also available.
 
 **See [Available Datasets](data) for details on the data.**
 
