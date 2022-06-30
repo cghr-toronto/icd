@@ -101,4 +101,4 @@ To cite the WBD and CMEA data, please cite the following:
 | Richard Wen | rrwen.dev@gmail.com | Primary contact for code and data access in this repo |
 | Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access, CGHR staff only |
 | Wilson Suraweera | Wilson.Suraweera@unityhealth.to | Contact for WBD code inquiries |
-| Rajeev Kamadod | rajeevk@kentropy.com | Contact for ICD-10 equivalency codes for CME |
+| Rajeev Kamadod | rajeevk@kentropy.com | Contact for ICD-10 equivalency codes for CMEA |
