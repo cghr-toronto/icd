@@ -75,7 +75,7 @@ To cite the ICD data, please cite the WHO depending on the version:
 }
 ```
 
-To cite the WBD data, please cite the following:
+To cite the WBD and CMEA data, please cite the following:
 
 * Aleksandrowicz, L., Malhotra, V., Dikshit, R., Gupta, P. C., Kumar, R., Sheth, J., Rathi, K., Suraweera, W., Miasnikof, P., Jotkar, R., Sinha, D., Awasthi, S., Bhatia, P., & Jha, P. (2014). Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study. BMC medicine, 12(1), 1-14. [doi:10.1186/1741-7015-12-21](https://doi.org/10.1186/1741-7015-12-21).
 
