@@ -1,7 +1,7 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHR's processed ICD data
 Version: 1
-Last Updated: June 29, 2022
+Last Updated: June 30, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
@@ -264,7 +264,7 @@ Data:
 - Name: wbd10
   File: data/wbd10_raw.csv
   Version: 1
-  Description: "Wilson's Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details."
+  Description: "Wilson's Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-06-29
   Columns:
   
@@ -314,7 +314,7 @@ Data:
 - Name: wbd10xicd10
   File: data/wbd10xicd10_raw.csv
   Version: 1
-  Description: "Mappings between each individual Wilson's Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details."
+  Description: "Mappings between each individual Wilson's Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-06-29
   Columns:
   
@@ -370,4 +370,47 @@ Data:
   - Name: icd10
     Rename: icd10_code
     Description: "ICD-10 code for the entity."
+    Type: str
+
+- Name: cmea10
+  File: data/cmea10_raw.csv
+  Version: 1
+  Description: "Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR) for International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-06-30
+  Columns:
+
+  - Name: icdequivalence_desc
+    Rename: title
+    Description: "CMEA block title that represents a range of ICD-10 codes considered in agreement for assigning death codes in VAs."
+    Type: str
+
+  - Name: icdequivalence
+    Rename: icd10_range
+    Description: "Range of ICD-10 codes in the CMEA block - each code is separated by a comma."
+    Type: str
+
+  - Name: icdequivalence_short
+    Rename: icd10_range_short
+    Description: "Range of ICD-10 codes in the CMEA block - shortened to represent consecutive ranges with dashes for easier readability."
+    Type: str
+
+- Name: cmea10xicd10
+  File: data/cmea10xicd10_raw.csv
+  Version: 1
+  Description: "Mappings between each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) and Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-06-30
+  Columns:
+
+  - Name: icdequivalence_desc
+    Rename: cmea_title
+    Description: "CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs."
+    Type: str
+
+  - Name: icdequivalence
+    Rename: icd10_range
+    Description: "Range of ICD-10 codes in the CMEA block - each code is separated by a comma."
+    Type: str
+
+  - Name: icd10_code
+    Description: "ICD-10 code for the CMEA block."
     Type: str

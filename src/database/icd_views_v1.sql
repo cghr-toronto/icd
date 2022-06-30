@@ -89,7 +89,7 @@ CREATE OR REPLACE VIEW wbd10 AS (SELECT * FROM wbd10_v1);
 
 --- wbd10 view comment
 
-COMMENT ON VIEW wbd10 IS 'Wilson''s Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON VIEW wbd10 IS 'Wilson''s Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details.';
 
 --- wbd10 view column comments (n=10)
 
@@ -110,7 +110,7 @@ CREATE OR REPLACE VIEW wbd10xicd10 AS (SELECT * FROM wbd10xicd10_v1);
 
 --- wbd10xicd10 view comment
 
-COMMENT ON VIEW wbd10xicd10 IS 'Mappings between each individual Wilson''s Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON VIEW wbd10xicd10 IS 'Mappings between each individual Wilson''s Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details.';
 
 --- wbd10xicd10 view column comments (n=11)
 
@@ -125,3 +125,31 @@ COMMENT ON COLUMN wbd10xicd10.wbd10_codex2_title IS 'WBD title for codex2.';
 COMMENT ON COLUMN wbd10xicd10.wbd10_title IS 'WBD code/codex title.';
 COMMENT ON COLUMN wbd10xicd10.icd10_range IS 'Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.';
 COMMENT ON COLUMN wbd10xicd10.icd10_code IS 'ICD-10 code for the entity.';
+
+--- cmea10 view
+
+CREATE OR REPLACE VIEW cmea10 AS (SELECT * FROM cmea10_v1);
+
+--- cmea10 view comment
+
+COMMENT ON VIEW cmea10 IS 'Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR) for International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details.';
+
+--- cmea10 view column comments (n=3)
+
+COMMENT ON COLUMN cmea10.title IS 'CMEA block title that represents a range of ICD-10 codes considered in agreement for assigning death codes in VAs.';
+COMMENT ON COLUMN cmea10.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
+COMMENT ON COLUMN cmea10.icd10_range_short IS 'Range of ICD-10 codes in the CMEA block - shortened to represent consecutive ranges with dashes for easier readability.';
+
+--- cmea10xicd10 view
+
+CREATE OR REPLACE VIEW cmea10xicd10 AS (SELECT * FROM cmea10xicd10_v1);
+
+--- cmea10xicd10 view comment
+
+COMMENT ON VIEW cmea10xicd10 IS 'Mappings between each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) and Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details.';
+
+--- cmea10xicd10 view column comments (n=3)
+
+COMMENT ON COLUMN cmea10xicd10.cmea_title IS 'CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
+COMMENT ON COLUMN cmea10xicd10.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
+COMMENT ON COLUMN cmea10xicd10.icd10_code IS 'ICD-10 code for the CMEA block.';

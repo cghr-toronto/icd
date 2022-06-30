@@ -1,9 +1,7 @@
 ---
-title: "WBD Codes"
+title: "Wilson's Burden of Disease (WBD) Codes"
 output: html_notebook
 ---
-
-# WBD Codes
 
 Expands Wilson's Burden of Disease (WBD) classification groups from the raw Excel file using the [cghrCodes](https://github.com/cghr-toronto/cghrCodes) package at CGHR.
 
@@ -17,7 +15,7 @@ library(cghrCodes)
 
 ## Read Data
 
-Read data from `../data`` folder:
+Read data from `../data` folder:
 
 * `Version 10 - Final CGHR-GBD list 18 April 2013.xls`: original WBD file mappings provided by Wilson Suraweera
 * `Version 10 - Final CGHR-GBD list 18 April 2013 RW.xls` manually cleaned WBD file by Richard Wen to be in a tabular structure

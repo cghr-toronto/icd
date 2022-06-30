@@ -6,7 +6,7 @@
 
 Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
-*Last Updated: June 29, 2022*
+*Last Updated: June 30, 2022*
 
 ## About
 
@@ -17,6 +17,8 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 > \- World Health Organization (2022)
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases) and the [ICD-10 Manual](docs/icd10_manual.pdf) and [ICD-11 Manual](docs/icd11_manual.pdf).*
+
+Wilson's Burden of Disease (WBD) data are also available.
 
 **See [Available Datasets](data) for details on the data.**
 
@@ -73,6 +75,25 @@ To cite the ICD data, please cite the WHO depending on the version:
 }
 ```
 
+To cite the WBD data, please cite the following:
+
+* Aleksandrowicz, L., Malhotra, V., Dikshit, R., Gupta, P. C., Kumar, R., Sheth, J., Rathi, K., Suraweera, W., Miasnikof, P., Jotkar, R., Sinha, D., Awasthi, S., Bhatia, P., & Jha, P. (2014). Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study. BMC medicine, 12(1), 1-14. [doi:10.1186/1741-7015-12-21](https://doi.org/10.1186/1741-7015-12-21).
+
+```bibtex
+@article{
+  aleksandrowiczetal2014,
+  title={Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study},
+  author={Aleksandrowicz, Lukasz and Malhotra, Varun and Dikshit, Rajesh and Gupta, Prakash C and Kumar, Rajesh and Sheth, Jay and Rathi, Suresh Kumar and Suraweera, Wilson and Miasnikof, Pierre and Jotkar, Raju and others},
+  journal={BMC medicine},
+  volume={12},
+  number={1},
+  pages={1--14},
+  year={2014},
+  DOI={10.1186/1741-7015-12-21},
+  publisher={BioMed Central}
+}
+```
+
 ## Contact
 
 | Name | Email | Role |
@@ -80,3 +101,4 @@ To cite the ICD data, please cite the WHO depending on the version:
 | Richard Wen | rrwen.dev@gmail.com | Primary contact for code and data access in this repo |
 | Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access, CGHR staff only |
 | Wilson Suraweera | Wilson.Suraweera@unityhealth.to | Contact for WBD code inquiries |
+| Rajeev Kamadod | rajeevk@kentropy.com | Contact for ICD-10 equivalency codes for CME |

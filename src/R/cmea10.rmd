@@ -1,0 +1,67 @@
+---
+title: "Central Medical Evaluation (CME) ICD-10 Agreement"
+output: html_notebook
+---
+
+During the physician coding for Verbal Autopsies (VA), ICD-10 codes can be considered in agreement if they are within a certain ICD-10 code range.
+
+This script processes data for ICD-10 blocks that determine the agreement between physician assigned ICD-10 codes from VAs.
+
+## Libraries
+
+```{r}
+library(tidyverse)
+library(cghrCodes)
+```
+
+## Read Data
+
+Read data from `../data` folder:
+
+* `icd10-equivalent-1.csv`: original ICD-10 equivalency file for reconciliation and adjudication provided by Rajeev Kamadod
+
+```{r}
+raw_file <- "../data/icd10-equivalent-1.csv"
+cmea_raw <- read_csv(raw_file, show_col_types = FALSE)
+cmea_raw
+```
+
+## Preprocess
+
+Preprocesses the data by lowercasing all column names
+
+```{r}
+cmea <- cmea_raw %>% rename_all(tolower)
+cmea
+```
+
+## Expand ICD-10 Ranges
+
+Expands the ICD-10 codes from the `icdequivalence` column to create an ICD-10 code for each code block:
+
+```{r}
+cmeax <- expandICD10Data(
+  cmea,
+  icd10Column="icdequivalence",
+  expandColumn="icd10_code"
+)
+cmeax
+```
+
+## Collapse ICD-10 Ranges
+
+Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
+
+```{r}
+cmea$icdequivalence_short <- apply(cmea, 1, function(x) paste(collapseICD10(x["icdequivalence"]), collapse=","))
+cmea
+```
+
+## Save Data
+
+Writes the collapsed and expanded CME ICD-10 agreement codes to the `../data` folder.
+
+```{r}
+write_csv(cmea, "../data/cmea10_raw.csv", na="")
+write_csv(cmeax, "../data/cmea10xicd10_raw.csv", na="")
+```

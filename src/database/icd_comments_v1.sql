@@ -60,7 +60,7 @@ COMMENT ON COLUMN icd11to10_v1.icd10_title IS 'ICD-10 title of the entity.';
 COMMENT ON COLUMN icd11to10_v1.icd11_linear_url IS 'ICD-11 Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it.';
 
 --- wbd10_v1 table comment
-COMMENT ON TABLE wbd10_v1 IS 'Wilson''s Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON TABLE wbd10_v1 IS 'Wilson''s Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details.';
 
 --- wbd10_v1 column comments (n=10)
 COMMENT ON COLUMN wbd10_v1.age IS 'Age group for the WBD entity.';
@@ -75,7 +75,7 @@ COMMENT ON COLUMN wbd10_v1.title IS 'WBD code/codex title.';
 COMMENT ON COLUMN wbd10_v1.icd10_range IS 'Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.';
 
 --- wbd10xicd10_v1 table comment
-COMMENT ON TABLE wbd10xicd10_v1 IS 'Mappings between each individual Wilson''s Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON TABLE wbd10xicd10_v1 IS 'Mappings between each individual Wilson''s Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details.';
 
 --- wbd10xicd10_v1 column comments (n=11)
 COMMENT ON COLUMN wbd10xicd10_v1.wbd10_age IS 'Age group for the WBD entity.';
@@ -89,3 +89,19 @@ COMMENT ON COLUMN wbd10xicd10_v1.wbd10_codex2_title IS 'WBD title for codex2.';
 COMMENT ON COLUMN wbd10xicd10_v1.wbd10_title IS 'WBD code/codex title.';
 COMMENT ON COLUMN wbd10xicd10_v1.icd10_range IS 'Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.';
 COMMENT ON COLUMN wbd10xicd10_v1.icd10_code IS 'ICD-10 code for the entity.';
+
+--- cmea10_v1 table comment
+COMMENT ON TABLE cmea10_v1 IS 'Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR) for International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details.';
+
+--- cmea10_v1 column comments (n=3)
+COMMENT ON COLUMN cmea10_v1.title IS 'CMEA block title that represents a range of ICD-10 codes considered in agreement for assigning death codes in VAs.';
+COMMENT ON COLUMN cmea10_v1.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
+COMMENT ON COLUMN cmea10_v1.icd10_range_short IS 'Range of ICD-10 codes in the CMEA block - shortened to represent consecutive ranges with dashes for easier readability.';
+
+--- cmea10xicd10_v1 table comment
+COMMENT ON TABLE cmea10xicd10_v1 IS 'Mappings between each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) and Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details.';
+
+--- cmea10xicd10_v1 column comments (n=3)
+COMMENT ON COLUMN cmea10xicd10_v1.cmea_title IS 'CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
+COMMENT ON COLUMN cmea10xicd10_v1.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
+COMMENT ON COLUMN cmea10xicd10_v1.icd10_code IS 'ICD-10 code for the CMEA block.';
