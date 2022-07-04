@@ -40,12 +40,12 @@ cmea
 Expands the ICD-10 codes from the `icdequivalence` column to create an ICD-10 code for each code block:
 
 ```{r}
-cmeax <- expandICD10Data(
+icd10tocmea <- expandICD10Data(
   cmea,
   icd10Column="icdequivalence",
   expandColumn="icd10_code"
 )
-cmeax
+icd10tocmea
 ```
 
 ## Collapse ICD-10 Ranges
@@ -63,5 +63,5 @@ Writes the collapsed and expanded CME ICD-10 agreement codes to the `../data` fo
 
 ```{r}
 write_csv(cmea, "../data/cmea10_raw.csv", na="")
-write_csv(cmeax, "../data/cmea10xicd10_raw.csv", na="")
+write_csv(icd10tocmea, "../data/icd10tocmea10_raw.csv", na="")
 ```

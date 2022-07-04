@@ -17,6 +17,8 @@ icdbrowser[("ICD Browser<br/>(WHO)")]
 wbdraw>"WBD Excel Spreadsheet<br/>(Wilson)"]
 wbd>"Cleaned WBD Spreadsheet<br/>(Richard)"]
 
+cmea
+
 research["Processed ICD Data<br>(Richard)"]
 
 icdbrowser --> icd & icdmap --> research
@@ -25,7 +27,9 @@ wbdraw --> wbd --> research
 
 The ICD data was downloaded from the World Health Organization (WHO) through their [ICD-11 Browser](https://icd.who.int/browse11/l-m/en) (under `Info` select `Spreadsheet File` for the ICD-11 codes and `ICD-10 / ICD-11 mapping Tables` for the ICD-10 and ICD-11 mappings).
 
-The WBD data was retrieved from Wilson Suraweera <Wilson.Suraweera@unityhealth.to> as an Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013.xls)), and edited by Richard Wen <rrwen.dev@gmail.com> manually to be parsed in an R Script (script files available [here](src/R)) into a cleaned WBD Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013%20RW.xls)).
+The WBD data was retrieved from Wilson Suraweera <Wilson.Suraweera@unityhealth.to> as an Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013.xls)), and edited by Richard Wen <rrwen.dev@gmail.com> manually to be parsed in an R Script [here](src/R/wbd10.rmd) into a cleaned WBD Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013%20RW.xls)).
+
+The CMEA data was retrieved from Rajeev Kamadod <rajeevk@kentropy.com> as a CSV file (copy available [here](src/data/icd10-equivalent-1.csv)), and processed in an R Script [here](src/R/cmea10.rmd) into a cleaned CMEA files [cmea10_raw.csv](src/data/cmea10_raw.csv) and [icd10tocmea10_raw.csv](src/data/icd10tocmea10_raw.csv).
 
 These data are then processed and managed by Richard Wen <rrwen.dev@gmail.com> using scripts in this repository.
 

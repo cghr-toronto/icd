@@ -1,7 +1,7 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHR's processed ICD data
 Version: 1
-Last Updated: June 30, 2022
+Last Updated: July 4, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
@@ -311,11 +311,11 @@ Data:
     Description: "Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes."
     Type: str
     
-- Name: wbd10xicd10
-  File: data/wbd10xicd10_raw.csv
+- Name: icd10towbd10
+  File: data/icd10towbd10_raw.csv
   Version: 1
-  Description: "Mappings between each individual Wilson's Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details."
-  Last Updated: 2022-06-29
+  Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to Wilson's Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR). See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-07-04
   Columns:
   
   - Name: age_group
@@ -394,11 +394,11 @@ Data:
     Description: "Range of ICD-10 codes in the CMEA block - shortened to represent consecutive ranges with dashes for easier readability."
     Type: str
 
-- Name: cmea10xicd10
-  File: data/cmea10xicd10_raw.csv
+- Name: icd10tocmea10
+  File: data/icd10tocmea10_raw.csv
   Version: 1
-  Description: "Mappings between each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) and Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details."
-  Last Updated: 2022-06-30
+  Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-07-04
   Columns:
 
   - Name: icdequivalence_desc

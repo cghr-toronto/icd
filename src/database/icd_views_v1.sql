@@ -104,27 +104,27 @@ COMMENT ON COLUMN wbd10.codex2_title IS 'WBD title for codex2.';
 COMMENT ON COLUMN wbd10.title IS 'WBD code/codex title.';
 COMMENT ON COLUMN wbd10.icd10_range IS 'Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.';
 
---- wbd10xicd10 view
+--- icd10towbd10 view
 
-CREATE OR REPLACE VIEW wbd10xicd10 AS (SELECT * FROM wbd10xicd10_v1);
+CREATE OR REPLACE VIEW icd10towbd10 AS (SELECT * FROM icd10towbd10_v1);
 
---- wbd10xicd10 view comment
+--- icd10towbd10 view comment
 
-COMMENT ON VIEW wbd10xicd10 IS 'Mappings between each individual Wilson''s Burden of Disease (WBD) code from the Centre for Global Health Research (CGHR) and International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO). See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON VIEW icd10towbd10 IS 'Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to Wilson''s Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR). See https://github.com/cghr-toronto/icd for more details.';
 
---- wbd10xicd10 view column comments (n=11)
+--- icd10towbd10 view column comments (n=11)
 
-COMMENT ON COLUMN wbd10xicd10.wbd10_age IS 'Age group for the WBD entity.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_kind IS 'WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_kind_depth IS 'WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle).';
-COMMENT ON COLUMN wbd10xicd10.wbd10_codex4 IS 'WBD codex4 - a higher level classification of the WBD codes.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_codex2 IS 'WBD codex2 - a middle level classification that usually group several WBD codes together.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_code IS 'WBD codex or codes - the lowest level classification representing the WBD codes themselves.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_codex4_title IS 'WBD title for codex4.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_codex2_title IS 'WBD title for codex2.';
-COMMENT ON COLUMN wbd10xicd10.wbd10_title IS 'WBD code/codex title.';
-COMMENT ON COLUMN wbd10xicd10.icd10_range IS 'Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.';
-COMMENT ON COLUMN wbd10xicd10.icd10_code IS 'ICD-10 code for the entity.';
+COMMENT ON COLUMN icd10towbd10.wbd10_age IS 'Age group for the WBD entity.';
+COMMENT ON COLUMN icd10towbd10.wbd10_kind IS 'WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level.';
+COMMENT ON COLUMN icd10towbd10.wbd10_kind_depth IS 'WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle).';
+COMMENT ON COLUMN icd10towbd10.wbd10_codex4 IS 'WBD codex4 - a higher level classification of the WBD codes.';
+COMMENT ON COLUMN icd10towbd10.wbd10_codex2 IS 'WBD codex2 - a middle level classification that usually group several WBD codes together.';
+COMMENT ON COLUMN icd10towbd10.wbd10_code IS 'WBD codex or codes - the lowest level classification representing the WBD codes themselves.';
+COMMENT ON COLUMN icd10towbd10.wbd10_codex4_title IS 'WBD title for codex4.';
+COMMENT ON COLUMN icd10towbd10.wbd10_codex2_title IS 'WBD title for codex2.';
+COMMENT ON COLUMN icd10towbd10.wbd10_title IS 'WBD code/codex title.';
+COMMENT ON COLUMN icd10towbd10.icd10_range IS 'Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes.';
+COMMENT ON COLUMN icd10towbd10.icd10_code IS 'ICD-10 code for the entity.';
 
 --- cmea10 view
 
@@ -140,16 +140,16 @@ COMMENT ON COLUMN cmea10.title IS 'CMEA block title that represents a range of I
 COMMENT ON COLUMN cmea10.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
 COMMENT ON COLUMN cmea10.icd10_range_short IS 'Range of ICD-10 codes in the CMEA block - shortened to represent consecutive ranges with dashes for easier readability.';
 
---- cmea10xicd10 view
+--- icd10tocmea10 view
 
-CREATE OR REPLACE VIEW cmea10xicd10 AS (SELECT * FROM cmea10xicd10_v1);
+CREATE OR REPLACE VIEW icd10tocmea10 AS (SELECT * FROM icd10tocmea10_v1);
 
---- cmea10xicd10 view comment
+--- icd10tocmea10 view comment
 
-COMMENT ON VIEW cmea10xicd10 IS 'Mappings between each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) and Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON VIEW icd10tocmea10 IS 'Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details.';
 
---- cmea10xicd10 view column comments (n=3)
+--- icd10tocmea10 view column comments (n=3)
 
-COMMENT ON COLUMN cmea10xicd10.cmea_title IS 'CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
-COMMENT ON COLUMN cmea10xicd10.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
-COMMENT ON COLUMN cmea10xicd10.icd10_code IS 'ICD-10 code for the CMEA block.';
+COMMENT ON COLUMN icd10tocmea10.cmea_title IS 'CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
+COMMENT ON COLUMN icd10tocmea10.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
+COMMENT ON COLUMN icd10tocmea10.icd10_code IS 'ICD-10 code for the CMEA block.';

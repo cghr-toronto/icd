@@ -89,15 +89,15 @@ Expands the ICD-10 codes from the `icd10_range` column to create an ICD-10 code 
 
 ```{r}
 # Get codex entities only
-wbdxicd10 <- wbd %>% filter(kind == "codex")
+icd10towbd <- wbd %>% filter(kind == "codex")
 
 # Expand ICD ranges
-wbdxicd10 <- expandICD10Data(
-  wbdxicd10,
+icd10towbd <- expandICD10Data(
+  icd10towbd,
   icd10Column="icd10_range",
   expandColumn="icd10"
 )
-wbdxicd10
+icd10towbd
 ```
 
 ## Data Dictionary
@@ -119,5 +119,5 @@ Writes the original WBD data, expanded WBD data, and data dictionary to the `../
 ```{r}
 write_csv(ddict, "../data/wbd10_raw_ddict.csv", na="")
 write_csv(wbd, "../data/wbd10_raw.csv", na="")
-write_csv(wbdxicd10, "../data/wbd10xicd10_raw.csv", na="")
+write_csv(icd10towbd, "../data/icd10towbd10_raw.csv", na="")
 ```
