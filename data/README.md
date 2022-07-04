@@ -17,8 +17,8 @@ icd11["icd11<br>(n=35,459)"]
 
 icd10 --> |icd10to11| icd11
 icd11 --> |icd11to10| icd10
-icd10 <--> |wbd10xicd10| wbd10
-icd10 <--> |cmea10xicd10| cmea10
+icd10 ---> |icd10towbd10| wbd10
+icd10 ---> |icd10tocmea10| cmea10
 ```
 
 The data contain four groups of datasets:
@@ -37,7 +37,7 @@ Refer to the following files for more information:
 
 For VA records at CGHR, a Central Medical Evaluation Agreement (CMEA) list of ICD-10 blocks (see [cmea10](cmea10.csv)) are used to check if two randomly assigned physicians agree on a ICD-10 Cause of Death (COD) assignment.
 
-To check whether two ICD-10 codes are in agreement, use the [cmea10xicd10](cmea10xicd10.csv) dataset:
+To check whether two ICD-10 codes are in agreement, use the [icd10tocmea10](icd10tocmea10.csv) dataset:
 
 1. Join physician 1 ICD-10 codes by the column `icd10_code`
 2. Join physician 2 ICD-10 codes by the column `icd10_code`
@@ -50,7 +50,7 @@ For example, a dataset with physician 1 and 2 ICD-10 codes is given:
 | A00 | A05 |
 | A00 | A51 |
 
-Using [cmea10xicd10](cmea10xicd10.csv), we left join the column `icd10_code` to columns `p1_icd` and `p2_icd` in this dataset:
+Using [icd10tocmea10](icd10tocmea10.csv), we left join the column `icd10_code` to columns `p1_icd` and `p2_icd` in this dataset:
 
 | p1_icd | p2_icd | cmea_title_p1       | cmea_title_p2       |
 | ------ | ------ | ------------------- | ------------------- |
