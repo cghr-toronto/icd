@@ -57,7 +57,7 @@ Using [cmea10xicd10](cmea10xicd10.csv), we left join the column `icd10_code` to 
 | A00    | A05    | Diarrhoeal diseases | Diarrhoeal diseases |
 | A00    | A51    | Diarrhoeal diseases | Syphilis            |
 
-We can then check `p1_icd` and `p2_icd` agree using `cmea_title_p1` and `cmea_title_p2`:
+We can then check if `p1_icd` and `p2_icd` agree using `cmea_title_p1` and `cmea_title_p2`:
 
 | p1_icd | p2_icd | cmea_title_p1       | cmea_title_p2       | agreement |
 | ------ | ------ | ------------------- | ------------------- | --------- |
