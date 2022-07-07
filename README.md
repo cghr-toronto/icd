@@ -21,7 +21,7 @@ The following codes related to ICD are included:
 * ICD Codes
   * [ICD-10 Manual](docs/icd10_manual.pdf)
   * [ICD-11 Manual](docs/icd11_manual.pdf)
-* WHO Verbal Autopsy (VA) codes
+* WHO Verbal Autopsy (WVA) codes
   * [WHO VA 2016 Manual](docs/wva2016_manual.pdf)
   * [WHO VA 2022 Manual](docs/wva2022_manual.pdf)
 * Wilson's Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR)

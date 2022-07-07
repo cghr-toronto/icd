@@ -1,0 +1,69 @@
+---
+title: "World Health Organization (WHO) 2022 Verbal Autopsy (VA) Codes"
+output: html_notebook
+author:
+- Bryan Gascon <bryan.gascon@mail.utoronto.ca>
+- Richard Wen <rrwen.dev@gmail.com>
+---
+
+WHO VA 2022 codes to ICD mapping.
+
+## Libraries
+
+```{r}
+library(tidyverse)
+library(cghrCodes)
+```
+
+## Read Data
+
+Read data from `../data` folder:
+
+* `whovatoicd10mapping.csv`: original raw WHO VA mappings compiled from the WHO VA 2022 PDF manual by Bryan Gascon
+
+```{r}
+wva2022raw <- read_csv("../data/whova2022toicd10mapping.csv", show_col_types=FALSE)
+wva2022raw
+```
+
+## Preprocess
+
+Preprocess the data by removing `VAs-` from the codes.
+
+```{r}
+wva2022 <- wva2022raw %>%
+  rename_all(tolower) %>%
+  mutate(who_va_code=str_remove(who_va_code, "^VAs-+"))
+wva2022
+```
+
+## Expand ICD-10 Ranges
+
+Expands the ICD-10 codes from the `icd_range_codes` column to create an ICD-10 code for each WHO VA code:
+
+```{r}
+icd10towva2022 <- expandICD10Data(
+  wva2022,
+  icd10Column="icd_range_codes",
+  expandColumn="icd10_code"
+)
+icd10towva2022
+```
+
+## Collapse ICD-10 Ranges
+
+Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
+
+```{r}
+wva2022$icd_range_codes_short <- apply(wva2022, 1, function(x) paste(collapseICD10(x["icd_range_codes"]), collapse=","))
+wva2022
+```
+
+## Save Data
+
+Writes the collapsed and expanded WHO VA 2022 agreement codes to the `../data` folder.
+
+```{r}
+write_csv(wva2022, "../data/wva2022_raw.csv", na="")
+write_csv(icd10towva2022, "../data/icd10towva2022_raw.csv", na="")
+```

@@ -14,19 +14,22 @@ cmea10["cmea10<br>(n=143)"]
 wbd10["wbd10<br>(n=180)"]
 icd10["icd10<br>(n=12,597)"]
 icd11["icd11<br>(n=35,459)"]
+wva2016["wva2016<br>(n=63)"]
 
 icd10 --> |icd10to11| icd11
 icd11 --> |icd11to10| icd10
 icd10 ---> |icd10towbd10| wbd10
 icd10 ---> |icd10tocmea10| cmea10
+icd10 --> |icd10towva2016| wva2016
 ```
 
 The data contain four groups of datasets:
 
 1. ICD codes with their titles and structures (chapter, entity, etc)
-2. ICD/WBD/CMEA mappings for translating between ICD and WBD revisions
-3. WBD codes with their titles and structures (codex4, codex2, etc)
-4. CMEA codes with their titles and ICD-10 agreement code ranges
+2. ICD/WVA/WBD/CMEA mappings for translating between ICD and other codes
+3. WVA codes with their titles and ICD-10 code ranges
+4. WBD codes with their titles and structures (codex4, codex2, etc)
+5. CMEA codes with their titles and ICD-10 agreement code ranges
 
 Refer to the following files for more information:
 

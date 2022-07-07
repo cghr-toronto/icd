@@ -153,3 +153,32 @@ COMMENT ON VIEW icd10tocmea10 IS 'Mappings for each individual International Cla
 COMMENT ON COLUMN icd10tocmea10.cmea_title IS 'CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
 COMMENT ON COLUMN icd10tocmea10.icd10_range IS 'Range of ICD-10 codes in the CMEA block - each code is separated by a comma.';
 COMMENT ON COLUMN icd10tocmea10.icd10_code IS 'ICD-10 code for the CMEA block.';
+
+--- icd10towva2016 view
+
+CREATE OR REPLACE VIEW icd10towva2016 AS (SELECT * FROM icd10towva2016_v1);
+
+--- icd10towva2016 view comment
+
+COMMENT ON VIEW icd10towva2016 IS 'Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to WHO Verbal Autopsy (VA) 2016 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- icd10towva2016 view column comments (n=4)
+
+COMMENT ON COLUMN icd10towva2016.wva2016_code IS 'WHO VA code from the 2016 WHO VA instrument.';
+COMMENT ON COLUMN icd10towva2016.wva2016_title IS 'Title for the WHO VA 2016 code.';
+COMMENT ON COLUMN icd10towva2016.icd10_range IS 'Range of ICD-10 codes for the WHO VA 2016 codes.';
+COMMENT ON COLUMN icd10towva2016.icd10_code IS 'ICD-10 code for the WHO VA 2016 code.';
+
+--- wva2016 view
+
+CREATE OR REPLACE VIEW wva2016 AS (SELECT * FROM wva2016_v1);
+
+--- wva2016 view comment
+
+COMMENT ON VIEW wva2016 IS 'World Health Organization (WHO) Verbal Autopsy (VA) codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- wva2016 view column comments (n=3)
+
+COMMENT ON COLUMN wva2016.wva2016_code IS 'WHO VA code from the 2016 WHO VA instrument.';
+COMMENT ON COLUMN wva2016.wva2016_title IS 'Title for the WHO VA 2016 code.';
+COMMENT ON COLUMN wva2016.icd10_range IS 'Range of ICD-10 codes for the WHO VA 2016 codes.';

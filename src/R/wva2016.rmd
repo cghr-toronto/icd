@@ -1,25 +1,69 @@
 ---
-title: "World Health Organization (WHO) Verbal Autopsy (VA) Codes"
+title: "World Health Organization (WHO) 2016 Verbal Autopsy (VA) Codes"
 output: html_notebook
 author:
 - Bryan Gascon <bryan.gascon@mail.utoronto.ca>
 - Richard Wen <rrwen.dev@gmail.com>
 ---
 
-WHO VA Record codes to ICD mapping.
+WHO VA 2016 codes to ICD mapping.
+
+## Libraries
 
 ```{r}
+library(tidyverse)
 library(cghrCodes)
+```
 
-# Load dataset of WHO VA codes -> ICD code mapping 
-WHOVAtoICD <- read.csv("whovatoicd10mapping.csv")
+## Read Data
 
-# Expand the code ranges as a dataframe
-exICD10data <- expandICD10Data(WHOVAtoICD, icd10Column="icd_range_codes_2016")
+Read data from `../data` folder:
 
-# Remove leading VAs- from WHO VA codes 
-exICD10data$WHO_VA_code_num <- gsub("VAs-","", exICD10data$WHO_VA_code)
+* `whovatoicd10mapping.csv`: original raw WHO VA mappings compiled from the WHO VA 2016 PDF manual by Bryan Gascon
 
-# Export file
-write.csv(exICD10data, file="icd10towhova2016.csv", row.names = FALSE)
+```{r}
+wva2016raw <- read_csv("../data/whovatoicd10mapping.csv", show_col_types=FALSE)
+wva2016raw
+```
+
+## Preprocess
+
+Preprocess the data by removing `VAs-` from the codes.
+
+```{r}
+wva2016 <- wva2016raw %>%
+  rename_all(tolower) %>%
+  mutate(who_va_code=str_remove(who_va_code, "^VAs-+"))
+wva2016
+```
+
+## Collapse ICD-10 Ranges
+
+Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
+
+```{r}
+wva2016$icd_range_codes_2016_short <- apply(wva2016, 1, function(x) paste(collapseICD10(x["icd_range_codes_2016"]), collapse=","))
+wva2016
+```
+
+## Expand ICD-10 Ranges
+
+Expands the ICD-10 codes from the `icd_range_codes_2016` column to create an ICD-10 code for each WHO VA code:
+
+```{r}
+icd10towva2016 <- expandICD10Data(
+  wva2016,
+  icd10Column="icd_range_codes_2016",
+  expandColumn="icd10_code"
+)
+icd10towva2016
+```
+
+## Save Data
+
+Writes the collapsed and expanded WHO VA 2016 agreement codes to the `../data` folder.
+
+```{r}
+write_csv(wva2016, "../data/wva2016_raw.csv", na="")
+write_csv(icd10towva2016, "../data/icd10towva2016_raw.csv", na="")
 ```
