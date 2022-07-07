@@ -1,0 +1,25 @@
+---
+title: "World Health Organization (WHO) Verbal Autopsy (VA) Codes"
+output: html_notebook
+author:
+- Bryan Gascon <bryan.gascon@mail.utoronto.ca>
+- Richard Wen <rrwen.dev@gmail.com>
+---
+
+WHO VA Record codes to ICD mapping.
+
+```{r}
+library(cghrCodes)
+
+# Load dataset of WHO VA codes -> ICD code mapping 
+WHOVAtoICD <- read.csv("whovatoicd10mapping.csv")
+
+# Expand the code ranges as a dataframe
+exICD10data <- expandICD10Data(WHOVAtoICD, icd10Column="icd_range_codes_2016")
+
+# Remove leading VAs- from WHO VA codes 
+exICD10data$WHO_VA_code_num <- gsub("VAs-","", exICD10data$WHO_VA_code)
+
+# Export file
+write.csv(exICD10data, file="icd10towhova2016.csv", row.names = FALSE)
+```
