@@ -37,7 +37,7 @@ For public access:
 
 1. Download a zip file of this repository [[Download](https://github.com/cghr-toronto/icd/archive/refs/heads/main.zip)]
 2. Unzip the downloaded zip file into a folder
-3. All data mentioned [here](data/icd_data.csv) is available inside the unzipped `icd-main` folder under the [data](data) subfolder
+3. All data files are available in the unzipped `icd-main` folder under the [data](data) subfolder
 
 Alternatively, individual files can be downloaded by:
 
