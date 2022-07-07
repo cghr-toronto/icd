@@ -6,7 +6,7 @@
 
 Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
-*Last Updated: July 4, 2022*
+*Last Updated: July 7, 2022*
 
 ## About
 
@@ -16,9 +16,18 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 > 
 > \- World Health Organization (2022)
 
-*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases) and the [ICD-10 Manual](docs/icd10_manual.pdf) and [ICD-11 Manual](docs/icd11_manual.pdf).*
+*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases)*
 
-Wilson's Burden of Disease (WBD) and Central Medical Evaluation Agreement (CMEA) data from the Centre for Global Health Research (CGHR) are also available.
+The following codes are included:
+
+* ICD Codes
+  * [ICD-10 Manual](docs/icd10_manual.pdf)
+  * [ICD-11 Manual](docs/icd11_manual.pdf)
+* WHO Verbal Autopsy (VA) codes
+  * [WHO VA 2016 Manual](docs/wva2016_manual.pdf)
+  * [WHO VA 2022 Manual](docs/wva2022_manual.pdf)
+* Wilson's Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR)
+* Central Medical Evaluation Agreement (CMEA) codes from CGHR
 
 **See [Available Datasets](data) for details on the data.**
 
@@ -75,6 +84,34 @@ To cite the ICD data, please cite the WHO depending on the version:
 }
 ```
 
+To cite the WHO VA data, please cite the WHO depending on the version:
+
+*WHO VA 2016*
+
+* World Health Organization. (2016). Verbal autopsy standards: The 2016 WHO verbal autopsy instrument v1.5.3.
+
+```bibtex
+@manual{
+  who2016va,
+  title={Verbal autopsy standards: The 2016 WHO verbal autopsy instrument v1.5.3},
+  author={{World Health Organization}},
+  year={2016}
+}
+```
+
+*WHO VA 2022*
+
+* World Health Organization. (2017). Verbal autopsy standards: The 2022 WHO verbal autopsy instrument v1.
+
+```bibtex
+@manual{
+  who2017va,
+  title={Verbal autopsy standards: The 2022 WHO verbal autopsy instrument v1},
+  author={{World Health Organization}},
+  year={2017}
+}
+```
+
 To cite the WBD and CMEA data, please cite the following:
 
 * Aleksandrowicz, L., Malhotra, V., Dikshit, R., Gupta, P. C., Kumar, R., Sheth, J., Rathi, K., Suraweera, W., Miasnikof, P., Jotkar, R., Sinha, D., Awasthi, S., Bhatia, P., & Jha, P. (2014). Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study. BMC medicine, 12(1), 1-14. [doi:10.1186/1741-7015-12-21](https://doi.org/10.1186/1741-7015-12-21).
@@ -102,3 +139,4 @@ To cite the WBD and CMEA data, please cite the following:
 | Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access, CGHR staff only |
 | Wilson Suraweera | Wilson.Suraweera@unityhealth.to | Contact for WBD code inquiries |
 | Rajeev Kamadod | rajeevk@kentropy.com | Contact for ICD-10 equivalency codes for CMEA |
+| Bryan Gascon | bryan.gascon@mail.utoronto.ca | Contact for WHO VA code processing |
