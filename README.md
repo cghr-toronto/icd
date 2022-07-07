@@ -16,9 +16,7 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 > 
 > \- World Health Organization (2022)
 
-*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases)*
-
-The following codes are included:
+The following codes related to ICD are included:
 
 * ICD Codes
   * [ICD-10 Manual](docs/icd10_manual.pdf)
@@ -28,6 +26,8 @@ The following codes are included:
   * [WHO VA 2022 Manual](docs/wva2022_manual.pdf)
 * Wilson's Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR)
 * Central Medical Evaluation Agreement (CMEA) codes from CGHR
+
+*For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
 
 **See [Available Datasets](data) for details on the data.**
 
