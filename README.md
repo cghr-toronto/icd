@@ -54,9 +54,9 @@ For database access (CGHR staff only), please contact one of the following peopl
 
 ## Citation
 
-To cite the ICD data, please cite the WHO depending on the version:
+To cite the data, please cite the following depending on the codes and versions used:
 
-*ICD-10*
+### ICD-10
 
 * World Health Organization. (2011). ICD-10: International statistical classifcation of diseases and related health problems (10th revision) (5th ed., Vol. 2).
 
@@ -71,7 +71,7 @@ To cite the ICD data, please cite the WHO depending on the version:
 }
 ```
 
-*ICD-11*
+### ICD-11
 
 * World Health Organization. (2022). ICD-11: International Classifcation of Diseases for Mortality and Morbidity Statistics (11th revision).
 
@@ -84,9 +84,7 @@ To cite the ICD data, please cite the WHO depending on the version:
 }
 ```
 
-To cite the WHO VA data, please cite the WHO depending on the version:
-
-*WHO VA 2016*
+### WHO VA 2016
 
 * World Health Organization. (2016). Verbal autopsy standards: The 2016 WHO verbal autopsy instrument v1.5.3.
 
@@ -99,7 +97,7 @@ To cite the WHO VA data, please cite the WHO depending on the version:
 }
 ```
 
-*WHO VA 2022*
+### WHO VA 2022
 
 * World Health Organization. (2017). Verbal autopsy standards: The 2022 WHO verbal autopsy instrument v1.
 
@@ -112,7 +110,7 @@ To cite the WHO VA data, please cite the WHO depending on the version:
 }
 ```
 
-To cite the WBD and CMEA data, please cite the following:
+### WBD and CMEA
 
 * Aleksandrowicz, L., Malhotra, V., Dikshit, R., Gupta, P. C., Kumar, R., Sheth, J., Rathi, K., Suraweera, W., Miasnikof, P., Jotkar, R., Sinha, D., Awasthi, S., Bhatia, P., & Jha, P. (2014). Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study. BMC medicine, 12(1), 1-14. [doi:10.1186/1741-7015-12-21](https://doi.org/10.1186/1741-7015-12-21).
 
