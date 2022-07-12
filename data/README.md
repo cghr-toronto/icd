@@ -68,8 +68,8 @@ We then left join the column `icd_code` (left) to the column `icd10_code` column
 
 | rowid | icd_code | wbd10_code |
 | ----- | -------- | ---------- |
-| 1 | A05 | A05 | 1D01 |
-| 2 | A51 | A51 | 1C01 |
+| 1 | A05 | 1D01 |
+| 2 | A51 | 1C01 |
 
 ## ICD Code Agreements in Verbal Autopsy (VA) Records
 
