@@ -42,7 +42,7 @@ Refer to the following files for more information:
 
 ICD-10 codes can be remapped to other coding standards (WVA, WBD, etc) and other revisions (ICD-11).
 
-To remap ICD-10 codes to other coding standards, use a mapping dataset (e.g. [icd10towbd10](icd10towbd10.csv), [icd10towva2016](icd10towva2016), etc):
+To remap ICD-10 codes to other coding standards, use a mapping dataset (e.g. [icd10towbd10](icd10towbd10.csv), [icd10towva2016](icd10towva2016.csv), etc):
 
 1. Join the ICD-10 codes column in your data to the column `icd10_code` in the mapping dataset
 2. The remapped codes are in a separate column depending on the standard - for example:
