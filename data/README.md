@@ -15,7 +15,7 @@ wbd10["wbd10<br>(n=180)"]
 icd10["icd10<br>(n=12,597)"]
 icd11["icd11<br>(n=35,459)"]
 wva2016["wva2016<br>(n=63)"]
-wva2022["wva2022<br>(n=63)"]
+wva2022["wva2022<br>(n=72)"]
 
 icd10 --> |icd10to11| icd11
 icd11 --> |icd11to10| icd10
