@@ -1,0 +1,73 @@
+wva2022_code,wva2022_title,icd10_range
+1.01,Sepsis,A40-41
+1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+1.03,HIV/AIDS related death,B20-24
+1.04,Diarrheal diseases,A00-09
+1.05,Malaria,B50-54
+1.06,Measles,B05
+1.07,Meningitis and encephalitis,"A39,G00-05"
+1.08,Tetanus12,A33-35
+1.09,Pulmonary tuberculosis,A15-16
+1.1,Pertussis,A37
+1.11,Haemorrhagic fever13,"A92-96,A98-99"
+1.12,Dengue fever,A97
+1.13,Coronavirus disease (COVID-19),U71-72
+1.99,Unspecified infectious disease,A17-32
+nan,nan,"A36,A38,A42-89,B00-04"
+nan,nan,B06-19
+nan,nan,"B25-49,B55-99"
+98.0,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69"
+nan,nan,"K77-93,L00-99,M00-99,N00-16,N20-99"
+2.01,Oral neoplasms,C00-06
+2.02,Digestive neoplasms,C15-26
+2.03,Respiratory neoplasms,C30-39
+2.04,Breast neoplasms,C50
+2.05,Female reproductive neoplasms,C51-58
+2.06,Male reproductive neoplasms,C60-63
+2.99,Other and unspecified neoplasms,"C07-14,C40-49,C64-99,D00-48"
+3.01,Severe anaemia,D50-64
+3.02,Severe malnutrition,E40-46
+3.03,Diabetes mellitus,E10-14
+4.01,Acute cardiac disease14,"I20-26,I110,I461,I469,I501"
+4.02,Stroke,I60-69
+4.03,Sickle cell with crisis,D57
+4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+5.01,Chronic obstructive pulmonary disease (COPD),J40-44
+5.02,Asthma,J45-46
+6.01,Acute abdomen,R10
+6.02,Liver cirrhosis15,"K74,K702-703,K717"
+7.01,Renal failure,N17-19
+8.01,Epilepsy,G40-41
+9.01,Ectopic pregnancy,O00
+9.02,Abortion-related death,O03-08
+9.03,Pregnancy-induced hypertension,O10-16
+9.04,Obstetric haemorrhage,"O46,O67,O72"
+9.05,Obstructed labour,O63-66
+9.06,Pregnancy-related sepsis,"O85,O753"
+9.07,Anaemia of pregnancy,O990
+9.0,Ruptured uterus,O710-711
+9.99,Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70"
+nan,nan,O713-719
+nan,nan,"O73-84,O86-99"
+10.01,Prematurity or low birth weight,"P05,P07"
+10.02,Birth asphyxia16,P20-22
+10.03,Neonatal pneumonia,P23-24
+10.04,Neonatal sepsis,P36
+10.05,Neonatal tetanus,A33
+10.06,Congenital malformation,Q00-99
+10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+11.01,Fresh stillbirth,P95
+11.02,Macerated stillbirth,P95
+12.01,Road traffic accident,"V11,V21,V31,V41,V51,V61,V90-99,V104-109,V114-119,V124-129,V134-139,V144-149,V154-159,V164-169,V174-179,V184-189,V194-199,V204-209,V214-219,V224-229,V234-239,V244-249,V254-259,V264-269,V274-279,V284-289,V294-299,V305-309,V315-319,V325-329,V335-339,V345-349,V355-359,V365-369,V375-379,V385-389,V394-399,V405-409,V415-419,V425-429,V435-439,V445-449,V455-459,V465-469,V475-479,V485-489,V494-499,V505-509,V515-519,V525-529,V535-539,V545-549,V555-559,V565-569,V575-579,V585-589,V594-599,V605-609,V615-619,V625-629,V635-639,V645-649,V655-659,V665-669,V675-679,V685-689,V694-699,V705-709,V715-719,V725-729,V735-739,V745-749,V755-759,V765-769,V775-779,V785-789,V794-809,V811-819,V821-833,V840-843,V850-853,V860-863,V870-879,V892-893,Y850,Y859"
+12.02,Other transport accident,"V11,V21,V31,V41,V51,V61,V90-99,V104-109,V114-119,V124-129,V134-139,V144-149,V154-159,V164-169,V174-179,V184-189,V194-199,V204-209,V214-219,V224-229,V234-239,V244-249,V254-259,V264-269,V274-279,V284-289,V294-299,V305-309,V315-319,V325-329,V335-339,V345-349,V355-359,V365-369,V375-379,V385-389,V394-399,V405-409,V415-419,V425-429,V435-439,V445-449,V455-459,V465-469,V475-479,V485-489,V494-499,V505-509,V515-519,V525-529,V535-539,V545-549,V555-559,V565-569,V575-579,V585-589,V594-599,V605-609,V615-619,V625-629,V635-639,V645-649,V655-659,V665-669,V675-679,V685-689,V694-699,V705-709,V715-719,V725-729,V735-739,V745-749,V755-759,V765-769,V775-779,V785-789,V794-809,V811-819,V821-833,V840-843,V850-853,V860-863,V870-879,V892-893,Y850,Y859"
+12.03,Accidental fall,W00-19
+12.04,Accidental drowning and submersion,W65-74
+12.05,"Accidental exposure to smoke, fire and flames",X00-19
+12.06,Contact with venomous animals and plants,X20-29
+12.07,Accidental poisoning and exposure to noxious substance,X40-49
+12.08,Intentional self-harm,"X60-84,Y870"
+12.09,Assault,"X85,Y00-09,Y871"
+12.1,Exposure to force of nature,X30-39
+12.99,Other and unspecified external cause of death,"S00-99,T00-99,W20-64,W75-99"
+nan,nan,"X10-19,X50-59,Y10-84,Y86,Y88-89,Y872"
+99.0,Cause of death unknown,R95-99

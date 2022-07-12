@@ -1,7 +1,7 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHR's processed ICD data
 Version: 1
-Last Updated: July 7, 2022
+Last Updated: July 12, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
@@ -270,7 +270,7 @@ Data:
   
   - Name: age_group
     Rename: age
-    Description: "Age group for the WBD entity."
+    Description: "Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str
     
   - Name: kind
@@ -320,7 +320,7 @@ Data:
   
   - Name: age_group
     Rename: wbd10_age
-    Description: "Age group for the WBD entity."
+    Description: "Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str
     
   - Name: kind
@@ -444,7 +444,7 @@ Data:
 - Name: wva2016
   File: data/wva2016_raw.csv
   Version: 1
-  Description: "World Health Organization (WHO) Verbal Autopsy (VA) codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details."
+  Description: "World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-07
   Columns:
 
@@ -461,4 +461,52 @@ Data:
   - Name: icd_range_codes_2016_short
     Rename: icd10_range
     Description: "Range of ICD-10 codes for the WHO VA 2016 codes."
+    Type: str
+
+- Name: icd10towva2022
+  File: data/icd10towva2022_raw.csv
+  Version: 1
+  Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to WHO Verbal Autopsy (VA) 2022 codes. See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-07-12
+  Columns:
+
+  - Name: who_va_code
+    Rename: wva2022_code
+    Description: "WHO VA code from the 2022 WHO VA instrument."
+    Type: str
+
+  - Name: who_va_title
+    Rename: wva2022_title
+    Description: "Title for the WHO VA 2022 code."
+    Type: str
+
+  - Name: icd_range_codes_short
+    Rename: icd10_range
+    Description: "Range of ICD-10 codes for the WHO VA 2022 codes."
+    Type: str
+  
+  - Name: icd10_code
+    Description: "ICD-10 code for the WHO VA 2022 code."
+    Type: str
+
+- Name: wva2022
+  File: data/wva2022_raw.csv
+  Version: 1
+  Description: "World Health Organization (WHO) Verbal Autopsy (VA) 2022 codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details."
+  Last Updated: 2022-07-12
+  Columns:
+
+  - Name: who_va_code
+    Rename: wva2022_code
+    Description: "WHO VA code from the 2022 WHO VA instrument."
+    Type: str
+
+  - Name: who_va_title
+    Rename: wva2022_title
+    Description: "Title for the WHO VA 2022 code."
+    Type: str
+
+  - Name: icd_range_codes_short
+    Rename: icd10_range
+    Description: "Range of ICD-10 codes for the WHO VA 2022 codes."
     Type: str

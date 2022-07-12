@@ -93,7 +93,7 @@ COMMENT ON VIEW wbd10 IS 'Wilson''s Burden of Disease (WBD) data from the Centre
 
 --- wbd10 view column comments (n=10)
 
-COMMENT ON COLUMN wbd10.age IS 'Age group for the WBD entity.';
+COMMENT ON COLUMN wbd10.age IS 'Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old).';
 COMMENT ON COLUMN wbd10.kind IS 'WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level.';
 COMMENT ON COLUMN wbd10.kind_depth IS 'WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle).';
 COMMENT ON COLUMN wbd10.codex4 IS 'WBD codex4 - a higher level classification of the WBD codes.';
@@ -114,7 +114,7 @@ COMMENT ON VIEW icd10towbd10 IS 'Mappings for each individual International Clas
 
 --- icd10towbd10 view column comments (n=11)
 
-COMMENT ON COLUMN icd10towbd10.wbd10_age IS 'Age group for the WBD entity.';
+COMMENT ON COLUMN icd10towbd10.wbd10_age IS 'Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old).';
 COMMENT ON COLUMN icd10towbd10.wbd10_kind IS 'WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level.';
 COMMENT ON COLUMN icd10towbd10.wbd10_kind_depth IS 'WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle).';
 COMMENT ON COLUMN icd10towbd10.wbd10_codex4 IS 'WBD codex4 - a higher level classification of the WBD codes.';
@@ -175,10 +175,39 @@ CREATE OR REPLACE VIEW wva2016 AS (SELECT * FROM wva2016_v1);
 
 --- wva2016 view comment
 
-COMMENT ON VIEW wva2016 IS 'World Health Organization (WHO) Verbal Autopsy (VA) codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details.';
+COMMENT ON VIEW wva2016 IS 'World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details.';
 
 --- wva2016 view column comments (n=3)
 
 COMMENT ON COLUMN wva2016.wva2016_code IS 'WHO VA code from the 2016 WHO VA instrument.';
 COMMENT ON COLUMN wva2016.wva2016_title IS 'Title for the WHO VA 2016 code.';
 COMMENT ON COLUMN wva2016.icd10_range IS 'Range of ICD-10 codes for the WHO VA 2016 codes.';
+
+--- icd10towva2022 view
+
+CREATE OR REPLACE VIEW icd10towva2022 AS (SELECT * FROM icd10towva2022_v1);
+
+--- icd10towva2022 view comment
+
+COMMENT ON VIEW icd10towva2022 IS 'Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to WHO Verbal Autopsy (VA) 2022 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- icd10towva2022 view column comments (n=4)
+
+COMMENT ON COLUMN icd10towva2022.wva2022_code IS 'WHO VA code from the 2022 WHO VA instrument.';
+COMMENT ON COLUMN icd10towva2022.wva2022_title IS 'Title for the WHO VA 2022 code.';
+COMMENT ON COLUMN icd10towva2022.icd10_range IS 'Range of ICD-10 codes for the WHO VA 2022 codes.';
+COMMENT ON COLUMN icd10towva2022.icd10_code IS 'ICD-10 code for the WHO VA 2022 code.';
+
+--- wva2022 view
+
+CREATE OR REPLACE VIEW wva2022 AS (SELECT * FROM wva2022_v1);
+
+--- wva2022 view comment
+
+COMMENT ON VIEW wva2022 IS 'World Health Organization (WHO) Verbal Autopsy (VA) 2022 codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- wva2022 view column comments (n=3)
+
+COMMENT ON COLUMN wva2022.wva2022_code IS 'WHO VA code from the 2022 WHO VA instrument.';
+COMMENT ON COLUMN wva2022.wva2022_title IS 'Title for the WHO VA 2022 code.';
+COMMENT ON COLUMN wva2022.icd10_range IS 'Range of ICD-10 codes for the WHO VA 2022 codes.';

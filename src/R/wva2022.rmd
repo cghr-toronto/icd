@@ -37,6 +37,15 @@ wva2022 <- wva2022raw %>%
 wva2022
 ```
 
+## Collapse ICD-10 Ranges
+
+Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
+
+```{r}
+wva2022$icd_range_codes_short <- apply(wva2022, 1, function(x) paste(collapseICD10(x["icd_range_codes"]), collapse=","))
+wva2022
+```
+
 ## Expand ICD-10 Ranges
 
 Expands the ICD-10 codes from the `icd_range_codes` column to create an ICD-10 code for each WHO VA code:
@@ -48,15 +57,6 @@ icd10towva2022 <- expandICD10Data(
   expandColumn="icd10_code"
 )
 icd10towva2022
-```
-
-## Collapse ICD-10 Ranges
-
-Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
-
-```{r}
-wva2022$icd_range_codes_short <- apply(wva2022, 1, function(x) paste(collapseICD10(x["icd_range_codes"]), collapse=","))
-wva2022
 ```
 
 ## Save Data
