@@ -1,0 +1,2257 @@
+﻿icd10_code,who_code,who_label,cghr_code,cghr_label
+A40,1.01,Sepsis (non-obstetric),4,Unspec. infect.
+A41,1.01,Sepsis (non-obstetric),4,Unspec. infect.
+J00,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J01,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J02,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J03,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J04,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J05,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J06,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J07,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J08,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J09,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J10,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J11,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J12,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J13,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J14,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J15,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J16,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J17,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J18,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J19,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J20,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J21,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+J22,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.
+B20,1.03,HIV/AIDS related death,4,Unspec. infect.
+B21,1.03,HIV/AIDS related death,4,Unspec. infect.
+B22,1.03,HIV/AIDS related death,4,Unspec. infect.
+B23,1.03,HIV/AIDS related death,4,Unspec. infect.
+B24,1.03,HIV/AIDS related death,4,Unspec. infect.
+A00,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A01,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A02,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A03,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A04,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A05,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A06,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A07,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A08,1.04,Diarrhoeal diseases,3,Diarrhoeal
+A09,1.04,Diarrhoeal diseases,3,Diarrhoeal
+B50,1.05,Malaria,4,Unspec. infect.
+B51,1.05,Malaria,4,Unspec. infect.
+B52,1.05,Malaria,4,Unspec. infect.
+B53,1.05,Malaria,4,Unspec. infect.
+B54,1.05,Malaria,4,Unspec. infect.
+B05,1.06,Measles,4,Unspec. infect.
+A39,1.07,Meningitis and encephalitis,4,Unspec. infect.
+G00,1.07,Meningitis and encephalitis,4,Unspec. infect.
+G01,1.07,Meningitis and encephalitis,4,Unspec. infect.
+G02,1.07,Meningitis and encephalitis,4,Unspec. infect.
+G03,1.07,Meningitis and encephalitis,4,Unspec. infect.
+G04,1.07,Meningitis and encephalitis,4,Unspec. infect.
+G05,1.07,Meningitis and encephalitis,4,Unspec. infect.
+A33,1.08,Tetanus,4,Unspec. infect.
+A34,1.08,Tetanus,5,Maternal
+A35,1.08,Tetanus,4,Unspec. infect.
+A15,1.09,Pulmonary tuberculosis,2,TB
+A16,1.09,Pulmonary tuberculosis,2,TB
+A37,1.1,Pertussis,4,Unspec. infect.
+A90,1.11,Haemorrhagic fever,4,Unspec. infect.
+A91,1.11,Haemorrhagic fever,4,Unspec. infect.
+A92,1.11,Haemorrhagic fever,4,Unspec. infect.
+A93,1.11,Haemorrhagic fever,4,Unspec. infect.
+A94,1.11,Haemorrhagic fever,4,Unspec. infect.
+A95,1.11,Haemorrhagic fever,4,Unspec. infect.
+A96,1.11,Haemorrhagic fever,4,Unspec. infect.
+A97,1.11,Haemorrhagic fever,4,Unspec. infect.
+A98,1.11,Haemorrhagic fever,4,Unspec. infect.
+A99,1.11,Haemorrhagic fever,4,Unspec. infect.
+A17,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A18,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A19,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A20,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A21,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A22,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A23,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A24,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A25,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A26,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A27,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A28,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A29,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A30,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A31,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A32,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A36,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A38,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A42,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A43,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A44,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A45,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A46,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A47,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A48,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A49,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A50,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A51,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A52,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A53,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A54,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A55,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A56,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A57,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A58,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A59,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A60,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A61,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A62,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A63,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A64,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A65,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A66,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A67,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A68,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A69,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A70,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A71,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A72,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A73,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A74,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A75,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A76,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A77,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A78,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A79,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A80,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A81,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A82,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A83,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A84,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A85,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A86,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A87,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A88,1.99,Other and unspecified infect dis,4,Unspec. infect.
+A89,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B00,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B01,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B02,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B03,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B04,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B06,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B07,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B08,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B09,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B10,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B11,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B12,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B13,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B14,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B15,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B16,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B17,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B18,1.99,Other and unspecified infect dis,13,Liver & alcohol
+B19,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B25,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B26,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B27,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B28,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B29,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B30,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B31,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B32,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B33,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B34,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B35,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B36,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B37,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B38,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B39,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B40,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B41,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B42,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B43,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B44,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B45,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B46,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B47,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B48,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B49,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B55,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B56,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B57,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B58,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B59,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B60,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B61,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B62,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B63,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B64,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B65,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B66,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B67,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B68,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B69,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B70,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B71,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B72,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B73,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B74,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B75,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B76,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B77,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B78,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B79,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B80,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B81,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B82,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B83,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B84,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B85,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B86,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B87,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B88,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B89,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B90,1.99,Other and unspecified infect dis,2,TB
+B91,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B92,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B93,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B94,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B95,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B96,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B97,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B98,1.99,Other and unspecified infect dis,4,Unspec. infect.
+B99,1.99,Other and unspecified infect dis,4,Unspec. infect.
+C00,2.01,Oral neoplasms,8,Neoplasms
+C01,2.01,Oral neoplasms,8,Neoplasms
+C02,2.01,Oral neoplasms,8,Neoplasms
+C03,2.01,Oral neoplasms,8,Neoplasms
+C04,2.01,Oral neoplasms,8,Neoplasms
+C05,2.01,Oral neoplasms,8,Neoplasms
+C06,2.01,Oral neoplasms,8,Neoplasms
+C15,2.02,Digestive neoplasms,8,Neoplasms
+C16,2.02,Digestive neoplasms,8,Neoplasms
+C17,2.02,Digestive neoplasms,8,Neoplasms
+C18,2.02,Digestive neoplasms,8,Neoplasms
+C19,2.02,Digestive neoplasms,8,Neoplasms
+C20,2.02,Digestive neoplasms,8,Neoplasms
+C21,2.02,Digestive neoplasms,8,Neoplasms
+C22,2.02,Digestive neoplasms,8,Neoplasms
+C23,2.02,Digestive neoplasms,8,Neoplasms
+C24,2.02,Digestive neoplasms,8,Neoplasms
+C25,2.02,Digestive neoplasms,8,Neoplasms
+C26,2.02,Digestive neoplasms,8,Neoplasms
+C30,2.03,Respiratory neoplasms,8,Neoplasms
+C31,2.03,Respiratory neoplasms,8,Neoplasms
+C32,2.03,Respiratory neoplasms,8,Neoplasms
+C33,2.03,Respiratory neoplasms,8,Neoplasms
+C34,2.03,Respiratory neoplasms,8,Neoplasms
+C35,2.03,Respiratory neoplasms,8,Neoplasms
+C36,2.03,Respiratory neoplasms,8,Neoplasms
+C37,2.03,Respiratory neoplasms,8,Neoplasms
+C38,2.03,Respiratory neoplasms,8,Neoplasms
+C39,2.03,Respiratory neoplasms,8,Neoplasms
+C50,2.04,Breast neoplasms,8,Neoplasms
+C51,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C52,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C53,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C54,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C55,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C56,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C57,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C58,2.05,"Reproductive neoplasms M, F",8,Neoplasms
+C60,2.06,"Reproductive neoplasms M, F",8,Neoplasms
+C61,2.06,"Reproductive neoplasms M, F",8,Neoplasms
+C62,2.06,"Reproductive neoplasms M, F",8,Neoplasms
+C63,2.06,"Reproductive neoplasms M, F",8,Neoplasms
+C07,2.99,Other and unspecified neoplasms,8,Neoplasms
+C08,2.99,Other and unspecified neoplasms,8,Neoplasms
+C09,2.99,Other and unspecified neoplasms,8,Neoplasms
+C10,2.99,Other and unspecified neoplasms,8,Neoplasms
+C11,2.99,Other and unspecified neoplasms,8,Neoplasms
+C12,2.99,Other and unspecified neoplasms,8,Neoplasms
+C13,2.99,Other and unspecified neoplasms,8,Neoplasms
+C14,2.99,Other and unspecified neoplasms,8,Neoplasms
+C40,2.99,Other and unspecified neoplasms,8,Neoplasms
+C41,2.99,Other and unspecified neoplasms,8,Neoplasms
+C42,2.99,Other and unspecified neoplasms,8,Neoplasms
+C43,2.99,Other and unspecified neoplasms,8,Neoplasms
+C44,2.99,Other and unspecified neoplasms,8,Neoplasms
+C45,2.99,Other and unspecified neoplasms,8,Neoplasms
+C46,2.99,Other and unspecified neoplasms,4,Unspec. infect.
+C47,2.99,Other and unspecified neoplasms,8,Neoplasms
+C48,2.99,Other and unspecified neoplasms,8,Neoplasms
+C49,2.99,Other and unspecified neoplasms,8,Neoplasms
+C64,2.99,Other and unspecified neoplasms,8,Neoplasms
+C65,2.99,Other and unspecified neoplasms,8,Neoplasms
+C66,2.99,Other and unspecified neoplasms,8,Neoplasms
+C67,2.99,Other and unspecified neoplasms,8,Neoplasms
+C68,2.99,Other and unspecified neoplasms,8,Neoplasms
+C69,2.99,Other and unspecified neoplasms,8,Neoplasms
+C70,2.99,Other and unspecified neoplasms,8,Neoplasms
+C71,2.99,Other and unspecified neoplasms,8,Neoplasms
+C72,2.99,Other and unspecified neoplasms,8,Neoplasms
+C73,2.99,Other and unspecified neoplasms,8,Neoplasms
+C74,2.99,Other and unspecified neoplasms,8,Neoplasms
+C75,2.99,Other and unspecified neoplasms,8,Neoplasms
+C76,2.99,Other and unspecified neoplasms,8,Neoplasms
+C77,2.99,Other and unspecified neoplasms,8,Neoplasms
+C78,2.99,Other and unspecified neoplasms,8,Neoplasms
+C79,2.99,Other and unspecified neoplasms,8,Neoplasms
+C80,2.99,Other and unspecified neoplasms,8,Neoplasms
+C81,2.99,Other and unspecified neoplasms,8,Neoplasms
+C82,2.99,Other and unspecified neoplasms,8,Neoplasms
+C83,2.99,Other and unspecified neoplasms,8,Neoplasms
+C84,2.99,Other and unspecified neoplasms,8,Neoplasms
+C85,2.99,Other and unspecified neoplasms,8,Neoplasms
+C86,2.99,Other and unspecified neoplasms,8,Neoplasms
+C87,2.99,Other and unspecified neoplasms,8,Neoplasms
+C88,2.99,Other and unspecified neoplasms,8,Neoplasms
+C89,2.99,Other and unspecified neoplasms,8,Neoplasms
+C90,2.99,Other and unspecified neoplasms,8,Neoplasms
+C91,2.99,Other and unspecified neoplasms,8,Neoplasms
+C92,2.99,Other and unspecified neoplasms,8,Neoplasms
+C93,2.99,Other and unspecified neoplasms,8,Neoplasms
+C94,2.99,Other and unspecified neoplasms,8,Neoplasms
+C95,2.99,Other and unspecified neoplasms,8,Neoplasms
+C96,2.99,Other and unspecified neoplasms,8,Neoplasms
+C97,2.99,Other and unspecified neoplasms,8,Neoplasms
+D00,2.99,Other and unspecified neoplasms,8,Neoplasms
+D01,2.99,Other and unspecified neoplasms,8,Neoplasms
+D02,2.99,Other and unspecified neoplasms,8,Neoplasms
+D03,2.99,Other and unspecified neoplasms,8,Neoplasms
+D04,2.99,Other and unspecified neoplasms,8,Neoplasms
+D05,2.99,Other and unspecified neoplasms,8,Neoplasms
+D06,2.99,Other and unspecified neoplasms,8,Neoplasms
+D07,2.99,Other and unspecified neoplasms,8,Neoplasms
+D08,2.99,Other and unspecified neoplasms,8,Neoplasms
+D09,2.99,Other and unspecified neoplasms,8,Neoplasms
+D10,2.99,Other and unspecified neoplasms,8,Neoplasms
+D11,2.99,Other and unspecified neoplasms,8,Neoplasms
+D12,2.99,Other and unspecified neoplasms,8,Neoplasms
+D13,2.99,Other and unspecified neoplasms,8,Neoplasms
+D14,2.99,Other and unspecified neoplasms,8,Neoplasms
+D15,2.99,Other and unspecified neoplasms,8,Neoplasms
+D16,2.99,Other and unspecified neoplasms,8,Neoplasms
+D17,2.99,Other and unspecified neoplasms,8,Neoplasms
+D18,2.99,Other and unspecified neoplasms,8,Neoplasms
+D19,2.99,Other and unspecified neoplasms,8,Neoplasms
+D20,2.99,Other and unspecified neoplasms,8,Neoplasms
+D21,2.99,Other and unspecified neoplasms,8,Neoplasms
+D22,2.99,Other and unspecified neoplasms,8,Neoplasms
+D23,2.99,Other and unspecified neoplasms,8,Neoplasms
+D24,2.99,Other and unspecified neoplasms,8,Neoplasms
+D25,2.99,Other and unspecified neoplasms,8,Neoplasms
+D26,2.99,Other and unspecified neoplasms,8,Neoplasms
+D27,2.99,Other and unspecified neoplasms,8,Neoplasms
+D28,2.99,Other and unspecified neoplasms,8,Neoplasms
+D29,2.99,Other and unspecified neoplasms,8,Neoplasms
+D30,2.99,Other and unspecified neoplasms,8,Neoplasms
+D31,2.99,Other and unspecified neoplasms,8,Neoplasms
+D32,2.99,Other and unspecified neoplasms,8,Neoplasms
+D33,2.99,Other and unspecified neoplasms,8,Neoplasms
+D34,2.99,Other and unspecified neoplasms,8,Neoplasms
+D35,2.99,Other and unspecified neoplasms,8,Neoplasms
+D36,2.99,Other and unspecified neoplasms,8,Neoplasms
+D37,2.99,Other and unspecified neoplasms,8,Neoplasms
+D38,2.99,Other and unspecified neoplasms,8,Neoplasms
+D39,2.99,Other and unspecified neoplasms,8,Neoplasms
+D40,2.99,Other and unspecified neoplasms,8,Neoplasms
+D41,2.99,Other and unspecified neoplasms,8,Neoplasms
+D42,2.99,Other and unspecified neoplasms,8,Neoplasms
+D43,2.99,Other and unspecified neoplasms,8,Neoplasms
+D44,2.99,Other and unspecified neoplasms,8,Neoplasms
+D45,2.99,Other and unspecified neoplasms,8,Neoplasms
+D46,2.99,Other and unspecified neoplasms,8,Neoplasms
+D47,2.99,Other and unspecified neoplasms,8,Neoplasms
+D48,2.99,Other and unspecified neoplasms,8,Neoplasms
+D50,3.01,Severe anaemia,6,Nutrition
+D51,3.01,Severe anaemia,6,Nutrition
+D52,3.01,Severe anaemia,6,Nutrition
+D53,3.01,Severe anaemia,6,Nutrition
+D55,3.01,Severe anaemia,14,Other NCDs
+D56,3.01,Severe anaemia,14,Other NCDs
+D58,3.01,Severe anaemia,14,Other NCDs
+D59,3.01,Severe anaemia,14,Other NCDs
+D60,3.01,Severe anaemia,14,Other NCDs
+D61,3.01,Severe anaemia,14,Other NCDs
+D62,3.01,Severe anaemia,14,Other NCDs
+D63,3.01,Severe anaemia,14,Other NCDs
+D64,3.01,Severe anaemia,4,Unspec. infect.
+E40,3.02,Severe malnutrition,6,Nutrition
+E41,3.02,Severe malnutrition,6,Nutrition
+E42,3.02,Severe malnutrition,6,Nutrition
+E43,3.02,Severe malnutrition,6,Nutrition
+E44,3.02,Severe malnutrition,6,Nutrition
+E45,3.02,Severe malnutrition,6,Nutrition
+E46,3.02,Severe malnutrition,6,Nutrition
+E10,3.03,Diabetes mellitus,11,Diabetes
+E11,3.03,Diabetes mellitus,11,Diabetes
+E12,3.03,Diabetes mellitus,11,Diabetes
+E13,3.03,Diabetes mellitus,11,Diabetes
+E14,3.03,Diabetes mellitus,11,Diabetes
+I20,4.01,Acute cardiac disease,9,Ischemic Heart Disease
+I21,4.01,Acute cardiac disease,9,Ischemic Heart Disease
+I22,4.01,Acute cardiac disease,9,Ischemic Heart Disease
+I23,4.01,Acute cardiac disease,9,Ischemic Heart Disease
+I24,4.01,Acute cardiac disease,9,Ischemic Heart Disease
+I25,4.01,Acute cardiac disease,9,Ischemic Heart Disease
+I60,4.02,Stroke,10,Stroke
+I61,4.02,Stroke,10,Stroke
+I62,4.02,Stroke,10,Stroke
+I63,4.02,Stroke,10,Stroke
+I64,4.02,Stroke,10,Stroke
+I65,4.02,Stroke,10,Stroke
+I66,4.02,Stroke,10,Stroke
+I67,4.02,Stroke,10,Stroke
+I68,4.02,Stroke,10,Stroke
+I69,4.02,Stroke,10,Stroke
+D57,4.03,Sickle cell with crisis,14,Other NCDs
+I00,4.99,Other and unspecified cardiac dis,12,Other CVD
+I01,4.99,Other and unspecified cardiac dis,12,Other CVD
+I02,4.99,Other and unspecified cardiac dis,12,Other CVD
+I03,4.99,Other and unspecified cardiac dis,12,Other CVD
+I05,4.99,Other and unspecified cardiac dis,12,Other CVD
+I06,4.99,Other and unspecified cardiac dis,12,Other CVD
+I07,4.99,Other and unspecified cardiac dis,12,Other CVD
+I08,4.99,Other and unspecified cardiac dis,12,Other CVD
+I09,4.99,Other and unspecified cardiac dis,12,Other CVD
+I10,4.99,Other and unspecified cardiac dis,12,Other CVD
+I11,4.99,Other and unspecified cardiac dis,12,Other CVD
+I12,4.99,Other and unspecified cardiac dis,12,Other CVD
+I13,4.99,Other and unspecified cardiac dis,12,Other CVD
+I14,4.99,Other and unspecified cardiac dis,12,Other CVD
+I15,4.99,Other and unspecified cardiac dis,12,Other CVD
+I26,4.99,Other and unspecified cardiac dis,12,Other CVD
+I27,4.99,Other and unspecified cardiac dis,12,Other CVD
+I28,4.99,Other and unspecified cardiac dis,12,Other CVD
+I30,4.99,Other and unspecified cardiac dis,4,Unspec. infect.
+I31,4.99,Other and unspecified cardiac dis,12,Other CVD
+I32,4.99,Other and unspecified cardiac dis,4,Unspec. infect.
+I33,4.99,Other and unspecified cardiac dis,4,Unspec. infect.
+I34,4.99,Other and unspecified cardiac dis,12,Other CVD
+I35,4.99,Other and unspecified cardiac dis,12,Other CVD
+I36,4.99,Other and unspecified cardiac dis,12,Other CVD
+I37,4.99,Other and unspecified cardiac dis,12,Other CVD
+I38,4.99,Other and unspecified cardiac dis,12,Other CVD
+I39,4.99,Other and unspecified cardiac dis,12,Other CVD
+I40,4.99,Other and unspecified cardiac dis,12,Other CVD
+I41,4.99,Other and unspecified cardiac dis,12,Other CVD
+I42,4.99,Other and unspecified cardiac dis,12,Other CVD
+I43,4.99,Other and unspecified cardiac dis,12,Other CVD
+I44,4.99,Other and unspecified cardiac dis,12,Other CVD
+I45,4.99,Other and unspecified cardiac dis,12,Other CVD
+I46,4.99,Other and unspecified cardiac dis,12,Other CVD
+I47,4.99,Other and unspecified cardiac dis,12,Other CVD
+I48,4.99,Other and unspecified cardiac dis,12,Other CVD
+I49,4.99,Other and unspecified cardiac dis,12,Other CVD
+I50,4.99,Other and unspecified cardiac dis,12,Other CVD
+I51,4.99,Other and unspecified cardiac dis,12,Other CVD
+I52,4.99,Other and unspecified cardiac dis,12,Other CVD
+I70,4.99,Other and unspecified cardiac dis,12,Other CVD
+I71,4.99,Other and unspecified cardiac dis,12,Other CVD
+I72,4.99,Other and unspecified cardiac dis,12,Other CVD
+I73,4.99,Other and unspecified cardiac dis,12,Other CVD
+I74,4.99,Other and unspecified cardiac dis,12,Other CVD
+I75,4.99,Other and unspecified cardiac dis,12,Other CVD
+I76,4.99,Other and unspecified cardiac dis,12,Other CVD
+I77,4.99,Other and unspecified cardiac dis,12,Other CVD
+I78,4.99,Other and unspecified cardiac dis,12,Other CVD
+I79,4.99,Other and unspecified cardiac dis,12,Other CVD
+I80,4.99,Other and unspecified cardiac dis,12,Other CVD
+I81,4.99,Other and unspecified cardiac dis,12,Other CVD
+I82,4.99,Other and unspecified cardiac dis,12,Other CVD
+I83,4.99,Other and unspecified cardiac dis,12,Other CVD
+I84,4.99,Other and unspecified cardiac dis,12,Other CVD
+I85,4.99,Other and unspecified cardiac dis,12,Other CVD
+I86,4.99,Other and unspecified cardiac dis,12,Other CVD
+I87,4.99,Other and unspecified cardiac dis,12,Other CVD
+I88,4.99,Other and unspecified cardiac dis,12,Other CVD
+I89,4.99,Other and unspecified cardiac dis,12,Other CVD
+I90,4.99,Other and unspecified cardiac dis,12,Other CVD
+I91,4.99,Other and unspecified cardiac dis,12,Other CVD
+I92,4.99,Other and unspecified cardiac dis,12,Other CVD
+I93,4.99,Other and unspecified cardiac dis,12,Other CVD
+I94,4.99,Other and unspecified cardiac dis,12,Other CVD
+I95,4.99,Other and unspecified cardiac dis,12,Other CVD
+I96,4.99,Other and unspecified cardiac dis,12,Other CVD
+I97,4.99,Other and unspecified cardiac dis,12,Other CVD
+I98,4.99,Other and unspecified cardiac dis,12,Other CVD
+I99,4.99,Other and unspecified cardiac dis,12,Other CVD
+J40,5.01,Chronic obstructive pulmonary dis,7,Chronic Resp.
+J41,5.01,Chronic obstructive pulmonary dis,7,Chronic Resp.
+J42,5.01,Chronic obstructive pulmonary dis,7,Chronic Resp.
+J43,5.01,Chronic obstructive pulmonary dis,7,Chronic Resp.
+J44,5.01,Chronic obstructive pulmonary dis,7,Chronic Resp.
+J45,5.02,Asthma,7,Chronic Resp.
+J46,5.02,Asthma,7,Chronic Resp.
+R10,6.01,Acute abdomen,14,Other NCDs
+K70,6.02,Liver cirrhosis,13,Liver & alcohol
+K71,6.02,Liver cirrhosis,13,Liver & alcohol
+K72,6.02,Liver cirrhosis,13,Liver & alcohol
+K73,6.02,Liver cirrhosis,13,Liver & alcohol
+K74,6.02,Liver cirrhosis,13,Liver & alcohol
+K75,6.02,Liver cirrhosis,13,Liver & alcohol
+K76,6.02,Liver cirrhosis,13,Liver & alcohol
+N17,7.01,Renal failure,14,Other NCDs
+N18,7.01,Renal failure,14,Other NCDs
+N19,7.01,Renal failure,14,Other NCDs
+G40,8.01,Epilepsy,14,Other NCDs
+G41,8.01,Epilepsy,14,Other NCDs
+O00,9.01,Ectopic pregnancy,5,Maternal
+O01,9.01,Ectopic pregnancy,5,Maternal
+O03,9.02,Abortion-related death,5,Maternal
+O04,9.02,Abortion-related death,5,Maternal
+O05,9.02,Abortion-related death,5,Maternal
+O06,9.02,Abortion-related death,5,Maternal
+O07,9.02,Abortion-related death,5,Maternal
+O08,9.02,Abortion-related death,5,Maternal
+O10,9.03,Pregnancy-induced hypertension,5,Maternal
+O11,9.03,Pregnancy-induced hypertension,5,Maternal
+O12,9.03,Pregnancy-induced hypertension,5,Maternal
+O13,9.03,Pregnancy-induced hypertension,5,Maternal
+O14,9.03,Pregnancy-induced hypertension,5,Maternal
+O15,9.03,Pregnancy-induced hypertension,5,Maternal
+O16,9.03,Pregnancy-induced hypertension,5,Maternal
+O46,9.04,Obstetric haemorrhage,5,Maternal
+O67,9.04,Obstetric haemorrhage,5,Maternal
+O72,9.04,Obstetric haemorrhage,5,Maternal
+O63,9.05,Obstructed labour,5,Maternal
+O64,9.05,Obstructed labour,5,Maternal
+O65,9.05,Obstructed labour,5,Maternal
+O66,9.05,Obstructed labour,5,Maternal
+O85,9.06,Pregnancy-related sepsis,5,Maternal
+O99.0,9.07,Anaemia of pregnancy,5,Maternal
+O71,9.08,Ruptured uterus,5,Maternal
+O02,9.99,Other and unspecified maternal CoD,5,Maternal
+O20,9.99,Other and unspecified maternal CoD,5,Maternal
+O21,9.99,Other and unspecified maternal CoD,5,Maternal
+O22,9.99,Other and unspecified maternal CoD,5,Maternal
+O23,9.99,Other and unspecified maternal CoD,5,Maternal
+O24,9.99,Other and unspecified maternal CoD,5,Maternal
+O25,9.99,Other and unspecified maternal CoD,5,Maternal
+O26,9.99,Other and unspecified maternal CoD,5,Maternal
+O27,9.99,Other and unspecified maternal CoD,5,Maternal
+O28,9.99,Other and unspecified maternal CoD,5,Maternal
+O29,9.99,Other and unspecified maternal CoD,5,Maternal
+O30,9.99,Other and unspecified maternal CoD,5,Maternal
+O31,9.99,Other and unspecified maternal CoD,5,Maternal
+O32,9.99,Other and unspecified maternal CoD,5,Maternal
+O33,9.99,Other and unspecified maternal CoD,5,Maternal
+O34,9.99,Other and unspecified maternal CoD,5,Maternal
+O35,9.99,Other and unspecified maternal CoD,5,Maternal
+O36,9.99,Other and unspecified maternal CoD,5,Maternal
+O37,9.99,Other and unspecified maternal CoD,5,Maternal
+O38,9.99,Other and unspecified maternal CoD,5,Maternal
+O39,9.99,Other and unspecified maternal CoD,5,Maternal
+O40,9.99,Other and unspecified maternal CoD,5,Maternal
+O41,9.99,Other and unspecified maternal CoD,5,Maternal
+O42,9.99,Other and unspecified maternal CoD,5,Maternal
+O43,9.99,Other and unspecified maternal CoD,5,Maternal
+O44,9.99,Other and unspecified maternal CoD,5,Maternal
+O45,9.99,Other and unspecified maternal CoD,5,Maternal
+O47,9.99,Other and unspecified maternal CoD,5,Maternal
+O48,9.99,Other and unspecified maternal CoD,5,Maternal
+O49,9.99,Other and unspecified maternal CoD,5,Maternal
+O50,9.99,Other and unspecified maternal CoD,5,Maternal
+O51,9.99,Other and unspecified maternal CoD,5,Maternal
+O52,9.99,Other and unspecified maternal CoD,5,Maternal
+O53,9.99,Other and unspecified maternal CoD,5,Maternal
+O54,9.99,Other and unspecified maternal CoD,5,Maternal
+O55,9.99,Other and unspecified maternal CoD,5,Maternal
+O56,9.99,Other and unspecified maternal CoD,5,Maternal
+O57,9.99,Other and unspecified maternal CoD,5,Maternal
+O58,9.99,Other and unspecified maternal CoD,5,Maternal
+O59,9.99,Other and unspecified maternal CoD,5,Maternal
+O60,9.99,Other and unspecified maternal CoD,5,Maternal
+O61,9.99,Other and unspecified maternal CoD,5,Maternal
+O62,9.99,Other and unspecified maternal CoD,5,Maternal
+O68,9.99,Other and unspecified maternal CoD,5,Maternal
+O69,9.99,Other and unspecified maternal CoD,5,Maternal
+O70,9.99,Other and unspecified maternal CoD,5,Maternal
+O73,9.99,Other and unspecified maternal CoD,5,Maternal
+O74,9.99,Other and unspecified maternal CoD,5,Maternal
+O75,9.99,Other and unspecified maternal CoD,5,Maternal
+O76,9.99,Other and unspecified maternal CoD,5,Maternal
+O77,9.99,Other and unspecified maternal CoD,5,Maternal
+O78,9.99,Other and unspecified maternal CoD,5,Maternal
+O79,9.99,Other and unspecified maternal CoD,5,Maternal
+O80,9.99,Other and unspecified maternal CoD,5,Maternal
+O81,9.99,Other and unspecified maternal CoD,5,Maternal
+O82,9.99,Other and unspecified maternal CoD,5,Maternal
+O83,9.99,Other and unspecified maternal CoD,5,Maternal
+O84,9.99,Other and unspecified maternal CoD,5,Maternal
+O86,9.99,Other and unspecified maternal CoD,5,Maternal
+O87,9.99,Other and unspecified maternal CoD,5,Maternal
+O88,9.99,Other and unspecified maternal CoD,5,Maternal
+O89,9.99,Other and unspecified maternal CoD,5,Maternal
+O90,9.99,Other and unspecified maternal CoD,5,Maternal
+O91,9.99,Other and unspecified maternal CoD,5,Maternal
+O92,9.99,Other and unspecified maternal CoD,5,Maternal
+O93,9.99,Other and unspecified maternal CoD,5,Maternal
+O94,9.99,Other and unspecified maternal CoD,5,Maternal
+O95,9.99,Other and unspecified maternal CoD,5,Maternal
+O96,9.99,Other and unspecified maternal CoD,5,Maternal
+O97,9.99,Other and unspecified maternal CoD,5,Maternal
+O98,9.99,Other and unspecified maternal CoD,5,Maternal
+O99,9.99,Other and unspecified maternal CoD,5,Maternal
+Q00,10.06,Congenital malformation,14,Other NCDs
+Q01,10.06,Congenital malformation,14,Other NCDs
+Q02,10.06,Congenital malformation,14,Other NCDs
+Q03,10.06,Congenital malformation,14,Other NCDs
+Q04,10.06,Congenital malformation,14,Other NCDs
+Q05,10.06,Congenital malformation,14,Other NCDs
+Q06,10.06,Congenital malformation,14,Other NCDs
+Q07,10.06,Congenital malformation,14,Other NCDs
+Q08,10.06,Congenital malformation,14,Other NCDs
+Q09,10.06,Congenital malformation,14,Other NCDs
+Q10,10.06,Congenital malformation,14,Other NCDs
+Q11,10.06,Congenital malformation,14,Other NCDs
+Q12,10.06,Congenital malformation,14,Other NCDs
+Q13,10.06,Congenital malformation,14,Other NCDs
+Q14,10.06,Congenital malformation,14,Other NCDs
+Q15,10.06,Congenital malformation,14,Other NCDs
+Q16,10.06,Congenital malformation,14,Other NCDs
+Q17,10.06,Congenital malformation,14,Other NCDs
+Q18,10.06,Congenital malformation,14,Other NCDs
+Q19,10.06,Congenital malformation,14,Other NCDs
+Q20,10.06,Congenital malformation,14,Other NCDs
+Q21,10.06,Congenital malformation,14,Other NCDs
+Q22,10.06,Congenital malformation,14,Other NCDs
+Q23,10.06,Congenital malformation,14,Other NCDs
+Q24,10.06,Congenital malformation,14,Other NCDs
+Q25,10.06,Congenital malformation,14,Other NCDs
+Q26,10.06,Congenital malformation,14,Other NCDs
+Q27,10.06,Congenital malformation,14,Other NCDs
+Q28,10.06,Congenital malformation,14,Other NCDs
+Q29,10.06,Congenital malformation,14,Other NCDs
+Q30,10.06,Congenital malformation,14,Other NCDs
+Q31,10.06,Congenital malformation,14,Other NCDs
+Q32,10.06,Congenital malformation,14,Other NCDs
+Q33,10.06,Congenital malformation,14,Other NCDs
+Q34,10.06,Congenital malformation,14,Other NCDs
+Q35,10.06,Congenital malformation,14,Other NCDs
+Q36,10.06,Congenital malformation,14,Other NCDs
+Q37,10.06,Congenital malformation,14,Other NCDs
+Q38,10.06,Congenital malformation,14,Other NCDs
+Q39,10.06,Congenital malformation,14,Other NCDs
+Q40,10.06,Congenital malformation,14,Other NCDs
+Q41,10.06,Congenital malformation,14,Other NCDs
+Q42,10.06,Congenital malformation,14,Other NCDs
+Q43,10.06,Congenital malformation,14,Other NCDs
+Q44,10.06,Congenital malformation,14,Other NCDs
+Q45,10.06,Congenital malformation,14,Other NCDs
+Q46,10.06,Congenital malformation,14,Other NCDs
+Q47,10.06,Congenital malformation,14,Other NCDs
+Q48,10.06,Congenital malformation,14,Other NCDs
+Q49,10.06,Congenital malformation,14,Other NCDs
+Q50,10.06,Congenital malformation,14,Other NCDs
+Q51,10.06,Congenital malformation,14,Other NCDs
+Q52,10.06,Congenital malformation,14,Other NCDs
+Q53,10.06,Congenital malformation,14,Other NCDs
+Q54,10.06,Congenital malformation,14,Other NCDs
+Q55,10.06,Congenital malformation,14,Other NCDs
+Q56,10.06,Congenital malformation,14,Other NCDs
+Q57,10.06,Congenital malformation,14,Other NCDs
+Q58,10.06,Congenital malformation,14,Other NCDs
+Q59,10.06,Congenital malformation,14,Other NCDs
+Q60,10.06,Congenital malformation,14,Other NCDs
+Q61,10.06,Congenital malformation,14,Other NCDs
+Q62,10.06,Congenital malformation,14,Other NCDs
+Q63,10.06,Congenital malformation,14,Other NCDs
+Q64,10.06,Congenital malformation,14,Other NCDs
+Q65,10.06,Congenital malformation,14,Other NCDs
+Q66,10.06,Congenital malformation,14,Other NCDs
+Q67,10.06,Congenital malformation,14,Other NCDs
+Q68,10.06,Congenital malformation,14,Other NCDs
+Q69,10.06,Congenital malformation,14,Other NCDs
+Q70,10.06,Congenital malformation,14,Other NCDs
+Q71,10.06,Congenital malformation,14,Other NCDs
+Q72,10.06,Congenital malformation,14,Other NCDs
+Q73,10.06,Congenital malformation,14,Other NCDs
+Q74,10.06,Congenital malformation,14,Other NCDs
+Q75,10.06,Congenital malformation,14,Other NCDs
+Q76,10.06,Congenital malformation,14,Other NCDs
+Q77,10.06,Congenital malformation,14,Other NCDs
+Q78,10.06,Congenital malformation,14,Other NCDs
+Q79,10.06,Congenital malformation,14,Other NCDs
+Q80,10.06,Congenital malformation,14,Other NCDs
+Q81,10.06,Congenital malformation,14,Other NCDs
+Q82,10.06,Congenital malformation,14,Other NCDs
+Q83,10.06,Congenital malformation,14,Other NCDs
+Q84,10.06,Congenital malformation,14,Other NCDs
+Q85,10.06,Congenital malformation,14,Other NCDs
+Q86,10.06,Congenital malformation,14,Other NCDs
+Q87,10.06,Congenital malformation,14,Other NCDs
+Q88,10.06,Congenital malformation,14,Other NCDs
+Q89,10.06,Congenital malformation,14,Other NCDs
+Q90,10.06,Congenital malformation,14,Other NCDs
+Q91,10.06,Congenital malformation,14,Other NCDs
+Q92,10.06,Congenital malformation,14,Other NCDs
+Q93,10.06,Congenital malformation,14,Other NCDs
+Q94,10.06,Congenital malformation,14,Other NCDs
+Q95,10.06,Congenital malformation,14,Other NCDs
+Q96,10.06,Congenital malformation,14,Other NCDs
+Q97,10.06,Congenital malformation,14,Other NCDs
+Q98,10.06,Congenital malformation,14,Other NCDs
+Q99,10.06,Congenital malformation,14,Other NCDs
+V01,12.01,Road traffic accident,15,Road & transport injuries
+V02,12.01,Road traffic accident,15,Road & transport injuries
+V03,12.01,Road traffic accident,15,Road & transport injuries
+V04,12.01,Road traffic accident,15,Road & transport injuries
+V05,12.01,Road traffic accident,15,Road & transport injuries
+V06,12.01,Road traffic accident,15,Road & transport injuries
+V07,12.01,Road traffic accident,15,Road & transport injuries
+V08,12.01,Road traffic accident,15,Road & transport injuries
+V09,12.01,Road traffic accident,15,Road & transport injuries
+V10,12.01,Road traffic accident,15,Road & transport injuries
+V11,12.01,Road traffic accident,15,Road & transport injuries
+V12,12.01,Road traffic accident,15,Road & transport injuries
+V13,12.01,Road traffic accident,15,Road & transport injuries
+V14,12.01,Road traffic accident,15,Road & transport injuries
+V15,12.01,Road traffic accident,15,Road & transport injuries
+V16,12.01,Road traffic accident,15,Road & transport injuries
+V17,12.01,Road traffic accident,15,Road & transport injuries
+V18,12.01,Road traffic accident,15,Road & transport injuries
+V19,12.01,Road traffic accident,15,Road & transport injuries
+V20,12.01,Road traffic accident,15,Road & transport injuries
+V21,12.01,Road traffic accident,15,Road & transport injuries
+V22,12.01,Road traffic accident,15,Road & transport injuries
+V23,12.01,Road traffic accident,15,Road & transport injuries
+V24,12.01,Road traffic accident,15,Road & transport injuries
+V25,12.01,Road traffic accident,15,Road & transport injuries
+V26,12.01,Road traffic accident,15,Road & transport injuries
+V27,12.01,Road traffic accident,15,Road & transport injuries
+V28,12.01,Road traffic accident,15,Road & transport injuries
+V29,12.01,Road traffic accident,15,Road & transport injuries
+V30,12.01,Road traffic accident,15,Road & transport injuries
+V31,12.01,Road traffic accident,15,Road & transport injuries
+V32,12.01,Road traffic accident,15,Road & transport injuries
+V33,12.01,Road traffic accident,15,Road & transport injuries
+V34,12.01,Road traffic accident,15,Road & transport injuries
+V35,12.01,Road traffic accident,15,Road & transport injuries
+V36,12.01,Road traffic accident,15,Road & transport injuries
+V37,12.01,Road traffic accident,15,Road & transport injuries
+V38,12.01,Road traffic accident,15,Road & transport injuries
+V39,12.01,Road traffic accident,15,Road & transport injuries
+V40,12.01,Road traffic accident,15,Road & transport injuries
+V41,12.01,Road traffic accident,15,Road & transport injuries
+V42,12.01,Road traffic accident,15,Road & transport injuries
+V43,12.01,Road traffic accident,15,Road & transport injuries
+V44,12.01,Road traffic accident,15,Road & transport injuries
+V45,12.01,Road traffic accident,15,Road & transport injuries
+V46,12.01,Road traffic accident,15,Road & transport injuries
+V47,12.01,Road traffic accident,15,Road & transport injuries
+V48,12.01,Road traffic accident,15,Road & transport injuries
+V49,12.01,Road traffic accident,15,Road & transport injuries
+V50,12.01,Road traffic accident,15,Road & transport injuries
+V51,12.01,Road traffic accident,15,Road & transport injuries
+V52,12.01,Road traffic accident,15,Road & transport injuries
+V53,12.01,Road traffic accident,15,Road & transport injuries
+V54,12.01,Road traffic accident,15,Road & transport injuries
+V55,12.01,Road traffic accident,15,Road & transport injuries
+V56,12.01,Road traffic accident,15,Road & transport injuries
+V57,12.01,Road traffic accident,15,Road & transport injuries
+V58,12.01,Road traffic accident,15,Road & transport injuries
+V59,12.01,Road traffic accident,15,Road & transport injuries
+V60,12.01,Road traffic accident,15,Road & transport injuries
+V61,12.01,Road traffic accident,15,Road & transport injuries
+V62,12.01,Road traffic accident,15,Road & transport injuries
+V63,12.01,Road traffic accident,15,Road & transport injuries
+V64,12.01,Road traffic accident,15,Road & transport injuries
+V65,12.01,Road traffic accident,15,Road & transport injuries
+V66,12.01,Road traffic accident,15,Road & transport injuries
+V67,12.01,Road traffic accident,15,Road & transport injuries
+V68,12.01,Road traffic accident,15,Road & transport injuries
+V69,12.01,Road traffic accident,15,Road & transport injuries
+V70,12.01,Road traffic accident,15,Road & transport injuries
+V71,12.01,Road traffic accident,15,Road & transport injuries
+V72,12.01,Road traffic accident,15,Road & transport injuries
+V73,12.01,Road traffic accident,15,Road & transport injuries
+V74,12.01,Road traffic accident,15,Road & transport injuries
+V75,12.01,Road traffic accident,15,Road & transport injuries
+V76,12.01,Road traffic accident,15,Road & transport injuries
+V77,12.01,Road traffic accident,15,Road & transport injuries
+V78,12.01,Road traffic accident,15,Road & transport injuries
+V79,12.01,Road traffic accident,15,Road & transport injuries
+V80,12.01,Road traffic accident,15,Road & transport injuries
+V81,12.01,Road traffic accident,15,Road & transport injuries
+V82,12.01,Road traffic accident,15,Road & transport injuries
+V83,12.01,Road traffic accident,15,Road & transport injuries
+V84,12.01,Road traffic accident,15,Road & transport injuries
+V85,12.01,Road traffic accident,15,Road & transport injuries
+V86,12.01,Road traffic accident,15,Road & transport injuries
+V87,12.01,Road traffic accident,15,Road & transport injuries
+V88,12.01,Road traffic accident,15,Road & transport injuries
+V89,12.01,Road traffic accident,15,Road & transport injuries
+V90,12.02,Other transport accident,15,Road & transport injuries
+V91,12.02,Other transport accident,15,Road & transport injuries
+V92,12.02,Other transport accident,15,Road & transport injuries
+V93,12.02,Other transport accident,15,Road & transport injuries
+V94,12.02,Other transport accident,15,Road & transport injuries
+V95,12.02,Other transport accident,15,Road & transport injuries
+V96,12.02,Other transport accident,15,Road & transport injuries
+V97,12.02,Other transport accident,15,Road & transport injuries
+V98,12.02,Other transport accident,15,Road & transport injuries
+V99,12.02,Other transport accident,15,Road & transport injuries
+W00,12.03,Accid fall,17,Other injuries
+W01,12.03,Accid fall,17,Other injuries
+W02,12.03,Accid fall,17,Other injuries
+W03,12.03,Accid fall,17,Other injuries
+W04,12.03,Accid fall,17,Other injuries
+W05,12.03,Accid fall,17,Other injuries
+W06,12.03,Accid fall,17,Other injuries
+W07,12.03,Accid fall,17,Other injuries
+W08,12.03,Accid fall,17,Other injuries
+W09,12.03,Accid fall,17,Other injuries
+W10,12.03,Accid fall,17,Other injuries
+W11,12.03,Accid fall,17,Other injuries
+W12,12.03,Accid fall,17,Other injuries
+W13,12.03,Accid fall,17,Other injuries
+W14,12.03,Accid fall,17,Other injuries
+W15,12.03,Accid fall,17,Other injuries
+W16,12.03,Accid fall,17,Other injuries
+W17,12.03,Accid fall,17,Other injuries
+W18,12.03,Accid fall,17,Other injuries
+W19,12.03,Accid fall,17,Other injuries
+W65,12.04,Accid drowning and submersion,17,Other injuries
+W66,12.04,Accid drowning and submersion,17,Other injuries
+W67,12.04,Accid drowning and submersion,17,Other injuries
+W68,12.04,Accid drowning and submersion,17,Other injuries
+W69,12.04,Accid drowning and submersion,17,Other injuries
+W70,12.04,Accid drowning and submersion,17,Other injuries
+W71,12.04,Accid drowning and submersion,17,Other injuries
+W72,12.04,Accid drowning and submersion,17,Other injuries
+W73,12.04,Accid drowning and submersion,17,Other injuries
+W74,12.04,Accid drowning and submersion,17,Other injuries
+X00,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X01,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X02,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X03,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X04,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X05,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X06,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X07,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X08,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X09,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X10,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X11,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X12,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X13,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X14,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X15,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X16,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X17,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X18,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X19,12.05,"Accid expos to smoke, fire & flame",17,Other injuries
+X20,12.06,Contact with venomous plant/animal,17,Other injuries
+X21,12.06,Contact with venomous plant/animal,17,Other injuries
+X22,12.06,Contact with venomous plant/animal,17,Other injuries
+X23,12.06,Contact with venomous plant/animal,17,Other injuries
+X24,12.06,Contact with venomous plant/animal,17,Other injuries
+X25,12.06,Contact with venomous plant/animal,17,Other injuries
+X26,12.06,Contact with venomous plant/animal,17,Other injuries
+X27,12.06,Contact with venomous plant/animal,17,Other injuries
+X28,12.06,Contact with venomous plant/animal,17,Other injuries
+X29,12.06,Contact with venomous plant/animal,17,Other injuries
+X40,12.07,Accid poisoning and noxious subs,17,Other injuries
+X41,12.07,Accid poisoning and noxious subs,17,Other injuries
+X42,12.07,Accid poisoning and noxious subs,17,Other injuries
+X43,12.07,Accid poisoning and noxious subs,17,Other injuries
+X44,12.07,Accid poisoning and noxious subs,17,Other injuries
+X45,12.07,Accid poisoning and noxious subs,13,Liver & alcohol
+X46,12.07,Accid poisoning and noxious subs,17,Other injuries
+X47,12.07,Accid poisoning and noxious subs,17,Other injuries
+X48,12.07,Accid poisoning and noxious subs,17,Other injuries
+X49,12.07,Accid poisoning and noxious subs,17,Other injuries
+X60,12.08,Intentional self-harm,16,Suicide
+X61,12.08,Intentional self-harm,16,Suicide
+X62,12.08,Intentional self-harm,16,Suicide
+X63,12.08,Intentional self-harm,16,Suicide
+X64,12.08,Intentional self-harm,16,Suicide
+X65,12.08,Intentional self-harm,16,Suicide
+X66,12.08,Intentional self-harm,16,Suicide
+X67,12.08,Intentional self-harm,16,Suicide
+X68,12.08,Intentional self-harm,16,Suicide
+X69,12.08,Intentional self-harm,16,Suicide
+X70,12.08,Intentional self-harm,16,Suicide
+X71,12.08,Intentional self-harm,16,Suicide
+X72,12.08,Intentional self-harm,16,Suicide
+X73,12.08,Intentional self-harm,16,Suicide
+X74,12.08,Intentional self-harm,16,Suicide
+X75,12.08,Intentional self-harm,16,Suicide
+X76,12.08,Intentional self-harm,16,Suicide
+X77,12.08,Intentional self-harm,16,Suicide
+X78,12.08,Intentional self-harm,16,Suicide
+X79,12.08,Intentional self-harm,16,Suicide
+X80,12.08,Intentional self-harm,16,Suicide
+X81,12.08,Intentional self-harm,16,Suicide
+X82,12.08,Intentional self-harm,16,Suicide
+X83,12.08,Intentional self-harm,16,Suicide
+X84,12.08,Intentional self-harm,16,Suicide
+X85,12.09,Assault,17,Other injuries
+X86,12.09,Assault,17,Other injuries
+X87,12.09,Assault,17,Other injuries
+X88,12.09,Assault,17,Other injuries
+X89,12.09,Assault,17,Other injuries
+X90,12.09,Assault,17,Other injuries
+X91,12.09,Assault,17,Other injuries
+X92,12.09,Assault,17,Other injuries
+X93,12.09,Assault,17,Other injuries
+X94,12.09,Assault,17,Other injuries
+X95,12.09,Assault,17,Other injuries
+X96,12.09,Assault,17,Other injuries
+X97,12.09,Assault,17,Other injuries
+X98,12.09,Assault,17,Other injuries
+X99,12.09,Assault,17,Other injuries
+Y00,12.09,Assault,17,Other injuries
+Y01,12.09,Assault,17,Other injuries
+Y02,12.09,Assault,17,Other injuries
+Y03,12.09,Assault,17,Other injuries
+Y04,12.09,Assault,17,Other injuries
+Y05,12.09,Assault,17,Other injuries
+Y06,12.09,Assault,17,Other injuries
+Y07,12.09,Assault,17,Other injuries
+Y08,12.09,Assault,17,Other injuries
+Y09,12.09,Assault,17,Other injuries
+X30,12.1,Exposure to force of nature,17,Other injuries
+X31,12.1,Exposure to force of nature,17,Other injuries
+X32,12.1,Exposure to force of nature,17,Other injuries
+X33,12.1,Exposure to force of nature,17,Other injuries
+X34,12.1,Exposure to force of nature,17,Other injuries
+X35,12.1,Exposure to force of nature,17,Other injuries
+X36,12.1,Exposure to force of nature,17,Other injuries
+X37,12.1,Exposure to force of nature,17,Other injuries
+X38,12.1,Exposure to force of nature,17,Other injuries
+X39,12.1,Exposure to force of nature,17,Other injuries
+S00,12.99,Other and unspecified external CoD,17,Other injuries
+S01,12.99,Other and unspecified external CoD,17,Other injuries
+S02,12.99,Other and unspecified external CoD,17,Other injuries
+S03,12.99,Other and unspecified external CoD,17,Other injuries
+S04,12.99,Other and unspecified external CoD,17,Other injuries
+S05,12.99,Other and unspecified external CoD,17,Other injuries
+S06,12.99,Other and unspecified external CoD,17,Other injuries
+S07,12.99,Other and unspecified external CoD,17,Other injuries
+S08,12.99,Other and unspecified external CoD,17,Other injuries
+S09,12.99,Other and unspecified external CoD,17,Other injuries
+S10,12.99,Other and unspecified external CoD,17,Other injuries
+S11,12.99,Other and unspecified external CoD,17,Other injuries
+S12,12.99,Other and unspecified external CoD,17,Other injuries
+S13,12.99,Other and unspecified external CoD,17,Other injuries
+S14,12.99,Other and unspecified external CoD,17,Other injuries
+S15,12.99,Other and unspecified external CoD,17,Other injuries
+S16,12.99,Other and unspecified external CoD,17,Other injuries
+S17,12.99,Other and unspecified external CoD,17,Other injuries
+S18,12.99,Other and unspecified external CoD,17,Other injuries
+S19,12.99,Other and unspecified external CoD,17,Other injuries
+S20,12.99,Other and unspecified external CoD,17,Other injuries
+S21,12.99,Other and unspecified external CoD,17,Other injuries
+S22,12.99,Other and unspecified external CoD,17,Other injuries
+S23,12.99,Other and unspecified external CoD,17,Other injuries
+S24,12.99,Other and unspecified external CoD,17,Other injuries
+S25,12.99,Other and unspecified external CoD,17,Other injuries
+S26,12.99,Other and unspecified external CoD,17,Other injuries
+S27,12.99,Other and unspecified external CoD,17,Other injuries
+S28,12.99,Other and unspecified external CoD,17,Other injuries
+S29,12.99,Other and unspecified external CoD,17,Other injuries
+S30,12.99,Other and unspecified external CoD,17,Other injuries
+S31,12.99,Other and unspecified external CoD,17,Other injuries
+S32,12.99,Other and unspecified external CoD,17,Other injuries
+S33,12.99,Other and unspecified external CoD,17,Other injuries
+S34,12.99,Other and unspecified external CoD,17,Other injuries
+S35,12.99,Other and unspecified external CoD,17,Other injuries
+S36,12.99,Other and unspecified external CoD,17,Other injuries
+S37,12.99,Other and unspecified external CoD,17,Other injuries
+S38,12.99,Other and unspecified external CoD,17,Other injuries
+S39,12.99,Other and unspecified external CoD,17,Other injuries
+S40,12.99,Other and unspecified external CoD,17,Other injuries
+S41,12.99,Other and unspecified external CoD,17,Other injuries
+S42,12.99,Other and unspecified external CoD,17,Other injuries
+S43,12.99,Other and unspecified external CoD,17,Other injuries
+S44,12.99,Other and unspecified external CoD,17,Other injuries
+S45,12.99,Other and unspecified external CoD,17,Other injuries
+S46,12.99,Other and unspecified external CoD,17,Other injuries
+S47,12.99,Other and unspecified external CoD,17,Other injuries
+S48,12.99,Other and unspecified external CoD,17,Other injuries
+S49,12.99,Other and unspecified external CoD,17,Other injuries
+S50,12.99,Other and unspecified external CoD,17,Other injuries
+S51,12.99,Other and unspecified external CoD,17,Other injuries
+S52,12.99,Other and unspecified external CoD,17,Other injuries
+S53,12.99,Other and unspecified external CoD,17,Other injuries
+S54,12.99,Other and unspecified external CoD,17,Other injuries
+S55,12.99,Other and unspecified external CoD,17,Other injuries
+S56,12.99,Other and unspecified external CoD,17,Other injuries
+S57,12.99,Other and unspecified external CoD,17,Other injuries
+S58,12.99,Other and unspecified external CoD,17,Other injuries
+S59,12.99,Other and unspecified external CoD,17,Other injuries
+S60,12.99,Other and unspecified external CoD,17,Other injuries
+S61,12.99,Other and unspecified external CoD,17,Other injuries
+S62,12.99,Other and unspecified external CoD,17,Other injuries
+S63,12.99,Other and unspecified external CoD,17,Other injuries
+S64,12.99,Other and unspecified external CoD,17,Other injuries
+S65,12.99,Other and unspecified external CoD,17,Other injuries
+S66,12.99,Other and unspecified external CoD,17,Other injuries
+S67,12.99,Other and unspecified external CoD,17,Other injuries
+S68,12.99,Other and unspecified external CoD,17,Other injuries
+S69,12.99,Other and unspecified external CoD,17,Other injuries
+S70,12.99,Other and unspecified external CoD,17,Other injuries
+S71,12.99,Other and unspecified external CoD,17,Other injuries
+S72,12.99,Other and unspecified external CoD,17,Other injuries
+S73,12.99,Other and unspecified external CoD,17,Other injuries
+S74,12.99,Other and unspecified external CoD,17,Other injuries
+S75,12.99,Other and unspecified external CoD,17,Other injuries
+S76,12.99,Other and unspecified external CoD,17,Other injuries
+S77,12.99,Other and unspecified external CoD,17,Other injuries
+S78,12.99,Other and unspecified external CoD,17,Other injuries
+S79,12.99,Other and unspecified external CoD,17,Other injuries
+S80,12.99,Other and unspecified external CoD,17,Other injuries
+S81,12.99,Other and unspecified external CoD,17,Other injuries
+S82,12.99,Other and unspecified external CoD,17,Other injuries
+S83,12.99,Other and unspecified external CoD,17,Other injuries
+S84,12.99,Other and unspecified external CoD,17,Other injuries
+S85,12.99,Other and unspecified external CoD,17,Other injuries
+S86,12.99,Other and unspecified external CoD,17,Other injuries
+S87,12.99,Other and unspecified external CoD,17,Other injuries
+S88,12.99,Other and unspecified external CoD,17,Other injuries
+S89,12.99,Other and unspecified external CoD,17,Other injuries
+S90,12.99,Other and unspecified external CoD,17,Other injuries
+S91,12.99,Other and unspecified external CoD,17,Other injuries
+S92,12.99,Other and unspecified external CoD,17,Other injuries
+S93,12.99,Other and unspecified external CoD,17,Other injuries
+S94,12.99,Other and unspecified external CoD,17,Other injuries
+S95,12.99,Other and unspecified external CoD,17,Other injuries
+S96,12.99,Other and unspecified external CoD,17,Other injuries
+S97,12.99,Other and unspecified external CoD,17,Other injuries
+S98,12.99,Other and unspecified external CoD,17,Other injuries
+S99,12.99,Other and unspecified external CoD,17,Other injuries
+T00,12.99,Other and unspecified external CoD,17,Other injuries
+T01,12.99,Other and unspecified external CoD,17,Other injuries
+T02,12.99,Other and unspecified external CoD,17,Other injuries
+T03,12.99,Other and unspecified external CoD,17,Other injuries
+T04,12.99,Other and unspecified external CoD,17,Other injuries
+T05,12.99,Other and unspecified external CoD,17,Other injuries
+T06,12.99,Other and unspecified external CoD,17,Other injuries
+T07,12.99,Other and unspecified external CoD,17,Other injuries
+T08,12.99,Other and unspecified external CoD,17,Other injuries
+T09,12.99,Other and unspecified external CoD,17,Other injuries
+T10,12.99,Other and unspecified external CoD,17,Other injuries
+T11,12.99,Other and unspecified external CoD,17,Other injuries
+T12,12.99,Other and unspecified external CoD,17,Other injuries
+T13,12.99,Other and unspecified external CoD,17,Other injuries
+T14,12.99,Other and unspecified external CoD,17,Other injuries
+T15,12.99,Other and unspecified external CoD,17,Other injuries
+T16,12.99,Other and unspecified external CoD,17,Other injuries
+T17,12.99,Other and unspecified external CoD,17,Other injuries
+T18,12.99,Other and unspecified external CoD,17,Other injuries
+T19,12.99,Other and unspecified external CoD,17,Other injuries
+T20,12.99,Other and unspecified external CoD,17,Other injuries
+T21,12.99,Other and unspecified external CoD,17,Other injuries
+T22,12.99,Other and unspecified external CoD,17,Other injuries
+T23,12.99,Other and unspecified external CoD,17,Other injuries
+T24,12.99,Other and unspecified external CoD,17,Other injuries
+T25,12.99,Other and unspecified external CoD,17,Other injuries
+T26,12.99,Other and unspecified external CoD,17,Other injuries
+T27,12.99,Other and unspecified external CoD,17,Other injuries
+T28,12.99,Other and unspecified external CoD,17,Other injuries
+T29,12.99,Other and unspecified external CoD,17,Other injuries
+T30,12.99,Other and unspecified external CoD,17,Other injuries
+T31,12.99,Other and unspecified external CoD,17,Other injuries
+T32,12.99,Other and unspecified external CoD,17,Other injuries
+T33,12.99,Other and unspecified external CoD,17,Other injuries
+T34,12.99,Other and unspecified external CoD,17,Other injuries
+T35,12.99,Other and unspecified external CoD,17,Other injuries
+T36,12.99,Other and unspecified external CoD,17,Other injuries
+T37,12.99,Other and unspecified external CoD,17,Other injuries
+T38,12.99,Other and unspecified external CoD,17,Other injuries
+T39,12.99,Other and unspecified external CoD,17,Other injuries
+T40,12.99,Other and unspecified external CoD,17,Other injuries
+T41,12.99,Other and unspecified external CoD,17,Other injuries
+T42,12.99,Other and unspecified external CoD,17,Other injuries
+T43,12.99,Other and unspecified external CoD,17,Other injuries
+T44,12.99,Other and unspecified external CoD,17,Other injuries
+T45,12.99,Other and unspecified external CoD,17,Other injuries
+T46,12.99,Other and unspecified external CoD,17,Other injuries
+T47,12.99,Other and unspecified external CoD,17,Other injuries
+T48,12.99,Other and unspecified external CoD,17,Other injuries
+T49,12.99,Other and unspecified external CoD,17,Other injuries
+T50,12.99,Other and unspecified external CoD,17,Other injuries
+T51,12.99,Other and unspecified external CoD,17,Other injuries
+T52,12.99,Other and unspecified external CoD,17,Other injuries
+T53,12.99,Other and unspecified external CoD,17,Other injuries
+T54,12.99,Other and unspecified external CoD,17,Other injuries
+T55,12.99,Other and unspecified external CoD,17,Other injuries
+T56,12.99,Other and unspecified external CoD,17,Other injuries
+T57,12.99,Other and unspecified external CoD,17,Other injuries
+T58,12.99,Other and unspecified external CoD,17,Other injuries
+T59,12.99,Other and unspecified external CoD,17,Other injuries
+T60,12.99,Other and unspecified external CoD,17,Other injuries
+T61,12.99,Other and unspecified external CoD,17,Other injuries
+T62,12.99,Other and unspecified external CoD,17,Other injuries
+T63,12.99,Other and unspecified external CoD,17,Other injuries
+T64,12.99,Other and unspecified external CoD,17,Other injuries
+T65,12.99,Other and unspecified external CoD,17,Other injuries
+T66,12.99,Other and unspecified external CoD,17,Other injuries
+T67,12.99,Other and unspecified external CoD,17,Other injuries
+T68,12.99,Other and unspecified external CoD,17,Other injuries
+T69,12.99,Other and unspecified external CoD,17,Other injuries
+T70,12.99,Other and unspecified external CoD,17,Other injuries
+T71,12.99,Other and unspecified external CoD,17,Other injuries
+T72,12.99,Other and unspecified external CoD,17,Other injuries
+T73,12.99,Other and unspecified external CoD,17,Other injuries
+T74,12.99,Other and unspecified external CoD,17,Other injuries
+T75,12.99,Other and unspecified external CoD,17,Other injuries
+T76,12.99,Other and unspecified external CoD,17,Other injuries
+T77,12.99,Other and unspecified external CoD,17,Other injuries
+T78,12.99,Other and unspecified external CoD,17,Other injuries
+T79,12.99,Other and unspecified external CoD,17,Other injuries
+T80,12.99,Other and unspecified external CoD,17,Other injuries
+T81,12.99,Other and unspecified external CoD,17,Other injuries
+T82,12.99,Other and unspecified external CoD,17,Other injuries
+T83,12.99,Other and unspecified external CoD,17,Other injuries
+T84,12.99,Other and unspecified external CoD,17,Other injuries
+T85,12.99,Other and unspecified external CoD,17,Other injuries
+T86,12.99,Other and unspecified external CoD,17,Other injuries
+T87,12.99,Other and unspecified external CoD,17,Other injuries
+T88,12.99,Other and unspecified external CoD,17,Other injuries
+T89,12.99,Other and unspecified external CoD,17,Other injuries
+T90,12.99,Other and unspecified external CoD,17,Other injuries
+T91,12.99,Other and unspecified external CoD,17,Other injuries
+T92,12.99,Other and unspecified external CoD,17,Other injuries
+T93,12.99,Other and unspecified external CoD,17,Other injuries
+T94,12.99,Other and unspecified external CoD,17,Other injuries
+T95,12.99,Other and unspecified external CoD,17,Other injuries
+T96,12.99,Other and unspecified external CoD,17,Other injuries
+T97,12.99,Other and unspecified external CoD,17,Other injuries
+T98,12.99,Other and unspecified external CoD,17,Other injuries
+T99,12.99,Other and unspecified external CoD,17,Other injuries
+W20,12.99,Other and unspecified external CoD,17,Other injuries
+W21,12.99,Other and unspecified external CoD,17,Other injuries
+W22,12.99,Other and unspecified external CoD,17,Other injuries
+W23,12.99,Other and unspecified external CoD,17,Other injuries
+W24,12.99,Other and unspecified external CoD,17,Other injuries
+W25,12.99,Other and unspecified external CoD,17,Other injuries
+W26,12.99,Other and unspecified external CoD,17,Other injuries
+W27,12.99,Other and unspecified external CoD,17,Other injuries
+W28,12.99,Other and unspecified external CoD,17,Other injuries
+W29,12.99,Other and unspecified external CoD,17,Other injuries
+W30,12.99,Other and unspecified external CoD,17,Other injuries
+W31,12.99,Other and unspecified external CoD,17,Other injuries
+W32,12.99,Other and unspecified external CoD,17,Other injuries
+W33,12.99,Other and unspecified external CoD,17,Other injuries
+W34,12.99,Other and unspecified external CoD,17,Other injuries
+W35,12.99,Other and unspecified external CoD,17,Other injuries
+W36,12.99,Other and unspecified external CoD,17,Other injuries
+W37,12.99,Other and unspecified external CoD,17,Other injuries
+W38,12.99,Other and unspecified external CoD,17,Other injuries
+W39,12.99,Other and unspecified external CoD,17,Other injuries
+W40,12.99,Other and unspecified external CoD,17,Other injuries
+W41,12.99,Other and unspecified external CoD,17,Other injuries
+W42,12.99,Other and unspecified external CoD,17,Other injuries
+W43,12.99,Other and unspecified external CoD,17,Other injuries
+W44,12.99,Other and unspecified external CoD,17,Other injuries
+W45,12.99,Other and unspecified external CoD,17,Other injuries
+W46,12.99,Other and unspecified external CoD,17,Other injuries
+W47,12.99,Other and unspecified external CoD,17,Other injuries
+W48,12.99,Other and unspecified external CoD,17,Other injuries
+W49,12.99,Other and unspecified external CoD,17,Other injuries
+W50,12.99,Other and unspecified external CoD,17,Other injuries
+W51,12.99,Other and unspecified external CoD,17,Other injuries
+W52,12.99,Other and unspecified external CoD,17,Other injuries
+W53,12.99,Other and unspecified external CoD,17,Other injuries
+W54,12.99,Other and unspecified external CoD,17,Other injuries
+W55,12.99,Other and unspecified external CoD,17,Other injuries
+W56,12.99,Other and unspecified external CoD,17,Other injuries
+W57,12.99,Other and unspecified external CoD,17,Other injuries
+W58,12.99,Other and unspecified external CoD,17,Other injuries
+W59,12.99,Other and unspecified external CoD,17,Other injuries
+W60,12.99,Other and unspecified external CoD,17,Other injuries
+W61,12.99,Other and unspecified external CoD,17,Other injuries
+W62,12.99,Other and unspecified external CoD,17,Other injuries
+W63,12.99,Other and unspecified external CoD,17,Other injuries
+W64,12.99,Other and unspecified external CoD,17,Other injuries
+W75,12.99,Other and unspecified external CoD,17,Other injuries
+W76,12.99,Other and unspecified external CoD,17,Other injuries
+W77,12.99,Other and unspecified external CoD,17,Other injuries
+W78,12.99,Other and unspecified external CoD,17,Other injuries
+W79,12.99,Other and unspecified external CoD,17,Other injuries
+W80,12.99,Other and unspecified external CoD,17,Other injuries
+W81,12.99,Other and unspecified external CoD,17,Other injuries
+W82,12.99,Other and unspecified external CoD,17,Other injuries
+W83,12.99,Other and unspecified external CoD,17,Other injuries
+W84,12.99,Other and unspecified external CoD,17,Other injuries
+W85,12.99,Other and unspecified external CoD,17,Other injuries
+W86,12.99,Other and unspecified external CoD,17,Other injuries
+W87,12.99,Other and unspecified external CoD,17,Other injuries
+W88,12.99,Other and unspecified external CoD,17,Other injuries
+W89,12.99,Other and unspecified external CoD,17,Other injuries
+W90,12.99,Other and unspecified external CoD,17,Other injuries
+W91,12.99,Other and unspecified external CoD,17,Other injuries
+W92,12.99,Other and unspecified external CoD,17,Other injuries
+W93,12.99,Other and unspecified external CoD,17,Other injuries
+W94,12.99,Other and unspecified external CoD,17,Other injuries
+W95,12.99,Other and unspecified external CoD,17,Other injuries
+W96,12.99,Other and unspecified external CoD,17,Other injuries
+W97,12.99,Other and unspecified external CoD,17,Other injuries
+W98,12.99,Other and unspecified external CoD,17,Other injuries
+W99,12.99,Other and unspecified external CoD,17,Other injuries
+X50,12.99,Other and unspecified external CoD,17,Other injuries
+X51,12.99,Other and unspecified external CoD,17,Other injuries
+X52,12.99,Other and unspecified external CoD,17,Other injuries
+X53,12.99,Other and unspecified external CoD,6,Nutrition
+X54,12.99,Other and unspecified external CoD,6,Nutrition
+X55,12.99,Other and unspecified external CoD,17,Other injuries
+X56,12.99,Other and unspecified external CoD,17,Other injuries
+X57,12.99,Other and unspecified external CoD,17,Other injuries
+X58,12.99,Other and unspecified external CoD,17,Other injuries
+X59,12.99,Other and unspecified external CoD,17,Other injuries
+Y10,12.99,Other and unspecified external CoD,17,Other injuries
+Y11,12.99,Other and unspecified external CoD,17,Other injuries
+Y12,12.99,Other and unspecified external CoD,17,Other injuries
+Y13,12.99,Other and unspecified external CoD,17,Other injuries
+Y14,12.99,Other and unspecified external CoD,17,Other injuries
+Y15,12.99,Other and unspecified external CoD,13,Liver & alcohol
+Y16,12.99,Other and unspecified external CoD,17,Other injuries
+Y17,12.99,Other and unspecified external CoD,17,Other injuries
+Y18,12.99,Other and unspecified external CoD,17,Other injuries
+Y19,12.99,Other and unspecified external CoD,17,Other injuries
+Y20,12.99,Other and unspecified external CoD,17,Other injuries
+Y21,12.99,Other and unspecified external CoD,17,Other injuries
+Y22,12.99,Other and unspecified external CoD,17,Other injuries
+Y23,12.99,Other and unspecified external CoD,17,Other injuries
+Y24,12.99,Other and unspecified external CoD,17,Other injuries
+Y25,12.99,Other and unspecified external CoD,17,Other injuries
+Y26,12.99,Other and unspecified external CoD,17,Other injuries
+Y27,12.99,Other and unspecified external CoD,17,Other injuries
+Y28,12.99,Other and unspecified external CoD,17,Other injuries
+Y29,12.99,Other and unspecified external CoD,17,Other injuries
+Y30,12.99,Other and unspecified external CoD,17,Other injuries
+Y31,12.99,Other and unspecified external CoD,17,Other injuries
+Y32,12.99,Other and unspecified external CoD,17,Other injuries
+Y33,12.99,Other and unspecified external CoD,17,Other injuries
+Y34,12.99,Other and unspecified external CoD,17,Other injuries
+Y35,12.99,Other and unspecified external CoD,17,Other injuries
+Y36,12.99,Other and unspecified external CoD,17,Other injuries
+Y37,12.99,Other and unspecified external CoD,17,Other injuries
+Y38,12.99,Other and unspecified external CoD,17,Other injuries
+Y39,12.99,Other and unspecified external CoD,17,Other injuries
+Y40,12.99,Other and unspecified external CoD,17,Other injuries
+Y41,12.99,Other and unspecified external CoD,17,Other injuries
+Y42,12.99,Other and unspecified external CoD,17,Other injuries
+Y43,12.99,Other and unspecified external CoD,17,Other injuries
+Y44,12.99,Other and unspecified external CoD,17,Other injuries
+Y45,12.99,Other and unspecified external CoD,17,Other injuries
+Y46,12.99,Other and unspecified external CoD,17,Other injuries
+Y47,12.99,Other and unspecified external CoD,17,Other injuries
+Y48,12.99,Other and unspecified external CoD,17,Other injuries
+Y49,12.99,Other and unspecified external CoD,17,Other injuries
+Y50,12.99,Other and unspecified external CoD,17,Other injuries
+Y51,12.99,Other and unspecified external CoD,17,Other injuries
+Y52,12.99,Other and unspecified external CoD,17,Other injuries
+Y53,12.99,Other and unspecified external CoD,17,Other injuries
+Y54,12.99,Other and unspecified external CoD,17,Other injuries
+Y55,12.99,Other and unspecified external CoD,17,Other injuries
+Y56,12.99,Other and unspecified external CoD,17,Other injuries
+Y57,12.99,Other and unspecified external CoD,17,Other injuries
+Y58,12.99,Other and unspecified external CoD,17,Other injuries
+Y59,12.99,Other and unspecified external CoD,17,Other injuries
+Y60,12.99,Other and unspecified external CoD,17,Other injuries
+Y61,12.99,Other and unspecified external CoD,17,Other injuries
+Y62,12.99,Other and unspecified external CoD,17,Other injuries
+Y63,12.99,Other and unspecified external CoD,17,Other injuries
+Y64,12.99,Other and unspecified external CoD,17,Other injuries
+Y65,12.99,Other and unspecified external CoD,17,Other injuries
+Y66,12.99,Other and unspecified external CoD,17,Other injuries
+Y67,12.99,Other and unspecified external CoD,17,Other injuries
+Y68,12.99,Other and unspecified external CoD,17,Other injuries
+Y69,12.99,Other and unspecified external CoD,17,Other injuries
+Y70,12.99,Other and unspecified external CoD,17,Other injuries
+Y71,12.99,Other and unspecified external CoD,17,Other injuries
+Y72,12.99,Other and unspecified external CoD,17,Other injuries
+Y73,12.99,Other and unspecified external CoD,17,Other injuries
+Y74,12.99,Other and unspecified external CoD,17,Other injuries
+Y75,12.99,Other and unspecified external CoD,17,Other injuries
+Y76,12.99,Other and unspecified external CoD,17,Other injuries
+Y77,12.99,Other and unspecified external CoD,17,Other injuries
+Y78,12.99,Other and unspecified external CoD,17,Other injuries
+Y79,12.99,Other and unspecified external CoD,17,Other injuries
+Y80,12.99,Other and unspecified external CoD,17,Other injuries
+Y81,12.99,Other and unspecified external CoD,17,Other injuries
+Y82,12.99,Other and unspecified external CoD,17,Other injuries
+Y83,12.99,Other and unspecified external CoD,17,Other injuries
+Y84,12.99,Other and unspecified external CoD,17,Other injuries
+Y85,12.99,Other and unspecified external CoD,15,Road & transport injuries
+Y86,12.99,Other and unspecified external CoD,17,Other injuries
+Y87,12.99,Other and unspecified external CoD,17,Other injuries
+Y88,12.99,Other and unspecified external CoD,17,Other injuries
+Y89,12.99,Other and unspecified external CoD,17,Other injuries
+Y90,12.99,Other and unspecified external CoD,13,Liver & alcohol
+Y91,12.99,Other and unspecified external CoD,13,Liver & alcohol
+Y92,12.99,Other and unspecified external CoD,17,Other injuries
+Y93,12.99,Other and unspecified external CoD,17,Other injuries
+Y94,12.99,Other and unspecified external CoD,17,Other injuries
+Y95,12.99,Other and unspecified external CoD,17,Other injuries
+Y96,12.99,Other and unspecified external CoD,17,Other injuries
+Y97,12.99,Other and unspecified external CoD,17,Other injuries
+Y98,12.99,Other and unspecified external CoD,17,Other injuries
+D65,98,Other and unspecified,14,Other NCDs
+D66,98,Other and unspecified,14,Other NCDs
+D67,98,Other and unspecified,14,Other NCDs
+D68,98,Other and unspecified,14,Other NCDs
+D69,98,Other and unspecified,14,Other NCDs
+D70,98,Other and unspecified,14,Other NCDs
+D71,98,Other and unspecified,14,Other NCDs
+D72,98,Other and unspecified,14,Other NCDs
+D73,98,Other and unspecified,14,Other NCDs
+D74,98,Other and unspecified,14,Other NCDs
+D75,98,Other and unspecified,14,Other NCDs
+D76,98,Other and unspecified,14,Other NCDs
+D77,98,Other and unspecified,14,Other NCDs
+D78,98,Other and unspecified,14,Other NCDs
+D79,98,Other and unspecified,14,Other NCDs
+D80,98,Other and unspecified,14,Other NCDs
+D81,98,Other and unspecified,14,Other NCDs
+D82,98,Other and unspecified,14,Other NCDs
+D83,98,Other and unspecified,14,Other NCDs
+D84,98,Other and unspecified,4,Unspec. infect.
+D86,98,Other and unspecified,14,Other NCDs
+D89,98,Other and unspecified,14,Other NCDs
+E00,98,Other and unspecified,6,Nutrition
+E01,98,Other and unspecified,6,Nutrition
+E02,98,Other and unspecified,6,Nutrition
+E03,98,Other and unspecified,14,Other NCDs
+E04,98,Other and unspecified,14,Other NCDs
+E05,98,Other and unspecified,14,Other NCDs
+E06,98,Other and unspecified,14,Other NCDs
+E07,98,Other and unspecified,14,Other NCDs
+E15,98,Other and unspecified,14,Other NCDs
+E16,98,Other and unspecified,14,Other NCDs
+E17,98,Other and unspecified,14,Other NCDs
+E18,98,Other and unspecified,14,Other NCDs
+E19,98,Other and unspecified,14,Other NCDs
+E20,98,Other and unspecified,14,Other NCDs
+E21,98,Other and unspecified,14,Other NCDs
+E22,98,Other and unspecified,14,Other NCDs
+E23,98,Other and unspecified,14,Other NCDs
+E24,98,Other and unspecified,14,Other NCDs
+E25,98,Other and unspecified,14,Other NCDs
+E26,98,Other and unspecified,14,Other NCDs
+E27,98,Other and unspecified,14,Other NCDs
+E28,98,Other and unspecified,14,Other NCDs
+E29,98,Other and unspecified,14,Other NCDs
+E30,98,Other and unspecified,14,Other NCDs
+E31,98,Other and unspecified,14,Other NCDs
+E32,98,Other and unspecified,14,Other NCDs
+E33,98,Other and unspecified,14,Other NCDs
+E34,98,Other and unspecified,14,Other NCDs
+E35,98,Other and unspecified,14,Other NCDs
+E50,98,Other and unspecified,6,Nutrition
+E51,98,Other and unspecified,6,Nutrition
+E52,98,Other and unspecified,6,Nutrition
+E53,98,Other and unspecified,6,Nutrition
+E54,98,Other and unspecified,6,Nutrition
+E55,98,Other and unspecified,6,Nutrition
+E56,98,Other and unspecified,6,Nutrition
+E57,98,Other and unspecified,6,Nutrition
+E58,98,Other and unspecified,6,Nutrition
+E59,98,Other and unspecified,6,Nutrition
+E60,98,Other and unspecified,6,Nutrition
+E61,98,Other and unspecified,6,Nutrition
+E62,98,Other and unspecified,6,Nutrition
+E63,98,Other and unspecified,6,Nutrition
+E64,98,Other and unspecified,6,Nutrition
+E65,98,Other and unspecified,14,Other NCDs
+E66,98,Other and unspecified,14,Other NCDs
+E67,98,Other and unspecified,14,Other NCDs
+E68,98,Other and unspecified,14,Other NCDs
+E70,98,Other and unspecified,14,Other NCDs
+E71,98,Other and unspecified,14,Other NCDs
+E72,98,Other and unspecified,14,Other NCDs
+E73,98,Other and unspecified,14,Other NCDs
+E74,98,Other and unspecified,14,Other NCDs
+E75,98,Other and unspecified,14,Other NCDs
+E76,98,Other and unspecified,14,Other NCDs
+E77,98,Other and unspecified,14,Other NCDs
+E78,98,Other and unspecified,14,Other NCDs
+E79,98,Other and unspecified,14,Other NCDs
+E80,98,Other and unspecified,14,Other NCDs
+E81,98,Other and unspecified,14,Other NCDs
+E82,98,Other and unspecified,14,Other NCDs
+E83,98,Other and unspecified,14,Other NCDs
+E84,98,Other and unspecified,14,Other NCDs
+E85,98,Other and unspecified,14,Other NCDs
+E86,98,Other and unspecified,14,Other NCDs
+E87,98,Other and unspecified,14,Other NCDs
+E88,98,Other and unspecified,14,Other NCDs
+E89,98,Other and unspecified,14,Other NCDs
+E90,98,Other and unspecified,14,Other NCDs
+F00,98,Other and unspecified,14,Other NCDs
+F01,98,Other and unspecified,14,Other NCDs
+F02,98,Other and unspecified,14,Other NCDs
+F03,98,Other and unspecified,14,Other NCDs
+F04,98,Other and unspecified,14,Other NCDs
+F05,98,Other and unspecified,14,Other NCDs
+F06,98,Other and unspecified,14,Other NCDs
+F07,98,Other and unspecified,14,Other NCDs
+F08,98,Other and unspecified,14,Other NCDs
+F09,98,Other and unspecified,14,Other NCDs
+F10,98,Other and unspecified,13,Liver & alcohol
+F11,98,Other and unspecified,14,Other NCDs
+F12,98,Other and unspecified,14,Other NCDs
+F13,98,Other and unspecified,14,Other NCDs
+F14,98,Other and unspecified,14,Other NCDs
+F15,98,Other and unspecified,14,Other NCDs
+F16,98,Other and unspecified,14,Other NCDs
+F17,98,Other and unspecified,14,Other NCDs
+F18,98,Other and unspecified,14,Other NCDs
+F19,98,Other and unspecified,14,Other NCDs
+F20,98,Other and unspecified,14,Other NCDs
+F21,98,Other and unspecified,14,Other NCDs
+F22,98,Other and unspecified,14,Other NCDs
+F23,98,Other and unspecified,14,Other NCDs
+F24,98,Other and unspecified,14,Other NCDs
+F25,98,Other and unspecified,14,Other NCDs
+F26,98,Other and unspecified,14,Other NCDs
+F27,98,Other and unspecified,14,Other NCDs
+F28,98,Other and unspecified,14,Other NCDs
+F29,98,Other and unspecified,14,Other NCDs
+F30,98,Other and unspecified,14,Other NCDs
+F31,98,Other and unspecified,14,Other NCDs
+F32,98,Other and unspecified,14,Other NCDs
+F33,98,Other and unspecified,14,Other NCDs
+F34,98,Other and unspecified,14,Other NCDs
+F35,98,Other and unspecified,14,Other NCDs
+F36,98,Other and unspecified,14,Other NCDs
+F37,98,Other and unspecified,14,Other NCDs
+F38,98,Other and unspecified,14,Other NCDs
+F39,98,Other and unspecified,14,Other NCDs
+F40,98,Other and unspecified,14,Other NCDs
+F41,98,Other and unspecified,14,Other NCDs
+F42,98,Other and unspecified,14,Other NCDs
+F43,98,Other and unspecified,14,Other NCDs
+F44,98,Other and unspecified,14,Other NCDs
+F45,98,Other and unspecified,14,Other NCDs
+F46,98,Other and unspecified,14,Other NCDs
+F47,98,Other and unspecified,14,Other NCDs
+F48,98,Other and unspecified,14,Other NCDs
+F49,98,Other and unspecified,14,Other NCDs
+F50,98,Other and unspecified,14,Other NCDs
+F51,98,Other and unspecified,14,Other NCDs
+F52,98,Other and unspecified,14,Other NCDs
+F53,98,Other and unspecified,5,Maternal
+F54,98,Other and unspecified,14,Other NCDs
+F55,98,Other and unspecified,14,Other NCDs
+F56,98,Other and unspecified,14,Other NCDs
+F57,98,Other and unspecified,14,Other NCDs
+F58,98,Other and unspecified,14,Other NCDs
+F59,98,Other and unspecified,14,Other NCDs
+F60,98,Other and unspecified,14,Other NCDs
+F61,98,Other and unspecified,14,Other NCDs
+F62,98,Other and unspecified,14,Other NCDs
+F63,98,Other and unspecified,14,Other NCDs
+F64,98,Other and unspecified,14,Other NCDs
+F65,98,Other and unspecified,14,Other NCDs
+F66,98,Other and unspecified,14,Other NCDs
+F67,98,Other and unspecified,14,Other NCDs
+F68,98,Other and unspecified,14,Other NCDs
+F69,98,Other and unspecified,14,Other NCDs
+F70,98,Other and unspecified,14,Other NCDs
+F71,98,Other and unspecified,14,Other NCDs
+F72,98,Other and unspecified,14,Other NCDs
+F73,98,Other and unspecified,14,Other NCDs
+F74,98,Other and unspecified,14,Other NCDs
+F75,98,Other and unspecified,14,Other NCDs
+F76,98,Other and unspecified,14,Other NCDs
+F77,98,Other and unspecified,14,Other NCDs
+F78,98,Other and unspecified,14,Other NCDs
+F79,98,Other and unspecified,14,Other NCDs
+F80,98,Other and unspecified,14,Other NCDs
+F81,98,Other and unspecified,14,Other NCDs
+F82,98,Other and unspecified,14,Other NCDs
+F83,98,Other and unspecified,14,Other NCDs
+F84,98,Other and unspecified,14,Other NCDs
+F85,98,Other and unspecified,14,Other NCDs
+F86,98,Other and unspecified,14,Other NCDs
+F87,98,Other and unspecified,14,Other NCDs
+F88,98,Other and unspecified,14,Other NCDs
+F89,98,Other and unspecified,14,Other NCDs
+F90,98,Other and unspecified,14,Other NCDs
+F91,98,Other and unspecified,14,Other NCDs
+F92,98,Other and unspecified,14,Other NCDs
+F93,98,Other and unspecified,14,Other NCDs
+F94,98,Other and unspecified,14,Other NCDs
+F95,98,Other and unspecified,14,Other NCDs
+F96,98,Other and unspecified,14,Other NCDs
+F97,98,Other and unspecified,14,Other NCDs
+F98,98,Other and unspecified,14,Other NCDs
+F99,98,Other and unspecified,14,Other NCDs
+G06,98,Other and unspecified,4,Unspec. infect.
+G07,98,Other and unspecified,4,Unspec. infect.
+G08,98,Other and unspecified,4,Unspec. infect.
+G09,98,Other and unspecified,4,Unspec. infect.
+G10,98,Other and unspecified,14,Other NCDs
+G11,98,Other and unspecified,14,Other NCDs
+G12,98,Other and unspecified,14,Other NCDs
+G13,98,Other and unspecified,14,Other NCDs
+G14,98,Other and unspecified,14,Other NCDs
+G15,98,Other and unspecified,14,Other NCDs
+G16,98,Other and unspecified,14,Other NCDs
+G17,98,Other and unspecified,14,Other NCDs
+G18,98,Other and unspecified,14,Other NCDs
+G19,98,Other and unspecified,14,Other NCDs
+G20,98,Other and unspecified,14,Other NCDs
+G21,98,Other and unspecified,14,Other NCDs
+G22,98,Other and unspecified,14,Other NCDs
+G23,98,Other and unspecified,14,Other NCDs
+G24,98,Other and unspecified,14,Other NCDs
+G25,98,Other and unspecified,14,Other NCDs
+G26,98,Other and unspecified,14,Other NCDs
+G27,98,Other and unspecified,14,Other NCDs
+G28,98,Other and unspecified,14,Other NCDs
+G29,98,Other and unspecified,14,Other NCDs
+G30,98,Other and unspecified,14,Other NCDs
+G31,98,Other and unspecified,14,Other NCDs
+G32,98,Other and unspecified,14,Other NCDs
+G33,98,Other and unspecified,14,Other NCDs
+G34,98,Other and unspecified,14,Other NCDs
+G35,98,Other and unspecified,14,Other NCDs
+G36,98,Other and unspecified,14,Other NCDs
+G37,98,Other and unspecified,14,Other NCDs
+G50,98,Other and unspecified,14,Other NCDs
+G51,98,Other and unspecified,14,Other NCDs
+G52,98,Other and unspecified,14,Other NCDs
+G53,98,Other and unspecified,14,Other NCDs
+G54,98,Other and unspecified,14,Other NCDs
+G55,98,Other and unspecified,14,Other NCDs
+G56,98,Other and unspecified,14,Other NCDs
+G57,98,Other and unspecified,14,Other NCDs
+G58,98,Other and unspecified,14,Other NCDs
+G59,98,Other and unspecified,14,Other NCDs
+G60,98,Other and unspecified,14,Other NCDs
+G61,98,Other and unspecified,14,Other NCDs
+G62,98,Other and unspecified,14,Other NCDs
+G63,98,Other and unspecified,14,Other NCDs
+G64,98,Other and unspecified,14,Other NCDs
+G65,98,Other and unspecified,14,Other NCDs
+G66,98,Other and unspecified,14,Other NCDs
+G67,98,Other and unspecified,14,Other NCDs
+G68,98,Other and unspecified,14,Other NCDs
+G69,98,Other and unspecified,14,Other NCDs
+G70,98,Other and unspecified,14,Other NCDs
+G71,98,Other and unspecified,14,Other NCDs
+G72,98,Other and unspecified,14,Other NCDs
+G73,98,Other and unspecified,14,Other NCDs
+G74,98,Other and unspecified,14,Other NCDs
+G75,98,Other and unspecified,14,Other NCDs
+G76,98,Other and unspecified,14,Other NCDs
+G77,98,Other and unspecified,14,Other NCDs
+G78,98,Other and unspecified,14,Other NCDs
+G79,98,Other and unspecified,14,Other NCDs
+G80,98,Other and unspecified,14,Other NCDs
+G81,98,Other and unspecified,10,Stroke
+G82,98,Other and unspecified,10,Stroke
+G83,98,Other and unspecified,10,Stroke
+G84,98,Other and unspecified,14,Other NCDs
+G85,98,Other and unspecified,14,Other NCDs
+G86,98,Other and unspecified,14,Other NCDs
+G87,98,Other and unspecified,14,Other NCDs
+G88,98,Other and unspecified,14,Other NCDs
+G89,98,Other and unspecified,14,Other NCDs
+G90,98,Other and unspecified,14,Other NCDs
+G91,98,Other and unspecified,14,Other NCDs
+G92,98,Other and unspecified,14,Other NCDs
+G93,98,Other and unspecified,14,Other NCDs
+G94,98,Other and unspecified,14,Other NCDs
+G95,98,Other and unspecified,14,Other NCDs
+G96,98,Other and unspecified,14,Other NCDs
+G97,98,Other and unspecified,14,Other NCDs
+G98,98,Other and unspecified,14,Other NCDs
+G99,98,Other and unspecified,14,Other NCDs
+H00,98,Other and unspecified,14,Other NCDs
+H01,98,Other and unspecified,14,Other NCDs
+H02,98,Other and unspecified,14,Other NCDs
+H03,98,Other and unspecified,14,Other NCDs
+H04,98,Other and unspecified,14,Other NCDs
+H05,98,Other and unspecified,14,Other NCDs
+H06,98,Other and unspecified,14,Other NCDs
+H10,98,Other and unspecified,4,Unspec. infect.
+H11,98,Other and unspecified,14,Other NCDs
+H12,98,Other and unspecified,14,Other NCDs
+H13,98,Other and unspecified,14,Other NCDs
+H14,98,Other and unspecified,14,Other NCDs
+H15,98,Other and unspecified,14,Other NCDs
+H16,98,Other and unspecified,14,Other NCDs
+H17,98,Other and unspecified,14,Other NCDs
+H18,98,Other and unspecified,14,Other NCDs
+H19,98,Other and unspecified,14,Other NCDs
+H20,98,Other and unspecified,14,Other NCDs
+H21,98,Other and unspecified,14,Other NCDs
+H22,98,Other and unspecified,14,Other NCDs
+H23,98,Other and unspecified,14,Other NCDs
+H24,98,Other and unspecified,14,Other NCDs
+H25,98,Other and unspecified,14,Other NCDs
+H26,98,Other and unspecified,14,Other NCDs
+H27,98,Other and unspecified,14,Other NCDs
+H28,98,Other and unspecified,14,Other NCDs
+H29,98,Other and unspecified,14,Other NCDs
+H30,98,Other and unspecified,14,Other NCDs
+H31,98,Other and unspecified,14,Other NCDs
+H32,98,Other and unspecified,14,Other NCDs
+H33,98,Other and unspecified,14,Other NCDs
+H34,98,Other and unspecified,14,Other NCDs
+H35,98,Other and unspecified,14,Other NCDs
+H36,98,Other and unspecified,14,Other NCDs
+H37,98,Other and unspecified,14,Other NCDs
+H38,98,Other and unspecified,14,Other NCDs
+H39,98,Other and unspecified,14,Other NCDs
+H40,98,Other and unspecified,14,Other NCDs
+H41,98,Other and unspecified,14,Other NCDs
+H42,98,Other and unspecified,14,Other NCDs
+H43,98,Other and unspecified,14,Other NCDs
+H44,98,Other and unspecified,14,Other NCDs
+H45,98,Other and unspecified,14,Other NCDs
+H46,98,Other and unspecified,14,Other NCDs
+H47,98,Other and unspecified,14,Other NCDs
+H48,98,Other and unspecified,14,Other NCDs
+H49,98,Other and unspecified,14,Other NCDs
+H50,98,Other and unspecified,14,Other NCDs
+H51,98,Other and unspecified,14,Other NCDs
+H52,98,Other and unspecified,14,Other NCDs
+H53,98,Other and unspecified,14,Other NCDs
+H54,98,Other and unspecified,14,Other NCDs
+H55,98,Other and unspecified,14,Other NCDs
+H56,98,Other and unspecified,14,Other NCDs
+H57,98,Other and unspecified,14,Other NCDs
+H58,98,Other and unspecified,14,Other NCDs
+H59,98,Other and unspecified,14,Other NCDs
+H60,98,Other and unspecified,4,Unspec. infect.
+H61,98,Other and unspecified,14,Other NCDs
+H62,98,Other and unspecified,14,Other NCDs
+H65,98,Other and unspecified,1,Acute resp.
+H66,98,Other and unspecified,1,Acute resp.
+H67,98,Other and unspecified,1,Acute resp.
+H68,98,Other and unspecified,1,Acute resp.
+H69,98,Other and unspecified,14,Other NCDs
+H70,98,Other and unspecified,1,Acute resp.
+H71,98,Other and unspecified,1,Acute resp.
+H72,98,Other and unspecified,14,Other NCDs
+H73,98,Other and unspecified,14,Other NCDs
+H74,98,Other and unspecified,14,Other NCDs
+H75,98,Other and unspecified,14,Other NCDs
+H76,98,Other and unspecified,14,Other NCDs
+H77,98,Other and unspecified,14,Other NCDs
+H78,98,Other and unspecified,14,Other NCDs
+H79,98,Other and unspecified,14,Other NCDs
+H80,98,Other and unspecified,14,Other NCDs
+H81,98,Other and unspecified,14,Other NCDs
+H82,98,Other and unspecified,14,Other NCDs
+H83,98,Other and unspecified,14,Other NCDs
+H84,98,Other and unspecified,14,Other NCDs
+H85,98,Other and unspecified,14,Other NCDs
+H86,98,Other and unspecified,14,Other NCDs
+H87,98,Other and unspecified,14,Other NCDs
+H88,98,Other and unspecified,14,Other NCDs
+H89,98,Other and unspecified,14,Other NCDs
+H90,98,Other and unspecified,14,Other NCDs
+H91,98,Other and unspecified,14,Other NCDs
+H92,98,Other and unspecified,14,Other NCDs
+H93,98,Other and unspecified,14,Other NCDs
+H94,98,Other and unspecified,14,Other NCDs
+H95,98,Other and unspecified,14,Other NCDs
+J30,98,Other and unspecified,7,Chronic Resp.
+J31,98,Other and unspecified,7,Chronic Resp.
+J32,98,Other and unspecified,1,Acute resp.
+J33,98,Other and unspecified,7,Chronic Resp.
+J34,98,Other and unspecified,7,Chronic Resp.
+J35,98,Other and unspecified,7,Chronic Resp.
+J36,98,Other and unspecified,1,Acute resp.
+J37,98,Other and unspecified,7,Chronic Resp.
+J38,98,Other and unspecified,7,Chronic Resp.
+J39,98,Other and unspecified,7,Chronic Resp.
+J47,98,Other and unspecified,7,Chronic Resp.
+J48,98,Other and unspecified,7,Chronic Resp.
+J49,98,Other and unspecified,7,Chronic Resp.
+J50,98,Other and unspecified,7,Chronic Resp.
+J51,98,Other and unspecified,7,Chronic Resp.
+J52,98,Other and unspecified,7,Chronic Resp.
+J53,98,Other and unspecified,7,Chronic Resp.
+J54,98,Other and unspecified,7,Chronic Resp.
+J55,98,Other and unspecified,7,Chronic Resp.
+J56,98,Other and unspecified,7,Chronic Resp.
+J57,98,Other and unspecified,7,Chronic Resp.
+J58,98,Other and unspecified,7,Chronic Resp.
+J59,98,Other and unspecified,7,Chronic Resp.
+J60,98,Other and unspecified,7,Chronic Resp.
+J61,98,Other and unspecified,7,Chronic Resp.
+J62,98,Other and unspecified,7,Chronic Resp.
+J63,98,Other and unspecified,7,Chronic Resp.
+J64,98,Other and unspecified,7,Chronic Resp.
+J65,98,Other and unspecified,2,TB
+J66,98,Other and unspecified,7,Chronic Resp.
+J67,98,Other and unspecified,7,Chronic Resp.
+J68,98,Other and unspecified,7,Chronic Resp.
+J69,98,Other and unspecified,7,Chronic Resp.
+J70,98,Other and unspecified,7,Chronic Resp.
+J71,98,Other and unspecified,7,Chronic Resp.
+J72,98,Other and unspecified,7,Chronic Resp.
+J73,98,Other and unspecified,7,Chronic Resp.
+J74,98,Other and unspecified,7,Chronic Resp.
+J75,98,Other and unspecified,7,Chronic Resp.
+J76,98,Other and unspecified,7,Chronic Resp.
+J77,98,Other and unspecified,7,Chronic Resp.
+J78,98,Other and unspecified,7,Chronic Resp.
+J79,98,Other and unspecified,7,Chronic Resp.
+J80,98,Other and unspecified,7,Chronic Resp.
+J81,98,Other and unspecified,7,Chronic Resp.
+J82,98,Other and unspecified,7,Chronic Resp.
+J83,98,Other and unspecified,7,Chronic Resp.
+J84,98,Other and unspecified,7,Chronic Resp.
+J85,98,Other and unspecified,1,Acute resp.
+J86,98,Other and unspecified,1,Acute resp.
+J90,98,Other and unspecified,7,Chronic Resp.
+J91,98,Other and unspecified,7,Chronic Resp.
+J92,98,Other and unspecified,7,Chronic Resp.
+J93,98,Other and unspecified,7,Chronic Resp.
+J94,98,Other and unspecified,7,Chronic Resp.
+J95,98,Other and unspecified,7,Chronic Resp.
+J96,98,Other and unspecified,7,Chronic Resp.
+J97,98,Other and unspecified,7,Chronic Resp.
+J98,98,Other and unspecified,7,Chronic Resp.
+J99,98,Other and unspecified,7,Chronic Resp.
+K00,98,Other and unspecified,14,Other NCDs
+K01,98,Other and unspecified,14,Other NCDs
+K02,98,Other and unspecified,4,Unspec. infect.
+K03,98,Other and unspecified,14,Other NCDs
+K04,98,Other and unspecified,4,Unspec. infect.
+K05,98,Other and unspecified,4,Unspec. infect.
+K06,98,Other and unspecified,14,Other NCDs
+K07,98,Other and unspecified,14,Other NCDs
+K08,98,Other and unspecified,14,Other NCDs
+K09,98,Other and unspecified,14,Other NCDs
+K10,98,Other and unspecified,14,Other NCDs
+K11,98,Other and unspecified,14,Other NCDs
+K12,98,Other and unspecified,14,Other NCDs
+K13,98,Other and unspecified,14,Other NCDs
+K14,98,Other and unspecified,14,Other NCDs
+K20,98,Other and unspecified,14,Other NCDs
+K21,98,Other and unspecified,14,Other NCDs
+K22,98,Other and unspecified,14,Other NCDs
+K23,98,Other and unspecified,14,Other NCDs
+K24,98,Other and unspecified,14,Other NCDs
+K25,98,Other and unspecified,14,Other NCDs
+K26,98,Other and unspecified,14,Other NCDs
+K27,98,Other and unspecified,14,Other NCDs
+K28,98,Other and unspecified,14,Other NCDs
+K29,98,Other and unspecified,14,Other NCDs
+K30,98,Other and unspecified,14,Other NCDs
+K31,98,Other and unspecified,14,Other NCDs
+K35,98,Other and unspecified,14,Other NCDs
+K36,98,Other and unspecified,14,Other NCDs
+K37,98,Other and unspecified,14,Other NCDs
+K38,98,Other and unspecified,14,Other NCDs
+K40,98,Other and unspecified,14,Other NCDs
+K41,98,Other and unspecified,14,Other NCDs
+K42,98,Other and unspecified,14,Other NCDs
+K43,98,Other and unspecified,14,Other NCDs
+K44,98,Other and unspecified,14,Other NCDs
+K45,98,Other and unspecified,14,Other NCDs
+K46,98,Other and unspecified,14,Other NCDs
+K47,98,Other and unspecified,14,Other NCDs
+K48,98,Other and unspecified,14,Other NCDs
+K49,98,Other and unspecified,14,Other NCDs
+K50,98,Other and unspecified,14,Other NCDs
+K51,98,Other and unspecified,14,Other NCDs
+K52,98,Other and unspecified,14,Other NCDs
+K53,98,Other and unspecified,14,Other NCDs
+K54,98,Other and unspecified,14,Other NCDs
+K55,98,Other and unspecified,14,Other NCDs
+K56,98,Other and unspecified,14,Other NCDs
+K57,98,Other and unspecified,14,Other NCDs
+K58,98,Other and unspecified,14,Other NCDs
+K59,98,Other and unspecified,14,Other NCDs
+K60,98,Other and unspecified,14,Other NCDs
+K61,98,Other and unspecified,4,Unspec. infect.
+K62,98,Other and unspecified,14,Other NCDs
+K63,98,Other and unspecified,14,Other NCDs
+K64,98,Other and unspecified,14,Other NCDs
+K65,98,Other and unspecified,4,Unspec. infect.
+K66,98,Other and unspecified,14,Other NCDs
+K67,98,Other and unspecified,4,Unspec. infect.
+K77,98,Other and unspecified,13,Liver & alcohol
+K78,98,Other and unspecified,14,Other NCDs
+K79,98,Other and unspecified,14,Other NCDs
+K80,98,Other and unspecified,14,Other NCDs
+K81,98,Other and unspecified,4,Unspec. infect.
+K82,98,Other and unspecified,14,Other NCDs
+K83,98,Other and unspecified,14,Other NCDs
+K84,98,Other and unspecified,14,Other NCDs
+K85,98,Other and unspecified,14,Other NCDs
+K86,98,Other and unspecified,14,Other NCDs
+K87,98,Other and unspecified,14,Other NCDs
+K88,98,Other and unspecified,14,Other NCDs
+K89,98,Other and unspecified,14,Other NCDs
+K90,98,Other and unspecified,14,Other NCDs
+K91,98,Other and unspecified,14,Other NCDs
+K92,98,Other and unspecified,14,Other NCDs
+K93,98,Other and unspecified,14,Other NCDs
+L00,98,Other and unspecified,4,Unspec. infect.
+L01,98,Other and unspecified,4,Unspec. infect.
+L02,98,Other and unspecified,4,Unspec. infect.
+L03,98,Other and unspecified,4,Unspec. infect.
+L04,98,Other and unspecified,4,Unspec. infect.
+L05,98,Other and unspecified,14,Other NCDs
+L08,98,Other and unspecified,4,Unspec. infect.
+L10,98,Other and unspecified,14,Other NCDs
+L11,98,Other and unspecified,14,Other NCDs
+L12,98,Other and unspecified,14,Other NCDs
+L13,98,Other and unspecified,14,Other NCDs
+L14,98,Other and unspecified,14,Other NCDs
+L15,98,Other and unspecified,14,Other NCDs
+L16,98,Other and unspecified,14,Other NCDs
+L17,98,Other and unspecified,14,Other NCDs
+L18,98,Other and unspecified,14,Other NCDs
+L19,98,Other and unspecified,14,Other NCDs
+L20,98,Other and unspecified,14,Other NCDs
+L21,98,Other and unspecified,14,Other NCDs
+L22,98,Other and unspecified,14,Other NCDs
+L23,98,Other and unspecified,14,Other NCDs
+L24,98,Other and unspecified,14,Other NCDs
+L25,98,Other and unspecified,14,Other NCDs
+L26,98,Other and unspecified,14,Other NCDs
+L27,98,Other and unspecified,14,Other NCDs
+L28,98,Other and unspecified,14,Other NCDs
+L29,98,Other and unspecified,14,Other NCDs
+L30,98,Other and unspecified,14,Other NCDs
+L31,98,Other and unspecified,14,Other NCDs
+L32,98,Other and unspecified,14,Other NCDs
+L33,98,Other and unspecified,14,Other NCDs
+L34,98,Other and unspecified,14,Other NCDs
+L35,98,Other and unspecified,14,Other NCDs
+L36,98,Other and unspecified,14,Other NCDs
+L37,98,Other and unspecified,14,Other NCDs
+L38,98,Other and unspecified,14,Other NCDs
+L39,98,Other and unspecified,14,Other NCDs
+L40,98,Other and unspecified,14,Other NCDs
+L41,98,Other and unspecified,14,Other NCDs
+L42,98,Other and unspecified,14,Other NCDs
+L43,98,Other and unspecified,14,Other NCDs
+L44,98,Other and unspecified,14,Other NCDs
+L45,98,Other and unspecified,14,Other NCDs
+L46,98,Other and unspecified,14,Other NCDs
+L47,98,Other and unspecified,14,Other NCDs
+L48,98,Other and unspecified,14,Other NCDs
+L49,98,Other and unspecified,14,Other NCDs
+L50,98,Other and unspecified,14,Other NCDs
+L51,98,Other and unspecified,14,Other NCDs
+L52,98,Other and unspecified,14,Other NCDs
+L53,98,Other and unspecified,14,Other NCDs
+L54,98,Other and unspecified,14,Other NCDs
+L55,98,Other and unspecified,14,Other NCDs
+L56,98,Other and unspecified,14,Other NCDs
+L57,98,Other and unspecified,14,Other NCDs
+L58,98,Other and unspecified,14,Other NCDs
+L59,98,Other and unspecified,14,Other NCDs
+L60,98,Other and unspecified,14,Other NCDs
+L61,98,Other and unspecified,14,Other NCDs
+L62,98,Other and unspecified,14,Other NCDs
+L63,98,Other and unspecified,14,Other NCDs
+L64,98,Other and unspecified,14,Other NCDs
+L65,98,Other and unspecified,14,Other NCDs
+L66,98,Other and unspecified,14,Other NCDs
+L67,98,Other and unspecified,14,Other NCDs
+L68,98,Other and unspecified,14,Other NCDs
+L69,98,Other and unspecified,14,Other NCDs
+L70,98,Other and unspecified,14,Other NCDs
+L71,98,Other and unspecified,14,Other NCDs
+L72,98,Other and unspecified,14,Other NCDs
+L73,98,Other and unspecified,14,Other NCDs
+L74,98,Other and unspecified,14,Other NCDs
+L75,98,Other and unspecified,14,Other NCDs
+L76,98,Other and unspecified,14,Other NCDs
+L77,98,Other and unspecified,14,Other NCDs
+L78,98,Other and unspecified,14,Other NCDs
+L79,98,Other and unspecified,14,Other NCDs
+L80,98,Other and unspecified,14,Other NCDs
+L81,98,Other and unspecified,14,Other NCDs
+L82,98,Other and unspecified,14,Other NCDs
+L83,98,Other and unspecified,14,Other NCDs
+L84,98,Other and unspecified,14,Other NCDs
+L85,98,Other and unspecified,14,Other NCDs
+L86,98,Other and unspecified,14,Other NCDs
+L87,98,Other and unspecified,14,Other NCDs
+L88,98,Other and unspecified,14,Other NCDs
+L89,98,Other and unspecified,14,Other NCDs
+L90,98,Other and unspecified,14,Other NCDs
+L91,98,Other and unspecified,14,Other NCDs
+L92,98,Other and unspecified,14,Other NCDs
+L93,98,Other and unspecified,14,Other NCDs
+L94,98,Other and unspecified,14,Other NCDs
+L95,98,Other and unspecified,14,Other NCDs
+L96,98,Other and unspecified,14,Other NCDs
+L97,98,Other and unspecified,14,Other NCDs
+L98,98,Other and unspecified,14,Other NCDs
+L99,98,Other and unspecified,14,Other NCDs
+M00,98,Other and unspecified,4,Unspec. infect.
+M01,98,Other and unspecified,4,Unspec. infect.
+M02,98,Other and unspecified,14,Other NCDs
+M03,98,Other and unspecified,14,Other NCDs
+M04,98,Other and unspecified,14,Other NCDs
+M05,98,Other and unspecified,14,Other NCDs
+M06,98,Other and unspecified,14,Other NCDs
+M07,98,Other and unspecified,14,Other NCDs
+M08,98,Other and unspecified,14,Other NCDs
+M09,98,Other and unspecified,14,Other NCDs
+M10,98,Other and unspecified,14,Other NCDs
+M11,98,Other and unspecified,14,Other NCDs
+M12,98,Other and unspecified,14,Other NCDs
+M13,98,Other and unspecified,14,Other NCDs
+M14,98,Other and unspecified,14,Other NCDs
+M15,98,Other and unspecified,14,Other NCDs
+M16,98,Other and unspecified,14,Other NCDs
+M17,98,Other and unspecified,14,Other NCDs
+M18,98,Other and unspecified,14,Other NCDs
+M19,98,Other and unspecified,14,Other NCDs
+M20,98,Other and unspecified,14,Other NCDs
+M21,98,Other and unspecified,14,Other NCDs
+M22,98,Other and unspecified,14,Other NCDs
+M23,98,Other and unspecified,14,Other NCDs
+M24,98,Other and unspecified,14,Other NCDs
+M25,98,Other and unspecified,14,Other NCDs
+M26,98,Other and unspecified,14,Other NCDs
+M27,98,Other and unspecified,14,Other NCDs
+M28,98,Other and unspecified,14,Other NCDs
+M29,98,Other and unspecified,14,Other NCDs
+M30,98,Other and unspecified,14,Other NCDs
+M31,98,Other and unspecified,14,Other NCDs
+M32,98,Other and unspecified,14,Other NCDs
+M33,98,Other and unspecified,14,Other NCDs
+M34,98,Other and unspecified,14,Other NCDs
+M35,98,Other and unspecified,14,Other NCDs
+M36,98,Other and unspecified,14,Other NCDs
+M37,98,Other and unspecified,14,Other NCDs
+M38,98,Other and unspecified,14,Other NCDs
+M39,98,Other and unspecified,14,Other NCDs
+M40,98,Other and unspecified,14,Other NCDs
+M41,98,Other and unspecified,14,Other NCDs
+M42,98,Other and unspecified,14,Other NCDs
+M43,98,Other and unspecified,14,Other NCDs
+M44,98,Other and unspecified,14,Other NCDs
+M45,98,Other and unspecified,14,Other NCDs
+M46,98,Other and unspecified,14,Other NCDs
+M47,98,Other and unspecified,14,Other NCDs
+M48,98,Other and unspecified,14,Other NCDs
+M49,98,Other and unspecified,14,Other NCDs
+M50,98,Other and unspecified,14,Other NCDs
+M51,98,Other and unspecified,14,Other NCDs
+M52,98,Other and unspecified,14,Other NCDs
+M53,98,Other and unspecified,14,Other NCDs
+M54,98,Other and unspecified,14,Other NCDs
+M60,98,Other and unspecified,4,Unspec. infect.
+M61,98,Other and unspecified,14,Other NCDs
+M62,98,Other and unspecified,14,Other NCDs
+M63,98,Other and unspecified,14,Other NCDs
+M64,98,Other and unspecified,14,Other NCDs
+M65,98,Other and unspecified,14,Other NCDs
+M66,98,Other and unspecified,14,Other NCDs
+M67,98,Other and unspecified,14,Other NCDs
+M68,98,Other and unspecified,14,Other NCDs
+M69,98,Other and unspecified,14,Other NCDs
+M70,98,Other and unspecified,14,Other NCDs
+M71,98,Other and unspecified,14,Other NCDs
+M72,98,Other and unspecified,14,Other NCDs
+M73,98,Other and unspecified,14,Other NCDs
+M74,98,Other and unspecified,14,Other NCDs
+M75,98,Other and unspecified,14,Other NCDs
+M76,98,Other and unspecified,14,Other NCDs
+M77,98,Other and unspecified,14,Other NCDs
+M78,98,Other and unspecified,14,Other NCDs
+M79,98,Other and unspecified,14,Other NCDs
+M80,98,Other and unspecified,14,Other NCDs
+M81,98,Other and unspecified,14,Other NCDs
+M82,98,Other and unspecified,14,Other NCDs
+M83,98,Other and unspecified,14,Other NCDs
+M84,98,Other and unspecified,14,Other NCDs
+M85,98,Other and unspecified,14,Other NCDs
+M86,98,Other and unspecified,4,Unspec. infect.
+M87,98,Other and unspecified,14,Other NCDs
+M88,98,Other and unspecified,14,Other NCDs
+M89,98,Other and unspecified,14,Other NCDs
+M90,98,Other and unspecified,14,Other NCDs
+M91,98,Other and unspecified,14,Other NCDs
+M92,98,Other and unspecified,14,Other NCDs
+M93,98,Other and unspecified,14,Other NCDs
+M94,98,Other and unspecified,14,Other NCDs
+M95,98,Other and unspecified,14,Other NCDs
+M96,98,Other and unspecified,14,Other NCDs
+M97,98,Other and unspecified,14,Other NCDs
+M98,98,Other and unspecified,14,Other NCDs
+M99,98,Other and unspecified,14,Other NCDs
+N00,98,Other and unspecified,14,Other NCDs
+N01,98,Other and unspecified,14,Other NCDs
+N02,98,Other and unspecified,14,Other NCDs
+N03,98,Other and unspecified,14,Other NCDs
+N04,98,Other and unspecified,14,Other NCDs
+N05,98,Other and unspecified,14,Other NCDs
+N06,98,Other and unspecified,14,Other NCDs
+N07,98,Other and unspecified,14,Other NCDs
+N08,98,Other and unspecified,14,Other NCDs
+N10,98,Other and unspecified,4,Unspec. infect.
+N11,98,Other and unspecified,14,Other NCDs
+N12,98,Other and unspecified,14,Other NCDs
+N13,98,Other and unspecified,14,Other NCDs
+N14,98,Other and unspecified,14,Other NCDs
+N15,98,Other and unspecified,14,Other NCDs
+N16,98,Other and unspecified,14,Other NCDs
+N20,98,Other and unspecified,14,Other NCDs
+N21,98,Other and unspecified,14,Other NCDs
+N22,98,Other and unspecified,14,Other NCDs
+N23,98,Other and unspecified,14,Other NCDs
+N24,98,Other and unspecified,14,Other NCDs
+N25,98,Other and unspecified,14,Other NCDs
+N26,98,Other and unspecified,14,Other NCDs
+N27,98,Other and unspecified,14,Other NCDs
+N28,98,Other and unspecified,14,Other NCDs
+N29,98,Other and unspecified,14,Other NCDs
+N30,98,Other and unspecified,4,Unspec. infect.
+N31,98,Other and unspecified,14,Other NCDs
+N32,98,Other and unspecified,14,Other NCDs
+N33,98,Other and unspecified,14,Other NCDs
+N34,98,Other and unspecified,4,Unspec. infect.
+N35,98,Other and unspecified,14,Other NCDs
+N36,98,Other and unspecified,14,Other NCDs
+N37,98,Other and unspecified,14,Other NCDs
+N38,98,Other and unspecified,14,Other NCDs
+N39,98,Other and unspecified,14,Other NCDs
+N40,98,Other and unspecified,14,Other NCDs
+N41,98,Other and unspecified,4,Unspec. infect.
+N42,98,Other and unspecified,14,Other NCDs
+N43,98,Other and unspecified,14,Other NCDs
+N44,98,Other and unspecified,14,Other NCDs
+N45,98,Other and unspecified,14,Other NCDs
+N46,98,Other and unspecified,14,Other NCDs
+N47,98,Other and unspecified,14,Other NCDs
+N48,98,Other and unspecified,14,Other NCDs
+N49,98,Other and unspecified,4,Unspec. infect.
+N50,98,Other and unspecified,14,Other NCDs
+N51,98,Other and unspecified,14,Other NCDs
+N52,98,Other and unspecified,14,Other NCDs
+N53,98,Other and unspecified,14,Other NCDs
+N54,98,Other and unspecified,14,Other NCDs
+N55,98,Other and unspecified,14,Other NCDs
+N56,98,Other and unspecified,14,Other NCDs
+N57,98,Other and unspecified,14,Other NCDs
+N58,98,Other and unspecified,14,Other NCDs
+N59,98,Other and unspecified,14,Other NCDs
+N60,98,Other and unspecified,8,Neoplasms
+N61,98,Other and unspecified,4,Unspec. infect.
+N62,98,Other and unspecified,8,Neoplasms
+N63,98,Other and unspecified,8,Neoplasms
+N64,98,Other and unspecified,8,Neoplasms
+N70,98,Other and unspecified,4,Unspec. infect.
+N71,98,Other and unspecified,4,Unspec. infect.
+N72,98,Other and unspecified,4,Unspec. infect.
+N73,98,Other and unspecified,4,Unspec. infect.
+N74,98,Other and unspecified,4,Unspec. infect.
+N75,98,Other and unspecified,14,Other NCDs
+N76,98,Other and unspecified,14,Other NCDs
+N77,98,Other and unspecified,14,Other NCDs
+N78,98,Other and unspecified,14,Other NCDs
+N79,98,Other and unspecified,14,Other NCDs
+N80,98,Other and unspecified,14,Other NCDs
+N81,98,Other and unspecified,14,Other NCDs
+N82,98,Other and unspecified,14,Other NCDs
+N83,98,Other and unspecified,14,Other NCDs
+N84,98,Other and unspecified,14,Other NCDs
+N85,98,Other and unspecified,14,Other NCDs
+N86,98,Other and unspecified,14,Other NCDs
+N87,98,Other and unspecified,8,Neoplasms
+N88,98,Other and unspecified,14,Other NCDs
+N89,98,Other and unspecified,14,Other NCDs
+N90,98,Other and unspecified,14,Other NCDs
+N91,98,Other and unspecified,14,Other NCDs
+N92,98,Other and unspecified,14,Other NCDs
+N93,98,Other and unspecified,14,Other NCDs
+N94,98,Other and unspecified,14,Other NCDs
+N95,98,Other and unspecified,14,Other NCDs
+N96,98,Other and unspecified,14,Other NCDs
+N97,98,Other and unspecified,14,Other NCDs
+N98,98,Other and unspecified,14,Other NCDs
+N99,98,Other and unspecified,14,Other NCDs
+R00,98,Other and unspecified,12,Other CVD
+R01,98,Other and unspecified,12,Other CVD
+R02,98,Other and unspecified,18,Ill-defined
+R03,98,Other and unspecified,12,Other CVD
+R04,98,Other and unspecified,7,Chronic Resp.
+R05,98,Other and unspecified,7,Chronic Resp.
+R06,98,Other and unspecified,7,Chronic Resp.
+R07,98,Other and unspecified,18,Ill-defined
+R08,98,Other and unspecified,18,Ill-defined
+R09,98,Other and unspecified,18,Ill-defined
+R11,98,Other and unspecified,14,Other NCDs
+R12,98,Other and unspecified,14,Other NCDs
+R13,98,Other and unspecified,14,Other NCDs
+R14,98,Other and unspecified,14,Other NCDs
+R15,98,Other and unspecified,14,Other NCDs
+R16,98,Other and unspecified,13,Liver & alcohol
+R17,98,Other and unspecified,13,Liver & alcohol
+R18,98,Other and unspecified,13,Liver & alcohol
+R19,98,Other and unspecified,14,Other NCDs
+R20,98,Other and unspecified,14,Other NCDs
+R21,98,Other and unspecified,14,Other NCDs
+R22,98,Other and unspecified,14,Other NCDs
+R23,98,Other and unspecified,14,Other NCDs
+R25,98,Other and unspecified,18,Ill-defined
+R26,98,Other and unspecified,14,Other NCDs
+R27,98,Other and unspecified,14,Other NCDs
+R29,98,Other and unspecified,14,Other NCDs
+R30,98,Other and unspecified,14,Other NCDs
+R31,98,Other and unspecified,14,Other NCDs
+R32,98,Other and unspecified,14,Other NCDs
+R33,98,Other and unspecified,14,Other NCDs
+R34,98,Other and unspecified,14,Other NCDs
+R35,98,Other and unspecified,14,Other NCDs
+R36,98,Other and unspecified,14,Other NCDs
+R37,98,Other and unspecified,14,Other NCDs
+R38,98,Other and unspecified,14,Other NCDs
+R39,98,Other and unspecified,14,Other NCDs
+R40,98,Other and unspecified,14,Other NCDs
+R41,98,Other and unspecified,14,Other NCDs
+R42,98,Other and unspecified,14,Other NCDs
+R43,98,Other and unspecified,14,Other NCDs
+R44,98,Other and unspecified,14,Other NCDs
+R45,98,Other and unspecified,14,Other NCDs
+R46,98,Other and unspecified,14,Other NCDs
+R47,98,Other and unspecified,14,Other NCDs
+R48,98,Other and unspecified,14,Other NCDs
+R49,98,Other and unspecified,14,Other NCDs
+R50,98,Other and unspecified,4,Unspec. infect.
+R51,98,Other and unspecified,18,Ill-defined
+R52,98,Other and unspecified,18,Ill-defined
+R53,98,Other and unspecified,18,Ill-defined
+R54,98,Other and unspecified,18,Ill-defined
+R55,98,Other and unspecified,9,Ischemic Heart Disease
+R56,98,Other and unspecified,14,Other NCDs
+R57,98,Other and unspecified,18,Ill-defined
+R58,98,Other and unspecified,18,Ill-defined
+R59,98,Other and unspecified,8,Neoplasms
+R60,98,Other and unspecified,18,Ill-defined
+R61,98,Other and unspecified,18,Ill-defined
+R62,98,Other and unspecified,18,Ill-defined
+R63,98,Other and unspecified,14,Other NCDs
+R64,98,Other and unspecified,18,Ill-defined
+R65,98,Other and unspecified,18,Ill-defined
+R66,98,Other and unspecified,18,Ill-defined
+R67,98,Other and unspecified,18,Ill-defined
+R68,98,Other and unspecified,18,Ill-defined
+R69,98,Other and unspecified,18,Ill-defined
+R70,98,Other and unspecified,14,Other NCDs
+R71,98,Other and unspecified,14,Other NCDs
+R72,98,Other and unspecified,14,Other NCDs
+R73,98,Other and unspecified,14,Other NCDs
+R74,98,Other and unspecified,14,Other NCDs
+R75,98,Other and unspecified,4,Unspec. infect.
+R76,98,Other and unspecified,14,Other NCDs
+R77,98,Other and unspecified,14,Other NCDs
+R78,98,Other and unspecified,18,Ill-defined
+R79,98,Other and unspecified,18,Ill-defined
+R80,98,Other and unspecified,14,Other NCDs
+R81,98,Other and unspecified,14,Other NCDs
+R82,98,Other and unspecified,14,Other NCDs
+R83,98,Other and unspecified,18,Ill-defined
+R84,98,Other and unspecified,7,Chronic Resp.
+R85,98,Other and unspecified,14,Other NCDs
+R86,98,Other and unspecified,14,Other NCDs
+R87,98,Other and unspecified,14,Other NCDs
+R89,98,Other and unspecified,18,Ill-defined
+R90,98,Other and unspecified,14,Other NCDs
+R91,98,Other and unspecified,7,Chronic Resp.
+R92,98,Other and unspecified,18,Ill-defined
+R93,98,Other and unspecified,18,Ill-defined
+R94,98,Other and unspecified,18,Ill-defined
+R95,99,Cause of death unknown,19,Neonatal conditions
+R96,99,Cause of death unknown,18,Ill-defined
+R98,99,Cause of death unknown,18,Ill-defined
+R99,99,Cause of death unknown,18,Ill-defined
+P05,10.01,Prematurity,19,Neonatal conditions
+P06,10.01,Prematurity,19,Neonatal conditions
+P07,10.01,Prematurity,19,Neonatal conditions
+P20,10.02, Birth asphyxia,19,Neonatal conditions
+P21,10.02, Birth asphyxia,19,Neonatal conditions
+P22,10.02, Birth asphyxia,19,Neonatal conditions
+P23,10.03,Neonatal pneumonia,1,Acute resp.
+P24,10.03,Neonatal pneumonia,19,Neonatal conditions
+P25,10.03,Neonatal pneumonia,19,Neonatal conditions
+P36,10.04,Neonatal sepsis,4,Unspec. infect.
+P00,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P01,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P02,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P03,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P04,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P08,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P09,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P10,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P11,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P12,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P13,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P14,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P15,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P26,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P27,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P28,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P29,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P35,10.99,Other and unspecified neonatal CoD,4,Unspec. infect.
+P37,10.99,Other and unspecified neonatal CoD,4,Unspec. infect.
+P38,10.99,Other and unspecified neonatal CoD,4,Unspec. infect.
+P39,10.99,Other and unspecified neonatal CoD,4,Unspec. infect.
+P50,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P51,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P52,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P53,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P54,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P55,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P56,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P57,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P58,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P59,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P60,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P61,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P62,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P63,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P64,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P65,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P66,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P67,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P68,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P69,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P70,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P71,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P72,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P73,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P74,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P75,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P76,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P77,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P78,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P79,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P80,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P81,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P82,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P83,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P84,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P85,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P86,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P87,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P88,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P89,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P90,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P91,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P92,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P93,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P94,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+P96,10.99,Other and unspecified neonatal CoD,19,Neonatal conditions
+G18,100,Colorectal Cancer,8,Neoplasms
+D91,100,Leukemia/Lymphomas,8,Neoplasms
+ZZ21,100,Other Infectious Diseases,4,Unspec. infect.
+ZZ23,100,Other Cardiovascular Diseases,12,Other CVD
+ZZ25,100,Other Non-communicable Diseases,14,Other NCDs
+ZZ27,100,Other Injuries,17,Other injuries

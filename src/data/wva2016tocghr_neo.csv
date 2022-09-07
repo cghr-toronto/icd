@@ -1,0 +1,274 @@
+icd10_code,cghr_code,cghr_label,wva2016_code,wva2016_title,icd10_range
+A00,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A01,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A02,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A03,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A04,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A05,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A06,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A07,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A08,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A09,2,Neonatal Infections,1.04,Diarrheal diseases,A00-09
+A20,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A21,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A22,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A23,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A24,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A25,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A26,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A27,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A28,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A32,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A33,2,Neonatal Infections,10.05,Neonatal tetanus,A33
+A33,2,Neonatal Infections,1.08,Tetanus,A33-35
+A34,2,Neonatal Infections,1.08,Tetanus,A33-35
+A35,2,Neonatal Infections,1.08,Tetanus,A33-35
+A37,2,Neonatal Infections,1.1,Pertussis,A37
+A38,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A39,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+A40,2,Neonatal Infections,1.01,Sepsis,A40-41
+A41,2,Neonatal Infections,1.01,Sepsis,A40-41
+A42,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A43,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A44,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A46,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A48,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A49,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A68,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A69,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A70,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A74,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A75,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A77,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A78,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A79,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A81,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A82,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A83,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A84,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A85,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A86,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A87,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A88,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+A89,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+B95,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+B96,2,Neonatal Infections,1.99,Unspecified infectious disease,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+C76,4,Congenital anomalies,2.99,Other and unspecified neoplasms,"C07-14,C40-49,C64-96,D00-48"
+D64,1,Prematurity & low birthweight ,3.01,Severe anaemia,D50-64
+G00,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+G01,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+G02,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+G03,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+G04,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+G05,2,Neonatal Infections,1.07,Meningitis and encephalitis,"A39,G00-05"
+G06,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+G07,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+G08,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+G09,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+G40,3,Birth asphyxia & birth trauma,8.01,Epilepsy,G40-41
+H10,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H60,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H65,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H66,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H67,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H68,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H70,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+H71,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+I30,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I30,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I32,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I32,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I33,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I33,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I39,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I39,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I40,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I40,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I41,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+I41,2,Neonatal Infections,4.99,Other and unspecified cardiac disease,"I00-10,I15-509"
+J00,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J01,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J02,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J03,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J04,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J05,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J06,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J07,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J08,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J09,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J10,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J11,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J12,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J13,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J14,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J15,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J16,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J17,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J18,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J19,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J20,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J21,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J22,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J32,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+J36,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+J85,2,Neonatal Infections,1.02,"Acute respiratory infection, including pneumonia","J00-22,J85"
+J86,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+K65,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+K67,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+K81,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+L00,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+L01,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+L02,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+L03,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+L04,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+L08,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+M00,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+M01,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+M60,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+M86,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+N10,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+N30,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+N34,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+N41,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+N49,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+N61,2,Neonatal Infections,98,Other and unspecified non- communicable disease,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
+P00,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P01,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P02,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P03,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P05,1,Prematurity & low birthweight ,10.01,Prematurity or low birth weight,"P05,P07"
+P07,1,Prematurity & low birthweight ,10.01,Prematurity or low birth weight,"P05,P07"
+P10,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P11,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P12,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P13,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P14,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P15,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P20,3,Birth asphyxia & birth trauma,10.02,Birth asphyxia8,P20-22
+P21,3,Birth asphyxia & birth trauma,10.02,Birth asphyxia8,P20-22
+P22,1,Prematurity & low birthweight ,10.02,Birth asphyxia8,P20-22
+P23,2,Neonatal Infections,10.03,Neonatal pneumonia,P23-24
+P24,3,Birth asphyxia & birth trauma,10.03,Neonatal pneumonia,P23-24
+P25,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P26,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P27,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P28,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P29,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P35,2,Neonatal Infections,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P36,2,Neonatal Infections,10.04,Neonatal sepsis,P36
+P37,2,Neonatal Infections,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P38,2,Neonatal Infections,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P39,2,Neonatal Infections,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P50,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P51,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P52,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P58,2,Neonatal Infections,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P59,2,Neonatal Infections,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P61,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P77,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P80,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P90,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P91,3,Birth asphyxia & birth trauma,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P92,1,Prematurity & low birthweight ,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+P96,6,Ill-defined,10.99,Other and unspecified perinatal cause of death,"P00-04,P08-15,P25-35,P37-94,P96"
+Q00,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q01,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q02,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q03,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q04,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q05,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q06,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q07,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q08,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q09,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q10,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q11,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q12,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q13,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q14,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q15,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q16,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q17,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q18,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q19,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q20,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q21,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q22,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q23,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q24,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q25,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q26,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q27,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q28,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q29,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q30,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q31,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q32,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q33,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q34,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q35,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q36,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q37,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q38,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q39,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q40,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q41,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q42,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q43,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q44,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q45,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q46,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q47,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q48,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q49,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q50,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q51,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q52,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q53,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q54,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q55,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q56,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q57,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q58,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q59,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q60,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q61,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q62,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q63,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q64,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q65,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q66,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q67,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q68,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q69,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q70,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q71,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q72,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q73,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q74,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q75,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q76,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q77,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q78,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q79,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q80,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q81,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q82,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q83,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q84,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q85,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q86,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q87,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q88,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q89,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q90,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q91,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q92,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q93,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q94,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q95,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q96,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q97,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q98,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+Q99,4,Congenital anomalies,10.06,Congenital malformation,Q00-99
+R10,6,Ill-defined,6.01,Acute abdomen,R10
