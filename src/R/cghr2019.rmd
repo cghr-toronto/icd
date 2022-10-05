@@ -1,0 +1,146 @@
+---
+title: "CGHR 2019 Codes"
+output: html_notebook
+author:
+- Richard Wen <rrwen.dev@gmail.com>
+- Bryan Gascon <bryan.gascon@mail.utoronto.ca>
+---
+
+WVA 2016 to CGHR 2019 to WBD 10 mappings.
+
+## Libraries
+
+```{r}
+library(tidyverse)
+library(cghrCodes)
+```
+
+## Read Data
+
+Read data from `../data` folder using data compiled by Bryan Gascon from the Automated Versus Physician Randomized Control Study (https://doi.org/10.1186/s12916-019-1353-2):
+
+* `cghrtowbd10_adult.csv`: original adult raw mappings for CGHR 2019 to WHO VA 2016
+* `cghrtowbd10_child.csv`: original child raw mappings for CGHR 2019 to WHO VA 2016
+* `cghrtowbd10_neo.csv`: original neo raw mappings for CGHR 2019 to WHO VA 2016
+* `wva2016tocghr_adult.csv`: original adult raw mappings for WHO VA 2016 to CGHR 2019
+* `wva2016tocghr_child.csv`: original child raw mappings for WHO VA 2016 to CGHR 2019
+* `wva2016tocghr_neo.csv`: original neo raw mappings for WHO VA 2016 to CGHR 2019
+* `wva2016towbd10_adult.csv`: original adult raw mappings for WHO VA 2016 to WBD 10
+* `wva2016towbd10_child.csv`: original child raw mappings for WHO VA 2016 to WBD 10
+* `wva2016towbd10_neo.csv`: original neo raw mappings for WHO VA 2016 to WBD 10
+
+**Note**: See also `../data/icd_cghr_wbd_nonequivalent.xlsx` for unmatched codes and modifications.
+
+### wbd10
+
+Get the wbd10 data:
+
+```{r}
+wbd10 <- read_csv("../data/wbd10_raw.csv", show_col_types=FALSE)
+colnames(wbd10) <- paste("wbd10_", colnames(wbd10), sep="")
+wbd10 <- wbd10 %>% filter(wbd10_kind == "codex") %>% rename(wbd10_code = wbd10_codex)
+wbd10
+```
+
+### wva2016
+
+Get the WHO VA 2016 data:
+
+```{r}
+wva2016 <- read_csv("../data/wva2016_raw.csv", show_col_types=FALSE)
+wva2016
+```
+
+### cghrtowbd10
+
+Combine all age groups with `age` column:
+
+```{r}
+# Prepare adult
+cghrtowbd10a <- read_csv("../data/cghrtowbd10_adult.csv", show_col_types=FALSE)
+cghrtowbd10a <- subset(cghrtowbd10a, select=c(cghr_code, cghr_label, wbd10_code))
+cghrtowbd10a <- cghrtowbd10a[!duplicated(cghrtowbd10a$cghr_code),]
+wbd10a <- wbd10 %>% filter(wbd10_age_group == "adult")
+cghrtowbd10a <- left_join(cghrtowbd10a, wbd10a)
+
+# Prepare child
+cghrtowbd10c <- read_csv("../data/cghrtowbd10_child.csv", show_col_types=FALSE)
+cghrtowbd10c <- subset(cghrtowbd10c, select=c(cghr_code, cghr_label, wbd10_code))
+cghrtowbd10c <- cghrtowbd10c[!duplicated(cghrtowbd10c$cghr_code),]
+wbd10c <- wbd10 %>% filter(wbd10_age_group == "child")
+cghrtowbd10c <- left_join(cghrtowbd10c, wbd10c)
+
+# Prepare neo
+cghrtowbd10n <- read_csv("../data/cghrtowbd10_neo.csv", show_col_types=FALSE)
+cghrtowbd10n <- subset(cghrtowbd10n, select=c(cghr_code, cghr_label, wbd10_code))
+cghrtowbd10n <- cghrtowbd10n[!duplicated(cghrtowbd10n$cghr_code),]
+wbd10n <- wbd10 %>% filter(wbd10_age_group == "neo")
+cghrtowbd10n <- left_join(cghrtowbd10n, wbd10n)
+
+# Combine all age groups
+cghrtowbd10 <- rbind(cghrtowbd10a, cghrtowbd10c, cghrtowbd10n) %>% arrange(cghr_code)
+cghrtowbd10
+```
+
+### wva2016tocghr
+
+Combine all age groups with `age` column:
+
+```{r}
+# Prepare adult
+wva2016tocghra <- read_csv("../data/wva2016tocghr_adult.csv", show_col_types=FALSE)
+wva2016tocghra <- subset(wva2016tocghra, select=c(cghr_code, cghr_label, wbd10_code))
+wva2016tocghra <- wva2016tocghra[!duplicated(wva2016tocghra$cghr_code),]
+
+# Prepare child
+wva2016tocghrc <- read_csv("../data/wva2016tocghr_neo.csv", show_col_types=FALSE)
+
+# Prepare neo
+wva2016tocghrn <- read_csv("../data/wva2016tocghr_neo.csv", show_col_types=FALSE)
+```
+
+### wva2016towbd10
+
+Combine all age groups with `age` column:
+
+## Preprocess
+
+Preprocess the data by removing `VAs-` from the codes.
+
+```{r}
+wva2016 <- wva2016raw %>%
+  rename_all(tolower) %>%
+  mutate(who_va_code=str_remove(who_va_code, "^VAs-+"))
+wva2016
+```
+
+## Collapse ICD-10 Ranges
+
+Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
+
+```{r}
+wva2016$icd_range_codes_2016_short <- apply(wva2016, 1, function(x) paste(collapseICD10(x["icd_range_codes_2016"]), collapse=","))
+wva2016
+```
+
+## Expand ICD-10 Ranges
+
+Expands the ICD-10 codes from the `icd_range_codes_2016` column to create an ICD-10 code for each WHO VA code:
+
+```{r}
+icd10towva2016 <- expandICD10Data(
+  wva2016,
+  icd10Column="icd_range_codes_2016",
+  expandColumn="icd10_code"
+)
+icd10towva2016
+```
+
+## Save Data
+
+Writes the collapsed and expanded WHO VA 2016 agreement codes to the `../data` folder.
+
+```{r}
+#write_csv(wva2016, "../data/wva2016_raw.csv", na="")
+#write_csv(icd10towva2016, "../data/icd10towva2016_raw.csv", na="")
+```
