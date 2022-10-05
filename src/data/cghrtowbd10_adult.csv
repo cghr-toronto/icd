@@ -1,4 +1,4 @@
-icd_code,cghr_code,cghr_label,wbd10_kind_depth,wbd10_codex4,wbd10_codex2,wbd10_code,wbd10_codex4_title,wbd10_codex2_title,wbd10_title,icd10_range
+icd10_code,cghr_code,cghr_label,wbd10_kind_depth,wbd10_codex4,wbd10_codex2,wbd10_code,wbd10_codex4_title,wbd10_codex2_title,wbd10_title,icd10_range
 A00,3,Diarrhoeal,3,1,1D,1D01,"Communicable, maternal, perinatal and nutritional conditions",Diarrhoeal diseases,Diarrhoeal diseases,A00-A09
 A01,3,Diarrhoeal,3,1,1D,1D01,"Communicable, maternal, perinatal and nutritional conditions",Diarrhoeal diseases,Diarrhoeal diseases,A00-A09
 A02,3,Diarrhoeal,3,1,1D,1D01,"Communicable, maternal, perinatal and nutritional conditions",Diarrhoeal diseases,Diarrhoeal diseases,A00-A09

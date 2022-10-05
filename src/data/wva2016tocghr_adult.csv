@@ -1,4 +1,4 @@
-﻿icd10_code,who_code,who_label,cghr_code,cghr_label
+icd10_code,wva2016_code,wva2016_label,cghr_code,cghr_label
 A40,1.01,Sepsis (non-obstetric),4,Unspec. infect.
 A41,1.01,Sepsis (non-obstetric),4,Unspec. infect.
 J00,1.02,"Acute resp infect, incl pneumonia",1,Acute resp.

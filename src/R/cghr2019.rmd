@@ -31,26 +31,6 @@ Read data from `../data` folder using data compiled by Bryan Gascon from the Aut
 
 **Note**: See also `../data/icd_cghr_wbd_nonequivalent.xlsx` for unmatched codes and modifications.
 
-### wbd10
-
-Get the wbd10 data:
-
-```{r}
-wbd10 <- read_csv("../data/wbd10_raw.csv", show_col_types=FALSE)
-colnames(wbd10) <- paste("wbd10_", colnames(wbd10), sep="")
-wbd10 <- wbd10 %>% filter(wbd10_kind == "codex") %>% rename(wbd10_code = wbd10_codex)
-wbd10
-```
-
-### wva2016
-
-Get the WHO VA 2016 data:
-
-```{r}
-wva2016 <- read_csv("../data/wva2016_raw.csv", show_col_types=FALSE)
-wva2016
-```
-
 ### cghrtowbd10
 
 Combine all age groups with `age` column:
@@ -60,25 +40,24 @@ Combine all age groups with `age` column:
 cghrtowbd10a <- read_csv("../data/cghrtowbd10_adult.csv", show_col_types=FALSE)
 cghrtowbd10a <- subset(cghrtowbd10a, select=c(cghr_code, cghr_label, wbd10_code))
 cghrtowbd10a <- cghrtowbd10a[!duplicated(cghrtowbd10a$cghr_code),]
-wbd10a <- wbd10 %>% filter(wbd10_age_group == "adult")
-cghrtowbd10a <- left_join(cghrtowbd10a, wbd10a)
+cghrtowbd10a$age <- "adult"
 
 # Prepare child
 cghrtowbd10c <- read_csv("../data/cghrtowbd10_child.csv", show_col_types=FALSE)
 cghrtowbd10c <- subset(cghrtowbd10c, select=c(cghr_code, cghr_label, wbd10_code))
 cghrtowbd10c <- cghrtowbd10c[!duplicated(cghrtowbd10c$cghr_code),]
-wbd10c <- wbd10 %>% filter(wbd10_age_group == "child")
-cghrtowbd10c <- left_join(cghrtowbd10c, wbd10c)
+cghrtowbd10c$age <- "child"
 
 # Prepare neo
 cghrtowbd10n <- read_csv("../data/cghrtowbd10_neo.csv", show_col_types=FALSE)
 cghrtowbd10n <- subset(cghrtowbd10n, select=c(cghr_code, cghr_label, wbd10_code))
 cghrtowbd10n <- cghrtowbd10n[!duplicated(cghrtowbd10n$cghr_code),]
-wbd10n <- wbd10 %>% filter(wbd10_age_group == "neo")
-cghrtowbd10n <- left_join(cghrtowbd10n, wbd10n)
+cghrtowbd10n$age <- "neo"
 
 # Combine all age groups
-cghrtowbd10 <- rbind(cghrtowbd10a, cghrtowbd10c, cghrtowbd10n) %>% arrange(cghr_code)
+cghrtowbd10 <- rbind(cghrtowbd10a, cghrtowbd10c, cghrtowbd10n) %>% 
+  arrange(cghr_code) %>%
+  rename(cghr_title = cghr_label)
 cghrtowbd10
 ```
 
@@ -89,19 +68,35 @@ Combine all age groups with `age` column:
 ```{r}
 # Prepare adult
 wva2016tocghra <- read_csv("../data/wva2016tocghr_adult.csv", show_col_types=FALSE)
-wva2016tocghra <- subset(wva2016tocghra, select=c(cghr_code, cghr_label, wbd10_code))
-wva2016tocghra <- wva2016tocghra[!duplicated(wva2016tocghra$cghr_code),]
+wva2016tocghra <- subset(wva2016tocghra, select=c(wva2016_code, cghr_code, cghr_label))
+wva2016tocghra <- wva2016tocghra[!duplicated(wva2016tocghra$wva2016_code),]
+wva2016tocghra$age <- "adult"
 
 # Prepare child
 wva2016tocghrc <- read_csv("../data/wva2016tocghr_neo.csv", show_col_types=FALSE)
+wva2016tocghrc <- subset(wva2016tocghrc, select=c(wva2016_code, cghr_code, cghr_label))
+wva2016tocghrc <- wva2016tocghrc[!duplicated(wva2016tocghrc$wva2016_code),]
+wva2016tocghrc$age <- "child"
 
 # Prepare neo
 wva2016tocghrn <- read_csv("../data/wva2016tocghr_neo.csv", show_col_types=FALSE)
+wva2016tocghrn <- subset(wva2016tocghrn, select=c(wva2016_code, cghr_code, cghr_label))
+wva2016tocghrn <- wva2016tocghrn[!duplicated(wva2016tocghrn$wva2016_code),]
+wva2016tocghrn$age <- "neo"
+
+# Combine all age groups
+wva2016tocghr <- rbind(wva2016tocghra, wva2016tocghrc, wva2016tocghrn) %>% 
+  arrange(wva2016_code) %>%
+  rename(cghr_title = cghr_label)
+wva2016tocghr
 ```
 
 ### wva2016towbd10
 
 Combine all age groups with `age` column:
+
+```{r}
+```
 
 ## Preprocess
 
