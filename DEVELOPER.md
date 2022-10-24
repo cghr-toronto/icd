@@ -17,12 +17,24 @@ icdbrowser[("ICD Browser<br/>(WHO)")]
 wbdraw>"WBD Excel Spreadsheet<br/>(Wilson)"]
 wbd>"Cleaned WBD Spreadsheet<br/>(Richard)"]
 
-cmea
+cmearaw>"CMEA CSV<br>(Rajeev)"]
+cmea>"Cleaned CMEA CSV<br>(Richard)"]
+
+wvaraw1>["WHO VA PDF<br>(WHO)"]
+wvaraw2>"Processed WHO VA CSVs<br>(Bryan)"]
+wva>"Cleaned WHO VA CSVs<br>(Richard)"]
+
+cghrraw1>"CGHR Excel Spreadsheet<br>(Patrycja)"]
+cghrraw2>"Preprocessed CGHR CSVs<br>(Bryan)"]
+cghr>"Cleaned CGHR CSVs<br>(Richard)"]
 
 research["Processed ICD Data<br>(Richard)"]
 
 icdbrowser --> icd & icdmap --> research
 wbdraw --> wbd --> research
+cmearaw --> cmea --> research
+wvaraw1 --> wvaraw2 --> wva --> research
+cghrraw1 --> cghrraw2 --> cghr --> research
 ```
 
 The ICD data was downloaded from the World Health Organization (WHO) through their [ICD-11 Browser](https://icd.who.int/browse11/l-m/en) (under `Info` select `Spreadsheet File` for the ICD-11 codes and `ICD-10 / ICD-11 mapping Tables` for the ICD-10 and ICD-11 mappings).
@@ -30,6 +42,8 @@ The ICD data was downloaded from the World Health Organization (WHO) through the
 The WBD data was retrieved from Wilson Suraweera <Wilson.Suraweera@unityhealth.to> as an Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013.xls)), and edited by Richard Wen <rrwen.dev@gmail.com> manually to be parsed in an R Script [here](src/R/wbd10.rmd) into a cleaned WBD Excel Spreadsheet (copy available [here](src/data/Version%2010%20-%20Final%20CGHR-GBD%20list%2018%20April%202013%20RW.xls)).
 
 The CMEA data was retrieved from Rajeev Kamadod <rajeevk@kentropy.com> as a CSV file (copy available [here](src/data/icd10-equivalent-1.csv)), and processed in an R Script [here](src/R/cmea10.rmd) into a cleaned CMEA files [cmea10_raw.csv](src/data/cmea10_raw.csv) and [icd10tocmea10_raw.csv](src/data/icd10tocmea10_raw.csv).
+
+The WHO VA data was collected and processed by Bryan Gascon <bryan.gascon@mail.utoronto.ca> as a CSV file (copies for [WHO VA 2016](src/data/whovatoicd10mapping.csv) and [WHO VA 2022](src/data/whova2022toicd10mapping.csv) available), and procssed in an R Script for [2016](src/R/wva2016.rmd) and [2022](src/R/wva2022.rmd) codes in cleaned WHO VA files [wva2016_raw.csv](src/data/wva2016_raw.csv) and [wva2022_raw.csv](src/data/wva2022_raw).
 
 These data are then processed and managed by Richard Wen <rrwen.dev@gmail.com> using scripts in this repository.
 
