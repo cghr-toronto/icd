@@ -1,7 +1,7 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHR's processed ICD data
 Version: 1
-Last Updated: July 12, 2022
+Last Updated: October 24, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
 Data:
@@ -509,4 +509,133 @@ Data:
   - Name: icd_range_codes_short
     Rename: icd10_range
     Description: "Range of ICD-10 codes for the WHO VA 2022 codes."
+    Type: str
+
+- Name: cghr2019
+  File: data/cghr2019_raw.csv
+  Version: 1
+  Description: "Centre for Global Health Research (CGHR) 2019 codes for physician coded verbal autopsies. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed from the Automated Versus Physician (AVP) study
+  Last Updated: 2022-10-24
+  Columns:
+  
+  - Name: code
+    Description: "CGHR 2019 code."
+    Type: str
+  
+  - Name: title
+    Description: "CGHR 2019 title for the code."
+    Type: str
+  
+  - Name: age
+    Description: "CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+    Type: str
+
+- Name: cghr2019towbd10
+  File: data/cghr2019towbd10_raw.csv
+  Version: 1
+  Description: "Mappings from the Centre for Global Health Research (CGHR) 2019 codes to Wilson's Burden of Disease (WBD) 10 codes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed from the Automated Versus Physician (AVP) study
+  Last Updated: 2022-10-24
+  Columns:
+  
+  - Name: cghr2019_code
+    Description: "CGHR 2019 code."
+    Type: str
+  
+  - Name: cghr2019_title
+    Description: "CGHR 2019 title for the code."
+    Type: str
+  
+  - Name: cghr2019_age
+    Description: "CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+    Type: str
+
+  - Name: wbd10_codex4
+    Description: "WBD codex4 - a higher level classification of the WBD codes."
+    Type: str
+  
+  - Name: wbd10_codex2
+    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
+    Type: str
+  
+  - Name: wbd10_code
+    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
+    Type: str
+  
+  - Name: wbd10_codex4_title
+    Description: "WBD title for codex4."
+    Type: str
+  
+  - Name: wbd10_codex2_title
+    Description: "WBD title for codex2."
+    Type: str
+  
+  - Name: wbd10_title
+    Description: "WBD code/codex title."
+    Type: str
+
+- Name: wva2016tocghr2019
+  File: data/wva2016tocghr2019_raw.csv
+  Version: 1
+  Description: "Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to the Centre for Global Health Research (CGHR) 2019 codes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed from the Automated Versus Physician (AVP) study
+  Last Updated: 2022-10-24
+  Columns:
+
+  - Name: wva2016_code
+    Description: "WHO VA code from the 2016 WHO VA instrument."
+    Type: str
+  
+  - Name: cghr2019_code
+    Description: "CGHR 2019 code."
+    Type: str
+  
+  - Name: cghr2019_title
+    Description: "CGHR 2019 title for the code."
+    Type: str
+  
+  - Name: cghr2019_age
+    Description: "CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+    Type: str
+
+- Name: wva2016towbd10
+  File: data/wva2016towbd10_raw.csv
+  Version: 1
+  Description: "Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to Wilson's Burden of Disease (WBD) 10 codes. See https://github.com/cghr-toronto/icd for more details."
+  Notes: Processed from the Automated Versus Physician (AVP) study
+  Last Updated: 2022-10-24
+  Columns:
+
+  - Name: wva2016_code
+    Description: "WHO VA code from the 2016 WHO VA instrument."
+    Type: str
+
+  - Name: wbd10_codex4
+    Description: "WBD codex4 - a higher level classification of the WBD codes."
+    Type: str
+  
+  - Name: wbd10_codex2
+    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
+    Type: str
+  
+  - Name: wbd10_code
+    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
+    Type: str
+  
+  - Name: wbd10_codex4_title
+    Description: "WBD title for codex4."
+    Type: str
+  
+  - Name: wbd10_codex2_title
+    Description: "WBD title for codex2."
+    Type: str
+  
+  - Name: wbd10_title
+    Description: "WBD code/codex title."
+    Type: str
+
+  - Name: age
+    Rename: wbd10_age
+    Description: "Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str

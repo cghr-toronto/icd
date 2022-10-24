@@ -6,7 +6,7 @@
 
 Documentation for CGHR's processed International Classification of Diseases (ICD) data from the World Health Organization (WHO).
 
-*Last Updated: July 12, 2022*
+*Last Updated: October 24, 2022*
 
 ## About
 
@@ -25,6 +25,7 @@ The following codes related to ICD are included:
   * [WHO VA 2016 Manual](docs/wva2016_manual.pdf)
   * [WHO VA 2022 Manual](docs/wva2022_manual.pdf)
 * Wilson's Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR)
+* CGHR 2019 codes from the [Automated Versus Physician](https://doi.org/10.1186/s12916-019-1353-2) study
 * Central Medical Evaluation Agreement (CMEA) codes from CGHR
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
@@ -129,6 +130,24 @@ To cite the data, please cite the following depending on the codes and versions 
 }
 ```
 
+### CGHR 2019
+
+* Jha, P., Kumar, D., Dikshit, R., Budukh, A., Begum, R., Sati, P., Kolpak, P., Wen, R., Raithatha, S.J., Shah, U., Li, Z.R., Aleksandrowicz, L., Shah, P., Piyasena, K., McCormick, T. H., Gelband, H., and Clark, S. J. (2019). Automated versus physician assignment of cause of death for verbal autopsies: randomized trial of 9374 deaths in 117 villages in India. BMC medicine, 17(1), 1-11. [doi:10.1186/s12916-019-1353-2](https://doi.org/10.1186/s12916-019-1353-2).
+
+```bibtex
+@article{
+    jha2019,
+    title={Automated versus physician assignment of cause of death for verbal autopsies: randomized trial of 9374 deaths in 117 villages in India},
+    author={Jha, Prabhat and Kumar, Dinesh and Dikshit, Rajesh and Budukh, Atul and Begum, Rehana and Sati, Prabha and Kolpak, Patrycja and Wen, Richard and Raithatha, Shyamsundar J and Shah, Utkarsh, Li, Zehang Richard and Aleksandrowicz, Lukasz and Shah, Prakash and Piyasena, Kapila and McCormick, Tyler H and Gelband, Hellen and Clark, Samuel J},
+    journal={BMC medicine},
+    volume={17},
+    number={1},
+    pages={1--11},
+    year={2019},
+    publisher={BioMed Central}
+}
+```
+
 ## Contact
 
 | Name | Email | Role |
@@ -137,4 +156,4 @@ To cite the data, please cite the following depending on the codes and versions 
 | Peter Rodriguez | Peter.Rodriguez@unityhealth.to | Contact for database access, CGHR staff only |
 | Wilson Suraweera | Wilson.Suraweera@unityhealth.to | Contact for WBD code inquiries |
 | Rajeev Kamadod | rajeevk@kentropy.com | Contact for ICD-10 equivalency codes for CMEA |
-| Bryan Gascon | bryan.gascon@mail.utoronto.ca | Contact for WHO VA code processing |
+| Bryan Gascon | bryan.gascon@mail.utoronto.ca | Contact for WHO VA and CGHR 2019 code processing |

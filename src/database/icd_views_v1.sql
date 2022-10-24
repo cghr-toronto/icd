@@ -211,3 +211,71 @@ COMMENT ON VIEW wva2022 IS 'World Health Organization (WHO) Verbal Autopsy (VA) 
 COMMENT ON COLUMN wva2022.wva2022_code IS 'WHO VA code from the 2022 WHO VA instrument.';
 COMMENT ON COLUMN wva2022.wva2022_title IS 'Title for the WHO VA 2022 code.';
 COMMENT ON COLUMN wva2022.icd10_range IS 'Range of ICD-10 codes for the WHO VA 2022 codes.';
+
+--- cghr2019 view
+
+CREATE OR REPLACE VIEW cghr2019 AS (SELECT * FROM cghr2019_v1);
+
+--- cghr2019 view comment
+
+COMMENT ON VIEW cghr2019 IS 'Centre for Global Health Research (CGHR) 2019 codes for physician coded verbal autopsies. See https://github.com/cghr-toronto/icd for more details.';
+
+--- cghr2019 view column comments (n=3)
+
+COMMENT ON COLUMN cghr2019.code IS 'CGHR 2019 code.';
+COMMENT ON COLUMN cghr2019.title IS 'CGHR 2019 title for the code.';
+COMMENT ON COLUMN cghr2019.age IS 'CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old).';
+
+--- cghr2019towbd10 view
+
+CREATE OR REPLACE VIEW cghr2019towbd10 AS (SELECT * FROM cghr2019towbd10_v1);
+
+--- cghr2019towbd10 view comment
+
+COMMENT ON VIEW cghr2019towbd10 IS 'Mappings from the Centre for Global Health Research (CGHR) 2019 codes to Wilson''s Burden of Disease (WBD) 10 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- cghr2019towbd10 view column comments (n=9)
+
+COMMENT ON COLUMN cghr2019towbd10.cghr2019_code IS 'CGHR 2019 code.';
+COMMENT ON COLUMN cghr2019towbd10.cghr2019_title IS 'CGHR 2019 title for the code.';
+COMMENT ON COLUMN cghr2019towbd10.cghr2019_age IS 'CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old).';
+COMMENT ON COLUMN cghr2019towbd10.wbd10_codex4 IS 'WBD codex4 - a higher level classification of the WBD codes.';
+COMMENT ON COLUMN cghr2019towbd10.wbd10_codex2 IS 'WBD codex2 - a middle level classification that usually group several WBD codes together.';
+COMMENT ON COLUMN cghr2019towbd10.wbd10_code IS 'WBD codex or codes - the lowest level classification representing the WBD codes themselves.';
+COMMENT ON COLUMN cghr2019towbd10.wbd10_codex4_title IS 'WBD title for codex4.';
+COMMENT ON COLUMN cghr2019towbd10.wbd10_codex2_title IS 'WBD title for codex2.';
+COMMENT ON COLUMN cghr2019towbd10.wbd10_title IS 'WBD code/codex title.';
+
+--- wva2016tocghr2019 view
+
+CREATE OR REPLACE VIEW wva2016tocghr2019 AS (SELECT * FROM wva2016tocghr2019_v1);
+
+--- wva2016tocghr2019 view comment
+
+COMMENT ON VIEW wva2016tocghr2019 IS 'Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to the Centre for Global Health Research (CGHR) 2019 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- wva2016tocghr2019 view column comments (n=4)
+
+COMMENT ON COLUMN wva2016tocghr2019.wva2016_code IS 'WHO VA code from the 2016 WHO VA instrument.';
+COMMENT ON COLUMN wva2016tocghr2019.cghr2019_code IS 'CGHR 2019 code.';
+COMMENT ON COLUMN wva2016tocghr2019.cghr2019_title IS 'CGHR 2019 title for the code.';
+COMMENT ON COLUMN wva2016tocghr2019.cghr2019_age IS 'CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old).';
+
+--- wva2016towbd10 view
+
+CREATE OR REPLACE VIEW wva2016towbd10 AS (SELECT * FROM wva2016towbd10_v1);
+
+--- wva2016towbd10 view comment
+
+COMMENT ON VIEW wva2016towbd10 IS 'Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to Wilson''s Burden of Disease (WBD) 10 codes. See https://github.com/cghr-toronto/icd for more details.';
+
+--- wva2016towbd10 view column comments (n=8)
+
+COMMENT ON COLUMN wva2016towbd10.wva2016_code IS 'WHO VA code from the 2016 WHO VA instrument.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_codex4 IS 'WBD codex4 - a higher level classification of the WBD codes.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_codex2 IS 'WBD codex2 - a middle level classification that usually group several WBD codes together.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_code IS 'WBD codex or codes - the lowest level classification representing the WBD codes themselves.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_codex4_title IS 'WBD title for codex4.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_codex2_title IS 'WBD title for codex2.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_title IS 'WBD code/codex title.';
+COMMENT ON COLUMN wva2016towbd10.wbd10_age IS 'Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old).';
