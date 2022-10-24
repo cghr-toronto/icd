@@ -1,0 +1,131 @@
+wva2016_code,cghr2019_code,cghr2019_title,cghr2019_age
+1.01,4,Unspec. infect.,adult
+1.01,4,Other Infections,child
+1.01,2,Neonatal Infections,neo
+1.02,1,Acute resp.,adult
+1.02,1,Pneumonia,child
+1.02,2,Neonatal Infections,neo
+1.03,4,Unspec. infect.,adult
+1.03,4,Other Infections,child
+1.04,3,Diarrhoeal,adult
+1.04,2,Diarrhoea,child
+1.04,2,Neonatal Infections,neo
+1.05,4,Unspec. infect.,adult
+1.05,3,Malaria,child
+1.06,4,Unspec. infect.,adult
+1.06,4,Other Infections,child
+1.07,4,Unspec. infect.,adult
+1.07,4,Other Infections,child
+1.07,2,Neonatal Infections,neo
+1.08,4,Unspec. infect.,adult
+1.08,4,Other Infections,child
+1.08,2,Neonatal Infections,neo
+1.09,2,TB,adult
+1.09,4,Other Infections,child
+1.1,4,Unspec. infect.,adult
+1.1,1,Pneumonia,child
+1.1,2,Neonatal Infections,neo
+1.11,4,Unspec. infect.,adult
+1.11,4,Other Infections,child
+1.12,4,Other Infections,child
+1.99,4,Unspec. infect.,adult
+1.99,4,Other Infections,child
+1.99,2,Neonatal Infections,neo
+2.01,8,Neoplasms,adult
+2.01,6,NCD,child
+2.02,8,Neoplasms,adult
+2.02,6,NCD,child
+2.03,8,Neoplasms,adult
+2.03,6,NCD,child
+2.04,8,Neoplasms,adult
+2.04,6,NCD,child
+2.05,8,Neoplasms,adult
+2.05,6,NCD,child
+2.06,8,Neoplasms,adult
+2.06,6,NCD,child
+2.99,8,Neoplasms,adult
+2.99,6,NCD,child
+2.99,4,Congenital anomalies,neo
+3.01,6,Nutrition,adult
+3.01,8,Nutritional,child
+3.01,1,Prematurity & low birthweight,neo
+3.02,6,Nutrition,adult
+3.02,8,Nutritional,child
+3.03,11,Diabetes,adult
+3.03,6,NCD,child
+4.01,9,Ischemic Heart Disease,adult
+4.01,6,NCD,child
+4.02,10,Stroke,adult
+4.02,6,NCD,child
+4.03,14,Other NCDs,adult
+4.03,6,NCD,child
+4.99,12,Other CVD,adult
+4.99,6,NCD,child
+4.99,2,Neonatal Infections,neo
+5.01,7,Chronic Resp.,adult
+5.01,6,NCD,child
+5.02,7,Chronic Resp.,adult
+5.02,6,NCD,child
+6.01,14,Other NCDs,adult
+6.01,10,Ill-defined,child
+6.01,6,Ill-defined,neo
+6.02,13,Liver & alcohol,adult
+6.02,6,NCD,child
+7.01,14,Other NCDs,adult
+7.01,6,NCD,child
+8.01,14,Other NCDs,adult
+8.01,6,NCD,child
+8.01,3,Birth asphyxia & birth trauma,neo
+9.01,5,Maternal,adult
+9.02,5,Maternal,adult
+9.03,5,Maternal,adult
+9.04,5,Maternal,adult
+9.05,5,Maternal,adult
+9.06,5,Maternal,adult
+9.07,5,Maternal,adult
+9.08,5,Maternal,adult
+9.99,5,Maternal,adult
+10.01,19,Neonatal conditions,adult
+10.01,1,Prematurity & low birthweight,neo
+10.02,19,Neonatal conditions,adult
+10.02,3,Birth asphyxia & birth trauma,neo
+10.03,1,Acute resp.,adult
+10.03,1,Pneumonia,child
+10.03,2,Neonatal Infections,neo
+10.04,4,Unspec. infect.,adult
+10.04,4,Other Infections,child
+10.04,2,Neonatal Infections,neo
+10.05,4,Other Infections,child
+10.05,2,Neonatal Infections,neo
+10.06,14,Other NCDs,adult
+10.06,5,Congenital anomalies,child
+10.06,4,Congenital anomalies,neo
+10.99,19,Neonatal conditions,adult
+10.99,6,NCD,child
+10.99,3,Birth asphyxia & birth trauma,neo
+12.01,15,Road & transport injuries,adult
+12.01,7,Injuries,child
+12.02,15,Road & transport injuries,adult
+12.02,7,Injuries,child
+12.03,17,Other injuries,adult
+12.03,7,Injuries,child
+12.04,17,Other injuries,adult
+12.04,7,Injuries,child
+12.05,17,Other injuries,adult
+12.05,7,Injuries,child
+12.06,17,Other injuries,adult
+12.06,7,Injuries,child
+12.07,17,Other injuries,adult
+12.07,7,Injuries,child
+12.08,16,Suicide,adult
+12.08,7,Injuries,child
+12.09,17,Other injuries,adult
+12.09,7,Injuries,child
+12.1,17,Other injuries,adult
+12.1,7,Injuries,child
+12.99,17,Other injuries,adult
+98,14,Other NCDs,adult
+98,6,NCD,child
+98,2,Neonatal Infections,neo
+99,19,Neonatal conditions,adult
+100,8,Neoplasms,adult
