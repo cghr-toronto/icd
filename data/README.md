@@ -16,6 +16,7 @@ icd10["icd10<br>(n=12,597)"]
 icd11["icd11<br>(n=35,459)"]
 wva2016["wva2016<br>(n=63)"]
 wva2022["wva2022<br>(n=72)"]
+cghr2019["cghr2019<br>(n=33)"]
 
 icd10 --> |icd10to11| icd11
 icd11 --> |icd11to10| icd10
@@ -23,15 +24,22 @@ icd10 ---> |icd10towbd10| wbd10
 icd10 ---> |icd10tocmea10| cmea10
 icd10 --> |icd10towva2016| wva2016
 icd10 --> |icd10towva2022| wva2022
+
+cghr2019 --> |cghr2019towbd10| wbd10
+wva2016 --> |wva2016tocghr2019| cghr2019
+wva2016 --> |wva2016towbd10| wbd10
 ```
 
-The data contain four groups of datasets:
+The data contain six groups of datasets:
 
 1. ICD codes with their titles and structures (chapter, entity, etc)
-2. ICD/WVA/WBD/CMEA mappings for translating between ICD and other codes
+2. ICD/WVA/WBD/CMEA/CGHR mappings for translating between ICD and other codes
 3. WVA codes with their titles and ICD-10 code ranges
-4. WBD codes with their titles and structures (codex4, codex2, etc)
+4. WBD codes with their titles, structures (codex4, codex2, etc), and age groups
 5. CMEA codes with their titles and ICD-10 agreement code ranges
+6. CGHR codes with their titles and age groups
+
+**Note**: CGHR and WBD codes are divided by age groups consisting of adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old).
 
 Refer to the following files for more information:
 
