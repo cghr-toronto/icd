@@ -157,3 +157,4 @@ To cite the data, please cite the following depending on the codes and versions 
 | Wilson Suraweera | Wilson.Suraweera@unityhealth.to | Contact for WBD code inquiries |
 | Rajeev Kamadod | rajeevk@kentropy.com | Contact for ICD-10 equivalency codes for CMEA |
 | Bryan Gascon | bryan.gascon@mail.utoronto.ca | Contact for WHO VA and CGHR 2019 code processing |
+| Patrycja Kolpak | Patrycja.Kolpak@unityhealth.to  | Contact for details on AVP raw data and CGHR 2019 codes |
