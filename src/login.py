@@ -31,7 +31,7 @@ def run():
     print('\nLogin Successful!')
 
     # Set icd env var
-    os.environ['ICD_UPLOAD_DB_URL'] = str(url)
+    os.environ['ICD_UPLOAD_DB_URL'] = url.render_as_string(hide_password=False)
     
     # Encrypt connection details
     save_edotenv(['ICD_UPLOAD_DB_URL'])
