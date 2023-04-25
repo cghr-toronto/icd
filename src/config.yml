@@ -1,6 +1,6 @@
 Title: CGHR ICD Data Config
 Description: Configuration file for transforming and documenting CGHR's processed ICD data
-Version: 1
+Version: 1a
 Last Updated: October 24, 2022
 Contact: Richard Wen <rrwen.dev@gmail.com>
 
@@ -21,7 +21,6 @@ Data:
 
 - Name: icd10
   File: data/icd_10to11_map_single.xlsx
-  Version: 1
   Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed for CGHR purposes (renaming/removal of columns).
   Last Updated: 2022-06-13
@@ -54,7 +53,6 @@ Data:
 
 - Name: icd11
   File: data/icd11.xlsx
-  Version: 1
   Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
   Last Updated: 2022-06-13
@@ -148,7 +146,6 @@ Data:
 
 - Name: icd10to11
   File: data/icd_10to11_map_single.xlsx
-  Version: 1
   Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 10 (ICD-10) to ICD Revision 11 (ICD-11) from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
   Last Updated: 2022-06-13
@@ -218,7 +215,6 @@ Data:
 
 - Name: icd11to10
   File: data/icd_11to10_map_single.xlsx
-  Version: 1
   Description: "Mappings for International Classification of Diseases. Contains mappings from ICD Revision 11 (ICD-11) to ICD Revision 10 (ICD-10) from the World Health Organization (WHO), processed for Centre for Global Health Research (CGHR) purposes. ICD-11 codes may map to multiple ICD-10 codes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed for CGHR purposes (renaming/removal of columns, removal of leading dashes from title).
   Last Updated: 2022-06-13
@@ -263,7 +259,6 @@ Data:
     
 - Name: wbd10
   File: data/wbd10_raw.csv
-  Version: 1
   Description: "Wilson's Burden of Disease (WBD) data from the Centre for Global Health Research (CGHR). Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate). See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-06-29
   Columns:
@@ -313,7 +308,6 @@ Data:
     
 - Name: icd10towbd10
   File: data/icd10towbd10_raw.csv
-  Version: 1
   Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to Wilson's Burden of Disease (WBD) codes from the Centre for Global Health Research (CGHR). See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-04
   Columns:
@@ -374,7 +368,6 @@ Data:
 
 - Name: cmea10
   File: data/cmea10_raw.csv
-  Version: 1
   Description: "Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR) for International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-06-30
   Columns:
@@ -396,7 +389,6 @@ Data:
 
 - Name: icd10tocmea10
   File: data/icd10tocmea10_raw.csv
-  Version: 1
   Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to Central Medical Evaluation Agreement (CMEA) blocks from the Centre for Global Health Research (CGHR). These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement. ICD-10 codes are assigned by physicians to code death records in Verbal Autopsies (VA). See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-04
   Columns:
@@ -417,7 +409,6 @@ Data:
 
 - Name: icd10towva2016
   File: data/icd10towva2016_raw.csv
-  Version: 1
   Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to WHO Verbal Autopsy (VA) 2016 codes. See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-07
   Columns:
@@ -443,7 +434,6 @@ Data:
 
 - Name: wva2016
   File: data/wva2016_raw.csv
-  Version: 1
   Description: "World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-07
   Columns:
@@ -465,7 +455,6 @@ Data:
 
 - Name: icd10towva2022
   File: data/icd10towva2022_raw.csv
-  Version: 1
   Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to WHO Verbal Autopsy (VA) 2022 codes. See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-12
   Columns:
@@ -491,7 +480,6 @@ Data:
 
 - Name: wva2022
   File: data/wva2022_raw.csv
-  Version: 1
   Description: "World Health Organization (WHO) Verbal Autopsy (VA) 2022 codes for International Classification of Diseases (ICD) Revision 10 codes. See https://github.com/cghr-toronto/icd for more details."
   Last Updated: 2022-07-12
   Columns:
@@ -513,7 +501,6 @@ Data:
 
 - Name: cghr2019
   File: data/cghr2019_raw.csv
-  Version: 1
   Description: "Centre for Global Health Research (CGHR) 2019 codes for physician coded verbal autopsies. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed from the Automated Versus Physician (AVP) study
   Last Updated: 2022-10-24
@@ -533,7 +520,6 @@ Data:
 
 - Name: cghr2019towbd10
   File: data/cghr2019towbd10_raw.csv
-  Version: 1
   Description: "Mappings from the Centre for Global Health Research (CGHR) 2019 codes to Wilson's Burden of Disease (WBD) 10 codes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed from the Automated Versus Physician (AVP) study
   Last Updated: 2022-10-24
@@ -577,7 +563,6 @@ Data:
 
 - Name: wva2016tocghr2019
   File: data/wva2016tocghr2019_raw.csv
-  Version: 1
   Description: "Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to the Centre for Global Health Research (CGHR) 2019 codes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed from the Automated Versus Physician (AVP) study
   Last Updated: 2022-10-24
@@ -601,7 +586,6 @@ Data:
 
 - Name: wva2016towbd10
   File: data/wva2016towbd10_raw.csv
-  Version: 1
   Description: "Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to Wilson's Burden of Disease (WBD) 10 codes. See https://github.com/cghr-toronto/icd for more details."
   Notes: Processed from the Automated Versus Physician (AVP) study
   Last Updated: 2022-10-24
