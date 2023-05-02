@@ -1,2 +1,1 @@
-call bin\activate
-jupyter-lab
+(call bin\activate && jupyter-lab)

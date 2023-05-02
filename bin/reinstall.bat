@@ -1,2 +1,1 @@
-call bin\uninstall
-call bin\install
+(call bin\uninstall && call bin\install)

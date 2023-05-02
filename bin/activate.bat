@@ -1,1 +1,1 @@
-conda activate icd
+tmp\venv\Scripts\activate.bat

@@ -1,2 +1,1 @@
-call bin\activate
-python src/login.py
+(call bin\activate && python src/login.py)

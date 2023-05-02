@@ -1,2 +1,1 @@
-call bin\deactivate
-call conda remove --name icd --all
+(call bin\activate && call bin\deactivate && rmdir venv)

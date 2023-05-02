@@ -1,1 +1,1 @@
-conda activate icd
+source tmp/venv/bin/activate

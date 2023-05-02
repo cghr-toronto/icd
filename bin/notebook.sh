@@ -1,2 +1,1 @@
-source bin/activate.sh
-jupyter-lab
+(source bin/activate.sh && jupyter-lab)

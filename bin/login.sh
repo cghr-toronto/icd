@@ -1,2 +1,1 @@
-source bin/activate.sh
-python src/login.py
+(source bin/activate.sh && python src/login.py)

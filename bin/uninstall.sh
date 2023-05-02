@@ -1,2 +1,1 @@
-source bin/deactivate.sh
-conda remove --name icd --all
+(source bin/activate.sh && source bin/deactivate.sh && rm -r venv)

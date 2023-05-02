@@ -56,10 +56,10 @@ For more details on the data, see the following files from the WHO:
 
 ## Install
 
-1. Install [Anaconda 3](https://www.anaconda.com/)
+1. Install [Python 3.11](https://www.python.org/)
 2. Install [PostgreSQL 12+](https://www.postgresql.org/)
-3. Run `bin/install` to create a `conda` environment
-4. Activate the `conda` environment (named `icd`)
+3. Run `bin/install` to create a `venv` environment
+4. Activate the `venv` environment
 
 In Windows:
 
@@ -138,22 +138,6 @@ This uses the Python Jupyter notebook [prepare.ipynb](src/prepare.ipynb) to:
 ## Requests
 
 The data is openly available in the [data](data) folder. See the [Access](README.md#access) section for more details.
-
-For CGHR staff, the data is also available on a database. See [Database Login](#database-login) for more details.
-
-### Database Login
-
-The ICD data is available in the CGHR database named `research1` where the latest data are available as views with the same dataset names as in the file [icd_data.csv](data/icd_data.csv).
-
-To provide permitted users access to this database, please contact Peter Rodriguez <Peter.Rodriguez@unityhealth.to> to create a user logins and for connection details, where he will provide the following to the permitted user:
-
-* Host address
-* Port number
-* Database name
-* User name
-* Password
-
-**Reminder**: These users should have a role that only permits them access to the research database.
 
 ## Contact
 

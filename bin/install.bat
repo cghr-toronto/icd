@@ -1,1 +1,2 @@
-call conda env create --file ./env.yml
+py -3.11 -m venv tmp/venv
+(call bin\activate && pip install -r requirements.txt)
