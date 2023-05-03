@@ -1,1 +1,1 @@
-(call bin\activate && call bin\deactivate && rmdir venv)
+(call bin\activate && call bin\deactivate && rmdir tmp\venv)
