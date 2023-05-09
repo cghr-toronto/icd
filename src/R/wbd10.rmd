@@ -21,7 +21,7 @@ Read data from `../data` folder:
 * `Version 10 - Final CGHR-GBD list 18 April 2013 RW.xls` manually cleaned WBD file by Richard Wen to be in a tabular structure
 
 ```{r}
-raw_file <- "../data/Version 10 - Final CGHR-GBD list 18 April 2013 RW.xls"
+raw_file <- "../data/Version 10 - Final CGHR-GBD list 18 April 2013_Updated 12Jan2023 RW.xls"
 
 # Read sheets 4-7 for ddict, adult, neo, child sheets in order
 raw_wbd <- list(
