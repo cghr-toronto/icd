@@ -64,39 +64,42 @@ This sheet contains the neonate WBD codes.
 raw_wbd[["neo"]]
 ```
 
-## Preprocess
+## Combine WBD Codes
 
-Initially filters the WBD code sheets data by:
+Combine WBD code sheets data for all age groups into a common dataframe by lower casing all column names to match.
 
-1. Combining all sheets (separated by age group) into a common dataframe
-2. Lowercase all column names
 
 ```{r}
-wbd <- bind_rows(
-  raw_wbd[["adult"]],
-  raw_wbd[["child"]],
-  raw_wbd[["neo"]]) %>%
-  rename_all(tolower)
+wbd <- list()
+
+# Lower case col names
+wbd[["adult"]] <- raw_wbd[["adult"]] %>% rename_all(tolower)
+wbd[["child"]] <- raw_wbd[["child"]] %>% rename_all(tolower)
+wbd[["neo"]] <- raw_wbd[["neo"]] %>% rename_all(tolower)
+
+# Combine into common dataframe
+wbd <- bind_rows(wbd)
 wbd
 ```
 
 ## Expand ICD-10 Ranges
 
-Expands the ICD-10 codes from the `icd10_range` column to create an ICD-10 code for each WBD code:
-
-1. Filters for `codex` entities only
-2. Expand ICD-10 code ranges to individual codes - one for each WBD code
+Expands the ICD-10 codes from the `icd10_range` column to create an ICD-10 code for each WBD code.
 
 ```{r}
-# Get codex entities only
-icd10towbd <- wbd %>% filter(kind == "codex")
 
-# Expand ICD ranges
-icd10towbd <- expandICD10Data(
-  icd10towbd,
-  icd10Column="icd10_range",
-  expandColumn="icd10"
-)
+# Filter for codex only
+icd10towbda <- raw_wbd[["adult"]] %>% rename_all(tolower) %>% filter(kind == "codex")
+icd10towbdc <- raw_wbd[["child"]] %>% rename_all(tolower) %>% filter(kind == "codex")
+icd10towbdn <- raw_wbd[["neo"]] %>% rename_all(tolower) %>% filter(kind == "codex")
+
+# Expand ICD 10 ranges
+icd10towbda <- expandICD10Data(icd10towbda, icd10Column="icd10_range", expandColumn="icd10")
+icd10towbdc <- expandICD10Data(icd10towbdc, icd10Column="icd10_range", expandColumn="icd10")
+icd10towbdn <- expandICD10Data(icd10towbdn, icd10Column="icd10_range", expandColumn="icd10")
+
+# Combine dataframes
+icd10towbd <- bind_rows(icd10towbda, icd10towbdc, icd10towbdn)
 icd10towbd
 ```
 
