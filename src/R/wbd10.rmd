@@ -100,7 +100,7 @@ icd10towbdn <- expandICD10Data(icd10towbdn, icd10Column="icd10_range", expandCol
 
 # Combine dataframes
 icd10towbd <- bind_rows(icd10towbda, icd10towbdc, icd10towbdn)
-icd10towbd
+as_tibble(icd10towbd)
 ```
 
 ## Data Dictionary
