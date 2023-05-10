@@ -1,6 +1,6 @@
 ---
 title: "Wilson's Burden of Disease (WBD) Codes"
-output: html_notebook
+output: rmarkdown::github_document
 ---
 
 Expands Wilson's Burden of Disease (WBD) classification groups from the raw Excel file using the [cghrCodes](https://github.com/cghr-toronto/cghrCodes) package at CGHR.

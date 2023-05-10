@@ -1,6 +1,6 @@
 ---
 title: "CGHR 2019 Codes"
-output: html_notebook
+output: rmarkdown::github_document
 author:
 - Richard Wen <rrwen.dev@gmail.com>
 - Bryan Gascon <bryan.gascon@mail.utoronto.ca>

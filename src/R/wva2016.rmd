@@ -1,6 +1,6 @@
 ---
 title: "World Health Organization (WHO) 2016 Verbal Autopsy (VA) Codes"
-output: html_notebook
+output: rmarkdown::github_document
 author:
 - Bryan Gascon <bryan.gascon@mail.utoronto.ca>
 - Richard Wen <rrwen.dev@gmail.com>

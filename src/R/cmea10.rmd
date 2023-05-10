@@ -1,6 +1,6 @@
 ---
 title: "Central Medical Evaluation (CME) ICD-10 Agreement"
-output: html_notebook
+output: rmarkdown::github_document
 ---
 
 During the physician coding for Verbal Autopsies (VA), ICD-10 codes can be considered in agreement if they are within a certain ICD-10 code range.
