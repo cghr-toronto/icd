@@ -2,8 +2,8 @@
 title: "World Health Organization (WHO) 2016 Verbal Autopsy (VA) Codes"
 output: rmarkdown::github_document
 author:
-- Bryan Gascon <bryan.gascon@mail.utoronto.ca>
 - Richard Wen <rrwen.dev@gmail.com>
+- Bryan Gascon <bryan.gascon@mail.utoronto.ca>
 ---
 
 WHO VA 2016 codes to ICD mapping.
@@ -19,21 +19,40 @@ library(cghrCodes)
 
 Read data from `../data` folder:
 
-* `whovatoicd10mapping.csv`: original raw WHO VA mappings compiled from the WHO VA 2016 PDF manual by Bryan Gascon
+* `WVAtoICD_map1-5.csv`: edited raw WHO VA mappings compiled from the WHO VA 2016 v1.5 PDF manual by Cheryl Chin
 
 ```{r}
-wva2016raw <- read_csv("../data/whovatoicd10mapping.csv", show_col_types=FALSE)
+wva2016raw <- read_csv(
+  "../data/WVAtoICD_map1-5_RW.csv",
+  show_col_types=FALSE,
+  col_types = list(
+    code = col_character(),
+    group = col_character()
+  )
+)
 wva2016raw
 ```
 
 ## Preprocess
 
-Preprocess the data by removing `VAs-` from the codes.
+Preprocess the data by lower-casing and renaming columns.
 
 ```{r}
 wva2016 <- wva2016raw %>%
   rename_all(tolower) %>%
-  mutate(who_va_code=str_remove(who_va_code, "^VAs-+"))
+  relocate(
+    kind,
+    kind_depth,
+    group,
+    code,
+    group_title,
+    title,
+    icd10_to,
+    icd10_from_range,
+    group_orig,
+    code_orig,
+    group_title_orig
+  )
 wva2016
 ```
 
@@ -42,7 +61,7 @@ wva2016
 Collapse the individual ICD-10 ranges to add a short form column with consecutive ranges defined by `-`:
 
 ```{r}
-wva2016$icd_range_codes_2016_short <- apply(wva2016, 1, function(x) paste(collapseICD10(x["icd_range_codes_2016"]), collapse=","))
+wva2016$icd10_from_range_short <- apply(wva2016, 1, function(x) paste(collapseICD10(x["icd10_from_range"]), collapse=","))
 wva2016
 ```
 
@@ -51,12 +70,32 @@ wva2016
 Expands the ICD-10 codes from the `icd_range_codes_2016` column to create an ICD-10 code for each WHO VA code:
 
 ```{r}
+
+# Filter out codes only
+icd10towva2016 <- wva2016 %>%
+  filter(kind == "code") %>%
+  select(
+    group,
+    code,
+    group_title,
+    title,
+    icd10_from_range_short
+  ) %>%
+  rename(
+    wva2016_group = group,
+    wva2016_code = code,
+    wva2016_group_title = group_title,
+    wva2016_title = title,
+    icd10_range = icd10_from_range_short
+  )
+
+# Expand icd codes
 icd10towva2016 <- expandICD10Data(
-  wva2016,
-  icd10Column="icd_range_codes_2016",
+  icd10towva2016,
+  icd10Column="icd10_range",
   expandColumn="icd10_code"
 )
-icd10towva2016
+as_tibble(icd10towva2016)
 ```
 
 ## Save Data
