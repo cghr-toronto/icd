@@ -1,0 +1,126 @@
+---
+title: "CGHR-10 Codes"
+output: rmarkdown::github_document
+author:
+- Richard Wen <rrwen.dev@gmail.com>
+---
+
+Centre for Global Health Research (CGHR) codes for ICD-10.
+
+## Libraries
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(cghrCodes)
+```
+
+## Read Data
+
+Read data from `../data` folder using data compiled by Cheryl Chin <cheryl.chin@unityhealth.to> from the Automated Versus Physician Randomized Control Study (https://doi.org/10.1186/s12916-019-1353-2):
+
+* `bmc_adult_cod_group_split_icd.csv`: original adult raw mappings for ICD-10 to CGHR-10
+* `bmc_child_cod_group_split_icd.csv`: original child raw mappings for ICD-10 to CGHR-10
+* `bmc_neonate_cod_group_split_icd.csv`: original neonatal raw mappings for ICD-10 to CGHR-10
+* `BMC.2019-CoD.Categories.with.Corresponding.ICD-10-EditedChatGPT.xlsx`: original raw CGHR-10 codes
+
+### Adult Mappings
+
+```{r}
+icd10tocghr10a <- read_csv("../data/bmc_adult_cod_group_split_icd.csv", show_col_types=FALSE)
+icd10tocghr10a
+```
+
+### Child Mappings
+
+```{r}
+icd10tocghr10c <- read_csv("../data/bmc_child_cod_group_split_icd.csv", show_col_types=FALSE)
+icd10tocghr10c
+```
+
+### Neonate Mappings
+
+```{r}
+icd10tocghr10n <- read_csv("../data/bmc_neonate_cod_group_split_icd.csv", show_col_types=FALSE)
+icd10tocghr10n
+```
+
+### Adult Codes
+
+```{r}
+cghr10a <- read_excel("../data/BMC.2019-CoD.Categories.with.Corresponding.ICD-10-EditedChatGPT.xlsx", sheet=1)
+cghr10a
+```
+
+### Child Codes
+
+```{r}
+cghr10c <- read_excel("../data/BMC.2019-CoD.Categories.with.Corresponding.ICD-10-EditedChatGPT.xlsx", sheet=2)
+cghr10c
+```
+
+### Neonate Codes
+
+```{r}
+cghr10n <- read_excel("../data/BMC.2019-CoD.Categories.with.Corresponding.ICD-10-EditedChatGPT.xlsx", sheet=3)
+cghr10n
+```
+
+## Preprocess
+
+### Rename Columns
+
+Lowercase and rename columns.
+
+```{r}
+# Mappings
+icd10tocghr10a <- icd10tocghr10a %>% rename_all(tolower) %>% rename(cghr10_title = cod, icd10_code = icd10)
+icd10tocghr10c <- icd10tocghr10c %>% rename_all(tolower) %>% rename(cghr10_title = cod, icd10_code = icd10)
+icd10tocghr10n <- icd10tocghr10n %>% rename_all(tolower) %>% rename(cghr10_title = cod, icd10_code = icd10)
+
+# Codes
+cghr10a <- cghr10a %>% rename_all(tolower) %>% rename(title = cod)
+cghr10c <- cghr10c %>% rename_all(tolower) %>% rename(title = cod)
+cghr10n <- cghr10n %>% rename_all(tolower) %>% rename(title = cod)
+
+# Preview
+icd10tocghr10a
+icd10tocghr10c
+icd10tocghr10n
+cghr10a
+cghr10c
+cghr10n
+```
+
+### Combine Data
+
+Combine mappings and codes into a single file each with an age group column.
+
+```{r}
+# Add age group col
+icd10tocghr10a$cghr10_age <- "adult"
+icd10tocghr10c$cghr10_age <- "child"
+icd10tocghr10n$cghr10_age <- "neo"
+cghr10a$age <- "adult"
+cghr10c$age <- "child"
+cghr10n$age <- "neo"
+
+# Combine maps
+icd10tocghr10 <- bind_rows(icd10tocghr10a, icd10tocghr10c, icd10tocghr10n)
+
+# Combine codes
+cghr10 <- bind_rows(cghr10a, cghr10c, cghr10n)
+
+# Preview
+icd10tocghr10
+cghr10
+```
+
+## Save Data
+
+Writes the collapsed and expanded WHO VA 2016 agreement codes to the `../data` folder.
+
+```{r}
+write_csv(cghr10, "../data/cghr10_raw.csv", na="")
+write_csv(icd10tocghr10, "../data/icd10tocghr10_raw.csv", na="")
+```

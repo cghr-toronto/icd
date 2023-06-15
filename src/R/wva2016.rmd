@@ -128,5 +128,5 @@ Writes the collapsed and expanded WHO VA 2016 agreement codes to the `../data` f
 ```{r}
 write_csv(wva2016, "../data/wva2016_raw.csv", na="")
 write_csv(icd10towva2016, "../data/icd10towva2016_raw.csv", na="")
-write_csv(wva2016toicd10, "../data/wva2016toicd10.csv", na="")
+write_csv(wva2016toicd10, "../data/wva2016toicd10_raw.csv", na="")
 ```
