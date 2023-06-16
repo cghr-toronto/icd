@@ -30,7 +30,7 @@ Data:
 
 - Name: icd10
   File: data/icd_10to11_map_single.xlsx
-  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO)."
+  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).\n\nSee [ICD-10 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd10_manual.pdf)."
   Permission: user
   Tag: icd
   Category: main
@@ -63,7 +63,7 @@ Data:
 
 - Name: icd11
   File: data/icd11.xlsx
-  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO)."
+  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).\n\nSee [ICD-11 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd11_manual.pdf)."
   Permission: user
   Tag: icd
   Category: main
@@ -157,7 +157,7 @@ Data:
 
 - Name: icd10_icd11
   File: data/icd_10to11_map_single.xlsx
-  Description: "Mappings to convert from ICD-10 to ICD-11."
+  Description: "Mappings to convert from ICD-10 to ICD-11.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `icd11_code`."
   Permission: user
   Tag: icd
   Category: supplementary
@@ -180,7 +180,7 @@ Data:
   
   - Name: icd10Code
     Rename: icd10_code
-    Description: "ICD-10 code for the entity. Note that the groupings do not have a code."
+    Description: "ICD-10 code for the entity."
     Type: str
   
   - Name: icd10Title
@@ -227,7 +227,7 @@ Data:
 
 - Name: icd11_icd10
   File: data/icd_11to10_map_single.xlsx
-  Description: "Mappings to convert from ICD-11 to ICD-10.\n\n**Note**: ICD-11 codes may map to multiple ICD-10 codes."
+  Description: "Mappings to convert from ICD-11 to ICD-10.\n\nJoin the variable `icd11_code` to your data for the converted codes in variable `icd10_code`.\n\n**Note**: ICD-11 codes may map to multiple ICD-10 codes."
   Permission: user
   Tag: icd
   Category: supplementary
@@ -240,7 +240,7 @@ Data:
   
   - Name: icd11Code
     Rename: icd11_code
-    Description: "ICD-11 code for the entity. Note that the groupings do not have a code."
+    Description: "ICD-11 code for the entity."
     Type: str
   
   - Name: icd11Title
@@ -272,7 +272,7 @@ Data:
     
 - Name: wbd10
   File: data/wbd10_raw.csv
-  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate)."
+  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate).\n\nSee [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
   Permission: user
   Tag: wbd
   Category: main
@@ -323,7 +323,7 @@ Data:
     
 - Name: icd10_wbd10
   File: data/icd10towbd10_raw.csv
-  Description: "Mappings to convert from ICD-10 to WBD-10."
+  Description: "Mappings to convert from ICD-10 to WBD-10.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `wbd10_code`."
   Permission: user
   Tag: icd,wbd
   Category: supplementary
@@ -385,7 +385,7 @@ Data:
 
 - Name: cmea10
   File: data/cmea10_raw.csv
-  Description: "Central Medical Evaluation Agreement for ICD-10 (CMEA-10) blocks from the Centre for Global Health Research (CGHR).\n\nThese blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA)."
+  Description: "Central Medical Evaluation Agreement for ICD-10 (CMEA-10) blocks from the Centre for Global Health Research (CGHR).\n\nThese blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA).\n\nSee [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
   Permission: user
   Tag: cmea
   Category: main
@@ -408,14 +408,14 @@ Data:
 
 - Name: icd10_cmea10
   File: data/icd10tocmea10_raw.csv
-  Description: "Mappings to convert from ICD-10 to CMEA-10."
+  Description: "Mappings to convert from ICD-10 to CMEA-10.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `cmea10_title`."
   Permission: user
   Tag: icd,cmea
   Category: supplementary
   Columns:
 
   - Name: icdequivalence_desc
-    Rename: cmea_title
+    Rename: cmea10_title
     Description: "CMEA-10 block that groups ICD-10 codes considered in agreement for assigning death codes in VAs."
     Type: str
 
@@ -430,7 +430,7 @@ Data:
 
 - Name: wva2016
   File: data/wva2016_raw.csv
-  Description: "World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality."
+  Description: "World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality.\n\nSee [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf)."
   Permission: user
   Tag: wva
   Category: main
@@ -480,7 +480,7 @@ Data:
 
 - Name: icd10_wva2016
   File: data/icd10towva2016_raw.csv
-  Description: "Mappings to convert from ICD-10 to WVA-2016."
+  Description: "Mappings to convert from ICD-10 to WVA-2016.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `wva2016_code`."
   Permission: user
   Tag: icd,wva
   Category: supplementary
@@ -512,7 +512,7 @@ Data:
 
 - Name: wva2022
   File: data/wva2022_raw.csv
-  Description: "World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality."
+  Description: "World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality.\n\nSee [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf)."
   Permission: user
   Tag: wva
   Category: main
@@ -535,7 +535,7 @@ Data:
 
 - Name: icd10_wva2022
   File: data/icd10towva2022_raw.csv
-  Description: "Mappings to convert from ICD-10 to WVA-2022."
+  Description: "Mappings to convert from ICD-10 to WVA-2022.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `wva2022_code`."
   Permission: user
   Tag: icd,wva
   Category: supplementary
@@ -562,7 +562,7 @@ Data:
 
 - Name: cghr10
   File: data/cghr10_raw.csv
-  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies."
+  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.\n\n See [relevant paper](https://doi.org/10.1186/s12916-019-1353-2)."
   Permission: user
   Tag: cghr
   Category: main
@@ -582,7 +582,7 @@ Data:
 
 - Name: icd10_cghr10
   File: data/icd10tocghr10_raw.csv
-  Description: "Mappings to convert from ICD-10 to CGHR-10."
+  Description: "Mappings to convert from ICD-10 to CGHR-10.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `cghr10_title`."
   Permission: user
   Tag: icd,cghr
   Category: supplementary

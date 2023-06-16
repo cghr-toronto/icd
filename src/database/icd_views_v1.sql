@@ -4,7 +4,9 @@ DROP VIEW IF EXISTS icd10; CREATE OR REPLACE VIEW icd10 AS (SELECT * FROM icd10_
 
 --- icd10 view comment
 
-COMMENT ON VIEW icd10 IS 'International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).';
+COMMENT ON VIEW icd10 IS 'International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).
+
+See [ICD-10 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd10_manual.pdf).';
 
 --- icd10 view column comments (n=5)
 
@@ -20,7 +22,9 @@ DROP VIEW IF EXISTS icd11; CREATE OR REPLACE VIEW icd11 AS (SELECT * FROM icd11_
 
 --- icd11 view comment
 
-COMMENT ON VIEW icd11 IS 'International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).';
+COMMENT ON VIEW icd11 IS 'International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).
+
+See [ICD-11 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd11_manual.pdf).';
 
 --- icd11 view column comments (n=17)
 
@@ -48,12 +52,14 @@ DROP VIEW IF EXISTS icd10_icd11; CREATE OR REPLACE VIEW icd10_icd11 AS (SELECT *
 
 --- icd10_icd11 view comment
 
-COMMENT ON VIEW icd10_icd11 IS 'Mappings to convert from ICD-10 to ICD-11.';
+COMMENT ON VIEW icd10_icd11 IS 'Mappings to convert from ICD-10 to ICD-11.
+
+Join the variable `icd10_code` to your data for the converted codes in variable `icd11_code`.';
 
 --- icd10_icd11 view column comments (n=12)
 
 COMMENT ON COLUMN icd10_icd11.icd10_chapter IS 'ICD-10 chapter for the entity.';
-COMMENT ON COLUMN icd10_icd11.icd10_code IS 'ICD-10 code for the entity. Note that the groupings do not have a code.';
+COMMENT ON COLUMN icd10_icd11.icd10_code IS 'ICD-10 code for the entity.';
 COMMENT ON COLUMN icd10_icd11.icd10_kind IS 'ICD-10 entity kind. One of chapter, block, or category. Chapters are top level classification entities. Blocks are high level groupings that do not have a code. Categories are entities that have a code.';
 COMMENT ON COLUMN icd10_icd11.icd10_kind_depth IS 'ICD-10 depth for kind. For example, a category with kind_depth=2 means it is category whose parent is also a category but grand parent is not.';
 COMMENT ON COLUMN icd10_icd11.icd10_title IS 'ICD-10 title of the entity.';
@@ -73,6 +79,8 @@ DROP VIEW IF EXISTS icd11_icd10; CREATE OR REPLACE VIEW icd11_icd10 AS (SELECT *
 
 COMMENT ON VIEW icd11_icd10 IS 'Mappings to convert from ICD-11 to ICD-10.
 
+Join the variable `icd11_code` to your data for the converted codes in variable `icd10_code`.
+
 **Note**: ICD-11 codes may map to multiple ICD-10 codes.';
 
 --- icd11_icd10 view column comments (n=7)
@@ -80,7 +88,7 @@ COMMENT ON VIEW icd11_icd10 IS 'Mappings to convert from ICD-11 to ICD-10.
 COMMENT ON COLUMN icd11_icd10.icd11_title IS 'ICD-11 title of the entity.';
 COMMENT ON COLUMN icd11_icd10.icd10_chapter IS 'ICD-10 chapter for the entity.';
 COMMENT ON COLUMN icd11_icd10.icd11_chapter IS 'ICD-11 chapter for the entity.';
-COMMENT ON COLUMN icd11_icd10.icd11_code IS 'ICD-11 code for the entity. Note that the groupings do not have a code.';
+COMMENT ON COLUMN icd11_icd10.icd11_code IS 'ICD-11 code for the entity.';
 COMMENT ON COLUMN icd11_icd10.icd10_title IS 'ICD-10 title of the entity.';
 COMMENT ON COLUMN icd11_icd10.icd10_code IS 'ICD-10 code for the entity. Note that the groupings do not have a code.';
 COMMENT ON COLUMN icd11_icd10.icd11_linear_url IS 'ICD-11 Link to unique identifier for this version of the classification. It includes the linearization name such as MMS and minor version identifier such as 2018 in it.';
@@ -93,7 +101,9 @@ DROP VIEW IF EXISTS wbd10; CREATE OR REPLACE VIEW wbd10 AS (SELECT * FROM wbd10_
 
 COMMENT ON VIEW wbd10 IS 'Wilson''s Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).
 
-Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate).';
+Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate).
+
+See [relevant paper](https://doi.org/10.1186/1741-7015-12-21).';
 
 --- wbd10 view column comments (n=10)
 
@@ -114,7 +124,9 @@ DROP VIEW IF EXISTS icd10_wbd10; CREATE OR REPLACE VIEW icd10_wbd10 AS (SELECT *
 
 --- icd10_wbd10 view comment
 
-COMMENT ON VIEW icd10_wbd10 IS 'Mappings to convert from ICD-10 to WBD-10.';
+COMMENT ON VIEW icd10_wbd10 IS 'Mappings to convert from ICD-10 to WBD-10.
+
+Join the variable `icd10_code` to your data for the converted codes in variable `wbd10_code`.';
 
 --- icd10_wbd10 view column comments (n=11)
 
@@ -138,7 +150,9 @@ DROP VIEW IF EXISTS cmea10; CREATE OR REPLACE VIEW cmea10 AS (SELECT * FROM cmea
 
 COMMENT ON VIEW cmea10 IS 'Central Medical Evaluation Agreement for ICD-10 (CMEA-10) blocks from the Centre for Global Health Research (CGHR).
 
-These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA).';
+These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA).
+
+See [relevant paper](https://doi.org/10.1186/1741-7015-12-21).';
 
 --- cmea10 view column comments (n=3)
 
@@ -152,12 +166,14 @@ DROP VIEW IF EXISTS icd10_cmea10; CREATE OR REPLACE VIEW icd10_cmea10 AS (SELECT
 
 --- icd10_cmea10 view comment
 
-COMMENT ON VIEW icd10_cmea10 IS 'Mappings to convert from ICD-10 to CMEA-10.';
+COMMENT ON VIEW icd10_cmea10 IS 'Mappings to convert from ICD-10 to CMEA-10.
+
+Join the variable `icd10_code` to your data for the converted codes in variable `cmea10_title`.';
 
 --- icd10_cmea10 view column comments (n=3)
 
 COMMENT ON COLUMN icd10_cmea10.icd10_code IS 'ICD-10 code for the CMEA-10 block.';
-COMMENT ON COLUMN icd10_cmea10.cmea_title IS 'CMEA-10 block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
+COMMENT ON COLUMN icd10_cmea10.cmea10_title IS 'CMEA-10 block that groups ICD-10 codes considered in agreement for assigning death codes in VAs.';
 COMMENT ON COLUMN icd10_cmea10.icd10_range IS 'Range of ICD-10 codes in the CMEA-10 block - each code is separated by a comma.';
 
 --- wva2016 view
@@ -166,7 +182,9 @@ DROP VIEW IF EXISTS wva2016; CREATE OR REPLACE VIEW wva2016 AS (SELECT * FROM wv
 
 --- wva2016 view comment
 
-COMMENT ON VIEW wva2016 IS 'World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality.';
+COMMENT ON VIEW wva2016 IS 'World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality.
+
+See [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf).';
 
 --- wva2016 view column comments (n=10)
 
@@ -187,7 +205,9 @@ DROP VIEW IF EXISTS icd10_wva2016; CREATE OR REPLACE VIEW icd10_wva2016 AS (SELE
 
 --- icd10_wva2016 view comment
 
-COMMENT ON VIEW icd10_wva2016 IS 'Mappings to convert from ICD-10 to WVA-2016.';
+COMMENT ON VIEW icd10_wva2016 IS 'Mappings to convert from ICD-10 to WVA-2016.
+
+Join the variable `icd10_code` to your data for the converted codes in variable `wva2016_code`.';
 
 --- icd10_wva2016 view column comments (n=6)
 
@@ -204,7 +224,9 @@ DROP VIEW IF EXISTS wva2022; CREATE OR REPLACE VIEW wva2022 AS (SELECT * FROM wv
 
 --- wva2022 view comment
 
-COMMENT ON VIEW wva2022 IS 'World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality.';
+COMMENT ON VIEW wva2022 IS 'World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality.
+
+See [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf).';
 
 --- wva2022 view column comments (n=3)
 
@@ -218,7 +240,9 @@ DROP VIEW IF EXISTS icd10_wva2022; CREATE OR REPLACE VIEW icd10_wva2022 AS (SELE
 
 --- icd10_wva2022 view comment
 
-COMMENT ON VIEW icd10_wva2022 IS 'Mappings to convert from ICD-10 to WVA-2022.';
+COMMENT ON VIEW icd10_wva2022 IS 'Mappings to convert from ICD-10 to WVA-2022.
+
+Join the variable `icd10_code` to your data for the converted codes in variable `wva2022_code`.';
 
 --- icd10_wva2022 view column comments (n=4)
 
@@ -233,7 +257,9 @@ DROP VIEW IF EXISTS cghr10; CREATE OR REPLACE VIEW cghr10 AS (SELECT * FROM cghr
 
 --- cghr10 view comment
 
-COMMENT ON VIEW cghr10 IS 'Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.';
+COMMENT ON VIEW cghr10 IS 'Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.
+
+ See [relevant paper](https://doi.org/10.1186/s12916-019-1353-2).';
 
 --- cghr10 view column comments (n=3)
 
@@ -247,7 +273,9 @@ DROP VIEW IF EXISTS icd10_cghr10; CREATE OR REPLACE VIEW icd10_cghr10 AS (SELECT
 
 --- icd10_cghr10 view comment
 
-COMMENT ON VIEW icd10_cghr10 IS 'Mappings to convert from ICD-10 to CGHR-10.';
+COMMENT ON VIEW icd10_cghr10 IS 'Mappings to convert from ICD-10 to CGHR-10.
+
+Join the variable `icd10_code` to your data for the converted codes in variable `cghr10_title`.';
 
 --- icd10_cghr10 view column comments (n=4)
 

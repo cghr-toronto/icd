@@ -32,7 +32,7 @@ The following codes related to ICD are included:
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
 
-**Note**: Data files are also available for open access [on Github]()
+**Note**: Data files are also available for open access [on Github](https://github.com/cghr-toronto/icd/tree/main/data).
 
 ## Citation
 
@@ -40,7 +40,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
 ### ICD-10
 
-* World Health Organization. (2011). ICD-10: International statistical classification of diseases and related health problems (10th revision) (5th ed., Vol. 2). [[PDF](docs/icd10_manual.pdf)]
+* World Health Organization. (2011). ICD-10: International statistical classification of diseases and related health problems (10th revision) (5th ed., Vol. 2).
 
 ```bibtex
 @manual{
@@ -55,7 +55,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
 ### ICD-11
 
-* World Health Organization. (2022). ICD-11: International Classifcation of Diseases for Mortality and Morbidity Statistics (11th revision). [[PDF](docs/icd11_manual.pdf)]
+* World Health Organization. (2022). ICD-11: International Classification of Diseases for Mortality and Morbidity Statistics (11th revision).
 
 ```bibtex
 @manual{
@@ -68,7 +68,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
 ### WVA-2016
 
-* World Health Organization. (2016). Verbal autopsy standards: The 2016 WHO verbal autopsy instrument v1.5.3. [[PDF](docs/wva2016_manual.pdf)]
+* World Health Organization. (2016). Verbal autopsy standards: The 2016 WHO verbal autopsy instrument v1.5.3.
 
 ```bibtex
 @manual{
@@ -81,7 +81,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
 ### WVA-2022
 
-* World Health Organization. (2017). Verbal autopsy standards: The 2022 WHO verbal autopsy instrument v1. [[PDF](docs/wva2022_manual.pdf)]
+* World Health Organization. (2017). Verbal autopsy standards: The 2022 WHO verbal autopsy instrument v1.
 
 ```bibtex
 @manual{
@@ -94,7 +94,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
 ### WBD-10 and CMEA-10
 
-* Aleksandrowicz, L., Malhotra, V., Dikshit, R., Gupta, P. C., Kumar, R., Sheth, J., Rathi, K., Suraweera, W., Miasnikof, P., Jotkar, R., Sinha, D., Awasthi, S., Bhatia, P., & Jha, P. (2014). Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study. BMC medicine, 12(1), 1-14. [doi:10.1186/1741-7015-12-21](https://doi.org/10.1186/1741-7015-12-21). [[PDF](docs/aleksandrowicz_et_al_2014_perf_va_cod_mds.pdf)]
+* Aleksandrowicz, L., Malhotra, V., Dikshit, R., Gupta, P. C., Kumar, R., Sheth, J., Rathi, K., Suraweera, W., Miasnikof, P., Jotkar, R., Sinha, D., Awasthi, S., Bhatia, P., & Jha, P. (2014). Performance criteria for verbal autopsy-based systems to estimate national causes of death: development and application to the Indian Million Death Study. BMC medicine, 12(1), 1-14. [doi:10.1186/1741-7015-12-21](https://doi.org/10.1186/1741-7015-12-21).
 
 ```bibtex
 @article{
