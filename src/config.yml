@@ -1,15 +1,26 @@
-Title: CGHR ICD Data Config
-Description: Configuration file for transforming and documenting CGHR's processed ICD data
+Title: ICD Codes and Mappings
 Version: 1
-Last Updated: June 15, 2023
-Contact: Richard Wen <rrwen.dev@gmail.com>
+Last Updated: June 16, 2023
+Contact: support@openmortality.org
+Developer Contact: Richard Wen <rrwen.dev@gmail.com>
+Abbreviation: icd
+Tag: icd,wbd,cmea,wva,cghr
+
+# Open Mortality Settings
+Dataset Table: dp_dataset
+Dataset Refresh View: mvdpdataset
+Data Table: dp_data
+Database User: omdevdbuser
 
 Data:
 
-# List of raw data consisting of the following keys:
+# List of data consisting of the following keys:
 # - Name: name of the ICD dataset
 # - File: path to the raw data file used to create the ICD dataset
 # - Description: description of the ICD dataset
+# - Permission: set user group permissions for Open Mortality - defaulted to user if not set (optional)
+# - Tag: comma separated tag words (optional)
+# - Category: the group for the individual data in the dataset - currently main or supplementary, and defaults to main (optional)
 # - Columns: list of column processing and description config, see tabbed below
 #   - Name: raw dataset column name
 #   - Rename: Renamed processed column name, the default is the raw dataset column name (optional)
@@ -20,6 +31,9 @@ Data:
 - Name: icd10
   File: data/icd_10to11_map_single.xlsx
   Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO)."
+  Permission: user
+  Tag: icd
+  Category: main
   Columns:
   
   - Name: 10ClassKind
@@ -50,6 +64,9 @@ Data:
 - Name: icd11
   File: data/icd11.xlsx
   Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO)."
+  Permission: user
+  Tag: icd
+  Category: main
   Columns:
   
   - Name: ClassKind
@@ -141,6 +158,9 @@ Data:
 - Name: icd10_icd11
   File: data/icd_10to11_map_single.xlsx
   Description: "Mappings to convert from ICD-10 to ICD-11."
+  Permission: user
+  Tag: icd
+  Category: supplementary
   Columns:
   
   - Name: 10ClassKind
@@ -208,6 +228,9 @@ Data:
 - Name: icd11_icd10
   File: data/icd_11to10_map_single.xlsx
   Description: "Mappings to convert from ICD-11 to ICD-10.\n\n**Note**: ICD-11 codes may map to multiple ICD-10 codes."
+  Permission: user
+  Tag: icd
+  Category: supplementary
   Columns:
   
   - Name: icd11Chapter
@@ -249,104 +272,110 @@ Data:
     
 - Name: wbd10
   File: data/wbd10_raw.csv
-  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD codes for three age groups (adult, child, and neonate)."
+  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate)."
+  Permission: user
+  Tag: wbd
+  Category: main
   Columns:
   
   - Name: age_group
     Rename: age
-    Description: "Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+    Description: "Age group for the WBD-10 entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str
     
   - Name: kind
-    Description: "WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level."
+    Description: "WBD-10 entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD-10 codes at the lowest level."
     Type: str
     
   - Name: kind_depth
-    Description: "WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
+    Description: "WBD-10 depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
     Type: Int64
   
   - Name: codex4
-    Description: "WBD codex4 - a higher level classification of the WBD codes."
+    Description: "WBD-10 codex4 - a higher level classification of the WBD-10 codes."
     Type: str
   
   - Name: codex2
-    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
+    Description: "WBD-10 codex2 - a middle level classification that usually group several WBD-10 codes together."
     Type: str
   
   - Name: codex
     Rename: code
-    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
+    Description: "WBD-10 codex or codes - the lowest level classification representing the WBD-10 codes themselves."
     Type: str
   
   - Name: codex4_title
-    Description: "WBD title for codex4."
+    Description: "WBD-10 title for codex4."
     Type: str
   
   - Name: codex2_title
-    Description: "WBD title for codex2."
+    Description: "WBD-10 title for codex2."
     Type: str
   
   - Name: codex_title
     Rename: title
-    Description: "WBD code/codex title."
+    Description: "WBD-10 code/codex title."
     Type: str
 
   - Name: icd10_range
-    Description: "Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes."
+    Description: "Range of ICD-10 codes in the WBD-10 codex4/codex2 groupings or codex codes."
     Type: str
     
 - Name: icd10_wbd10
   File: data/icd10towbd10_raw.csv
   Description: "Mappings to convert from ICD-10 to WBD-10."
+  Permission: user
+  Tag: icd,wbd
+  Category: supplementary
   Columns:
   
   - Name: age_group
     Rename: wbd10_age
-    Description: "Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+    Description: "Age group for the WBD-10 entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str
     
   - Name: kind
     Rename: wbd10_kind
-    Description: "WBD entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD codes at the lowest level."
+    Description: "WBD-10 entity kind. One of codex4, codex2, or codex. Codex4 are top level classification entities, codex2 are high level groupings, and codex are the WBD-10 codes at the lowest level."
     Type: str
     
   - Name: kind_depth
     Rename: wbd10_kind_depth
-    Description: "WBD depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
+    Description: "WBD-10 depth for kind. For example, a codex with kind_depth=3 means means it has 2 higher levels above it. Codex4 has depth of 1 (highest) and Codex2 has depth of 2 (middle)."
     Type: Int64
   
   - Name: codex4
     Rename: wbd10_codex4
-    Description: "WBD codex4 - a higher level classification of the WBD codes."
+    Description: "WBD-10 codex4 - a higher level classification of the WBD-10 codes."
     Type: str
   
   - Name: codex2
     Rename: wbd10_codex2
-    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
+    Description: "WBD-10 codex2 - a middle level classification that usually group several WBD-10 codes together."
     Type: str
   
   - Name: codex
     Rename: wbd10_code
-    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
+    Description: "WBD-10 codex or codes - the lowest level classification representing the WBD-10 codes themselves."
     Type: str
   
   - Name: codex4_title
     Rename: wbd10_codex4_title
-    Description: "WBD title for codex4."
+    Description: "WBD-10 title for codex4."
     Type: str
   
   - Name: codex2_title
     Rename: wbd10_codex2_title
-    Description: "WBD title for codex2."
+    Description: "WBD-10 title for codex2."
     Type: str
   
   - Name: codex_title
     Rename: wbd10_title
-    Description: "WBD code/codex title."
+    Description: "WBD-10 code/codex title."
     Type: str
 
   - Name: icd10_range
-    Description: "Range of ICD-10 codes in the WBD codex4/codex2 groupings or codex codes."
+    Description: "Range of ICD-10 codes in the WBD-10 codex4/codex2 groupings or codex codes."
     Type: str
 
   - Name: icd10
@@ -357,243 +386,220 @@ Data:
 - Name: cmea10
   File: data/cmea10_raw.csv
   Description: "Central Medical Evaluation Agreement for ICD-10 (CMEA-10) blocks from the Centre for Global Health Research (CGHR).\n\nThese blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA)."
+  Permission: user
+  Tag: cmea
+  Category: main
   Columns:
 
   - Name: icdequivalence_desc
     Rename: title
-    Description: "CMEA block title that represents a range of ICD-10 codes considered in agreement for assigning death codes in VAs."
+    Description: "CMEA-10 block title that represents a range of ICD-10 codes considered in agreement for assigning death codes in VAs."
     Type: str
 
   - Name: icdequivalence
     Rename: icd10_range
-    Description: "Range of ICD-10 codes in the CMEA block - each code is separated by a comma."
+    Description: "Range of ICD-10 codes in the CMEA-10 block - each code is separated by a comma."
     Type: str
 
   - Name: icdequivalence_short
     Rename: icd10_range_short
-    Description: "Range of ICD-10 codes in the CMEA block - shortened to represent consecutive ranges with dashes for easier readability."
+    Description: "Range of ICD-10 codes in the CMEA-10 block - shortened to represent consecutive ranges with dashes for easier readability."
     Type: str
 
 - Name: icd10_cmea10
   File: data/icd10tocmea10_raw.csv
   Description: "Mappings to convert from ICD-10 to CMEA-10."
+  Permission: user
+  Tag: icd,cmea
+  Category: supplementary
   Columns:
 
   - Name: icdequivalence_desc
     Rename: cmea_title
-    Description: "CMEA block that groups ICD-10 codes considered in agreement for assigning death codes in VAs."
+    Description: "CMEA-10 block that groups ICD-10 codes considered in agreement for assigning death codes in VAs."
     Type: str
 
   - Name: icdequivalence
     Rename: icd10_range
-    Description: "Range of ICD-10 codes in the CMEA block - each code is separated by a comma."
+    Description: "Range of ICD-10 codes in the CMEA-10 block - each code is separated by a comma."
     Type: str
 
   - Name: icd10_code
-    Description: "ICD-10 code for the CMEA block."
+    Description: "ICD-10 code for the CMEA-10 block."
+    Type: str
+
+- Name: wva2016
+  File: data/wva2016_raw.csv
+  Description: "World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality."
+  Permission: user
+  Tag: wva
+  Category: main
+  Columns:
+
+  - Name: kind
+    Description: "WVA-2016 entity kind. One of group or code."
+    Type: str
+
+  - Name: kind_depth
+    Description: "WVA-2016 depth for kind. For example, a category with kind_depth=2 means it is a code whose parent is a group."
+    Type: str
+
+  - Name: group
+    Description: "WVA-2016 group containing a range of codes."
+    Type: Int64
+
+  - Name: group_title
+    Description: "Title for WVA-2016 group."
+    Type: str
+
+  - Name: group_orig
+    Description: "Original WVA-2016 group with leading text VAs-."
+    Type: str
+
+  - Name: code
+    Description: "WVA-2016 code from the 2016 WHO VA instrument."
+    Type: str
+
+  - Name: code_orig
+    Description: "Original WVA-2016 code with leading text VAs-."
+    Type: str
+
+  - Name: title
+    Description: "Title for the WVA-2016 code."
+    Type: str
+
+  - Name: icd10_from_range_short
+    Rename: icd10_range
+    Description: "Range of ICD-10 codes that the WVA-2016 codes group together."
+    Type: str
+
+  - Name: icd10_to
+    Rename: icd10_code
+    Description: "ICD-10 codes that the WVA-2016 codes can be converted to."
     Type: str
 
 - Name: icd10_wva2016
   File: data/icd10towva2016_raw.csv
   Description: "Mappings to convert from ICD-10 to WVA-2016."
+  Permission: user
+  Tag: icd,wva
+  Category: supplementary
   Columns:
 
-  - Name: who_va_code
-    Rename: wva2016_code
-    Description: "WHO VA code from the 2016 WHO VA instrument."
+  - Name: wva2016_group
+    Description: "WVA-2016 group containing a range of codes."
+    Type: Int64
+
+  - Name: wva2016_code
+    Description: "WVA-2016 code from the 2016 WHO VA instrument."
     Type: str
 
-  - Name: who_va_title
-    Rename: wva2016_title
-    Description: "Title for the WHO VA 2016 code."
+  - Name: wva2016_group_title
+    Description: "Title for WVA-2016 group."
     Type: str
 
-  - Name: icd_range_codes_2016_short
-    Rename: icd10_range
-    Description: "Range of ICD-10 codes for the WHO VA 2016 codes."
+  - Name: wva2016_title
+    Description: "Title for the WVA-2016 code."
     Type: str
-  
+
+  - Name: icd10_range
+    Description: "Range of ICD-10 codes that the WVA-2016 codes group together."
+    Type: str
+
   - Name: icd10_code
-    Description: "ICD-10 code for the WHO VA 2016 code."
-    Type: str
-
-- Name: wva2016
-  File: data/wva2016_raw.csv
-  Description: "World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes for International Classification of Diseases (ICD) Revision 10 codes."
-  Columns:
-
-  - Name: who_va_code
-    Rename: wva2016_code
-    Description: "WHO VA code from the 2016 WHO VA instrument."
-    Type: str
-
-  - Name: who_va_title
-    Rename: wva2016_title
-    Description: "Title for the WHO VA 2016 code."
-    Type: str
-
-  - Name: icd_range_codes_2016_short
-    Rename: icd10_range
-    Description: "Range of ICD-10 codes for the WHO VA 2016 codes."
-    Type: str
-
-- Name: icd10towva2022
-  File: data/icd10towva2022_raw.csv
-  Description: "Mappings for each individual International Classification of Diseases (ICD) Revision 10 code from the World Health Organization (WHO) to WHO Verbal Autopsy (VA) 2022 codes."
-  Columns:
-
-  - Name: who_va_code
-    Rename: wva2022_code
-    Description: "WHO VA code from the 2022 WHO VA instrument."
-    Type: str
-
-  - Name: who_va_title
-    Rename: wva2022_title
-    Description: "Title for the WHO VA 2022 code."
-    Type: str
-
-  - Name: icd_range_codes_short
-    Rename: icd10_range
-    Description: "Range of ICD-10 codes for the WHO VA 2022 codes."
-    Type: str
-  
-  - Name: icd10_code
-    Description: "ICD-10 code for the WHO VA 2022 code."
+    Description: "ICD-10 codes that the WVA-2016 codes can be converted to."
     Type: str
 
 - Name: wva2022
   File: data/wva2022_raw.csv
-  Description: "World Health Organization (WHO) Verbal Autopsy (VA) 2022 codes for International Classification of Diseases (ICD) Revision 10 codes."
+  Description: "World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality."
+  Permission: user
+  Tag: wva
+  Category: main
   Columns:
 
   - Name: who_va_code
-    Rename: wva2022_code
-    Description: "WHO VA code from the 2022 WHO VA instrument."
+    Rename: code
+    Description: "WVA-2022 code from the 2022 WHO VA instrument."
     Type: str
 
   - Name: who_va_title
-    Rename: wva2022_title
-    Description: "Title for the WHO VA 2022 code."
+    Rename: title
+    Description: "Title for the WVA-2022 code."
     Type: str
 
   - Name: icd_range_codes_short
     Rename: icd10_range
-    Description: "Range of ICD-10 codes for the WHO VA 2022 codes."
+    Description: "Range of ICD-10 codes for the WVA-2022 codes."
     Type: str
 
-- Name: cghr2019
-  File: data/cghr2019_raw.csv
-  Description: "Centre for Global Health Research (CGHR) 2019 codes for physician coded verbal autopsies."
+- Name: icd10_wva2022
+  File: data/icd10towva2022_raw.csv
+  Description: "Mappings to convert from ICD-10 to WVA-2022."
+  Permission: user
+  Tag: icd,wva
+  Category: supplementary
   Columns:
+
+  - Name: who_va_code
+    Rename: wva2022_code
+    Description: "WVA-2022 code from the 2022 WHO VA instrument."
+    Type: str
+
+  - Name: who_va_title
+    Rename: wva2022_title
+    Description: "Title for the WVA-2022 code."
+    Type: str
+
+  - Name: icd_range_codes_short
+    Rename: icd10_range
+    Description: "Range of ICD-10 codes for the WVA-2022 codes."
+    Type: str
   
-  - Name: code
-    Description: "CGHR 2019 code."
+  - Name: icd10_code
+    Description: "ICD-10 code for the WVA-2022 code."
+    Type: str
+
+- Name: cghr10
+  File: data/cghr10_raw.csv
+  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies."
+  Permission: user
+  Tag: cghr
+  Category: main
+  Columns:
+
+  - Name: age
+    Description: "CGHR-10 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str
   
   - Name: title
-    Description: "CGHR 2019 title for the code."
-    Type: str
-  
-  - Name: age
-    Description: "CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+    Description: "CGHR-10 title for the code."
     Type: str
 
-- Name: cghr2019towbd10
-  File: data/cghr2019towbd10_raw.csv
-  Description: "Mappings from the Centre for Global Health Research (CGHR) 2019 codes to Wilson's Burden of Disease (WBD) 10 codes."
-  Columns:
-  
-  - Name: cghr2019_code
-    Description: "CGHR 2019 code."
-    Type: str
-  
-  - Name: cghr2019_title
-    Description: "CGHR 2019 title for the code."
-    Type: str
-  
-  - Name: cghr2019_age
-    Description: "CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+  - Name: icd10_range
+    Description: "ICD-10 range for the CGHR-10 code."
     Type: str
 
-  - Name: wbd10_codex4
-    Description: "WBD codex4 - a higher level classification of the WBD codes."
-    Type: str
-  
-  - Name: wbd10_codex2
-    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
-    Type: str
-  
-  - Name: wbd10_code
-    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
-    Type: str
-  
-  - Name: wbd10_codex4_title
-    Description: "WBD title for codex4."
-    Type: str
-  
-  - Name: wbd10_codex2_title
-    Description: "WBD title for codex2."
-    Type: str
-  
-  - Name: wbd10_title
-    Description: "WBD code/codex title."
-    Type: str
-
-- Name: wva2016tocghr2019
-  File: data/wva2016tocghr2019_raw.csv
-  Description: "Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to the Centre for Global Health Research (CGHR) 2019 codes."
+- Name: icd10_cghr10
+  File: data/icd10tocghr10_raw.csv
+  Description: "Mappings to convert from ICD-10 to CGHR-10."
+  Permission: user
+  Tag: icd,cghr
+  Category: supplementary
   Columns:
 
-  - Name: wva2016_code
-    Description: "WHO VA code from the 2016 WHO VA instrument."
+  - Name: cghr10_age
+    Description: "CGHR-10 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
     Type: str
   
-  - Name: cghr2019_code
-    Description: "CGHR 2019 code."
-    Type: str
-  
-  - Name: cghr2019_title
-    Description: "CGHR 2019 title for the code."
-    Type: str
-  
-  - Name: cghr2019_age
-    Description: "CGHR 2019 code age group. Age groups are divided into adult (12 to 69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+  - Name: cghr10_title
+    Description: "CGHR-10 title for the code."
     Type: str
 
-- Name: wva2016towbd10
-  File: data/wva2016towbd10_raw.csv
-  Description: "Mappings from the World Health Organization (WHO) Verbal Autopsy (VA) 2016 codes to Wilson's Burden of Disease (WBD) 10 codes."
-  Columns:
-
-  - Name: wva2016_code
-    Description: "WHO VA code from the 2016 WHO VA instrument."
+  - Name: icd10_code
+    Description: "ICD-10 code for the CGHR-10 code."
     Type: str
 
-  - Name: wbd10_codex4
-    Description: "WBD codex4 - a higher level classification of the WBD codes."
-    Type: str
-  
-  - Name: wbd10_codex2
-    Description: "WBD codex2 - a middle level classification that usually group several WBD codes together."
-    Type: str
-  
-  - Name: wbd10_code
-    Description: "WBD codex or codes - the lowest level classification representing the WBD codes themselves."
-    Type: str
-  
-  - Name: wbd10_codex4_title
-    Description: "WBD title for codex4."
-    Type: str
-  
-  - Name: wbd10_codex2_title
-    Description: "WBD title for codex2."
-    Type: str
-  
-  - Name: wbd10_title
-    Description: "WBD code/codex title."
-    Type: str
-
-  - Name: age
-    Rename: wbd10_age
-    Description: "Age group for the WBD entity - adult (12-69 years old), child (1 month to 11 years old), and neo (under 1 month old)."
+  - Name: icd10_range
+    Description: "ICD-10 range for the CGHR-10 code."
     Type: str

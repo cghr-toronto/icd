@@ -6,18 +6,14 @@ who_va_code,who_va_title,icd_range_codes,icd_range_codes_short
 01.05,Malaria,B50-B54,B50-54
 01.06,Measles,B05,B05
 01.07,Meningitis and encephalitis,A39; G00- G05,"A39,G00-05"
-01.08,Tetanus12,A33-A35,A33-35
+01.08,Tetanus,A33-A35,A33-35
 01.09,Pulmonary tuberculosis,A15-A16,A15-16
 01.10,Pertussis,A37,A37
-01.11,Haemorrhagic fever13,"A92-A96, A98-A99","A92-96,A98-99"
+01.11,Haemorrhagic fever,"A92-A96, A98-A99","A92-96,A98-99"
 01.12,Dengue fever,A97,A97
 01.13,Coronavirus disease (COVID-19),U07.1; U07.2,U71-72
-01.99,Unspecified infectious disease,A17-A19; A20-A32;,A17-32
-,,A36; A38; A42-A89; B00-B04;,"A36,A38,A42-89,B00-04"
-,,B06-B19;,B06-19
-,,B25-B49; B55-B99,"B25-49,B55-99"
-98,Other and unspecified non- communicable disease,D65-D89; E00-E07; E15-E35; E50-E90; F00-F99; G06-G09; G10-G37; G50-G99; H00-H95; J30-J39; J47-J84; J86-J99; K00-K31; K35-K38 K40-K69;,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69"
-,,K77-K93 L00-L99; M00-M99; N00-N16; N20-N99;,"K77-93,L00-99,M00-99,N00-16,N20-99"
+01.99,Unspecified infectious disease,A17-A19; A20-A32; A36; A38; A42-A89; B00-B04; B06-B19; B25-B49; B55-B99,"A17-32,A36,A38,A42-89,B00-04,B06-19,B25-49,B55-99"
+98,Other and unspecified non- communicable disease,D65-D89; E00-E07; E15-E35; E50-E90; F00-F99; G06-G09; G10-G37; G50-G99; H00-H95; J30-J39; J47-J84; J86-J99; K00-K31; K35-K38 K40-K69; K77-K93 L00-L99; M00-M99; N00-N16; N20-N99,"D65-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-84,J86-99,K00-31,K35-38,K40-69,K77-93,L00-99,M00-99,N00-16,N20-99"
 02.01,Oral neoplasms,C00-C06,C00-06
 02.02,Digestive neoplasms,C15-C26,C15-26
 02.03,Respiratory neoplasms,C30-C39,C30-39
@@ -28,14 +24,14 @@ who_va_code,who_va_title,icd_range_codes,icd_range_codes_short
 03.01,Severe anaemia,D50-D64,D50-64
 03.02,Severe malnutrition,E40-E46,E40-46
 03.03,Diabetes mellitus,E10-E14,E10-14
-04.01,Acute cardiac disease14,I11.0; I20-I26; I46.1; I46.9; I50.1,"I20-26,I110,I461,I469,I501"
+04.01,Acute cardiac disease,I11.0; I20-I26; I46.1; I46.9; I50.1,"I20-26,I110,I461,I469,I501"
 04.02,Stroke,I60-I69,I60-69
 04.03,Sickle cell with crisis,D57,D57
 04.99,Other and unspecified cardiac disease,I00-I10; I11.9-I15; I27-I46.0; I47-I50.0; I50.9-I52; I70-I99,"I00-10,I15-509"
 05.01,Chronic obstructive pulmonary disease (COPD),J40-J44,J40-44
 05.02,Asthma,J45-J46,J45-46
 06.01,Acute abdomen,R10,R10
-06.02,Liver cirrhosis15,K70.2; K70.3; K71.7; K74,"K74,K702-703,K717"
+06.02,Liver cirrhosis,K70.2; K70.3; K71.7; K74,"K74,K702-703,K717"
 07.01,Renal failure,N17-N19,N17-19
 08.01,Epilepsy,G40-G41,G40-41
 09.01,Ectopic pregnancy,O00,O00
@@ -46,11 +42,9 @@ who_va_code,who_va_title,icd_range_codes,icd_range_codes_short
 09.06,Pregnancy-related sepsis,O75.3; O85,"O85,O753"
 09.07,Anaemia of pregnancy,O99.0,O990
 09.0,Ruptured uterus,O71.0-O71.1,O710-711
-09.99,Other and unspecified maternal cause,O01-O02; O20-O45; O47-O62; O68-O70;,"O01-02,O20-45,O47-62,O68-70"
-,,O71.3-O71.9;,O713-719
-,,O73-O84; O86-O99,"O73-84,O86-99"
+09.99,Other and unspecified maternal cause,O01-O02; O20-O45; O47-O62; O68-O70; O71.3-O71.9; O73-O84; O86-O99,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99,O713-719"
 10.01,Prematurity or low birth weight,P05; P07,"P05,P07"
-10.02,Birth asphyxia16,P20-P22,P20-22
+10.02,Birth asphyxia,P20-P22,P20-22
 10.03,Neonatal pneumonia,P23-P24,P23-24
 10.04,Neonatal sepsis,P36,P36
 10.05,Neonatal tetanus,A33,A33
@@ -68,6 +62,5 @@ who_va_code,who_va_title,icd_range_codes,icd_range_codes_short
 12.08,Intentional self-harm,X60-X84; Y87.0,"X60-84,Y870"
 12.09,Assault,X85-X-99; Y00-Y09; Y87.1,"X85,Y00-09,Y871"
 12.10,Exposure to force of nature,X30-X39,X30-39
-12.99,Other and unspecified external cause of death,S00-S99; T00-T99; W20-W64; W75-W99;,"S00-99,T00-99,W20-64,W75-99"
-,,X10-X19; X50-X59; Y10-Y84; Y86; Y87.2; Y88-Y89;,"X10-19,X50-59,Y10-84,Y86,Y88-89,Y872"
+12.99,Other and unspecified external cause of death,S00-S99; T00-T99; W20-W64; W75-W99; X10-X19; X50-X59; Y10-Y84; Y86; Y87.2; Y88-Y89;,"S00-99,T00-99,W20-64,W75-99,X10-19,X50-59,Y10-84,Y86,Y88-89,Y872"
 99,Cause of death unknown,R95-R99,R95-99

@@ -1,0 +1,21 @@
+dataset,columns,rows,description
+cghr10,3,36,Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.
+cmea10,3,143,"Central Medical Evaluation Agreement for ICD-10 (CMEA-10) blocks from the Centre for Global Health Research (CGHR).
+
+These blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA)."
+icd10,5,12597,International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).
+icd10_cghr10,4,6411,Mappings to convert from ICD-10 to CGHR-10.
+icd10_cmea10,3,1653,Mappings to convert from ICD-10 to CMEA-10.
+icd10_icd11,12,12597,Mappings to convert from ICD-10 to ICD-11.
+icd10_wbd10,11,6502,Mappings to convert from ICD-10 to WBD-10.
+icd10_wva2016,6,2384,Mappings to convert from ICD-10 to WVA-2016.
+icd10_wva2022,4,4442,Mappings to convert from ICD-10 to WVA-2022.
+icd11,17,35459,International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).
+icd11_icd10,7,17799,"Mappings to convert from ICD-11 to ICD-10.
+
+**Note**: ICD-11 codes may map to multiple ICD-10 codes."
+wbd10,10,182,"Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).
+
+Groups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate)."
+wva2016,10,85,World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality.
+wva2022,3,65,World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality.

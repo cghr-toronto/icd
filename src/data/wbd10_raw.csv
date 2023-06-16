@@ -16,7 +16,7 @@ adult,codex,3,1,1E,1E03,"Communicable, maternal, perinatal and nutritional condi
 adult,codex,3,1,1E,1E04,"Communicable, maternal, perinatal and nutritional conditions",Selected vaccine preventable diseases,Other vaccine preventable diseases,"A36-A37,B03,B06,B25"
 adult,codex2,2,1,1F,,"Communicable, maternal, perinatal and nutritional conditions",Meningitis/encephalitis,,"A39,A81-A89,G00-G09"
 adult,codex,3,1,1F,1F01,"Communicable, maternal, perinatal and nutritional conditions",Meningitis/encephalitis,Meningitis/encephalitis,"A39,A81,A83-A89,G00-G09"
-adult,codex,3,1,1F,1F02,"Communicable, maternal, perinatal and nutritional conditions",Meningitis/encephalitis,Rabies,A82
+adult,codex,3,1,1F,1F02,"Communicable, maternal, perinatal and nutritional conditions","Communicable, maternal, perinatal and nutritional conditions",Rabies,A82
 adult,codex2,2,1,1G,,"Communicable, maternal, perinatal and nutritional conditions",Hepatitis,,"B15-B17,B19"
 adult,codex,3,1,1G,1G01,"Communicable, maternal, perinatal and nutritional conditions",Hepatitis,Hepatitis,"B15-B17,B19"
 adult,codex2,2,1,1H,,"Communicable, maternal, perinatal and nutritional conditions",Malaria,,B50-B54
@@ -100,7 +100,7 @@ adult,codex2,2,2,2L,,Noncommunicable diseases,Congenital anomalies,,Q00-Q99
 adult,codex,3,2,2L,2L01,Noncommunicable diseases,Congenital anomalies,Congenital anomalies,Q00-Q99
 adult,codex4,1,3,,,Injuries,,,"V01-V99,W00-W99,X00-X44,X46-X52,X57-Y14,Y16-Y36,Y40-Y89,Y96-Y98"
 adult,codex2,2,3,3A,,Injuries,Unintentional injuries,,"V01-V99,W00-W99,X00-X44,X46-X52,X57-X59,Y40-Y86,Y88-Y89"
-adult,codex,3,3,3A,3A01,Injuries,Unintentional injuries,Road trafic accidents,"V01-V89,V99,Y85"
+adult,codex,3,3,3A,3A01,Injuries,Unintentional injuries,Road traffic accidents,"V01-V89,V99,Y85"
 adult,codex,3,3,3A,3A02,Injuries,Unintentional injuries,Other transport accidents,V90-V98
 adult,codex,3,3,3A,3A03,Injuries,Unintentional injuries,Poisonings,"X40-X44,X46-X49"
 adult,codex,3,3,3A,3A04,Injuries,Unintentional injuries,Falls,W00-W19

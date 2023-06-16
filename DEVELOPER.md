@@ -1,9 +1,8 @@
 # Developer Notes for Processed ICD Data
 
 * [Preparation](#preparation)
-* [Requests](#requests)
 
-This document details data access and preparation of the processed ICD datasets for use.
+This document details the preparation of the processed ICD datasets for use.
 
 ## Overview
 
@@ -102,7 +101,7 @@ You will be prompted to enter database connection details, and if successful, it
 ```mermaid
 flowchart LR;
 src/data --> A;
-A(bin/prepare) --> B(prepare.ipynb);
+A(bin/upload) --> B(upload.ipynb);
 B --> data/ --> B1>icd_data.csv] & B2>icd_ddict.csv] & B3>.csv];
 B --> E[(PostgreSQL)] --> src/database/ --> database/;
 database/ --> D1>icd_comments.sql] & D2>icd_views.sql];
@@ -119,10 +118,10 @@ bin\prepare
 In Linux/Mac OS:
 
 ```
-source bin/prepare.sh
+source bin/upload.sh
 ```
 
-This uses the Python Jupyter notebook [prepare.ipynb](src/prepare.ipynb) to:
+This uses the Python Jupyter notebook [upload.ipynb](src/upload.ipynb) to:
 
 1. Process the raw data files in `src/data` into cleaned datasets
 2. Save the cleaned datasets in the `data` folder as `.csv` files
@@ -135,9 +134,39 @@ This uses the Python Jupyter notebook [prepare.ipynb](src/prepare.ipynb) to:
 
 **Note**: This process takes about 5 minutes.
 
-## Requests
+## Downloads
 
-The data is openly available in the [data](data) folder. See the [Access](README.md#access) section for more details.
+```mermaid
+flowchart LR;
+
+bin(bin/downloads);
+script[src/downloads.ipynb];
+folder("downloads(.csv)/");
+
+pgdb[(PostgreSQL<br>Upload<br>Database)];
+
+pgdb --> bin --> script --> folder
+```
+
+The [downloads.ipynb](src/downloads.ipynb) script will create a `downloads` folder and save the HEAL-SL datasets as `.csv` files inside the folder.
+
+Run the `bin/downloads` script in a command line terminal:
+
+In Windows:
+
+```
+bin\login
+bin\downloads
+```
+
+In Linux/Mac OS:
+
+```
+source bin/login.sh
+source bin/downloads.sh
+```
+
+**Note**: This downloads the tables from the upload database entered in the [Setup](#setup) step.
 
 ## Contact
 
