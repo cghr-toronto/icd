@@ -21,16 +21,18 @@ ICD-related codes and mappings used at CGHR.
 The following codes related to ICD are included:
 
 * ICD Codes
-  * [ICD-10 Manual](docs/icd10_manual.pdf)
-  * [ICD-11 Manual](docs/icd11_manual.pdf)
+  * [ICD-10 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd10_manual.pdf)
+  * [ICD-11 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd11_manual.pdf)
 * WHO Verbal Autopsy (WVA) codes
-  * [WVA-2016 Manual](docs/wva2016_manual_v15.pdf)
-  * [WVA-2022 Manual](docs/wva2022_manual.pdf)
+  * [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf)
+  * [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf)
 * Wilson's Burden of Disease for ICD-10 (WBD-10) codes from the Centre for Global Health Research (CGHR)
 * CGHR codes for ICD-10 (CGHR-10) from the [Automated Versus Physician](https://doi.org/10.1186/s12916-019-1353-2) study
 * Central Medical Evaluation Agreement for ICD-10 (CMEA-10) codes from CGHR
 
 *For more information, refer to [WHO's ICD Website](https://www.who.int/standards/classifications/classification-of-diseases).*
+
+**Note**: Data files are also available for open access [on Github]()
 
 ## Citation
 
@@ -38,7 +40,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
 ### ICD-10
 
-* World Health Organization. (2011). ICD-10: International statistical classifcation of diseases and related health problems (10th revision) (5th ed., Vol. 2). [[PDF](docs/icd10_manual.pdf)]
+* World Health Organization. (2011). ICD-10: International statistical classification of diseases and related health problems (10th revision) (5th ed., Vol. 2). [[PDF](docs/icd10_manual.pdf)]
 
 ```bibtex
 @manual{
