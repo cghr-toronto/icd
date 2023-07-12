@@ -12,11 +12,11 @@ Documentation for CGHR's processed International Classification of Diseases (ICD
 
 ICD-related codes and mappings used at CGHR.
 
-> The International Classification of Diseases (ICD) is a tool for recording, reporting and grouping conditions and factors that influence health. It contains categories for diseases and disorders, health related conditions, external causes of illness or death, anatomy, sites, activities, medicines, vaccines and more.
-> 
-> The purpose of the ICD is to allow the systematic recording, analysis, interpretation and comparison of mortality and morbidity data collected in different countries or regions and at different times.
-> 
-> \- World Health Organization (2022)
+"The International Classification of Diseases (ICD) is a tool for recording, reporting and grouping conditions and factors that influence health. It contains categories for diseases and disorders, health related conditions, external causes of illness or death, anatomy, sites, activities, medicines, vaccines and more.
+ 
+The purpose of the ICD is to allow the systematic recording, analysis, interpretation and comparison of mortality and morbidity data collected in different countries or regions and at different times."
+ 
+\- World Health Organization (2022)
 
 The following codes related to ICD are included:
 

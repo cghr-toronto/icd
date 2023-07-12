@@ -15,9 +15,10 @@ Database User: omdevdbuser
 Data:
 
 # List of data consisting of the following keys:
-# - Name: name of the ICD dataset
+# - Name: name of the dataset
+# - Title: title of the dataset
 # - File: path to the raw data file used to create the ICD dataset
-# - Description: description of the ICD dataset
+# - Description: description of the dataset
 # - Permission: set user group permissions for Open Mortality - defaulted to user if not set (optional)
 # - Tag: comma separated tag words (optional)
 # - Category: the group for the individual data in the dataset - currently main or supplementary, and defaults to main (optional)
@@ -279,12 +280,10 @@ Data:
 - Name: wbd10
   File: data/wbd10_raw.csv
   Title: WBD-10 Codes
-  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader WBD-10 codes for three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
+  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader WBD-10 codes for three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).\n\nTo correctly use these codes, account for the three age group values `adult`, `child`, and `neo` in the column `age`.\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
   Permission: user
   Tag: wbd
   Category: main
-  Metadata:
-    Note: Be sure to also match the age groups adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days) in the column `age` to correctly use these codes
   Columns:
   
   - Name: age_group
@@ -333,11 +332,10 @@ Data:
 - Name: icd10_wbd10
   File: data/icd10towbd10_raw.csv
   Title: ICD-10 to WBD-10 Code Mappings
-  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.\n\nJoin the column `icd10_code` and `wbd10_age` to your data for the converted codes in column `wbd10_code`."
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.\n\nJoin the column `icd10_code` and `wbd10_age` to your data for the converted codes in column `wbd10_code`.\n\nTo correctly map the ICD-10 codes, be sure to also match the age group values `adult`, `child`, and `neo` in the column `wbd10_age`.\n\nIt may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching."
   Permission: user
   Tag: icd,wbd
   Category: supplementary
-  Note: To correctly map the ICD-10 codes, be sure to also match the age groups adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days) in the column `wbd10_age` - it may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching
   Columns:
   
   - Name: age_group
@@ -580,7 +578,7 @@ Data:
 - Name: cghr10
   File: data/cghr10_raw.csv
   Title: CGHR-10 Codes
-  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.\n\nThese codes group [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader categories based on three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/s12916-019-1353-2)."
+  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.\n\nThese codes group [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader categories based on three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).\n\nTo correctly use these codes, account for the three age group values `adult`, `child`, and `neo` in the column `age`.\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/s12916-019-1353-2)."
   Permission: user
   Tag: cghr
   Category: main
@@ -601,12 +599,10 @@ Data:
 - Name: icd10_cghr10
   File: data/icd10tocghr10_raw.csv
   Title: ICD-10 to CGHR-10 Code Mappings
-  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.\n\nJoin the column `icd10_code` to your data for the converted codes in column `cghr10_title`."
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.\n\nJoin the column `icd10_code` to your data for the converted codes in column `cghr10_title`.\n\nTo correctly map the ICD-10 codes, be sure to also match the age group values `adult`, `child`, and `neo` in the column `cghr10_age`.\n\nIt may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching."
   Permission: user
   Tag: icd,cghr
   Category: supplementary
-  Metadata:
-    Note: To correctly map the ICD-10 codes, be sure to also match the age groups adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days) in the column `cghr10_age` - it may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching
   Columns:
 
   - Name: cghr10_age
