@@ -112,16 +112,16 @@ Once the [Setup](#setup) step is successful, the datasets can be prepared by run
 In Windows:
 
 ```
-bin\prepare
+bin\run
 ```
 
 In Linux/Mac OS:
 
 ```
-source bin/upload.sh
+source bin/run.sh
 ```
 
-This uses the Python Jupyter notebook [upload.ipynb](src/upload.ipynb) to:
+This uses the Python Jupyter notebook [upload.ipynb](src/upload.ipynb) and [update.ipynb](src/udate.ipynb) to:
 
 1. Process the raw data files in `src/data` into cleaned datasets
 2. Save the cleaned datasets in the `data` folder as `.csv` files
@@ -133,40 +133,6 @@ This uses the Python Jupyter notebook [upload.ipynb](src/upload.ipynb) to:
    * `icd_tables.dump`: contains a PostgreSQL dump of the datasets in the database for uploading to another database
 
 **Note**: This process takes about 5 minutes.
-
-## Downloads
-
-```mermaid
-flowchart LR;
-
-bin(bin/downloads);
-script[src/downloads.ipynb];
-folder("downloads(.csv)/");
-
-pgdb[(PostgreSQL<br>Upload<br>Database)];
-
-pgdb --> bin --> script --> folder
-```
-
-The [downloads.ipynb](src/downloads.ipynb) script will create a `downloads` folder and save the HEAL-SL datasets as `.csv` files inside the folder.
-
-Run the `bin/downloads` script in a command line terminal:
-
-In Windows:
-
-```
-bin\login
-bin\downloads
-```
-
-In Linux/Mac OS:
-
-```
-source bin/login.sh
-source bin/downloads.sh
-```
-
-**Note**: This downloads the tables from the upload database entered in the [Setup](#setup) step.
 
 ## Contact
 

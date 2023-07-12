@@ -1,6 +1,6 @@
 Title: ICD Codes and Mappings
 Version: 1
-Last Updated: June 16, 2023
+Last Updated: July 10, 2023
 Contact: support@openmortality.org
 Developer Contact: Richard Wen <rrwen.dev@gmail.com>
 Abbreviation: icd
@@ -29,8 +29,9 @@ Data:
 #   - Type: data type for column (optional)
 
 - Name: icd10
+  Title: ICD-10 Codes
   File: data/icd_10to11_map_single.xlsx
-  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).\n\nSee [ICD-10 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd10_manual.pdf)."
+  Description: "International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).\n\nContains standardized codes for classifying diseases based on chapters, blocks, and categories.\n\nFor more details, see the [ICD-10 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd10_manual.pdf)."
   Permission: user
   Tag: icd
   Category: main
@@ -63,7 +64,8 @@ Data:
 
 - Name: icd11
   File: data/icd11.xlsx
-  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).\n\nSee [ICD-11 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd11_manual.pdf)."
+  Title: ICD-11 Codes
+  Description: "International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).\n\nContains standardized codes for classifying diseases based on chapters, blocks, and categories.\n\nFor more details, see the [ICD-11 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd11_manual.pdf)."
   Permission: user
   Tag: icd
   Category: main
@@ -157,7 +159,8 @@ Data:
 
 - Name: icd10_icd11
   File: data/icd_10to11_map_single.xlsx
-  Description: "Mappings to convert from ICD-10 to ICD-11.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `icd11_code`."
+  Title: ICD-10 to ICD-11 Code Mappings
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [ICD-11](https://openmortality.org/data/icd11_v1) codes.\n\nJoin the column `icd10_code` to your data for the converted codes in column `icd11_code`."
   Permission: user
   Tag: icd
   Category: supplementary
@@ -227,10 +230,13 @@ Data:
 
 - Name: icd11_icd10
   File: data/icd_11to10_map_single.xlsx
-  Description: "Mappings to convert from ICD-11 to ICD-10.\n\nJoin the variable `icd11_code` to your data for the converted codes in variable `icd10_code`.\n\n**Note**: ICD-11 codes may map to multiple ICD-10 codes."
+  Title: ICD-11 to ICD-10 Code Mappings
+  Description: "Mappings to convert from [ICD-11](https://openmortality.org/data/icd11_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.\n\nJoin the column `icd11_code` to your data for the converted codes in column `icd10_code`."
   Permission: user
   Tag: icd
   Category: supplementary
+  Metadata:
+    Note: ICD-11 codes can map to multiple ICD-10 codes
   Columns:
   
   - Name: icd11Chapter
@@ -272,10 +278,13 @@ Data:
     
 - Name: wbd10
   File: data/wbd10_raw.csv
-  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups International Classification of Diseases (ICD) Revision 10 codes from the World Health Organization (WHO) into broader WBD-10 codes for three age groups (adult, child, and neonate).\n\nSee [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
+  Title: WBD-10 Codes
+  Description: "Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).\n\nGroups [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader WBD-10 codes for three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
   Permission: user
   Tag: wbd
   Category: main
+  Metadata:
+    Note: Be sure to also match the age groups adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days) in the column `age` to correctly use these codes
   Columns:
   
   - Name: age_group
@@ -323,10 +332,12 @@ Data:
     
 - Name: icd10_wbd10
   File: data/icd10towbd10_raw.csv
-  Description: "Mappings to convert from ICD-10 to WBD-10.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `wbd10_code`."
+  Title: ICD-10 to WBD-10 Code Mappings
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.\n\nJoin the column `icd10_code` and `wbd10_age` to your data for the converted codes in column `wbd10_code`."
   Permission: user
   Tag: icd,wbd
   Category: supplementary
+  Note: To correctly map the ICD-10 codes, be sure to also match the age groups adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days) in the column `wbd10_age` - it may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching
   Columns:
   
   - Name: age_group
@@ -385,7 +396,8 @@ Data:
 
 - Name: cmea10
   File: data/cmea10_raw.csv
-  Description: "Central Medical Evaluation Agreement for ICD-10 (CMEA-10) blocks from the Centre for Global Health Research (CGHR).\n\nThese blocks are used in the Central Medical Evaluation (CME) system to determine groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA).\n\nSee [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
+  Title: CMEA-10 Codes
+  Description: "Central Medical Evaluation Agreement for ICD-10 (CMEA-10) code blocks from the Centre for Global Health Research (CGHR).\n\nThese code blocks are used in the Central Medical Evaluation (CME) system to determine which groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA).\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
   Permission: user
   Tag: cmea
   Category: main
@@ -408,7 +420,8 @@ Data:
 
 - Name: icd10_cmea10
   File: data/icd10tocmea10_raw.csv
-  Description: "Mappings to convert from ICD-10 to CMEA-10.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `cmea10_title`."
+  Title: ICD-10 to CMEA-10 Mappings
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CMEA-10](https://openmortality.org/data/cmea10_v1) code blocks.\n\nJoin the column `icd10_code` to your data for the converted codes in column `cmea10_title`."
   Permission: user
   Tag: icd,cmea
   Category: supplementary
@@ -430,7 +443,8 @@ Data:
 
 - Name: wva2016
   File: data/wva2016_raw.csv
-  Description: "World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes for mortality.\n\nSee [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf)."
+  Title: WVA-2016 Codes
+  Description: "World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes into mortality relevant codes.\n\nFor more details, see the [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf)."
   Permission: user
   Tag: wva
   Category: main
@@ -480,7 +494,8 @@ Data:
 
 - Name: icd10_wva2016
   File: data/icd10towva2016_raw.csv
-  Description: "Mappings to convert from ICD-10 to WVA-2016.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `wva2016_code`."
+  Title: ICD-10 to WVA-2016 Code Mappings
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WVA-2016](https://openmortality.org/data/wva2016_v1) codes.\n\nJoin the column `icd10_code` to your data for the converted codes in column `wva2016_code`."
   Permission: user
   Tag: icd,wva
   Category: supplementary
@@ -512,7 +527,8 @@ Data:
 
 - Name: wva2022
   File: data/wva2022_raw.csv
-  Description: "World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes for mortality.\n\nSee [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf)."
+  Title: WVA-2022 Codes
+  Description: "World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes into mortality relevant codes.\n\nFor more details, see the [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf)."
   Permission: user
   Tag: wva
   Category: main
@@ -535,7 +551,8 @@ Data:
 
 - Name: icd10_wva2022
   File: data/icd10towva2022_raw.csv
-  Description: "Mappings to convert from ICD-10 to WVA-2022.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `wva2022_code`."
+  Title: ICD-10 to WVA-2022 Code Mappings
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) to [WVA-2022](https://openmortality.org/data/wva2022_v1).\n\nJoin the column `icd10_code` to your data for the converted codes in column `wva2022_code`."
   Permission: user
   Tag: icd,wva
   Category: supplementary
@@ -562,7 +579,8 @@ Data:
 
 - Name: cghr10
   File: data/cghr10_raw.csv
-  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.\n\n See [relevant paper](https://doi.org/10.1186/s12916-019-1353-2)."
+  Title: CGHR-10 Codes
+  Description: "Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.\n\nThese codes group [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader categories based on three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).\n\nFor more details, see the [relevant paper](https://doi.org/10.1186/s12916-019-1353-2)."
   Permission: user
   Tag: cghr
   Category: main
@@ -582,10 +600,13 @@ Data:
 
 - Name: icd10_cghr10
   File: data/icd10tocghr10_raw.csv
-  Description: "Mappings to convert from ICD-10 to CGHR-10.\n\nJoin the variable `icd10_code` to your data for the converted codes in variable `cghr10_title`."
+  Title: ICD-10 to CGHR-10 Code Mappings
+  Description: "Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.\n\nJoin the column `icd10_code` to your data for the converted codes in column `cghr10_title`."
   Permission: user
   Tag: icd,cghr
   Category: supplementary
+  Metadata:
+    Note: To correctly map the ICD-10 codes, be sure to also match the age groups adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days) in the column `cghr10_age` - it may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching
   Columns:
 
   - Name: cghr10_age

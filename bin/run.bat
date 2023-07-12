@@ -1,0 +1,1 @@
+(call bin\activate && call bin\upload && call bin\update)
