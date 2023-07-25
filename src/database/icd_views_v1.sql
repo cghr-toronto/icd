@@ -243,6 +243,28 @@ COMMENT ON COLUMN wva2016.title IS 'Title for the WVA-2016 code.';
 COMMENT ON COLUMN wva2016.icd10_range IS 'Range of ICD-10 codes that the WVA-2016 codes group together.';
 COMMENT ON COLUMN wva2016.icd10_code IS 'ICD-10 codes that the WVA-2016 codes can be converted to.';
 
+--- wva2016_icd10 view
+
+DROP VIEW IF EXISTS wva2016_icd10; CREATE OR REPLACE VIEW wva2016_icd10 AS (SELECT * FROM wva2016_icd10_v1);
+
+--- wva2016_icd10 view comment
+
+COMMENT ON VIEW wva2016_icd10 IS 'Mappings to convert from [WVA-2016](https://openmortality.org/data/wva2016_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
+
+Join the column `wva2016_code` to your data for the converted codes in column `icd10_code`.
+
+* **Columns**: 5
+
+* **Rows**: 71';
+
+--- wva2016_icd10 view column comments (n=5)
+
+COMMENT ON COLUMN wva2016_icd10.wva2016_group IS 'WVA-2016 group containing a range of codes.';
+COMMENT ON COLUMN wva2016_icd10.wva2016_code IS 'WVA-2016 code from the 2016 WHO VA instrument.';
+COMMENT ON COLUMN wva2016_icd10.wva2016_group_title IS 'Title for WVA-2016 group.';
+COMMENT ON COLUMN wva2016_icd10.wva2016_title IS 'Title for the WVA-2016 code.';
+COMMENT ON COLUMN wva2016_icd10.icd10_code IS 'ICD-10 codes that the WVA-2016 codes can be converted to.';
+
 --- icd10_wva2016 view
 
 DROP VIEW IF EXISTS icd10_wva2016; CREATE OR REPLACE VIEW icd10_wva2016 AS (SELECT * FROM icd10_wva2016_v1);

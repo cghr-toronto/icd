@@ -20,9 +20,9 @@ CREATE TABLE IF NOT EXISTS public.dp_dataset (
             title = 'ICD Codes and Mappings',
             title_abbr = 'icd',
             status = 'published',
-            data_id = '236,231,232,233,234,235,239,240,241,242,237,243,244,238',
+            data_id = '236,233,234,235,231,232,239,245,240,241,237,238,242,243,244',
             contact = 'support@openmortality.org',
-            publish_date = '2023-07-11 23:51:15.683620-04:00',
+            publish_date = '2023-07-24 22:49:01.247146-04:00',
             tag = 'icd,wbd,cmea,wva,cghr',
             dataset_desc = 'ICD-related codes and mappings used at CGHR.
 
@@ -58,7 +58,7 @@ To cite the data, please cite the following depending on the codes and versions 
 
         --- icd dataset record
         INSERT INTO public.dp_dataset (title, title_abbr, status, data_id, contact, publish_date, tag, dataset_desc, "permission")
-        SELECT 'ICD Codes and Mappings', 'icd', 'published', '236,231,232,233,234,235,239,240,241,242,237,243,244,238', 'support@openmortality.org', '2023-07-11 23:51:15.683620-04:00', 'icd,wbd,cmea,wva,cghr', 'ICD-related codes and mappings used at CGHR.
+        SELECT 'ICD Codes and Mappings', 'icd', 'published', '236,233,234,235,231,232,239,245,240,241,237,238,242,243,244', 'support@openmortality.org', '2023-07-24 22:49:01.247146-04:00', 'icd,wbd,cmea,wva,cghr', 'ICD-related codes and mappings used at CGHR.
 
 "The International Classification of Diseases (ICD) is a tool for recording, reporting and grouping conditions and factors that influence health. It contains categories for diseases and disorders, health related conditions, external causes of illness or death, anatomy, sites, activities, medicines, vaccines and more.
 

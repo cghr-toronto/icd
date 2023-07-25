@@ -10,7 +10,7 @@ wva2016_group,wva2016_code,wva2016_group_title,wva2016_title,icd10_code
 1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,G04
 1,1.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A35
 1,1.09,Infectious and parasitic diseases,Pulmonary tuberculosis,A16
-1,1.10,Infectious and parasitic diseases,Pertussis,A37
+1,1.1,Infectious and parasitic diseases,Pertussis,A37
 1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A99
 1,1.12,Infectious and parasitic diseases,Dengue fever,A90
 1,1.12,Infectious and parasitic diseases,Dengue fever,A91
@@ -67,6 +67,6 @@ wva2016_group,wva2016_code,wva2016_group_title,wva2016_title,icd10_code
 12,12.07,External causes of death,Accidental poisoning and exposure to noxious substance,X49
 12,12.08,External causes of death,Intentional self-harm,X84
 12,12.09,External causes of death,Assault,Y09
-12,12.10,External causes of death,Exposure to force of nature,X39
+12,12.1,External causes of death,Exposure to force of nature,X39
 12,12.99,External causes of death,Other and unspecified external cause of death,X59
 99,99,Cause of death unknown,Cause of death unknown,R99

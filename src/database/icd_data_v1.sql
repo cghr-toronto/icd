@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS public.dp_data (
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.525839-04:00',
+                last_updated_date = '2023-07-24 22:49:01.066924-04:00',
                 status = 'published',
                 tag = 'icd',
                 data_desc = 'International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).
@@ -51,7 +51,7 @@ For more details, see the [ICD-10 Manual](https://github.com/cghr-toronto/icd/bl
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.526575-04:00',
+                last_updated_date = '2023-07-24 22:49:01.067721-04:00',
                 status = 'published',
                 tag = 'icd',
                 data_desc = 'International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).
@@ -75,7 +75,7 @@ For more details, see the [ICD-11 Manual](https://github.com/cghr-toronto/icd/bl
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.526940-04:00',
+                last_updated_date = '2023-07-24 22:49:01.068107-04:00',
                 status = 'published',
                 tag = 'icd',
                 data_desc = 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [ICD-11](https://openmortality.org/data/icd11_v1) codes.
@@ -97,7 +97,7 @@ Join the column `icd10_code` to your data for the converted codes in column `icd
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.527286-04:00',
+                last_updated_date = '2023-07-24 22:49:01.068474-04:00',
                 status = 'published',
                 tag = 'icd',
                 data_desc = 'Mappings to convert from [ICD-11](https://openmortality.org/data/icd11_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
@@ -120,7 +120,7 @@ Join the column `icd11_code` to your data for the converted codes in column `icd
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.527634-04:00',
+                last_updated_date = '2023-07-24 22:49:01.068838-04:00',
                 status = 'published',
                 tag = 'wbd',
                 data_desc = 'Wilson''s Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).
@@ -146,7 +146,7 @@ For more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.527975-04:00',
+                last_updated_date = '2023-07-24 22:49:01.069185-04:00',
                 status = 'published',
                 tag = 'icd,wbd',
                 data_desc = 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.
@@ -172,7 +172,7 @@ It may help to add a column specifying whether a record in your data is `adult`,
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.528324-04:00',
+                last_updated_date = '2023-07-24 22:49:01.069542-04:00',
                 status = 'published',
                 tag = 'cmea',
                 data_desc = 'Central Medical Evaluation Agreement for ICD-10 (CMEA-10) code blocks from the Centre for Global Health Research (CGHR).
@@ -196,7 +196,7 @@ For more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.528679-04:00',
+                last_updated_date = '2023-07-24 22:49:01.069895-04:00',
                 status = 'published',
                 tag = 'icd,cmea',
                 data_desc = 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CMEA-10](https://openmortality.org/data/cmea10_v1) code blocks.
@@ -218,7 +218,7 @@ Join the column `icd10_code` to your data for the converted codes in column `cme
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.529006-04:00',
+                last_updated_date = '2023-07-24 22:49:01.070241-04:00',
                 status = 'published',
                 tag = 'wva',
                 data_desc = 'World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes into mortality relevant codes.
@@ -232,6 +232,28 @@ For more details, see the [WVA-2016 Manual](https://github.com/cghr-toronto/icd/
                 data_rows = '85' 
             WHERE data_name = 'wva2016_v1';
 
+            --- wva2016_icd10_v1 dataset record
+            UPDATE public.dp_data
+            SET
+                title = 'WVA-2016 to ICD-10 Mappings',
+                data_name = 'wva2016_icd10_v1',
+                "format" = 'csv',
+                is_spatial = 'False',
+                "permission" = 'user',
+                last_updated_date = '2023-07-24 22:49:01.070589-04:00',
+                status = 'published',
+                tag = 'wva',
+                data_desc = 'Mappings to convert from [WVA-2016](https://openmortality.org/data/wva2016_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
+
+Join the column `wva2016_code` to your data for the converted codes in column `icd10_code`.
+* **File**: wva2016_icd10_v1.csv
+* **Dimensions**: 5 columns / 71 rows',
+                category = 'supplementary',
+                contact = 'support@openmortality.org',
+                data_columns = '5',
+                data_rows = '71' 
+            WHERE data_name = 'wva2016_icd10_v1';
+
             --- icd10_wva2016_v1 dataset record
             UPDATE public.dp_data
             SET
@@ -240,7 +262,7 @@ For more details, see the [WVA-2016 Manual](https://github.com/cghr-toronto/icd/
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.529329-04:00',
+                last_updated_date = '2023-07-24 22:49:01.070928-04:00',
                 status = 'published',
                 tag = 'icd,wva',
                 data_desc = 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WVA-2016](https://openmortality.org/data/wva2016_v1) codes.
@@ -262,7 +284,7 @@ Join the column `icd10_code` to your data for the converted codes in column `wva
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.529658-04:00',
+                last_updated_date = '2023-07-24 22:49:01.071265-04:00',
                 status = 'published',
                 tag = 'wva',
                 data_desc = 'World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes into mortality relevant codes.
@@ -284,7 +306,7 @@ For more details, see the [WVA-2022 Manual](https://github.com/cghr-toronto/icd/
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.529986-04:00',
+                last_updated_date = '2023-07-24 22:49:01.071604-04:00',
                 status = 'published',
                 tag = 'icd,wva',
                 data_desc = 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) to [WVA-2022](https://openmortality.org/data/wva2022_v1).
@@ -306,7 +328,7 @@ Join the column `icd10_code` to your data for the converted codes in column `wva
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.530326-04:00',
+                last_updated_date = '2023-07-24 22:49:01.071933-04:00',
                 status = 'published',
                 tag = 'cghr',
                 data_desc = 'Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.
@@ -332,7 +354,7 @@ For more details, see the [relevant paper](https://doi.org/10.1186/s12916-019-13
                 "format" = 'csv',
                 is_spatial = 'False',
                 "permission" = 'user',
-                last_updated_date = '2023-07-11 23:51:15.530657-04:00',
+                last_updated_date = '2023-07-24 22:49:01.072284-04:00',
                 status = 'published',
                 tag = 'icd,cghr',
                 data_desc = 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.
@@ -352,7 +374,7 @@ It may help to add a column specifying whether a record in your data is `adult`,
 
             --- icd10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 Codes', 'icd10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.525839-04:00', 'published', 'icd', 'International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).
+            SELECT 'ICD-10 Codes', 'icd10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.066924-04:00', 'published', 'icd', 'International Classification of Diseases Revision 10 (ICD-10) data from the World Health Organization (WHO).
 
 Contains standardized codes for classifying diseases based on chapters, blocks, and categories.
 
@@ -363,7 +385,7 @@ For more details, see the [ICD-10 Manual](https://github.com/cghr-toronto/icd/bl
 
             --- icd11_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-11 Codes', 'icd11_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.526575-04:00', 'published', 'icd', 'International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).
+            SELECT 'ICD-11 Codes', 'icd11_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.067721-04:00', 'published', 'icd', 'International Classification of Diseases Revision 11 (ICD-11) data from the World Health Organization (WHO).
 
 Contains standardized codes for classifying diseases based on chapters, blocks, and categories.
 
@@ -374,7 +396,7 @@ For more details, see the [ICD-11 Manual](https://github.com/cghr-toronto/icd/bl
 
             --- icd10_icd11_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 to ICD-11 Code Mappings', 'icd10_icd11_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.526940-04:00', 'published', 'icd', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [ICD-11](https://openmortality.org/data/icd11_v1) codes.
+            SELECT 'ICD-10 to ICD-11 Code Mappings', 'icd10_icd11_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.068107-04:00', 'published', 'icd', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [ICD-11](https://openmortality.org/data/icd11_v1) codes.
 
 Join the column `icd10_code` to your data for the converted codes in column `icd11_code`.
 * **File**: icd10_icd11_v1.csv
@@ -383,7 +405,7 @@ Join the column `icd10_code` to your data for the converted codes in column `icd
 
             --- icd11_icd10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-11 to ICD-10 Code Mappings', 'icd11_icd10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.527286-04:00', 'published', 'icd', 'Mappings to convert from [ICD-11](https://openmortality.org/data/icd11_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
+            SELECT 'ICD-11 to ICD-10 Code Mappings', 'icd11_icd10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.068474-04:00', 'published', 'icd', 'Mappings to convert from [ICD-11](https://openmortality.org/data/icd11_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
 
 Join the column `icd11_code` to your data for the converted codes in column `icd10_code`.
 * **Note**: ICD-11 codes can map to multiple ICD-10 codes
@@ -393,7 +415,7 @@ Join the column `icd11_code` to your data for the converted codes in column `icd
 
             --- wbd10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'WBD-10 Codes', 'wbd10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.527634-04:00', 'published', 'wbd', 'Wilson''s Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).
+            SELECT 'WBD-10 Codes', 'wbd10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.068838-04:00', 'published', 'wbd', 'Wilson''s Burden of Disease for ICD-10 (WBD-10) data from the Centre for Global Health Research (CGHR).
 
 Groups [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader WBD-10 codes for three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).
 
@@ -406,7 +428,7 @@ For more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-
 
             --- icd10_wbd10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 to WBD-10 Code Mappings', 'icd10_wbd10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.527975-04:00', 'published', 'icd,wbd', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.
+            SELECT 'ICD-10 to WBD-10 Code Mappings', 'icd10_wbd10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.069185-04:00', 'published', 'icd,wbd', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.
 
 Join the column `icd10_code` and `wbd10_age` to your data for the converted codes in column `wbd10_code`.
 
@@ -419,7 +441,7 @@ It may help to add a column specifying whether a record in your data is `adult`,
 
             --- cmea10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'CMEA-10 Codes', 'cmea10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.528324-04:00', 'published', 'cmea', 'Central Medical Evaluation Agreement for ICD-10 (CMEA-10) code blocks from the Centre for Global Health Research (CGHR).
+            SELECT 'CMEA-10 Codes', 'cmea10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.069542-04:00', 'published', 'cmea', 'Central Medical Evaluation Agreement for ICD-10 (CMEA-10) code blocks from the Centre for Global Health Research (CGHR).
 
 These code blocks are used in the Central Medical Evaluation (CME) system to determine which groups of ICD-10 codes considered to be in agreement for dual physician coding in Verbal Autopsies (VA).
 
@@ -430,7 +452,7 @@ For more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-
 
             --- icd10_cmea10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 to CMEA-10 Mappings', 'icd10_cmea10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.528679-04:00', 'published', 'icd,cmea', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CMEA-10](https://openmortality.org/data/cmea10_v1) code blocks.
+            SELECT 'ICD-10 to CMEA-10 Mappings', 'icd10_cmea10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.069895-04:00', 'published', 'icd,cmea', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CMEA-10](https://openmortality.org/data/cmea10_v1) code blocks.
 
 Join the column `icd10_code` to your data for the converted codes in column `cmea10_title`.
 * **File**: icd10_cmea10_v1.csv
@@ -439,16 +461,25 @@ Join the column `icd10_code` to your data for the converted codes in column `cme
 
             --- wva2016_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'WVA-2016 Codes', 'wva2016_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.529006-04:00', 'published', 'wva', 'World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes into mortality relevant codes.
+            SELECT 'WVA-2016 Codes', 'wva2016_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.070241-04:00', 'published', 'wva', 'World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes into mortality relevant codes.
 
 For more details, see the [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf).
 * **File**: wva2016_v1.csv
 * **Dimensions**: 10 columns / 85 rows', 'main', 'support@openmortality.org', '10', '85'
             WHERE NOT EXISTS (SELECT 1 FROM public.dp_data WHERE data_name = 'wva2016_v1');
 
+            --- wva2016_icd10_v1 data record
+            INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
+            SELECT 'WVA-2016 to ICD-10 Mappings', 'wva2016_icd10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.070589-04:00', 'published', 'wva', 'Mappings to convert from [WVA-2016](https://openmortality.org/data/wva2016_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
+
+Join the column `wva2016_code` to your data for the converted codes in column `icd10_code`.
+* **File**: wva2016_icd10_v1.csv
+* **Dimensions**: 5 columns / 71 rows', 'supplementary', 'support@openmortality.org', '5', '71'
+            WHERE NOT EXISTS (SELECT 1 FROM public.dp_data WHERE data_name = 'wva2016_icd10_v1');
+
             --- icd10_wva2016_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 to WVA-2016 Code Mappings', 'icd10_wva2016_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.529329-04:00', 'published', 'icd,wva', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WVA-2016](https://openmortality.org/data/wva2016_v1) codes.
+            SELECT 'ICD-10 to WVA-2016 Code Mappings', 'icd10_wva2016_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.070928-04:00', 'published', 'icd,wva', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WVA-2016](https://openmortality.org/data/wva2016_v1) codes.
 
 Join the column `icd10_code` to your data for the converted codes in column `wva2016_code`.
 * **File**: icd10_wva2016_v1.csv
@@ -457,7 +488,7 @@ Join the column `icd10_code` to your data for the converted codes in column `wva
 
             --- wva2022_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'WVA-2022 Codes', 'wva2022_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.529658-04:00', 'published', 'wva', 'World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes into mortality relevant codes.
+            SELECT 'WVA-2022 Codes', 'wva2022_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.071265-04:00', 'published', 'wva', 'World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes into mortality relevant codes.
 
 For more details, see the [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf).
 * **File**: wva2022_v1.csv
@@ -466,7 +497,7 @@ For more details, see the [WVA-2022 Manual](https://github.com/cghr-toronto/icd/
 
             --- icd10_wva2022_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 to WVA-2022 Code Mappings', 'icd10_wva2022_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.529986-04:00', 'published', 'icd,wva', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) to [WVA-2022](https://openmortality.org/data/wva2022_v1).
+            SELECT 'ICD-10 to WVA-2022 Code Mappings', 'icd10_wva2022_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.071604-04:00', 'published', 'icd,wva', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) to [WVA-2022](https://openmortality.org/data/wva2022_v1).
 
 Join the column `icd10_code` to your data for the converted codes in column `wva2022_code`.
 * **File**: icd10_wva2022_v1.csv
@@ -475,7 +506,7 @@ Join the column `icd10_code` to your data for the converted codes in column `wva
 
             --- cghr10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'CGHR-10 Codes', 'cghr10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.530326-04:00', 'published', 'cghr', 'Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.
+            SELECT 'CGHR-10 Codes', 'cghr10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.071933-04:00', 'published', 'cghr', 'Centre for Global Health Research for ICD-10 (CGHR-10) codes for physician coded verbal autopsies.
 
 These codes group [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader categories based on three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).
 
@@ -488,7 +519,7 @@ For more details, see the [relevant paper](https://doi.org/10.1186/s12916-019-13
 
             --- icd10_cghr10_v1 data record
             INSERT INTO public.dp_data (title, data_name, "format", is_spatial, "permission", publish_date, status, tag, data_desc, category, contact, data_columns, data_rows)
-            SELECT 'ICD-10 to CGHR-10 Code Mappings', 'icd10_cghr10_v1', 'csv', 'False', 'user', '2023-07-11 23:51:15.530657-04:00', 'published', 'icd,cghr', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.
+            SELECT 'ICD-10 to CGHR-10 Code Mappings', 'icd10_cghr10_v1', 'csv', 'False', 'user', '2023-07-24 22:49:01.072284-04:00', 'published', 'icd,cghr', 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.
 
 Join the column `icd10_code` to your data for the converted codes in column `cghr10_title`.
 
@@ -509,6 +540,7 @@ GRANT SELECT ON TABLE public.icd10_wbd10_v1 TO omdevdbuser;
 GRANT SELECT ON TABLE public.cmea10_v1 TO omdevdbuser;
 GRANT SELECT ON TABLE public.icd10_cmea10_v1 TO omdevdbuser;
 GRANT SELECT ON TABLE public.wva2016_v1 TO omdevdbuser;
+GRANT SELECT ON TABLE public.wva2016_icd10_v1 TO omdevdbuser;
 GRANT SELECT ON TABLE public.icd10_wva2016_v1 TO omdevdbuser;
 GRANT SELECT ON TABLE public.wva2022_v1 TO omdevdbuser;
 GRANT SELECT ON TABLE public.icd10_wva2022_v1 TO omdevdbuser;

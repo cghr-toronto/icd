@@ -490,6 +490,35 @@ Data:
     Description: "ICD-10 codes that the WVA-2016 codes can be converted to."
     Type: str
 
+- Name: wva2016_icd10
+  File: data/wva2016toicd10_raw.csv
+  Title: WVA-2016 to ICD-10 Mappings
+  Description: "Mappings to convert from [WVA-2016](https://openmortality.org/data/wva2016_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.\n\nJoin the column `wva2016_code` to your data for the converted codes in column `icd10_code`."
+  Permission: user
+  Tag: wva
+  Category: supplementary
+  Columns:
+
+  - Name: wva2016_group
+    Description: "WVA-2016 group containing a range of codes."
+    Type: Int64
+
+  - Name: wva2016_code
+    Description: "WVA-2016 code from the 2016 WHO VA instrument."
+    Type: str
+
+  - Name: wva2016_group_title
+    Description: "Title for WVA-2016 group."
+    Type: str
+
+  - Name: wva2016_title
+    Description: "Title for the WVA-2016 code."
+    Type: str
+
+  - Name: icd10_code
+    Description: "ICD-10 codes that the WVA-2016 codes can be converted to."
+    Type: str
+
 - Name: icd10_wva2016
   File: data/icd10towva2016_raw.csv
   Title: ICD-10 to WVA-2016 Code Mappings

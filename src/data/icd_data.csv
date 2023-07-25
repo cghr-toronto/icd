@@ -3,6 +3,8 @@ cghr10,3,36,"Centre for Global Health Research for ICD-10 (CGHR-10) codes for ph
 
 These codes group [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader categories based on three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).
 
+To correctly use these codes, account for the three age group values `adult`, `child`, and `neo` in the column `age`.
+
 For more details, see the [relevant paper](https://doi.org/10.1186/s12916-019-1353-2)."
 cmea10,3,143,"Central Medical Evaluation Agreement for ICD-10 (CMEA-10) code blocks from the Centre for Global Health Research (CGHR).
 
@@ -16,7 +18,11 @@ Contains standardized codes for classifying diseases based on chapters, blocks, 
 For more details, see the [ICD-10 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/icd10_manual.pdf)."
 icd10_cghr10,4,6411,"Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CGHR-10](https://openmortality.org/data/cghr10_v1) codes.
 
-Join the column `icd10_code` to your data for the converted codes in column `cghr10_title`."
+Join the column `icd10_code` to your data for the converted codes in column `cghr10_title`.
+
+To correctly map the ICD-10 codes, be sure to also match the age group values `adult`, `child`, and `neo` in the column `cghr10_age`.
+
+It may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching."
 icd10_cmea10,3,1653,"Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [CMEA-10](https://openmortality.org/data/cmea10_v1) code blocks.
 
 Join the column `icd10_code` to your data for the converted codes in column `cmea10_title`."
@@ -25,7 +31,11 @@ icd10_icd11,12,12597,"Mappings to convert from [ICD-10](https://openmortality.or
 Join the column `icd10_code` to your data for the converted codes in column `icd11_code`."
 icd10_wbd10,11,6502,"Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WBD-10](https://openmortality.org/data/wbd10_v1) codes.
 
-Join the column `icd10_code` and `wbd10_age` to your data for the converted codes in column `wbd10_code`."
+Join the column `icd10_code` and `wbd10_age` to your data for the converted codes in column `wbd10_code`.
+
+To correctly map the ICD-10 codes, be sure to also match the age group values `adult`, `child`, and `neo` in the column `wbd10_age`.
+
+It may help to add a column specifying whether a record in your data is `adult`, `child` or `neo` to do the matching."
 icd10_wva2016,6,2384,"Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WVA-2016](https://openmortality.org/data/wva2016_v1) codes.
 
 Join the column `icd10_code` to your data for the converted codes in column `wva2016_code`."
@@ -44,10 +54,15 @@ wbd10,10,182,"Wilson's Burden of Disease for ICD-10 (WBD-10) data from the Centr
 
 Groups [ICD-10](https://openmortality.org/data/icd10_v1) codes into broader WBD-10 codes for three age groups: adult (12 years or older), child (28 days to 11 years), and neonate (under 28 days).
 
+To correctly use these codes, account for the three age group values `adult`, `child`, and `neo` in the column `age`.
+
 For more details, see the [relevant paper](https://doi.org/10.1186/1741-7015-12-21)."
 wva2016,10,85,"World Health Organization Verbal Autopsy 2016 (WVA-2016) codes that generalize ICD-10 codes into mortality relevant codes.
 
 For more details, see the [WVA-2016 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2016_manual_v15.pdf)."
+wva2016_icd10,5,71,"Mappings to convert from [WVA-2016](https://openmortality.org/data/wva2016_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
+
+Join the column `wva2016_code` to your data for the converted codes in column `icd10_code`."
 wva2022,3,65,"World Health Organization Verbal Autopsy 2022 (WVA-2022) codes that generalize ICD-10 codes into mortality relevant codes.
 
 For more details, see the [WVA-2022 Manual](https://github.com/cghr-toronto/icd/blob/main/docs/wva2022_manual.pdf)."

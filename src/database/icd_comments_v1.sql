@@ -153,6 +153,18 @@ COMMENT ON COLUMN wva2016_v1.title IS 'Title for the WVA-2016 code.';
 COMMENT ON COLUMN wva2016_v1.icd10_range IS 'Range of ICD-10 codes that the WVA-2016 codes group together.';
 COMMENT ON COLUMN wva2016_v1.icd10_code IS 'ICD-10 codes that the WVA-2016 codes can be converted to.';
 
+--- wva2016_icd10_v1 table comment
+COMMENT ON TABLE wva2016_icd10_v1 IS 'Mappings to convert from [WVA-2016](https://openmortality.org/data/wva2016_v1) codes to [ICD-10](https://openmortality.org/data/icd10_v1) codes.
+
+Join the column `wva2016_code` to your data for the converted codes in column `icd10_code`.';
+
+--- wva2016_icd10_v1 column comments (n=5)
+COMMENT ON COLUMN wva2016_icd10_v1.wva2016_group IS 'WVA-2016 group containing a range of codes.';
+COMMENT ON COLUMN wva2016_icd10_v1.wva2016_code IS 'WVA-2016 code from the 2016 WHO VA instrument.';
+COMMENT ON COLUMN wva2016_icd10_v1.wva2016_group_title IS 'Title for WVA-2016 group.';
+COMMENT ON COLUMN wva2016_icd10_v1.wva2016_title IS 'Title for the WVA-2016 code.';
+COMMENT ON COLUMN wva2016_icd10_v1.icd10_code IS 'ICD-10 codes that the WVA-2016 codes can be converted to.';
+
 --- icd10_wva2016_v1 table comment
 COMMENT ON TABLE icd10_wva2016_v1 IS 'Mappings to convert from [ICD-10](https://openmortality.org/data/icd10_v1) codes to [WVA-2016](https://openmortality.org/data/wva2016_v1) codes.
 
