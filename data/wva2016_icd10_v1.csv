@@ -1,0 +1,72 @@
+wva2016_group,wva2016_code,wva2016_group_title,wva2016_title,icd10_code
+01,01.01,Infectious and parasitic diseases,Sepsis,A41
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J22
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J18
+01,01.03,Infectious and parasitic diseases,HIV/AIDS related death,B24
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A09
+01,01.05,Infectious and parasitic diseases,Malaria,B54
+01,01.06,Infectious and parasitic diseases,Measles,B05
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,G03
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,G04
+01,01.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A35
+01,01.09,Infectious and parasitic diseases,Pulmonary tuberculosis,A16
+01,01.10,Infectious and parasitic diseases,Pertussis,A37
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A99
+01,01.12,Infectious and parasitic diseases,Dengue fever,A90
+01,01.12,Infectious and parasitic diseases,Dengue fever,A91
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,B99
+98,98,Non-communicable diseases,Other and unspecified non- communicable disease,R99
+02,02.01,Neoplasms,Oral neoplasms,C06
+02,02.02,Neoplasms,Digestive neoplasms,C26
+02,02.03,Neoplasms,Respiratory neoplasms,C39
+02,02.04,Neoplasms,Breast neoplasms,C50
+02,02.05,Neoplasms,Female reproductive neoplasms,C57
+02,02.06,Neoplasms,Male reproductive neoplasms,C63
+02,02.99,Neoplasms,Other and unspecified neoplasms,C80
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D64
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E46
+03,03.03,Nutritional and endocrine disorders,Diabetes mellitus,E14
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I24
+04,04.02,Diseases of the circulatory system,Stroke,I64
+04,04.03,Diseases of the circulatory system,Sickle cell with crisis,D57
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,I99
+05,05.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J44
+05,05.02,Respiratory disorders,Asthma,J45
+05,05.02,Respiratory disorders,Asthma,J46
+06,06.01,Gastrointestinal disorders,Acute abdomen,R10
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K74
+07,07.01,Renal disorders,Renal failure,N19
+08,08.01,Mental and nervous system disorders,Epilepsy,G40
+09,09.01,"Pregnancy-, childbirth and puerperium-related disorders",Ectopic pregnancy,O00
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O06
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O13
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O15
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,O46
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,O72
+09,09.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O66
+09,09.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,O75
+09,09.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,O85
+09,09.07,"Pregnancy-, childbirth and puerperium-related disorders",Anaemia of pregnancy,O99
+09,09.08,"Pregnancy-, childbirth and puerperium-related disorders",Ruptured uterus,O71
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,O05
+10,10.01,Neonatal causes of death,Prematurity,P07
+10,10.02,Neonatal causes of death,Birth asphyxia,P21
+10,10.03,Neonatal causes of death,Neonatal pneumonia,P23
+10,10.04,Neonatal causes of death,Neonatal sepsis,P63
+10,10.05,Neonatal causes of death,Neonatal tetanus,A33
+10,10.06,Neonatal causes of death,Congenital malformation,Q89
+10,10.99,Neonatal causes of death,Other and unspecified perinatal cause of death,P96
+11,11.01,Stillbirths,Fresh stillbirth,P95
+11,11.02,Stillbirths,Macerated stillbirth,P95
+12,12.01,External causes of death,Road traffic accident,V89
+12,12.02,External causes of death,Other transport accident,V99
+12,12.03,External causes of death,Accidental fall,W19
+12,12.04,External causes of death,Accidental drowning and submersion,W74
+12,12.05,External causes of death,"Accidental exposure to smoke, fire and flames",X09
+12,12.06,External causes of death,Contact with venomous animals and plants,X29
+12,12.07,External causes of death,Accidental poisoning and exposure to noxious substance,X49
+12,12.08,External causes of death,Intentional self-harm,X84
+12,12.09,External causes of death,Assault,Y09
+12,12.10,External causes of death,Exposure to force of nature,X39
+12,12.99,External causes of death,Other and unspecified external cause of death,X59
+99,99,Cause of death unknown,Cause of death unknown,R99

@@ -1,64 +1,64 @@
 kind,kind_depth,group,group_title,group_orig,code,code_orig,title,icd10_range,icd10_code
-group,1,1,Infectious and parasitic diseases,VAs-01,nan,nan,nan,"A00-09,A15-99,B00-99,G00-05,J00-22",nan
-code,2,1,Infectious and parasitic diseases,VAs-01,1.01,VAs-01.01,Sepsis,A40-41,A41
-code,2,1,Infectious and parasitic diseases,VAs-01,1.02,VAs-01.02,"Acute respiratory infection, including pneumonia",J00-22,J22
-code,2,1,Infectious and parasitic diseases,VAs-01,1.02,VAs-01.02,"Acute respiratory infection, including pneumonia",J00-22,J18
-code,2,1,Infectious and parasitic diseases,VAs-01,1.03,VAs-01.03,HIV/AIDS related death,B20-24,B24
-code,2,1,Infectious and parasitic diseases,VAs-01,1.04,VAs-01.04,Diarrheal diseases,A00-09,A09
-code,2,1,Infectious and parasitic diseases,VAs-01,1.05,VAs-01.05,Malaria,B50-54,B54
-code,2,1,Infectious and parasitic diseases,VAs-01,1.06,VAs-01.06,Measles,B05,B05
-code,2,1,Infectious and parasitic diseases,VAs-01,1.07,VAs-01.07,Meningitis and encephalitis,"A39,G00-05",G03
-code,2,1,Infectious and parasitic diseases,VAs-01,1.07,VAs-01.07,Meningitis and encephalitis,"A39,G00-05",G04
-code,2,1,Infectious and parasitic diseases,VAs-01,1.08,VAs-01.08,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A35
-code,2,1,Infectious and parasitic diseases,VAs-01,1.09,VAs-01.09,Pulmonary tuberculosis,A15-16,A16
-code,2,1,Infectious and parasitic diseases,VAs-01,1.1,VAs-01.10,Pertussis,A37,A37
-code,2,1,Infectious and parasitic diseases,VAs-01,1.11,VAs-01.11,Haemorrhagic fever,A92-99,A99
-code,2,1,Infectious and parasitic diseases,VAs-01,1.12,VAs-01.12,Dengue fever,A90-91,A90
-code,2,1,Infectious and parasitic diseases,VAs-01,1.12,VAs-01.12,Dengue fever,A90-91,A91
-code,2,1,Infectious and parasitic diseases,VAs-01,1.99,VAs-01.99,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B99
+group,1,01,Infectious and parasitic diseases,VAs-01,nan,nan,nan,"A00-09,A15-99,B00-99,G00-05,J00-22",nan
+code,2,01,Infectious and parasitic diseases,VAs-01,01.01,VAs-01.01,Sepsis,A40-41,A41
+code,2,01,Infectious and parasitic diseases,VAs-01,01.02,VAs-01.02,"Acute respiratory infection, including pneumonia",J00-22,J22
+code,2,01,Infectious and parasitic diseases,VAs-01,01.02,VAs-01.02,"Acute respiratory infection, including pneumonia",J00-22,J18
+code,2,01,Infectious and parasitic diseases,VAs-01,01.03,VAs-01.03,HIV/AIDS related death,B20-24,B24
+code,2,01,Infectious and parasitic diseases,VAs-01,01.04,VAs-01.04,Diarrheal diseases,A00-09,A09
+code,2,01,Infectious and parasitic diseases,VAs-01,01.05,VAs-01.05,Malaria,B50-54,B54
+code,2,01,Infectious and parasitic diseases,VAs-01,01.06,VAs-01.06,Measles,B05,B05
+code,2,01,Infectious and parasitic diseases,VAs-01,01.07,VAs-01.07,Meningitis and encephalitis,"A39,G00-05",G03
+code,2,01,Infectious and parasitic diseases,VAs-01,01.07,VAs-01.07,Meningitis and encephalitis,"A39,G00-05",G04
+code,2,01,Infectious and parasitic diseases,VAs-01,01.08,VAs-01.08,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A35
+code,2,01,Infectious and parasitic diseases,VAs-01,01.09,VAs-01.09,Pulmonary tuberculosis,A15-16,A16
+code,2,01,Infectious and parasitic diseases,VAs-01,01.10,VAs-01.10,Pertussis,A37,A37
+code,2,01,Infectious and parasitic diseases,VAs-01,01.11,VAs-01.11,Haemorrhagic fever,A92-99,A99
+code,2,01,Infectious and parasitic diseases,VAs-01,01.12,VAs-01.12,Dengue fever,A90-91,A90
+code,2,01,Infectious and parasitic diseases,VAs-01,01.12,VAs-01.12,Dengue fever,A90-91,A91
+code,2,01,Infectious and parasitic diseases,VAs-01,01.99,VAs-01.99,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B99
 group,1,98,Non-communicable diseases,VAs-98,nan,nan,nan,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",nan
-code,2,98,Non-communicable diseases,VAs-98,98.0,VAs-98,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",R99
-group,1,2,Neoplasms,VAs-02,nan,nan,nan,"C00-26,C30-58,C60-99,D00-48",nan
-code,2,2,Neoplasms,VAs-02,2.01,VAs-02.01,Oral neoplasms,C00-06,C06
-code,2,2,Neoplasms,VAs-02,2.02,VAs-02.02,Digestive neoplasms,C15-26,C26
-code,2,2,Neoplasms,VAs-02,2.03,VAs-02.03,Respiratory neoplasms,C30-39,C39
-code,2,2,Neoplasms,VAs-02,2.04,VAs-02.04,Breast neoplasms,C50,C50
-code,2,2,Neoplasms,VAs-02,2.05,VAs-02.05,Female reproductive neoplasms,C51-58,C57
-code,2,2,Neoplasms,VAs-02,2.06,VAs-02.06,Male reproductive neoplasms,C60-63,C63
-code,2,2,Neoplasms,VAs-02,2.99,VAs-02.99,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C80
-group,1,3,Nutritional and endocrine disorders,VAs-03,nan,nan,nan,"D50-64,E10-14,E40-46",nan
-code,2,3,Nutritional and endocrine disorders,VAs-03,3.01,VAs-03.01,Severe anaemia,D50-64,D64
-code,2,3,Nutritional and endocrine disorders,VAs-03,3.02,VAs-03.02,Severe malnutrition,E40-46,E46
-code,2,3,Nutritional and endocrine disorders,VAs-03,3.03,VAs-03.03,Diabetes mellitus,E10-14,E14
-group,1,4,Diseases of the circulatory system,VAs-04,nan,nan,nan,"D57,I00-15,I20-52,I60-99",nan
-code,2,4,Diseases of the circulatory system,VAs-04,4.01,VAs-04.01,Acute cardiac disease,I20-25,I24
-code,2,4,Diseases of the circulatory system,VAs-04,4.02,VAs-04.02,Stroke,I60-69,I64
-code,2,4,Diseases of the circulatory system,VAs-04,4.03,VAs-04.03,Sickle cell with crisis,D57,D57
-code,2,4,Diseases of the circulatory system,VAs-04,4.99,VAs-04.99,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I99
-group,1,5,Respiratory disorders,VAs-05,nan,nan,nan,J40-46,nan
-code,2,5,Respiratory disorders,VAs-05,5.01,VAs-05.01,Chronic obstructive pulmonary disease (COPD),J40-44,J44
-code,2,5,Respiratory disorders,VAs-05,5.02,VAs-05.02,Asthma,J45-46,J45
-code,2,5,Respiratory disorders,VAs-05,5.02,VAs-05.02,Asthma,J45-46,J46
-group,1,6,Gastrointestinal disorders,VAs-06,nan,nan,nan,"K70-76,R10",nan
-code,2,6,Gastrointestinal disorders,VAs-06,6.01,VAs-06.01,Acute abdomen,R10,R10
-code,2,6,Gastrointestinal disorders,VAs-06,6.02,VAs-06.02,Liver cirrhosis,K70-76,K74
-group,1,7,Renal disorders,VAs-07,nan,nan,nan,N17-19,nan
-code,2,7,Renal disorders,VAs-07,7.01,VAs-07.01,Renal failure,N17-19,N19
-group,1,8,Mental and nervous system disorders,VAs-08,nan,nan,nan,G40-41,nan
-code,2,8,Mental and nervous system disorders,VAs-08,8.01,VAs-08.01,Epilepsy,G40-41,G40
-group,1,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,nan,nan,nan,"O00-08,O10-16,O20-99,O753,O990",nan
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.01,VAs-09.01,Ectopic pregnancy,O00,O00
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.02,VAs-09.02,Abortion-related death,O03-08,O06
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.03,VAs-09.03,Pregnancy-induced hypertension,O10-16,O13
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.03,VAs-09.03,Pregnancy-induced hypertension,O10-16,O15
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.04,VAs-09.04,Obstetric haemorrhage,"O46,O67,O72",O46
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.04,VAs-09.04,Obstetric haemorrhage,"O46,O67,O72",O72
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.05,VAs-09.05,Obstructed labour,O63-66,O66
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.06,VAs-09.06,Pregnancy-related sepsis,"O85,O753",O75
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.06,VAs-09.06,Pregnancy-related sepsis,"O85,O753",O85
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.07,VAs-09.07,Anaemia of pregnancy,O990,O99
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.08,VAs-09.08,Ruptured uterus,O71,O71
-code,2,9,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,9.99,VAs-09.99,Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O05
+code,2,98,Non-communicable diseases,VAs-98,98,VAs-98,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",R99
+group,1,02,Neoplasms,VAs-02,nan,nan,nan,"C00-26,C30-58,C60-99,D00-48",nan
+code,2,02,Neoplasms,VAs-02,02.01,VAs-02.01,Oral neoplasms,C00-06,C06
+code,2,02,Neoplasms,VAs-02,02.02,VAs-02.02,Digestive neoplasms,C15-26,C26
+code,2,02,Neoplasms,VAs-02,02.03,VAs-02.03,Respiratory neoplasms,C30-39,C39
+code,2,02,Neoplasms,VAs-02,02.04,VAs-02.04,Breast neoplasms,C50,C50
+code,2,02,Neoplasms,VAs-02,02.05,VAs-02.05,Female reproductive neoplasms,C51-58,C57
+code,2,02,Neoplasms,VAs-02,02.06,VAs-02.06,Male reproductive neoplasms,C60-63,C63
+code,2,02,Neoplasms,VAs-02,02.99,VAs-02.99,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C80
+group,1,03,Nutritional and endocrine disorders,VAs-03,nan,nan,nan,"D50-64,E10-14,E40-46",nan
+code,2,03,Nutritional and endocrine disorders,VAs-03,03.01,VAs-03.01,Severe anaemia,D50-64,D64
+code,2,03,Nutritional and endocrine disorders,VAs-03,03.02,VAs-03.02,Severe malnutrition,E40-46,E46
+code,2,03,Nutritional and endocrine disorders,VAs-03,03.03,VAs-03.03,Diabetes mellitus,E10-14,E14
+group,1,04,Diseases of the circulatory system,VAs-04,nan,nan,nan,"D57,I00-15,I20-52,I60-99",nan
+code,2,04,Diseases of the circulatory system,VAs-04,04.01,VAs-04.01,Acute cardiac disease,I20-25,I24
+code,2,04,Diseases of the circulatory system,VAs-04,04.02,VAs-04.02,Stroke,I60-69,I64
+code,2,04,Diseases of the circulatory system,VAs-04,04.03,VAs-04.03,Sickle cell with crisis,D57,D57
+code,2,04,Diseases of the circulatory system,VAs-04,04.99,VAs-04.99,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I99
+group,1,05,Respiratory disorders,VAs-05,nan,nan,nan,J40-46,nan
+code,2,05,Respiratory disorders,VAs-05,05.01,VAs-05.01,Chronic obstructive pulmonary disease (COPD),J40-44,J44
+code,2,05,Respiratory disorders,VAs-05,05.02,VAs-05.02,Asthma,J45-46,J45
+code,2,05,Respiratory disorders,VAs-05,05.02,VAs-05.02,Asthma,J45-46,J46
+group,1,06,Gastrointestinal disorders,VAs-06,nan,nan,nan,"K70-76,R10",nan
+code,2,06,Gastrointestinal disorders,VAs-06,06.01,VAs-06.01,Acute abdomen,R10,R10
+code,2,06,Gastrointestinal disorders,VAs-06,06.02,VAs-06.02,Liver cirrhosis,K70-76,K74
+group,1,07,Renal disorders,VAs-07,nan,nan,nan,N17-19,nan
+code,2,07,Renal disorders,VAs-07,07.01,VAs-07.01,Renal failure,N17-19,N19
+group,1,08,Mental and nervous system disorders,VAs-08,nan,nan,nan,G40-41,nan
+code,2,08,Mental and nervous system disorders,VAs-08,08.01,VAs-08.01,Epilepsy,G40-41,G40
+group,1,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,nan,nan,nan,"O00-08,O10-16,O20-99,O753,O990",nan
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.01,VAs-09.01,Ectopic pregnancy,O00,O00
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.02,VAs-09.02,Abortion-related death,O03-08,O06
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.03,VAs-09.03,Pregnancy-induced hypertension,O10-16,O13
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.03,VAs-09.03,Pregnancy-induced hypertension,O10-16,O15
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.04,VAs-09.04,Obstetric haemorrhage,"O46,O67,O72",O46
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.04,VAs-09.04,Obstetric haemorrhage,"O46,O67,O72",O72
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.05,VAs-09.05,Obstructed labour,O63-66,O66
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.06,VAs-09.06,Pregnancy-related sepsis,"O85,O753",O75
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.06,VAs-09.06,Pregnancy-related sepsis,"O85,O753",O85
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.07,VAs-09.07,Anaemia of pregnancy,O990,O99
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.08,VAs-09.08,Ruptured uterus,O71,O71
+code,2,09,"Pregnancy-, childbirth and puerperium-related disorders",VAs-09,09.99,VAs-09.99,Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O05
 group,1,10,Neonatal causes of death,VAs-10,nan,nan,nan,"A33,P00-15,P20-94,P96,Q00-99",nan
 code,2,10,Neonatal causes of death,VAs-10,10.01,VAs-10.01,Prematurity,P05-07,P07
 code,2,10,Neonatal causes of death,VAs-10,10.02,VAs-10.02,Birth asphyxia,P20-22,P21
@@ -80,7 +80,7 @@ code,2,12,External causes of death,VAs-12,12.06,VAs-12.06,Contact with venomous 
 code,2,12,External causes of death,VAs-12,12.07,VAs-12.07,Accidental poisoning and exposure to noxious substance,X40-49,X49
 code,2,12,External causes of death,VAs-12,12.08,VAs-12.08,Intentional self-harm,X60-84,X84
 code,2,12,External causes of death,VAs-12,12.09,VAs-12.09,Assault,"X85-99,Y00-09",Y09
-code,2,12,External causes of death,VAs-12,12.1,VAs-12.10,Exposure to force of nature,X30-39,X39
+code,2,12,External causes of death,VAs-12,12.10,VAs-12.10,Exposure to force of nature,X30-39,X39
 code,2,12,External causes of death,VAs-12,12.99,VAs-12.99,Other and unspecified external cause of death,"S00-99,T00-99,W20-64,W75-99,X50-59,Y10-98",X59
 group,1,99,Cause of death unknown,Vas-99,nan,nan,nan,R95-99,nan
-code,2,99,Cause of death unknown,VAs-99,99.0,VAs-99,Cause of death unknown,R95-99,R99
+code,2,99,Cause of death unknown,VAs-99,99,VAs-99,Cause of death unknown,R95-99,R99
