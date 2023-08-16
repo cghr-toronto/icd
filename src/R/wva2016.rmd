@@ -19,7 +19,7 @@ library(cghrCodes)
 
 Read data from `../data` folder:
 
-* `WVAtoICD_map1-5.csv`: edited raw WHO VA mappings compiled from the WHO VA 2016 v1.5 PDF manual by Cheryl Chin
+* `WVAtoICD_map1-5_RW.csv`: edited raw WHO VA mappings compiled from the WHO VA 2016 v1.5 PDF manual by Cheryl Chin
 
 ```{r}
 wva2016raw <- read_csv(

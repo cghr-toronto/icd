@@ -1,384 +1,384 @@
 wva2016_group,wva2016_code,wva2016_group_title,wva2016_title,icd10_range,icd10_code
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A00
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A01
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A02
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A03
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A04
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A05
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A06
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A07
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A08
-1,1.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A09
-1,1.09,Infectious and parasitic diseases,Pulmonary tuberculosis,A15-16,A15
-1,1.09,Infectious and parasitic diseases,Pulmonary tuberculosis,A15-16,A16
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A17
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A18
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A19
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A20
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A21
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A22
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A23
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A24
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A25
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A26
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A27
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A28
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A29
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A30
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A31
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A32
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A33
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A34
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A35
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A36
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A37
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A38
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A42
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A43
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A44
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A45
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A46
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A47
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A48
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A49
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A50
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A51
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A52
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A53
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A54
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A55
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A56
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A57
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A58
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A59
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A60
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A61
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A62
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A63
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A64
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A65
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A66
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A67
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A68
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A69
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A70
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A71
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A72
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A73
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A74
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A75
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A76
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A77
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A78
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A79
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A80
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A81
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A82
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A83
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A84
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A85
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A86
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A87
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A88
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A89
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B00
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B01
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B02
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B03
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B04
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B05
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B06
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B07
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B08
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B09
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B10
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B11
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B12
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B13
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B14
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B15
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B16
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B17
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B18
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B19
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B25
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B26
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B27
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B28
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B29
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B30
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B31
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B32
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B33
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B34
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B35
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B36
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B37
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B38
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B39
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B40
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B41
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B42
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B43
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B44
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B45
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B46
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B47
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B48
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B49
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B55
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B56
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B57
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B58
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B59
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B60
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B61
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B62
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B63
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B64
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B65
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B66
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B67
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B68
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B69
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B70
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B71
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B72
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B73
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B74
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B75
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B76
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B77
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B78
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B79
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B80
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B81
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B82
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B83
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B84
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B85
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B86
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B87
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B88
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B89
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B90
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B91
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B92
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B93
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B94
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B95
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B96
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B97
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B98
-1,1.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B99
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A00
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A01
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A02
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A03
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A04
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A05
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A06
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A07
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A08
+01,01.04,Infectious and parasitic diseases,Diarrheal diseases,A00-09,A09
+01,01.09,Infectious and parasitic diseases,Pulmonary tuberculosis,A15-16,A15
+01,01.09,Infectious and parasitic diseases,Pulmonary tuberculosis,A15-16,A16
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A17
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A18
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A19
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A20
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A21
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A22
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A23
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A24
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A25
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A26
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A27
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A28
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A29
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A30
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A31
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A32
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A33
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A34
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A35
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A36
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A37
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A38
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A42
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A43
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A44
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A45
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A46
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A47
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A48
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A49
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A50
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A51
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A52
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A53
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A54
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A55
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A56
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A57
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A58
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A59
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A60
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A61
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A62
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A63
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A64
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A65
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A66
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A67
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A68
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A69
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A70
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A71
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A72
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A73
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A74
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A75
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A76
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A77
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A78
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A79
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A80
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A81
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A82
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A83
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A84
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A85
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A86
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A87
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A88
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",A89
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B00
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B01
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B02
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B03
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B04
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B05
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B06
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B07
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B08
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B09
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B10
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B11
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B12
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B13
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B14
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B15
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B16
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B17
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B18
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B19
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B25
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B26
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B27
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B28
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B29
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B30
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B31
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B32
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B33
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B34
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B35
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B36
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B37
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B38
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B39
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B40
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B41
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B42
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B43
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B44
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B45
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B46
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B47
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B48
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B49
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B55
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B56
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B57
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B58
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B59
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B60
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B61
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B62
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B63
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B64
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B65
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B66
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B67
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B68
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B69
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B70
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B71
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B72
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B73
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B74
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B75
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B76
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B77
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B78
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B79
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B80
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B81
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B82
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B83
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B84
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B85
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B86
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B87
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B88
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B89
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B90
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B91
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B92
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B93
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B94
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B95
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B96
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B97
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B98
+01,01.99,Infectious and parasitic diseases,Unspecified infectious disease,"A17-38,A42-89,B00-19,B25-49,B55-99",B99
 10,10.05,Neonatal causes of death,Neonatal tetanus,A33,A33
-1,1.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A33
-1,1.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A34
-1,1.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A35
-1,1.10,Infectious and parasitic diseases,Pertussis,A37,A37
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",A39
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G00
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G01
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G02
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G03
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G04
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G05
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",A39
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G00
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G01
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G02
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G03
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G04
-1,1.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G05
-1,1.01,Infectious and parasitic diseases,Sepsis,A40-41,A40
-1,1.01,Infectious and parasitic diseases,Sepsis,A40-41,A41
-1,1.12,Infectious and parasitic diseases,Dengue fever,A90-91,A90
-1,1.12,Infectious and parasitic diseases,Dengue fever,A90-91,A91
-1,1.12,Infectious and parasitic diseases,Dengue fever,A90-91,A90
-1,1.12,Infectious and parasitic diseases,Dengue fever,A90-91,A91
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A92
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A93
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A94
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A95
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A96
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A97
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A98
-1,1.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A99
-1,1.06,Infectious and parasitic diseases,Measles,B05,B05
-1,1.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B20
-1,1.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B21
-1,1.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B22
-1,1.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B23
-1,1.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B24
-1,1.05,Infectious and parasitic diseases,Malaria,B50-54,B50
-1,1.05,Infectious and parasitic diseases,Malaria,B50-54,B51
-1,1.05,Infectious and parasitic diseases,Malaria,B50-54,B52
-1,1.05,Infectious and parasitic diseases,Malaria,B50-54,B53
-1,1.05,Infectious and parasitic diseases,Malaria,B50-54,B54
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C00
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C01
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C02
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C03
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C04
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C05
-2,2.01,Neoplasms,Oral neoplasms,C00-06,C06
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C07
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C08
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C09
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C10
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C11
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C12
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C13
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C14
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C40
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C41
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C42
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C43
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C44
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C45
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C46
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C47
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C48
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C49
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C60
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C61
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C62
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C63
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C64
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C65
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C66
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C67
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C68
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C69
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C70
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C71
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C72
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C73
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C74
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C75
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C76
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C77
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C78
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C79
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C80
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C81
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C82
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C83
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C84
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C85
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C86
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C87
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C88
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C89
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C90
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C91
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C92
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C93
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C94
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C95
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C96
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C97
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C98
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C99
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D00
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D01
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D02
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D03
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D04
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D05
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D06
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D07
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D08
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D09
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D10
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D11
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D12
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D13
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D14
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D15
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D16
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D17
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D18
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D19
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D20
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D21
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D22
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D23
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D24
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D25
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D26
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D27
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D28
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D29
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D30
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D31
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D32
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D33
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D34
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D35
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D36
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D37
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D38
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D39
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D40
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D41
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D42
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D43
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D44
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D45
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D46
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D47
-2,2.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D48
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C15
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C16
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C17
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C18
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C19
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C20
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C21
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C22
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C23
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C24
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C25
-2,2.02,Neoplasms,Digestive neoplasms,C15-26,C26
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C30
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C31
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C32
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C33
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C34
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C35
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C36
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C37
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C38
-2,2.03,Neoplasms,Respiratory neoplasms,C30-39,C39
-2,2.04,Neoplasms,Breast neoplasms,C50,C50
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C51
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C52
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C53
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C54
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C55
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C56
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C57
-2,2.05,Neoplasms,Female reproductive neoplasms,C51-58,C58
-2,2.06,Neoplasms,Male reproductive neoplasms,C60-63,C60
-2,2.06,Neoplasms,Male reproductive neoplasms,C60-63,C61
-2,2.06,Neoplasms,Male reproductive neoplasms,C60-63,C62
-2,2.06,Neoplasms,Male reproductive neoplasms,C60-63,C63
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D50
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D51
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D52
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D53
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D54
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D55
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D56
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D57
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D58
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D59
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D60
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D61
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D62
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D63
-3,3.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D64
+01,01.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A33
+01,01.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A34
+01,01.08,Infectious and parasitic diseases,Tetanus (Excludes: Neonatal tetanus VAs-10.05),A33-35,A35
+01,01.10,Infectious and parasitic diseases,Pertussis,A37,A37
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",A39
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G00
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G01
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G02
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G03
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G04
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G05
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",A39
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G00
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G01
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G02
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G03
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G04
+01,01.07,Infectious and parasitic diseases,Meningitis and encephalitis,"A39,G00-05",G05
+01,01.01,Infectious and parasitic diseases,Sepsis,A40-41,A40
+01,01.01,Infectious and parasitic diseases,Sepsis,A40-41,A41
+01,01.12,Infectious and parasitic diseases,Dengue fever,A90-91,A90
+01,01.12,Infectious and parasitic diseases,Dengue fever,A90-91,A91
+01,01.12,Infectious and parasitic diseases,Dengue fever,A90-91,A90
+01,01.12,Infectious and parasitic diseases,Dengue fever,A90-91,A91
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A92
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A93
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A94
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A95
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A96
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A97
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A98
+01,01.11,Infectious and parasitic diseases,Haemorrhagic fever,A92-99,A99
+01,01.06,Infectious and parasitic diseases,Measles,B05,B05
+01,01.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B20
+01,01.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B21
+01,01.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B22
+01,01.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B23
+01,01.03,Infectious and parasitic diseases,HIV/AIDS related death,B20-24,B24
+01,01.05,Infectious and parasitic diseases,Malaria,B50-54,B50
+01,01.05,Infectious and parasitic diseases,Malaria,B50-54,B51
+01,01.05,Infectious and parasitic diseases,Malaria,B50-54,B52
+01,01.05,Infectious and parasitic diseases,Malaria,B50-54,B53
+01,01.05,Infectious and parasitic diseases,Malaria,B50-54,B54
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C00
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C01
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C02
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C03
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C04
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C05
+02,02.01,Neoplasms,Oral neoplasms,C00-06,C06
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C07
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C08
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C09
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C10
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C11
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C12
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C13
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C14
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C40
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C41
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C42
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C43
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C44
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C45
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C46
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C47
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C48
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C49
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C60
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C61
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C62
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C63
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C64
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C65
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C66
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C67
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C68
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C69
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C70
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C71
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C72
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C73
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C74
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C75
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C76
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C77
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C78
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C79
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C80
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C81
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C82
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C83
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C84
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C85
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C86
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C87
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C88
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C89
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C90
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C91
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C92
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C93
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C94
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C95
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C96
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C97
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C98
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",C99
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D00
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D01
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D02
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D03
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D04
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D05
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D06
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D07
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D08
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D09
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D10
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D11
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D12
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D13
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D14
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D15
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D16
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D17
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D18
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D19
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D20
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D21
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D22
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D23
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D24
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D25
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D26
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D27
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D28
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D29
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D30
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D31
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D32
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D33
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D34
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D35
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D36
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D37
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D38
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D39
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D40
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D41
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D42
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D43
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D44
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D45
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D46
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D47
+02,02.99,Neoplasms,Other and unspecified neoplasms,"C07-14,C40-49,C60-99,D00-48",D48
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C15
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C16
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C17
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C18
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C19
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C20
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C21
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C22
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C23
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C24
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C25
+02,02.02,Neoplasms,Digestive neoplasms,C15-26,C26
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C30
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C31
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C32
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C33
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C34
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C35
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C36
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C37
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C38
+02,02.03,Neoplasms,Respiratory neoplasms,C30-39,C39
+02,02.04,Neoplasms,Breast neoplasms,C50,C50
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C51
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C52
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C53
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C54
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C55
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C56
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C57
+02,02.05,Neoplasms,Female reproductive neoplasms,C51-58,C58
+02,02.06,Neoplasms,Male reproductive neoplasms,C60-63,C60
+02,02.06,Neoplasms,Male reproductive neoplasms,C60-63,C61
+02,02.06,Neoplasms,Male reproductive neoplasms,C60-63,C62
+02,02.06,Neoplasms,Male reproductive neoplasms,C60-63,C63
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D50
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D51
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D52
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D53
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D54
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D55
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D56
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D57
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D58
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D59
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D60
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D61
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D62
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D63
+03,03.01,Nutritional and endocrine disorders,Severe anaemia,D50-64,D64
 98,98,Non-communicable diseases,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",D55
 98,98,Non-communicable diseases,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",D56
 98,98,Non-communicable diseases,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",D57
@@ -1306,285 +1306,285 @@ wva2016_group,wva2016_code,wva2016_group_title,wva2016_title,icd10_range,icd10_c
 98,98,Non-communicable diseases,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",R92
 98,98,Non-communicable diseases,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",R93
 98,98,Non-communicable diseases,Other and unspecified non- communicable disease,"D55-89,E00-07,E15-35,E50-90,F00-99,G06-37,G50-99,H00-95,J30-39,J47-99,K00-31,K35-38,K40-93,L00-99,M00-99,N00-16,N20-99,R00-09,R11-94",R94
-4,4.03,Diseases of the circulatory system,Sickle cell with crisis,D57,D57
-3,3.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E10
-3,3.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E11
-3,3.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E12
-3,3.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E13
-3,3.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E14
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E40
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E41
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E42
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E43
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E44
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E45
-3,3.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E46
-8,8.01,Mental and nervous system disorders,Epilepsy,G40-41,G40
-8,8.01,Mental and nervous system disorders,Epilepsy,G40-41,G41
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I00
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I01
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I02
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I03
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I04
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I05
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I06
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I07
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I08
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I09
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I10
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I11
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I12
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I13
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I14
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I15
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I26
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I27
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I28
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I29
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I30
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I31
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I32
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I33
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I34
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I35
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I36
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I37
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I38
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I39
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I40
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I41
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I42
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I43
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I44
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I45
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I46
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I47
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I48
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I49
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I50
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I51
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I52
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I70
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I71
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I72
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I73
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I74
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I75
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I76
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I77
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I78
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I79
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I80
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I81
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I82
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I83
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I84
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I85
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I86
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I87
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I88
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I89
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I90
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I91
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I92
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I93
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I94
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I95
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I96
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I97
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I98
-4,4.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I99
-4,4.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I20
-4,4.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I21
-4,4.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I22
-4,4.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I23
-4,4.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I24
-4,4.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I25
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I60
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I61
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I62
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I63
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I64
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I65
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I66
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I67
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I68
-4,4.02,Diseases of the circulatory system,Stroke,I60-69,I69
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J00
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J01
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J02
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J03
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J04
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J05
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J06
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J07
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J08
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J09
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J10
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J11
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J12
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J13
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J14
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J15
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J16
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J17
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J18
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J19
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J20
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J21
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J22
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J00
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J01
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J02
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J03
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J04
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J05
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J06
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J07
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J08
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J09
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J10
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J11
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J12
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J13
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J14
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J15
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J16
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J17
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J18
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J19
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J20
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J21
-1,1.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J22
-5,5.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J40
-5,5.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J41
-5,5.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J42
-5,5.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J43
-5,5.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J44
-5,5.02,Respiratory disorders,Asthma,J45-46,J45
-5,5.02,Respiratory disorders,Asthma,J45-46,J46
-5,5.02,Respiratory disorders,Asthma,J45-46,J45
-5,5.02,Respiratory disorders,Asthma,J45-46,J46
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K70
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K71
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K72
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K73
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K74
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K75
-6,6.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K76
-7,7.01,Renal disorders,Renal failure,N17-19,N17
-7,7.01,Renal disorders,Renal failure,N17-19,N18
-7,7.01,Renal disorders,Renal failure,N17-19,N19
-9,9.01,"Pregnancy-, childbirth and puerperium-related disorders",Ectopic pregnancy,O00,O00
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O01
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O02
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O20
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O21
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O22
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O23
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O24
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O25
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O26
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O27
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O28
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O29
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O30
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O31
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O32
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O33
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O34
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O35
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O36
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O37
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O38
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O39
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O40
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O41
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O42
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O43
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O44
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O45
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O47
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O48
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O49
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O50
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O51
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O52
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O53
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O54
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O55
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O56
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O57
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O58
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O59
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O60
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O61
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O62
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O68
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O69
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O70
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O73
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O74
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O75
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O76
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O77
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O78
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O79
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O80
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O81
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O82
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O83
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O84
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O86
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O87
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O88
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O89
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O90
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O91
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O92
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O93
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O94
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O95
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O96
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O97
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O98
-9,9.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O99
-9,9.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O03
-9,9.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O04
-9,9.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O05
-9,9.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O06
-9,9.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O07
-9,9.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O08
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O10
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O11
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O12
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O13
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O14
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O15
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O16
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O10
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O11
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O12
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O13
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O14
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O15
-9,9.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O16
-9,9.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O46
-9,9.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O67
-9,9.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O72
-9,9.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O46
-9,9.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O67
-9,9.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O72
-9,9.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O63
-9,9.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O64
-9,9.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O65
-9,9.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O66
-9,9.08,"Pregnancy-, childbirth and puerperium-related disorders",Ruptured uterus,O71,O71
-9,9.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O85
-9,9.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O753
-9,9.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O85
-9,9.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O753
-9,9.07,"Pregnancy-, childbirth and puerperium-related disorders",Anaemia of pregnancy,O990,O990
+04,04.03,Diseases of the circulatory system,Sickle cell with crisis,D57,D57
+03,03.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E10
+03,03.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E11
+03,03.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E12
+03,03.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E13
+03,03.03,Nutritional and endocrine disorders,Diabetes mellitus,E10-14,E14
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E40
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E41
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E42
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E43
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E44
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E45
+03,03.02,Nutritional and endocrine disorders,Severe malnutrition,E40-46,E46
+08,08.01,Mental and nervous system disorders,Epilepsy,G40-41,G40
+08,08.01,Mental and nervous system disorders,Epilepsy,G40-41,G41
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I00
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I01
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I02
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I03
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I04
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I05
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I06
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I07
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I08
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I09
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I10
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I11
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I12
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I13
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I14
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I15
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I26
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I27
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I28
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I29
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I30
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I31
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I32
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I33
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I34
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I35
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I36
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I37
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I38
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I39
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I40
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I41
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I42
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I43
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I44
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I45
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I46
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I47
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I48
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I49
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I50
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I51
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I52
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I70
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I71
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I72
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I73
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I74
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I75
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I76
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I77
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I78
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I79
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I80
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I81
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I82
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I83
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I84
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I85
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I86
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I87
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I88
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I89
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I90
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I91
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I92
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I93
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I94
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I95
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I96
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I97
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I98
+04,04.99,Diseases of the circulatory system,Other and unspecified cardiac disease,"I00-15,I26-52,I70-99",I99
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I20
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I21
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I22
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I23
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I24
+04,04.01,Diseases of the circulatory system,Acute cardiac disease,I20-25,I25
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I60
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I61
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I62
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I63
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I64
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I65
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I66
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I67
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I68
+04,04.02,Diseases of the circulatory system,Stroke,I60-69,I69
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J00
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J01
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J02
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J03
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J04
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J05
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J06
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J07
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J08
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J09
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J10
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J11
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J12
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J13
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J14
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J15
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J16
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J17
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J18
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J19
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J20
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J21
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J22
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J00
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J01
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J02
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J03
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J04
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J05
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J06
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J07
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J08
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J09
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J10
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J11
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J12
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J13
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J14
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J15
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J16
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J17
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J18
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J19
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J20
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J21
+01,01.02,Infectious and parasitic diseases,"Acute respiratory infection, including pneumonia",J00-22,J22
+05,05.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J40
+05,05.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J41
+05,05.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J42
+05,05.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J43
+05,05.01,Respiratory disorders,Chronic obstructive pulmonary disease (COPD),J40-44,J44
+05,05.02,Respiratory disorders,Asthma,J45-46,J45
+05,05.02,Respiratory disorders,Asthma,J45-46,J46
+05,05.02,Respiratory disorders,Asthma,J45-46,J45
+05,05.02,Respiratory disorders,Asthma,J45-46,J46
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K70
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K71
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K72
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K73
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K74
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K75
+06,06.02,Gastrointestinal disorders,Liver cirrhosis,K70-76,K76
+07,07.01,Renal disorders,Renal failure,N17-19,N17
+07,07.01,Renal disorders,Renal failure,N17-19,N18
+07,07.01,Renal disorders,Renal failure,N17-19,N19
+09,09.01,"Pregnancy-, childbirth and puerperium-related disorders",Ectopic pregnancy,O00,O00
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O01
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O02
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O20
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O21
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O22
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O23
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O24
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O25
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O26
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O27
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O28
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O29
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O30
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O31
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O32
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O33
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O34
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O35
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O36
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O37
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O38
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O39
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O40
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O41
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O42
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O43
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O44
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O45
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O47
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O48
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O49
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O50
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O51
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O52
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O53
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O54
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O55
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O56
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O57
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O58
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O59
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O60
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O61
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O62
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O68
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O69
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O70
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O73
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O74
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O75
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O76
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O77
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O78
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O79
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O80
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O81
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O82
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O83
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O84
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O86
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O87
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O88
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O89
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O90
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O91
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O92
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O93
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O94
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O95
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O96
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O97
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O98
+09,09.99,"Pregnancy-, childbirth and puerperium-related disorders",Other and unspecified maternal cause,"O01-02,O20-45,O47-62,O68-70,O73-84,O86-99",O99
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O03
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O04
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O05
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O06
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O07
+09,09.02,"Pregnancy-, childbirth and puerperium-related disorders",Abortion-related death,O03-08,O08
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O10
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O11
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O12
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O13
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O14
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O15
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O16
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O10
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O11
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O12
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O13
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O14
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O15
+09,09.03,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-induced hypertension,O10-16,O16
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O46
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O67
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O72
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O46
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O67
+09,09.04,"Pregnancy-, childbirth and puerperium-related disorders",Obstetric haemorrhage,"O46,O67,O72",O72
+09,09.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O63
+09,09.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O64
+09,09.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O65
+09,09.05,"Pregnancy-, childbirth and puerperium-related disorders",Obstructed labour,O63-66,O66
+09,09.08,"Pregnancy-, childbirth and puerperium-related disorders",Ruptured uterus,O71,O71
+09,09.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O85
+09,09.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O753
+09,09.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O85
+09,09.06,"Pregnancy-, childbirth and puerperium-related disorders",Pregnancy-related sepsis,"O85,O753",O753
+09,09.07,"Pregnancy-, childbirth and puerperium-related disorders",Anaemia of pregnancy,O990,O990
 10,10.99,Neonatal causes of death,Other and unspecified perinatal cause of death,"P00-04,P08-15,P26-35,P37-94,P96",P00
 10,10.99,Neonatal causes of death,Other and unspecified perinatal cause of death,"P00-04,P08-15,P26-35,P37-94,P96",P01
 10,10.99,Neonatal causes of death,Other and unspecified perinatal cause of death,"P00-04,P08-15,P26-35,P37-94,P96",P02
@@ -1779,7 +1779,7 @@ wva2016_group,wva2016_code,wva2016_group_title,wva2016_title,icd10_range,icd10_c
 10,10.06,Neonatal causes of death,Congenital malformation,Q00-99,Q97
 10,10.06,Neonatal causes of death,Congenital malformation,Q00-99,Q98
 10,10.06,Neonatal causes of death,Congenital malformation,Q00-99,Q99
-6,6.01,Gastrointestinal disorders,Acute abdomen,R10,R10
+06,06.01,Gastrointestinal disorders,Acute abdomen,R10,R10
 99,99,Cause of death unknown,Cause of death unknown,R95-99,R95
 99,99,Cause of death unknown,Cause of death unknown,R95-99,R96
 99,99,Cause of death unknown,Cause of death unknown,R95-99,R97
