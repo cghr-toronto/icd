@@ -454,11 +454,11 @@ Data:
 
   - Name: kind_depth
     Description: "WVA-2016 depth for kind. For example, a category with kind_depth=2 means it is a code whose parent is a group."
-    Type: str
+    Type: Int64
 
   - Name: group
     Description: "WVA-2016 group containing a range of codes."
-    Type: Int64
+    Type: str
 
   - Name: group_title
     Description: "Title for WVA-2016 group."
@@ -501,7 +501,7 @@ Data:
 
   - Name: wva2016_group
     Description: "WVA-2016 group containing a range of codes."
-    Type: Int64
+    Type: str
 
   - Name: wva2016_code
     Description: "WVA-2016 code from the 2016 WHO VA instrument."
